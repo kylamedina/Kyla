@@ -1,0 +1,58 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-auto
+    .page-title.wrapper
+      #wolf-title.wolf-grid.clearfix
+        .wolf-item.wfull.wright.wolf-text(data-speed='2')
+          .wolf-item-inner
+            .wolf-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+            .wolf-caption.ctop(style='width:60%;')
+              h5.alttitle Front-End Development
+              h1
+                strong Clear
+  section#page-body.nopadding
+    .wrapper-mini
+      h6
+        strong Brief
+      p
+        | CLEAR is the fastest and easiest way to get through airport security. They approached Makeable asking for a communication solution to eloquently express their services in order to bring in new users. I did the responsive front end development using Wordpress. It features an interactive map using the Google Maps API, parallax scrolling, and unique interactive features.
+      h6
+        strong Languages
+      p
+        | PHP, Sass, Coffeescript
+      //- h6
+      //-   strong Art Direction
+      //- p
+      //-   | Anna Salvador
+      //-   br
+      //-   a(href='http://www.annasalvador.com')
+      //-     strong annasalavdor.com
+    .spacer.spacer-big
+    .wrapper
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      ul.gallery.spaced
+        li.has-animation
+          img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='portfolio-single-1.html')
+            img(src='img/projects/sa.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='portfolio-single-3.html')
+            img(src='img/projects/artnet.jpg', alt='next')
+            span Next Project

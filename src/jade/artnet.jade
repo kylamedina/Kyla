@@ -1,0 +1,60 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-full.parallax-section.text-light.hero--artnet(data-parallax-image='img/projects/artnet.jpg')
+    .hero-overlay
+    .page-title
+      h5.alttitle Design and Development
+      h1
+        strong Artnet
+    a#scroll-down(href='#') Scroll Down
+  section#page-body.body--artnet
+    .wrapper-medium
+      .column-section.clearfix
+        .column.one-third
+          h6.colored
+            strong Client
+          h6.alttitle Artnet
+        .column.one-third
+          h6.colored
+            strong Project Details
+          h6.alttitle Marketing
+        .column.one-third.last-col
+          h6.colored
+            strong Role
+          h6.alttitle Designer and Developer
+    .spacer.spacer-big
+    .horizontal-section(style='background:#f7f7f7;')
+      .horizontal-inner.wrapper-medium
+        h3
+          strong Artnet
+        .column-section.clearfix.column-2
+            p
+              | Artnet enables users to buy, sell, and research fine art, design, and decorative art online from the most recognized artists in the world. I worked as their only designer for over a year and a half. 
+          
+            p
+              | I planned, designed, and coded all of Artnet's marketing campaigns. Finished products included microsites, emails, new site features, and printed materials. I also did the front end work for almost all digital projects that I designed.
+    .spacer.spacer-big
+    .wrapper.xtra-wide
+      ul.gallery.gallery-col3.spaced
+        li.has-animation
+          a(href="img/artnet/artnet_01.png" data-rel="lightcase:artnet" )
+            img(src='img/artnet/artnet_01.png', alt='Artnet Newsletter')
+        li.has-animation(data-delay='200')
+          a(href="img/artnet/artnet_03.png" data-rel="lightcase:artnet" )
+            img(src='img/artnet/artnet_03.png', alt='Artnet Marketing Photograph')
+        li.has-animation(data-delay='400')
+          a(href="img/artnet/artnet_02.png" data-rel="lightcase:artnet" )
+            img(src='img/artnet/artnet_02.png', alt='Artnet Auction Landing Page')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='clear.html')
+            img(src='img/projects/clear.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='akc.html')
+            img(src='img/projects/akc2.jpg', alt='next')
+            span Next Project

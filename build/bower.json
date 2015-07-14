@@ -1,0 +1,80 @@
+{
+  "name": "kyla",
+  "version": "1.0.0",
+  "authors": [
+    "Kyla Medina <hi@ky.la>"
+  ],
+  "license": "MIT",
+  "homepage": "ky.la",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "../src/components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  },
+  "overrides": {
+    "jquery": {
+      "main": [
+        "dist/jquery.min.js"
+      ]
+    },
+    "ember": {
+      "main": [
+        "ember.debug.js"
+      ]
+    },
+    "WOW": {
+      "main": [
+        "dist/wow.min.js"
+      ]
+    },
+    "waypoints": {
+      "main": [
+        "lib/jquery.waypoints.js"
+      ]
+    },
+    "alton": {
+      "main": [
+        "assets/jquery.alton.js"
+      ]
+    },
+    "isotope": {
+      "main": [
+        "dist/isotope.pkgd.min.js",
+        "js/layout-modes/masonry.js"
+      ]
+    },
+    "outlayer": {
+      "ignore": "true"
+    },
+    "masonry": {
+      "ignore": "true"
+    },
+    "matches-selector": {
+      "ignore": "true"
+    },
+    "doc-ready": {
+      "ignore": "true"
+    },
+    "eventEmitter": {
+      "ignore": "true"
+    },
+    "eventie": {
+      "ignore": "true"
+    },
+    "fizzy-ui-utils": {
+      "ignore": "true"
+    },
+    "get-size": {
+      "ignore": "true"
+    },
+    "get-style-proptery": {
+      "ignore": "true"
+    }
+  }
+}

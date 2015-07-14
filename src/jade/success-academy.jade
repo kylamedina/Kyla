@@ -1,0 +1,62 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-auto
+    .page-title.wrapper
+      #wolf-title.wolf-grid.clearfix
+        .wolf-item.wfull.wright.wolf-text(data-speed='2')
+          .wolf-item-inner
+            .wolf-media
+              img(src='img/projects/sa.jpg', alt='SEO NAME')
+            .wolf-caption.ctop(style='width:60%;')
+              h5.alttitle Front-End Development
+              h1
+                strong Success Academy
+  section#page-body.nopadding
+    .wrapper-mini
+      h6
+        strong Brief
+      p
+        | Success Academy is a network of world-class charter schools across New York City. It also serves as a catalyst and national model for education reform through its writing platform Mission Possible. SA asked Makeable to help them show off their creative instructional approach by updating their website. Our work allowed them to highlight every school in their network, establish a platform for generating interest in education reform, and e-commerace capabilities for events and extracurricular activities. I developed the entire front end and in browser interaction design with Wordpress and implemented the Google Maps API, several social network APIs, and used HTML5's Canvas for graphs across the site. The whole thing was built in two weeks in hyper agile workflow with the visual designer, Dr. Sara S. Thompson.
+      h6
+        strong Languages
+      p
+        | PHP, Sass, Coffeescript
+      //-   br
+      //-   | csswinner - Winner of the Day
+      //-   br
+      //-   | cssreel - Winner of the Day
+      //- h6
+      //-   strong Art Direction
+      //- p
+      //-   | Anna Salvador
+      //-   br
+      //-   a(href='http://www.annasalvador.com')
+      //-     strong annasalavdor.com
+    .spacer.spacer-big
+    .wrapper
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      ul.gallery.spaced
+        li.has-animation
+          img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='portfolio-single-1.html')
+            img(src='img/projects/ct.png', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='portfolio-single-3.html')
+            img(src='img/projects/clear.jpg', alt='next')
+            span Next Project

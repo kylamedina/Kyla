@@ -1,0 +1,61 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/1680x1100.jpg')
+    .page-title
+      h5.alttitle Photography and Front-End Development
+      h1
+        strong Creative Time
+    a#scroll-down(href='#') Scroll Down
+
+  section#page-body
+    .wrapper
+      .wolf-grid.clearfix(data-mouseparallax='true')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:creativetime')
+                img(src='img/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:creativetime')
+                img(src='img/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:creativetime')
+                img(src='img/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:creativetime')
+                img(src='img/600x400-light.jpg', alt='SEO NAME')
+
+    .wrapper
+      h4.align-center
+        strong Digital Art
+      h6.alttitle.align-center for one of the world's foremost public art organizations
+      .column-section.clearfix.column-3
+        p
+          | Creative Time commissions ambitious art projects throughout New York City and the world. Makeable has had an ongoing relationship with Creative Time, creating concurrent digital experiences to accompany the physical art. Our work with them is highly experimental and very fast paced. I have been involved in two of the projects in very different capacities.
+
+        p For Kara Walker\'s Digital Sugar Baby, I was asked to photograph it in order to create the 3D rendering of the work. I also shot the promotional photos for the project.
+
+        p For Nick Cave's HEARD•NY show at Grand Central Station, Creative Time asked Makeable to create a social media aggregator for posts tagged #IHEARDNY from Facebook, Twitter, Vine, Instagram, and Foursquare. Following the show, I developed an interactive thank you piece showing a selection of posts curated by Nick Cave. The social media platform's APIs were used to pull the posts into SVG letters where visitors could explore them.
+
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='hard-workers-club.html')
+            img(src='img/projects/hwc.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='success-academy.html')
+            img(src='img/projects/sa.jpg', alt='next')
+            span Next Project
+
+
+

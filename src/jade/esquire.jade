@@ -1,0 +1,62 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-auto
+    .page-title.wrapper
+      #wolf-title.wolf-grid.clearfix
+        .wolf-item.wfull.wright.wolf-text(data-speed='2')
+          .wolf-item-inner
+            .wolf-media
+              img(src='img/projects/esquire.jpg', alt='Esquire We Build Men Project Header Image')
+            .wolf-caption.ctop(style='width:60%;')
+              h5.alttitle Design and Development
+              h1
+                strong Esquire
+  section#page-body.nopadding
+    .wrapper-mini
+      h6
+        strong Brief
+      p
+        | Esquire partnered with Makeable in a mission to revolutionize mentorship for young men by creating a site with the tools and support platform neccessary for mentors. I did layout and interaction design for the site for this Webby nominated site.
+      h6
+        strong Links
+      p
+        | webuildmen.org
+      //-   br
+      //-   | csswinner - Winner of the Day
+      //-   br
+      //-   | cssreel - Winner of the Day
+      //- h6
+      //-   strong Art Direction
+      //- p
+      //-   | Anna Salvador
+      //-   br
+      //-   a(href='http://www.annasalvador.com')
+      //-     strong annasalavdor.com
+    .spacer.spacer-big
+    .wrapper
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      ul.gallery.spaced
+        li.has-animation
+          img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='akc.html')
+            img(src='img/projects/akc.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='cognizant.html')
+            img(src='img/projects/cognizant.jpg', alt='next')
+            span Next Project

@@ -1,0 +1,88 @@
+doctype html
+html
+  head
+
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
+    meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
+    title Kyla Medina
+
+    link(href='http://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900', rel='stylesheet', type='text/css')
+    link(href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700', rel='stylesheet', type='text/css')
+
+    link#default-style-css(rel='stylesheet', href='./css/style.css', type='text/css', media='all')
+    link#vendor-css(rel='stylesheet', href='./css/vendor.css', type='text/css', media='all')
+    block head
+  body
+    //- PAGELOADER
+    #page-loader
+      .page-loader-inner
+        .loader
+          //- strong Loading
+    header#header.header-transparent
+      .header-inner.clearfix
+        #logo.left-float
+          a#dark-logo.logotype(href='index.html')
+            img(src='svg/logo.svg' alt='Logo')
+          a#light-logo.logotype(href='index.html')
+            img(src='svg/logo.svg' alt='Logo')
+        #menu.right-float.clearfix
+          a.open-nav(href='#')
+            span.hamburger
+            span.text Menu
+          nav#main-nav
+            ul
+              li.current-menu-item
+                a(href='index.html') Home
+                ul.submenu
+                  li.current-menu-item
+                    a(href='index.html')
+                      | Portfolio 
+                      em Main
+                  li
+                    a(href='portfolio-single-1.html')
+                      | Portfolio 1
+                  li
+                    a(href='portfolio-single-2.html') portfolio-single-2
+                  li
+                    a(href='portfolio-single-3.html') portfolio-single-3
+                  li
+                    a(href='portfolio-single-4.html') portfolio-single-4
+              li
+                a(href='about.html') About
+              //- li
+              //-   a(href='blog.html') Blog
+          a.open-filter(href='', data-related-grid='portfolio-grid') Filter
+        #header-filter
+          .filter-inner.align-center
+            a.close-filter(href='') Close
+            h5.title-filter
+              strong Filter
+            ul#portfolio-filter.filter.wolf-filter.clearfix(data-related-grid='portfolio-grid')
+              li
+                a.active(href='#', data-filter-value='*') All
+              li
+                a(data-filter-value='.design', href='#', title='Branding') Design
+              li
+                a(data-filter-value='.development', href='#', title='Print') Development
+              li
+                a(data-filter-value='.photography', href='#', title='Print') Photography
+    #page-content
+      block content
+
+      ul.social-list
+        li
+          a(href="") Dropmark
+        li
+          a(href="") Github
+        li
+          a(href="") Twitter
+        li
+          a(href="") Tumblr
+        li
+          a(href="") VSCO
+
+    script(type='text/javascript', src='./js/vendor.js')
+    block footer

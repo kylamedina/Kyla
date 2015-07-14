@@ -1,0 +1,68 @@
+.portfolio-name
+	font-family Fancy
+	font-style italic
+	
+.portfolio-wolf-item
+	.portfolio-caption
+		a
+			transition all 0.3s ease 0.05s
+			display block
+			color black
+			padding px(15) px(15) px(10) px(15)
+		a:hover,
+		&.hovered a
+			transform translateX(-20px)
+			background-color white
+	&.wright .portfolio-caption a:hover, 
+	&.wright .portfolio-caption.hovered a
+		transform translateX(20px)
+		background-color white
+		
+	.portfolio-media
+		a.wolf-media-link
+			img
+				transition all 0.5s ease 0.05s
+				opacity 0.8
+	.portfolio-media a.wolf-media-link:hover img, 
+	.portfolio-media.hovered a.wolf-media-link img
+		transform scale(1.05)
+		opacity 1
+
+.photography-wolf-item
+	.photography-caption
+		a
+			display inline-block
+			&:hover
+				h6
+					color primary
+		.photography-media
+			a
+				transition all 0.3s ease
+				&:hover
+					opacity 0.5
+		
+.wolf-item
+	&.project-hwc
+		.portfolio-caption:not(.static)
+			bottom px(-20)
+			top auto
+	&.project-sa.wleft
+		.portfolio-caption:not(.static)
+			bottom auto
+			top px(80)
+	&.project-artnet
+		.portfolio-caption:not(.static)
+			top auto
+			bottom px(0)
+	&.project-hwc
+		.portfolio-caption:not(.static)
+			top auto
+			bottom px(20)
+	&.project-ct.wright
+		.portfolio-media
+			padding-top px(65)
+		.portfolio-caption:not(.static)
+			bottom auto
+			top 0
+		.wolf-media
+			background-color lightgray

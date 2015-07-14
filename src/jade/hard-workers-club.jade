@@ -1,0 +1,56 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-full.parallax-section(data-parallax-image='files/uploads/1680x1100-light.jpg')
+    .page-title
+      h1
+        strong RAD
+    a#scroll-down(href='#') Scroll Down
+  section#page-body
+    .wrapper
+      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item.wfull.wmiddle
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      .wrapper-mini
+        h6
+          strong Brief
+        p
+          | Hard Workers Club is my photography website that I designed and developed on Tumblr.
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='mkbl.html')
+            img(src='img/projects/mkbl.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='creative-time.html')
+            img(src='img/projects/ct.png', alt='next')
+            span Next Project
