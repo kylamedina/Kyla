@@ -1,37 +1,19 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/1680x1100.jpg')
+  section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/twc.jpg')
     .page-title
       h5.alttitle Prototyping
-      h1
-        strong The Weather Channel
+      h1 The Weather Channel
     a#scroll-down(href='#') Scroll Down
 
   section#page-body
-    .wrapper
-      .wolf-grid.clearfix(data-mouseparallax='false')
-        .wolf-item
+    .wrapper-medium
+      .wolf-grid.clearfix(data-mouseparallax='false' style='margin-bottom:0;')
+        .wolf-item.wfull
           .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-
+            .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+              img(src='img/twc/twc_01.png', alt='SEO NAME')
     .wrapper-small
       h4.align-center
         strong Prototype
@@ -39,6 +21,26 @@ block content
       .column-section.clearfix
           p
             | The Weather Channel asked Makeable to redesign their flagship app. During the process, I prototyped a concept to present to Apple. It that featured animated backgrounds that changed according to the weather and a card system that makes it highly customizable. The flagship feature of the concept is WeatherLens, which crowdsourced information about the weather.
+    .wrapper
+      .spacer.spacer-big
+      .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-item
+          .wolf-item-inner
+            p When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+                img(src='img/twc/twc_02.png', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
+                img(src='img/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            p This is an example of what the severe weather mode would look like. The background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
+
+    
 
     .wrapper
       ul.single-pagination

@@ -1,127 +1,127 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-auto
-    .page-title.hleft
-      h1
-        strong
-          | Hi. I am a friendly interaction 
-          a(href='about.html').colored designer &amp; Developer
-          |  working
-          | in sunny 
-          span.colored New York&nbsp;City.
+  .home-page
+    section#hero.hero-auto
+      .page-title.hleft
+        h1 
+            | Hi. I am a friendly interaction 
+            a(href='about.html').colored designer &amp; Developer
+            |  working
+            | in sunny 
+            span.colored New York&nbsp;City.
 
-  section#page-body.nopadding
-    .wrapper
-      #portfolio-grid.wolf-grid.clearfix(data-randomhorizontaloffset='true', data-mouseparallax='true')
-        .wolf-item.portfolio-wolf-item.frontend.design.project-artnet
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='artnet.html')
-                img(src='img/projects/artnet.jpg', alt='SEO NAME')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='artnet.html')
-                h6.alttitle.portfolio-category Design and Development
-                h4.portfolio-name
-                  strong Artnet Worldwide
-        .wolf-item.portfolio-wolf-item.frontend.design.project-akc
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='akc.html')
-                img(src='img/projects/akc2.jpg', alt='American Kennel Club Projects')
-            .wolf-caption.portfolio-caption(style='margin-bottom: 15%;')
-              a.wolf-caption-link(href='akc.html')
-                h6.alttitle.portfolio-category Design and Development
-                h4.portfolio-name
-                 strong
-                   | American
-                   br
-                   | Kennel Club
-        .wolf-item.portfolio-wolf-item.frontend.design.project-esquire
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='esquire.html')
-                img(src='img/projects/esquire.jpg', alt='SEO NAME')
-            .wolf-caption.portfolio-caption(style='margin-top: 10%;')
-              a.wolf-caption-link(href='esquire.html')
-                h6.alttitle.portfolio-category Design and Development
-                h4.portfolio-name
-                  strong Esquire
-        .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='cognizant.html')
-                img(src='img/projects/cognizant.jpg', alt='Cognizant Latest Thinking Header Image')
-            .wolf-caption.portfolio-caption(style='margin-left:0%;top:2%;')
-              a.wolf-caption-link(href='cognizant.html')
-                h6.alttitle.portfolio-category Development and Mobile Design
-                h4.portfolio-name
-                  strong
-                    | Cognizant
-        .wolf-item.portfolio-wolf-item.frontend.project-twc
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='weather-channel.html')
-                img(src='img/projects/twc.jpg', alt='Weather Channel App Header Image')
-            .wolf-caption.cbottom.portfolio-caption(style='margin-right:8%;')
-              a.wolf-caption-link(href='weather-channel.html')
-                h6.alttitle.portfolio-category Front-End Development
-                h4.portfolio-name
-                  strong
-                    | Weather Channel
-        .wolf-item.portfolio-wolf-item.frontend.design.photo.project-mkbl
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='mkbl.html')
-                img(src='img/projects/mkbl.jpg', alt='Makeable Portfolio Header Image')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='mkbl.html')
-                h6.alttitle.portfolio-category Design, Development, and Photography
-                h4.portfolio-name
-                  strong
-                    | Makeable
-        .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='hard-workers-club.html')
-                img(src='img/projects/hwc.jpg', alt='SEO NAME')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='hard-workers-club.html')
-                h6.alttitle.portfolio-category Design, Development, and Photography
-                h4.portfolio-name
-                  strong
-                    | Hard Workers Club
-        .wolf-item.portfolio-wolf-item.frontend.photo.project-ct
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='creative-time.html')
-                img(src='img/projects/ct.png', alt='SEO NAME')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='creative-time.html')
-                h6.alttitle.portfolio-category Front-End Development and Photography
-                h4.portfolio-name
-                  strong
-                    | Creative Time
+    section#page-body.nopadding
+      .wrapper
+        #portfolio-grid.wolf-grid.clearfix(data-randomhorizontaloffset='true', data-mouseparallax='true')
+          .wolf-item.portfolio-wolf-item.frontend.design.project-artnet
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='artnet.html')
+                  img(src='img/projects/artnet.jpg', alt='SEO NAME')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='artnet.html')
+                  h6.alttitle.portfolio-category Design and Development
+                  h4.portfolio-name
+                    strong Artnet Worldwide
+          .wolf-item.portfolio-wolf-item.frontend.design.project-akc
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='akc.html')
+                  img(src='img/projects/akc2.jpg', alt='American Kennel Club Projects')
+              .wolf-caption.portfolio-caption(style='margin-bottom: 15%;')
+                a.wolf-caption-link(href='akc.html')
+                  h6.alttitle.portfolio-category Design and Development
+                  h4.portfolio-name
+                   strong
+                     | American
+                     br
+                     | Kennel Club
+          .wolf-item.portfolio-wolf-item.frontend.design.project-esquire
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='esquire.html')
+                  img(src='img/projects/esquire.jpg', alt='SEO NAME')
+              .wolf-caption.portfolio-caption(style='margin-top: 10%;')
+                a.wolf-caption-link(href='esquire.html')
+                  h6.alttitle.portfolio-category Design and Development
+                  h4.portfolio-name
+                    strong Esquire
+          .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='cognizant.html')
+                  img(src='img/projects/cognizant.jpg', alt='Cognizant Latest Thinking Header Image')
+              .wolf-caption.portfolio-caption(style='margin-left:0%;top:2%;')
+                a.wolf-caption-link(href='cognizant.html')
+                  h6.alttitle.portfolio-category Development and Mobile Design
+                  h4.portfolio-name
+                    strong
+                      | Cognizant
+          .wolf-item.portfolio-wolf-item.frontend.project-twc
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='weather-channel.html')
+                  img(src='img/projects/twc.jpg', alt='Weather Channel App Header Image')
+              .wolf-caption.cbottom.portfolio-caption(style='margin-right:8%;')
+                a.wolf-caption-link(href='weather-channel.html')
+                  h6.alttitle.portfolio-category Front-End Development
+                  h4.portfolio-name
+                    strong
+                      | Weather Channel
+          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-mkbl
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='mkbl.html')
+                  img(src='img/projects/mkbl.jpg', alt='Makeable Portfolio Header Image')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='mkbl.html')
+                  h6.alttitle.portfolio-category Design, Development, and Photography
+                  h4.portfolio-name
+                    strong
+                      | Makeable
+          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='hard-workers-club.html')
+                  img(src='img/projects/hwc.jpg', alt='SEO NAME')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='hard-workers-club.html')
+                  h6.alttitle.portfolio-category Design, Development, and Photography
+                  h4.portfolio-name
+                    strong
+                      | Hard Workers Club
+          .wolf-item.portfolio-wolf-item.frontend.photo.project-ct
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='creative-time.html')
+                  img(src='img/projects/ct.png', alt='SEO NAME')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='creative-time.html')
+                  h6.alttitle.portfolio-category Front-End Development and Photography
+                  h4.portfolio-name
+                    strong
+                      | Creative Time
 
-        .wolf-item.portfolio-wolf-item.frontend.project-sa
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='success-academy.html')
-                img(src='img/projects/sa.jpg', alt='SEO NAME')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='success-academy.html')
-                h6.alttitle.portfolio-category Front-End Development
-                h4.portfolio-name
-                  strong
-                    | Success Academy
-        .wolf-item.portfolio-wolf-item.frontend.project-clear
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.wolf-media-link(href='clear.html')
-                img(src='img/projects/clear.jpg', alt='SEO NAME')
-            .wolf-caption.portfolio-caption
-              a.wolf-caption-link(href='clear.html')
-                h6.alttitle.portfolio-category Front-End Development
-                h4.portfolio-name
-                  strong
-                    | Clear
+          .wolf-item.portfolio-wolf-item.frontend.project-sa
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='success-academy.html')
+                  img(src='img/projects/sa.jpg', alt='SEO NAME')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='success-academy.html')
+                  h6.alttitle.portfolio-category Front-End Development
+                  h4.portfolio-name
+                    strong
+                      | Success Academy
+          .wolf-item.portfolio-wolf-item.frontend.project-clear
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(href='clear.html')
+                  img(src='img/projects/clear.jpg', alt='SEO NAME')
+              .wolf-caption.portfolio-caption
+                a.wolf-caption-link(href='clear.html')
+                  h6.alttitle.portfolio-category Front-End Development
+                  h4.portfolio-name
+                    strong
+                      | Clear
