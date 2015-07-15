@@ -8,7 +8,7 @@ onError = (error) ->
 	$.util.log error
   
 gulp.task 'img', ->
-  return gulp.src([
+   gulp.src([
     'src/img/**/*.jpg'
     'src/img/**/*.png'
     '!src/img/artnet/*'
@@ -20,8 +20,11 @@ gulp.task 'img', ->
   	# .pipe $.imagemin()
   	.pipe gulp.dest('app/img/')
     # .pipe gulp.dest( 'docs/styleguide/img' )
-
-
+  return gulp.src([
+    'src/img/**/*.gif'
+  ])
+    .pipe gulp.dest('app/img/')
+    
 gulp.task 'font', ->
   return gulp.src([
     'src/font/*.ttf',

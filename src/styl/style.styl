@@ -423,13 +423,15 @@ p code
 .wrapper
   // width 1080px
   width 100%
-  max-width px(1920)
+  max-width px(1440)
   margin 0 auto
-  +below(2000px)
-    max-width px(1440)
   +below(1500px)
     width 1080px
-  
+
+.wrapper-huge
+    +above(2000px)
+      max-width px(1960px)
+    
 .wrapper-medium
     width 100%
     margin 0 auto
@@ -1014,7 +1016,8 @@ footer .widget:first-child, div .widget:first-child
       background-position center center
       background-size cover
   &.hero-big
-    height 600px
+    min-height 600px
+    height 1000px
     max-height 90vh
     .hero-slider
       .slider-item
@@ -1032,6 +1035,12 @@ footer .widget:first-child, div .widget:first-child
     padding-bottom 120px
     position relative
     text-align center
+    h1
+      font-weight 600
+    // h1
+    //   font-family Fancy
+    //   font-style italic
+    //   font-weight 300
     &:not(.wrapper)
       width calc(100% - 80px)
       padding-left 40px
@@ -1994,9 +2003,16 @@ div .column-section:first-child, .spacer + .column-section
     top 150px !important
 
 // SOCIAL LIST //////////////////////////////////
+.home-page
+  .social-list
+    position fixed
+    bottom -20px
+    left 0
+    right 0
+    
 .social-list
   text-align center
-  padding-top px(40)
+  padding-top px(100)
   padding-bottom px(70)
   li
     inline-block()

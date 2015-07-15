@@ -5,28 +5,49 @@
 .portfolio-wolf-item
 	.portfolio-caption
 		a
-			transition all 0.3s ease 0.05s
+			transition all 0.6s ease-out-quint 0.4s
 			display block
 			color black
-			padding px(15) px(15) px(10) px(15)
+			// padding px(20) px(20) px(15) px(20)
+			.portfolio-category
+				transform translateY(4rem)
+				opacity 0
+				transition transform 0.4s ease-in-sine 0.1s, opacity 0.4s ease-in-sine 0.1s
+				
+			.portfolio-name
+				transition transform 0.4s ease-in-sine, opacity 0.4s ease-in-sine
+				opacity 0
+				transform translateY(4rem)
 		a:hover,
 		&.hovered a
-			transform translateX(-20px)
-			background-color white
-	&.wright .portfolio-caption a:hover, 
-	&.wright .portfolio-caption.hovered a
-		transform translateX(20px)
-		background-color white
+			// transform translateX(-20px)
+			transition all 0.2s ease-in-quint 0s
+			transform translateY(0)
+			// background-color white
+			.portfolio-category
+				transform translateY(0)
+				transition transform 0.4s ease-out-sine, opacity 0.4s ease-out-sine
+				opacity 1
+				
+			.portfolio-name
+				opacity 1
+				transform translateY(0)
+				transition transform 0.4s ease-out-sine 0.04s, opacity 0.4s ease-out-sine 0.04s
+				
+	// &.wright .portfolio-caption a:hover, 
+	// &.wright .portfolio-caption.hovered a
+	// 	// transform translateX(20px)
+	// 	background-color white
 		
 	.portfolio-media
 		a.wolf-media-link
 			img
 				transition all 0.5s ease 0.05s
-				opacity 0.8
+				opacity 1
 	.portfolio-media a.wolf-media-link:hover img, 
 	.portfolio-media.hovered a.wolf-media-link img
 		transform scale(1.05)
-		opacity 1
+		opacity 0.5
 
 .photography-wolf-item
 	.photography-caption
