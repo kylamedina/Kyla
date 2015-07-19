@@ -12,8 +12,8 @@ gulp.task 'img', ->
     'src/img/**/*.jpg'
     'src/img/**/*.png'
     '!src/img/artnet/*'
-    # '!src/img/akc/*'
-    '!src/img/projects/*'
+    '!src/img/akc/*'
+    # '!src/img/projects/*'
   ])
   	.pipe $.plumber(errorHandler: onError)
     # .pipe $.cache($.imagemin())
@@ -34,11 +34,6 @@ gulp.task 'font', ->
   	.pipe $.cache($.cssfont64())
     .pipe $.concat('font.css')
   	.pipe gulp.dest('./app/css/')
-
-
-gulp.task 'static', ->
-  return gulp.src(['src/static/**'], { base: 'src/static/'})
-  	.pipe gulp.dest('app/')
 
 
 gulp.task 'cson', ->

@@ -194,7 +194,8 @@ a
     &:hover
       background #ffffff
   &.img-hover
-    display inline-block
+    display block
+    line-height 0
     max-width 100%
     width auto
     position relative
@@ -425,7 +426,7 @@ p code
   width 100%
   max-width px(1440)
   margin 0 auto
-  +below(1500px)
+  +below(1440px)
     width 1080px
 
 .wrapper-huge
@@ -1399,7 +1400,8 @@ header.hero-invisible #menu .open-filter, header.hero-invisible #menu .open-shar
       &.last-formrow
         margin-right 0px
 
-#blog-leavecomment form .form-row.textbox, #blog-leavecomment form .form-row.form-submit
+#blog-leavecomment form .form-row.textbox, 
+#blog-leavecomment form .form-row.form-submit
   width 100% !important
   float none !important
   margin-top 40px
@@ -1508,7 +1510,8 @@ header.hero-invisible #menu .open-filter, header.hero-invisible #menu .open-shar
 .column-section
   margin-top 60px
 
-div .column-section:first-child, .spacer + .column-section
+div .column-section:first-child, 
+.spacer + .column-section
   margin-top 0px
 
 .column
@@ -1719,7 +1722,8 @@ div .column-section:first-child, .spacer + .column-section
         a
           color #008cd2
 
-.socialmedia-widget.align-center, .align-center .socialmedia-widget
+.socialmedia-widget.align-center, 
+.align-center .socialmedia-widget
   text-align center
 
 .inline-video
@@ -2027,12 +2031,26 @@ div .column-section:first-child, .spacer + .column-section
       color black
 
 .figcaption
-  // fs(1.4rem)
+  // fs(1.6rem)
   // text-align center
   max-width 420px
-.wolf-item:nth-child(even)
+// .wolf-item.is-caption:nth-child(even)
+//   .wolf-item-inner
+
+.is-caption--left
+  text-align left
+  
+.is-caption--right
   .wolf-item-inner
-    float left !important
-.wolf-item:nth-child(odd)
-  .wolf-item-inner
-    float right !important
+    .figcaption
+      position absolute
+      right 0
+    
+.inline-list
+  list-style none
+  margin-left 0
+  padding-left 0
+  text-align center
+  li
+    display inline-block
+    padding 0 px(20)

@@ -1,7 +1,7 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/1680x1100.jpg')
+  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/projects/cognizant.jpg')
     .page-title
       h5.alttitle Development and Mobile Design
       h1
@@ -13,34 +13,82 @@ block content
       .wolf-grid.clearfix(data-mouseparallax='false')
         .wolf-item
           .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
+            .wolf-media.portfolio-media.browser-chrome
+              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+                video(autoplay preload="auto" loop)
+                  //- source(src='cognizant.ogg', type='video/ogg')
+                  source(src='cognizant.mp4', type='video/mp4')
+                  p Your browser does not support the 
+                    code video
+                    |  element.
+    
+        .wolf-item.is-caption.is-caption--right(data-speed="-1")
           .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-
+              p.figcaption The highly customized form was one of the prototypes delivered before development began. Another was a slider that gave the impression of movement in 3 dimensions. Both prototypes can be viewed 
+                a(href='http://from.ky.la/XyT6') here
+                |  and the repository is 
+                a(href='https://github.com/itsMakeable/cognizant-prototype') here
+                | .
     .wrapper-small
       h4.align-center
         strong New Technology Stack
       h6.alttitle.align-center for one of the largest IT companies in the world.
       .column-section.clearfix
           p
-            | Cognizant is an international corporation that provides custom information technology, consulting, and business process outsourcing services.
+            | Cognizant is an international corporation that provides custom information technology, consulting, and business process outsourcing services. It is the third largest IT company behind Accenture and IBM and prides itself for push the limits of technology.
           p
-            | Makeable was asked to
+            | Cognizant asked Makeable to redesign and rethink the Latest Thinking section that stores white papers and other grey lit for clients and potential clients. We created a Linkedin-powered collaborative content service that allowed users to save articles and create groups to share bundled content to.
+          p Many of the gradients are generated with CSS and the site makes heavy use of subtle and sometimes overt animations to direct the user.
+
+    .wrapper
+      .spacer.spacer-big
+      .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-item.is-caption.is-caption--right(data-speed="-1")
+          .wolf-item-inner
+              p.figcaption The only plugins the site uses are jQuery, Velocity (physics based animations), and waypoints (scroll events).
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+               video(autoplay preload="auto" loop)
+                 //- source(src='cognizant.ogg', type='video/ogg')
+                 source(src='cognizant2.mp4', type='video/mp4')
+                 p Your browser does not support the 
+                   code video
+                   |  element.
+        .wolf-item.wfull
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              a.img-hover(href='img/cognizant/cog_01.png', data-rel='lightcase:cognizant')
+               img(src="img/cognizant/cog_01.png", alt="")
+        
+            p.figcaption(style='text-align:center;display:block;margin:auto;') The main concept behind the redesign are the folders that allowed users to collect and collaborate on topics that Cognizant publishes research on.
+
+        .wolf-item.is-caption--right
+          .wolf-item-inner
+            .figcaption 
+              p A development styleguide was dynamically generated using Gulp and special comments in the CSS. The plugin is a fork that I created to allow Jade as the language used to create the HTML for the styleguide. The styleguide is actually more of a development manual for the site, providing detailed instructions on how to build the site and handle development. 
+              p Gulp also assisted in heavily optimzing the site making the largest page 10 times less than average page size across the internet. The site is also extremely fast, taking advantage of asynchronous asset loading and the use of SVG instead of images whenever possible.
+            
+
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              img.browser-shadow(src="img/cognizant/cog_02.png", alt="")
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+               video(autoplay preload="auto" loop)
+                 //- source(src='cognizant.ogg', type='video/ogg')
+                 source(src='cognizant3.mp4', type='video/mp4')
+                 p Your browser does not support the 
+                   code video
+                   |  element.
+        .wolf-item.is-caption(data-speed="-1")
+          .wolf-item-inner
+              .spacer.spacer-big
+              p.figcaption The site is animation heavy but the only plugins used are jQuery, Velocity (physics based animations), and waypoints (scroll events).
 
     .wrapper
       ul.single-pagination

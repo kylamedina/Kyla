@@ -305,7 +305,8 @@ jQuery(window).load(function() {
 	/*---------------------------------------------- 
 			O P E N / C L O S E   Filter & Share
 	------------------------------------------------*/
-	jQuery('header').on("click", ".open-filter", function() { 
+	jQuery('header').on("click", ".open-filter", function(e) { 
+		e.preventDefault();
 		jQuery('#header-filter').addClass('filter-is-open');
 		jQuery('html,body').animate({ scrollTop: jQuery("#"+jQuery(this).data('related-grid')).offset().top-parseInt(jQuery("#header-filter").height(), 10)-100}, 1000, 'easeInOutQuart');
 		return false;

@@ -28,17 +28,17 @@ block content
             .wolf-media.portfolio-media.browser-chrome
               a.img-hover.browser-shadow(href='img/akc/akc_01_small.png', data-rel='lightcase:akc')
                 img(src='img/akc/akc_01_small.png', alt='AKC Marketplace Website Dog Listing')
-        .wolf-item(data-speed="1")
+        .wolf-item.is-caption(data-speed="1")
           .wolf-item-inner
             .wolf-media.portfolio-media
               p.figcaption Marketplace allows businesses to create mini-sites to advertise to the AKC&nbsp;community.
-        .wolf-item(data-speed="0")
+        .wolf-item.is-caption(data-speed="0")
           .wolf-item-inner
             .wolf-media.portfolio-media
-              p.figcaption Marketplace allows businesses to create mini-sites to advertise to the AKC&nbsp;community.
+              p.figcaption Search is a major component of the site. It uses a natural language system and has complex filtering and featured results that can be sponsored.
         .wolf-item(style='margin-bottom:0')
           .wolf-item-inner
-            .wolf-media.portfolio-media
+            .wolf-media.portfolio-media.browser-chrome
               a.img-hover.browser-shadow(href='img/akc/akc_04.png', data-rel='lightcase:akc')
                 img(src='img/akc/akc_04.png', alt='AKC Marketplace Website Search Page')
 
@@ -49,7 +49,7 @@ block content
 
       .wrapper-medium
         .wolf-item.wfull(style='margin-bottom:0')
-          .wolf-item-inner
+          .wolf-item-inner.browser-chrome.is-large
             .wolf-media.portfolio-media.browser-shadow
               a(href='img/akc/akc_02.png', data-rel='lightcase:akc')
                img(src='img/akc/akc_02.png', alt='AKC Marketplace Website Storefront')
@@ -61,17 +61,32 @@ block content
         strong A Social Network for Dogs
       //- h6.alttitle.align-center for the largest dog community in the world
       .column-section.clearfix
-          p I was also heavily involved in Wooftale&mdash;lovingly deemed 'Facebook for Dogs' as front-end developer. The app uses 'if this then that' type logic for things like the dog's location and temperature to allow them to post statuses to their feed. One of the most interesting parts of the app is creating shareable posts via HTML5's canvas. Using javascript to create the canvas, we were then able to export a PNG that was shareable to the feed as well as instagram and other social&nbsp;networks.
+          p I was also heavily involved in Wooftale&mdash;lovingly deemed 'Facebook for Dogs' as front-end developer. The app uses 'if this then that' type logic for things like the dog's location and temperature to allow them to post statuses or 'Wooftales' to their feed. One of the most interesting parts of the app is creating shareable posts via HTML5's canvas. Using javascript to create the canvas, we were then able to export a PNG that was shareable to the feed as well as instagram and other social&nbsp;networks.
+      h6(style='text-align:center;')
+        strong Links
+      ul.inline-list
+        li: a(href='http://marketplace.akc.org' target='_blank') marketplace.akc.org
+        li: a(href='http://caninechronicle.com/breaking-news/akc-launches-marketplace-for-clubs' target='_blank') caninechronicle.com
+        li: a(href='http://wooftale.com' target='_blank') wooftale.com
 
     .wrapper
       .spacer.spacer-medium
       .owl-slider
-        div
-          img(src='img/akc/akc_06.jpg', alt='SEO Name')
-          p(style='text-align:center;') Screens for the feed and creating a post.
-        div
+        figure
+          img(src='img/akc/akc_09.png', alt='SEO Name')
+          figcaption
+            p(style='position:relative;top:-6rem;') I worked on the front-end of the teaser site which uses Expression&nbsp;Engine.
+        figure
+          img(src='img/akc/akc_06.png', alt='SEO Name')
+          figcaption
+            p(style='position:relative;top:-6rem;') 
+              | The left screen shows the feed with an event&nbsp;post. 
+              br
+              | The right screen shows a&nbsp;'Wooftale.'
+        figure
           img(src='img/akc/akc_07.jpg', alt='SEO Name')
-          p(style='text-align:center;') Fun fact, dogs are cute. Here's one for no other reason.
+          figcaption
+            p(style='position:relative;top:-6rem;') HTML's canvas element was used to allow users to customize the look of the shareable Wooftale. Then a PNG of the canvas element was outputted which could be posted on the feed in the app as well as other social&nbsp;networks.
 
     .wrapper
       ul.single-pagination

@@ -45,7 +45,7 @@ gulp.task 'default', (cb) ->
 		'css',
 		'js',
 		# 'font',
-		# 'static', 
+		'static', 
 		'img', 
 		'svg',
 		# 'templates',
@@ -80,3 +80,8 @@ gulp.task 'browser-sync', ->
 
 gulp.task 'clear', (done) ->
   $.cache.clearAll done
+
+gulp.task 'static', ->
+	gulp.src(['src/static/**/*'], { base: 'src/static/'})
+		.pipe $.plumber(errorHandler: onError)
+		.pipe gulp.dest('app/')
