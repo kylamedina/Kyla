@@ -1,10 +1,11 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section(data-parallax-image='files/uploads/1680x1100-light.jpg')
+  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/projects/mkbl.jpg')
     .page-title
+      h5.alttitle Design, Development, and Photography
       h1
-        strong RAD
+        strong Makeable
     a#scroll-down(href='#') Scroll Down
   section#page-body
     .wrapper
@@ -12,44 +13,79 @@ block content
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media
-              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+              img(src='img/mkbl/mkbl_05.png', alt='SEO NAME')
+            .figcaption: p Dr. Sara S. Thompson at work.
+        .wolf-item
+          .wolf-item-inner
+            .figcaption
+              p I've played many roles at Makeable. Designer, Developer, Photographer, even UXer and a part of the strategy team once or twice. It's a reflection of my love for the internet and digital culture.
+              p For over two and half years, I've been taking photos of Makeable that are used in company assets. I've also recently been tasked with redesigning Makeable's website and is currently ongoing. I've created a couple different directions so far and below is my favorite iteration. This page is kind of a work in progress as I will update it as the project progresses from design through development. Interspersed are some of the photos I've taken for Makeable.
+
+    .waypoint-parent
+      .browser-chrome.is-large(style='max-width: 50%')
+        img.browser-shadow(src='img/mkbl/mkbl_01.png', alt='SEO NAME')
+      .wolf-item.wright.waypoint-child
+        .wolf-item-inner
+          .figcaption
+            p In this iteration, my primary objectives were to emphasize Makeable's process&mdash;Imagine, Make, and Grow&mdash;in a more readable way with a grid system that breaks up the long descriptions that are written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.
+            p During the Imagination phase, Makeable creates storyboards that basically is a creative exersize that creates a design direction for the project and is printed out for clients. The case study page mimicks these storyboards for a digital audience.
+            
+    .wrapper
+      .spacer.spacer-big   
+      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media
-              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item.wfull.wmiddle
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+              img(src='img/mkbl/mkbl_07.png', alt='SEO NAME')
+            .wolf-caption.portfolio-caption This is an example of the storyboards Makeable likes to create during the Imagine phase.
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media
-              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+              img(src='img/mkbl/mkbl_06.png', alt='SEO NAME')
+            .wolf-caption.portfolio-caption Here are some of my friends looking at some storyboards.
+
+        //- .wolf-item.is-caption(data-speed="1")
+        //-   .wolf-item-inner
+        //-     .wolf-media.portfolio-media
+        //-       p.figcaption This is an example of the storyboards Makeable likes to create during the Imagine phase.
+    
+              
+    div.mkbl-caption-1
+      .mkbl-caption__container
+       p Another issue I addressed is the lack of color in the current site. Instead of trying to add colors to Makeable's palette, I created the idea of themes for each page. Specifically, each page in category like team or projects would have a different gradient and duotone theme.
+    .wrapper
+      .spacer.spacer-big   
+      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              img.browser-shadow(src='img/mkbl/mkbl_03.png', alt='SEO NAME')
+            .figcaption
+              p Above are examples of profile pages. The second shows the quick switch which allows you to switch between related pages in a visual way is consistent with the main navigation dropdown.
+        .wolf-item
+          .wolf-item-inner
+           .wolf-media.portfolio-media.browser-chrome
+              img.browser-shadow(src='img/mkbl/mkbl_04.png', alt='SEO')
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media
-              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+              img(src='img/mkbl/mkbl_09.png', alt='SEO NAME')
+            .figcaption
+              p Taking photos from above is kind of my thing.
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media
-              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
-      h6.alttitle.align-center
-        | © 
-        a(href='http://www.marianagarcia.org', target='_blank')
-          strong Mariana Garcia
+              img(src='img/mkbl/mkbl_10.png', alt='SEO NAME')
+            
     .wrapper
       ul.single-pagination
         li.prev
-          a(href='portfolio-single-3.html')
-            img(src='./uploads/600x800-light.jpg', alt='prev')
+          a(href='esquire.html')
+            img(src='img/projects/esquire.jpg', alt='prev')
             span Previous Project
         li.backtoworks
           a(href='index.html') Back To Works
         li.next
-          a(href='portfolio-single-1.html')
-            img(src='./uploads/600x400-light.jpg', alt='next')
+          a(href='success-academy.html')
+            img(src='img/projects/sa.jpg', alt='next')
             span Next Project

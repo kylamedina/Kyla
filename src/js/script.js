@@ -393,6 +393,28 @@ jQuery(window).load(function() {
 		
 	});
 	
+	var scrollTopWaypoint = $('.waypoint-parent').waypoint({
+	  handler: function(direction) {
+	  	if (direction == 'down') {
+	  		$(this.element).find('.waypoint-child').addClass('is-fixed');
+	  	} else {
+	  		$(this.element).find('.waypoint-child').removeClass('is-fixed');
+	  	}
+	  },
+	  offset: '60px'
+	})
+	var scrollBottomWaypoint = $('.waypoint-parent').waypoint({
+	  handler: function(direction) {
+	  	if (direction == 'down') {
+	  		$(this.element).find('.waypoint-child').removeClass('is-fixed').addClass('is-bottom');
+	  	} else {
+	  		$(this.element).find('.waypoint-child').removeClass('is-bottom').addClass('is-fixed');
+	  	}
+	  },
+	  offset:'bottom-in-view'
+	})
+
+
 	
 	
 	/*---------------------------------------------- 

@@ -9,26 +9,7 @@ block content
     a#scroll-down(href='#') Scroll Down
 
   section#page-body
-    .wrapper
-      .wolf-grid.clearfix(data-mouseparallax='false')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media.browser-chrome
-              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
-                video(autoplay preload="auto" loop)
-                  //- source(src='cognizant.ogg', type='video/ogg')
-                  source(src='cognizant.mp4', type='video/mp4')
-                  p Your browser does not support the 
-                    code video
-                    |  element.
     
-        .wolf-item.is-caption.is-caption--right(data-speed="-1")
-          .wolf-item-inner
-              p.figcaption The highly customized form was one of the prototypes delivered before development began. Another was a slider that gave the impression of movement in 3 dimensions. Both prototypes can be viewed 
-                a(href='http://from.ky.la/XyT6') here
-                |  and the repository is 
-                a(href='https://github.com/itsMakeable/cognizant-prototype') here
-                | .
     .wrapper-small
       h4.align-center
         strong New Technology Stack
@@ -38,38 +19,62 @@ block content
             | Cognizant is an international corporation that provides custom information technology, consulting, and business process outsourcing services. It is the third largest IT company behind Accenture and IBM and prides itself for push the limits of technology.
           p
             | Cognizant asked Makeable to redesign and rethink the Latest Thinking section that stores white papers and other grey lit for clients and potential clients. We created a Linkedin-powered collaborative content service that allowed users to save articles and create groups to share bundled content to.
-          p Many of the gradients are generated with CSS and the site makes heavy use of subtle and sometimes overt animations to direct the user.
 
+
+        
     .wrapper
       .spacer.spacer-big
       .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+                video(autoplay preload="auto" loop)
+                  //- source(src='cognizant.ogg', type='video/ogg')
+                  source(src='cognizant7.mp4', type='video/mp4')
+                  p Your browser does not support the 
+                    code video
+                    |  element.
+        
         .wolf-item.is-caption.is-caption--right(data-speed="-1")
           .wolf-item-inner
-              p.figcaption The only plugins the site uses are jQuery, Velocity (physics based animations), and waypoints (scroll events).
+              p.figcaption The highly customized form was one of the prototypes delivered before development began. Another was a slider that gave the impression of movement in 3 dimensions. Both prototypes can be viewed 
+                a(href='http://from.ky.la/XyT6') here
+                |  and the repository is 
+                a(href='https://github.com/itsMakeable/cognizant-prototype') here
+                | .
+        .wolf-item.is-caption.is-caption--right(data-speed="-1")
+          .wolf-item-inner
+            .figcaption
+              p The only plugins the site uses are jQuery, Velocity (physics-based animation engine), and waypoints (scroll events). Making the site extremely light.
+              p The Gulp / Node build system also assisted in heavily optimzing the site making the largest page 10 times less than average page size across the internet. The site is also extremely fast, taking advantage of asynchronous asset loading and the use of SVG instead of images whenever possible.
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
               a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
                video(autoplay preload="auto" loop)
                  //- source(src='cognizant.ogg', type='video/ogg')
-                 source(src='cognizant2.mp4', type='video/mp4')
+                 source(src='cognizant5.mp4', type='video/mp4')
                  p Your browser does not support the 
                    code video
                    |  element.
+    .wrapper
+      .spacer.spacer-big
+      .wolf-grid.clearfix(data-mouseparallax='false')
         .wolf-item.wfull
           .wolf-item-inner
             .wolf-media.portfolio-media
-              a.img-hover(href='img/cognizant/cog_01.png', data-rel='lightcase:cognizant')
                img(src="img/cognizant/cog_01.png", alt="")
-        
-            p.figcaption(style='text-align:center;display:block;margin:auto;') The main concept behind the redesign are the folders that allowed users to collect and collaborate on topics that Cognizant publishes research on.
+            .figcaption: p The main concept behind the redesign are the folders that allowed users to collect and collaborate on topics that Cognizant publishes research on.
 
         .wolf-item.is-caption--right
           .wolf-item-inner
             .figcaption 
-              p A development styleguide was dynamically generated using Gulp and special comments in the CSS. The plugin is a fork that I created to allow Jade as the language used to create the HTML for the styleguide. The styleguide is actually more of a development manual for the site, providing detailed instructions on how to build the site and handle development. 
-              p Gulp also assisted in heavily optimzing the site making the largest page 10 times less than average page size across the internet. The site is also extremely fast, taking advantage of asynchronous asset loading and the use of SVG instead of images whenever possible.
-            
+              p 
+                | A development styleguide was dynamically generated using Gulp and special comments in the CSS. The plugin is a 
+                a(href='https://github.com/kylamedina/styleguide.js') fork
+                |  that I edited to allow Jade as the language used to create the HTML for the styleguide. The styleguide is actually more of a development manual for the site, providing detailed instructions on how to build the site and handle development. Using BEM syntax for CSS and a Node build system was something Cognizant hadn't seen before but it integrated nicely with Adobe Experience Manager, their CMS. Although they were not initially familiar with the process, through training and the development manual, they are now rethinking how their entire site is structured.
+                      
 
         .wolf-item
           .wolf-item-inner
@@ -81,26 +86,46 @@ block content
               a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
                video(autoplay preload="auto" loop)
                  //- source(src='cognizant.ogg', type='video/ogg')
-                 source(src='cognizant3.mp4', type='video/mp4')
+                 source(src='cognizant4.mp4', type='video/mp4')
                  p Your browser does not support the 
                    code video
                    |  element.
-        .wolf-item.is-caption(data-speed="-1")
+        .wolf-item(style='margin-bottom:0')
           .wolf-item-inner
-              .spacer.spacer-big
-              p.figcaption The site is animation heavy but the only plugins used are jQuery, Velocity (physics based animations), and waypoints (scroll events).
+            .wolf-media.portfolio-media.browser-chrome
+              p.codepen(data-height='268', data-theme-id='0', data-slug-hash='hyeDg', data-default-tab='result', data-user='julianshapiro')
+               | See the Pen 
+               a(href='http://codepen.io/julianshapiro/pen/hyeDg/') Velocity.js - Easing: Spring Physics (Tester)
+               |  by Julian Shapiro (
+               a(href='http://codepen.io/julianshapiro') @julianshapiro
+               | ) on 
+               a(href='http://codepen.io') CodePen
+               | .
+              script(async='', src='//assets.codepen.io/assets/embed/ei.js')
+            .figcaption: p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
+
+    .wrapper.xtra-wide
+      .spacer.spacer-big
+      ul.gallery.gallery-col1
+        li.has-animation
+          img(src="img/cognizant/cog_03.png", alt="")
+        li.has-animation
+          .figcaption: p  I did mobile design in the browser which sped up the workflow significantly because we showed working comps to the client making it much easier for them to understand.
+       
 
     .wrapper
+      .spacer.spacer-big
       ul.single-pagination
         li.prev
-          a(href='esquire.html')
-            img(src='img/projects/esquire.jpg', alt='prev')
+          a(href='weather-channel.html')
+            img(src='img/projects/twc.jpg', alt='prev')
+         
             span Previous Project
         li.backtoworks
           a(href='index.html') Back To Works
         li.next
-          a(href='weather-channel.html')
-            img(src='img/projects/twc.jpg', alt='next')
+          a(href='esquire.html')
+            img(src='img/projects/esquire.jpg', alt='next')
             span Next Project
 
 

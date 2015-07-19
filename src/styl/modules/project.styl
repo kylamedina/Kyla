@@ -40,11 +40,13 @@
 	height 100% !important
 	min-height px(250)
 	display block
+
 .browser-shadow.browser-chrome
 	padding-top px(30)
 	border-top 1px solid #fafafa
 	&:after
 		top 0
+
 .browser-chrome
 	height 100%
 	width 100%
@@ -66,7 +68,21 @@
 			background-size auto px(9)
 			top px(-40)
 			height px(40)
-			
+
+.waypoint-parent
+	position relative
+	.waypoint-child
+		position absolute
+		left 50%
+		top 0
+		width 38%
+		&.is-fixed
+			position fixed
+			top px(60)
+		&.is-bottom
+			top auto
+			bottom 0
+		
 .hero--artnet
 	.hero-overlay
 		background-color rgba(#000,0.4)
@@ -77,5 +93,20 @@
 	.gallery li
 		border 1px solid #f0f0f0
 
-// .body-akc
-	
+.mkbl-caption-1
+	background: url(../img/mkbl/mkbl_02.png) no-repeat
+	background-size: auto 100%
+	background-position: 0% 0% 
+	height: 600px 
+	position: relative
+	// top px(-300)
+	.mkbl-caption__container
+		position absolute
+		max-width 40%
+		left 50%
+		width 100%
+		height 100%
+		top 0
+		bottom 0
+		p
+			vertically-align()
