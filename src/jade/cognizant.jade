@@ -1,7 +1,7 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/projects/cognizant.jpg')
+  section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant.jpg')
     .page-title
       h5.alttitle Development and Mobile Design
       h1
@@ -31,14 +31,14 @@ block content
               a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
                 video(autoplay preload="auto" loop)
                   //- source(src='cognizant.ogg', type='video/ogg')
-                  source(src='cognizant7.mp4', type='video/mp4')
+                  source(src='cognizant9.mp4', type='video/mp4')
                   p Your browser does not support the 
                     code video
                     |  element.
-        
+       
         .wolf-item.is-caption.is-caption--right(data-speed="-1")
           .wolf-item-inner
-              p.figcaption The highly customized form was one of the prototypes delivered before development began. Another was a slider that gave the impression of movement in 3 dimensions. Both prototypes can be viewed 
+              p.figcaption A highly customized form and this slider were delivered as prototypes before development began. It gives the impression of movement in three dimensions and the client wanted to see it before taking it to production. Both prototypes can be viewed 
                 a(href='http://from.ky.la/XyT6') here
                 |  and the repository is 
                 a(href='https://github.com/itsMakeable/cognizant-prototype') here
@@ -46,8 +46,8 @@ block content
         .wolf-item.is-caption.is-caption--right(data-speed="-1")
           .wolf-item-inner
             .figcaption
-              p The only plugins the site uses are jQuery, Velocity (physics-based animation engine), and waypoints (scroll events). Making the site extremely light.
-              p The Gulp / Node build system also assisted in heavily optimzing the site making the largest page 10 times less than average page size across the internet. The site is also extremely fast, taking advantage of asynchronous asset loading and the use of SVG instead of images whenever possible.
+              p The only plugins the site uses are jQuery, Velocity (physics-based animation engine), and waypoints (scroll events). Making the site fast and light.
+              //- p The Gulp / Node build system also assisted in heavily optimzing the site making the largest page 10 times less than average page size across the internet. The site is also extremely fast, taking advantage of asynchronous asset loading and the use of SVG instead of images whenever possible.
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
@@ -58,6 +58,7 @@ block content
                  p Your browser does not support the 
                    code video
                    |  element.
+        
     .wrapper
       .spacer.spacer-big
       .wolf-grid.clearfix(data-mouseparallax='false')
@@ -73,7 +74,7 @@ block content
               p 
                 | A development styleguide was dynamically generated using Gulp and special comments in the CSS. The plugin is a 
                 a(href='https://github.com/kylamedina/styleguide.js') fork
-                |  that I edited to allow Jade as the language used to create the HTML for the styleguide. The styleguide is actually more of a development manual for the site, providing detailed instructions on how to build the site and handle development. Using BEM syntax for CSS and a Node build system was something Cognizant hadn't seen before but it integrated nicely with Adobe Experience Manager, their CMS. Although they were not initially familiar with the process, through training and the development manual, they are now rethinking how their entire site is structured.
+                |  that I edited to use Jade as the language that generates the styleguide. The styleguide is actually more of a development manual for the site, providing detailed instructions on how to build the site and handle development. Using BEM syntax for CSS and a Node build system was something Cognizant hadn't seen before but it integrated nicely with Adobe Experience Manager, their CMS. Although they were not initially familiar with the process, through training and the development manual, they are now rethinking how their entire site is structured.
                       
 
         .wolf-item
@@ -90,7 +91,7 @@ block content
                  p Your browser does not support the 
                    code video
                    |  element.
-        .wolf-item(style='margin-bottom:0')
+        .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
               .browser-shadow
@@ -104,6 +105,16 @@ block content
                  | .
                 script(async='', src='//assets.codepen.io/assets/embed/ei.js')
             .figcaption: p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
+        .wolf-item(style='margin-bottom:0')
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+                video(autoplay preload="auto" loop)
+                  //- source(src='cognizant.ogg', type='video/ogg')
+                  source(src='cognizant8.mp4', type='video/mp4')
+                  p Your browser does not support the 
+                    code video
+                    |  element.
 
     .wrapper.xtra-wide
       .spacer.spacer-big
@@ -111,7 +122,7 @@ block content
         li.has-animation
           img(src="img/cognizant/cog_03.png", alt="")
         li.has-animation
-          .figcaption: p  I did mobile design in the browser which sped up the workflow significantly because we showed working comps to the client making it much easier for them to understand.
+          .figcaption: p  I did mobile design in the browser, speeding up the workflow significantly. We showed working comps to the client, making it much easier for them to understand.
        
 
     .wrapper

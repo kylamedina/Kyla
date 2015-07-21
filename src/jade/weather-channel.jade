@@ -2,6 +2,15 @@ extends layouts/layout
 
 block content
   section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/twc.jpg')
+
+    .hero-video
+      video(autoplay preload="auto" loop)
+        //- source(src='cognizant.ogg', type='video/ogg')
+        source(src='twc1.mp4', type='video/mp4')
+        p Your browser does not support the 
+          code video
+          |  element.
+    .hero-overlay.is-darker
     .page-title
       h5.alttitle Prototyping
       h1 The Weather Channel
@@ -21,7 +30,7 @@ block content
       .column-section.clearfix
           p
             | The Weather Channel asked Makeable to redesign their flagship app. During the process, I prototyped a concept to present to Apple. It that featured animated backgrounds that changed according to the weather and a card system that makes it highly customizable. The flagship feature of the concept is WeatherLens, which crowdsourced information about the weather.
-    .wrapper
+    .wrapper.xtra-wide
       .spacer.spacer-big
       .wolf-grid.clearfix(data-mouseparallax='false')
         .wolf-item
@@ -31,14 +40,11 @@ block content
           .wolf-item-inner
             .wolf-media.portfolio-media(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
                 img(src='img/twc/twc_02.png', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/1100x600-light.jpg', data-rel='lightcase:twc')
-                img(src='img/600x400-light.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            p This is an example of what the severe weather mode would look like. The background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
+      //- ul.gallery.gallery-col1
+      //-   li.has-animation(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+      //-     img(src="img/twc/twc_02.png", alt="")
+      //-   li.has-animation
+      //-     .figcaption: p  When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
 
     
 

@@ -944,7 +944,9 @@ header:not(.hero-invisible) .menu-light .open-nav .hamburger, header:not(.hero-i
         & > a
           color #ffffff
 
-header.hero-invisible #menu .open-nav .hamburger, header.hero-invisible #menu .open-nav .hamburger:before, header.hero-invisible #menu .open-nav .hamburger:after
+// header.hero-invisible #menu .open-nav .hamburger, 
+header.hero-invisible #menu .open-nav .hamburger:before, 
+header.hero-invisible #menu .open-nav .hamburger:after
   background-color #0d0d0d !important
 
 footer
@@ -1005,6 +1007,11 @@ footer .widget:first-child, div .widget:first-child
   right 0
   left 0
   background-color rgba(#000,0.2)
+  z-index 0
+  &.is-darker
+    background-color rgba(#000,0.3)
+.hero-video
+  @extend $absolute-cover
   z-index 0
 #hero
   position relative
@@ -1259,22 +1266,28 @@ header #menu .open-share:hover
         // filter alpha(opacity=100)
         // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 
-ul.filter li a.active, ul.filter li a:hover
+ul.filter li a.active, 
+ul.filter li a:hover
   color primary
 
-header:not(.hero-invisible) #menu.menu-light .open-filter, #menu.menu-light:not(.hero-invisible) .open-share
+header:not(.hero-invisible) #menu.menu-light .open-filter, 
+#menu.menu-light:not(.hero-invisible) .open-share
   color #ffffff
 
-header.nav-is-open:not(.header-transparent) #menu .open-filter, header.nav-is-open:not(.header-transparent) #menu .open-share
+header.nav-is-open:not(.header-transparent) #menu .open-filter, 
+header.nav-is-open:not(.header-transparent) #menu .open-share
   color #0d0d0d
 
-header.header-open:not(.header-transparent) #menu .open-filter, header.header-open:not(.header-transparent) #menu .open-share
+header.header-open:not(.header-transparent) #menu .open-filter, 
+header.header-open:not(.header-transparent) #menu .open-share
   color #0d0d0d
 
-header.nav-is-open.header-transparent #menu.menu-light .open-filter, header.nav-is-open.header-transparent #menu.menu-light .open-share
+header.nav-is-open.header-transparent #menu.menu-light .open-filter, 
+header.nav-is-open.header-transparent #menu.menu-light .open-share
   color #ffffff
 
-header.hero-invisible #menu .open-filter, header.hero-invisible #menu .open-share
+header.hero-invisible #menu .open-filter, 
+header.hero-invisible #menu .open-share
   color #0d0d0d !important
 
 .blog-masonry-entry
