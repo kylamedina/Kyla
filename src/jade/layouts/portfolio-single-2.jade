@@ -1,0 +1,62 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-auto
+    .page-title.wrapper
+      #wolf-title.wolf-grid.clearfix
+        .wolf-item.wfull.wright.wolf-text(data-speed='2')
+          .wolf-item-inner
+            .wolf-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+            .wolf-caption.ctop(style='width:60%;')
+              h5.alttitle Branding
+              h1
+                strong The Efimer
+  section#page-body.nopadding
+    .wrapper-mini
+      h6
+        strong Idea
+      p
+        | Efimer is a project based on the concept that fashion is ephemeral. To represent this idea I designed a haute couture collection made by vegetables, which are ephemeral too. I decided to paint the vegetables to give uniformity at the clothes and express the purity that provides the white color.
+      h6
+        strong Awards
+      p
+        | awwwards - Special Mention
+        br
+        | csswinner - Winner of the Day
+        br
+        | cssreel - Winner of the Day
+      h6
+        strong Art Direction
+      p
+        | Anna Salvador
+        br
+        a(href='http://www.annasalvador.com')
+          strong annasalavdor.com
+    .spacer.spacer-big
+    .wrapper
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      ul.gallery.spaced
+        li.has-animation
+          img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+      ul.gallery.gallery-col2.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='portfolio-single-1.html')
+            img(src='./uploads/600x800-light.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='portfolio-single-3.html')
+            img(src='./uploads/600x400-light.jpg', alt='next')
+            span Next Project

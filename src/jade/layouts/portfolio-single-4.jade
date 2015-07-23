@@ -1,0 +1,55 @@
+extends layouts/layout
+
+block content
+  section#hero.hero-full.parallax-section(data-parallax-image='files/uploads/1680x1100-light.jpg')
+    .page-title
+      h1
+        strong RAD
+    a#scroll-down(href='#') Scroll Down
+  section#page-body
+    .wrapper
+      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item.wfull.wmiddle
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x800-light.jpg', alt='SEO NAME')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      h6.alttitle.align-center
+        | © 
+        a(href='http://www.marianagarcia.org', target='_blank')
+          strong Mariana Garcia
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='portfolio-single-3.html')
+            img(src='./uploads/600x800-light.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='index.html') Back To Works
+        li.next
+          a(href='portfolio-single-1.html')
+            img(src='./uploads/600x400-light.jpg', alt='next')
+            span Next Project
