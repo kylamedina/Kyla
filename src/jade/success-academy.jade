@@ -35,16 +35,41 @@ block content
       //-     strong annasalavdor.com
     .spacer.spacer-big
     .wrapper
-      ul.gallery.gallery-col2.spaced
-        li.has-animation.browser-chrome.browser-shadow
-          img(src='img/sa/sa_05.png', alt='SEO NAME')
-        li.has-animation.browser-chrome.browser-shadow(data-delay='200')
-          img(src='img/sa/sa_06.png', alt='SEO NAME')
+      .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              img.browser-shadow(src='img/sa/sa_05.png', alt='SEO NAME')
+       
+        .wolf-item.is-caption.is-caption--right(data-speed="-1")
+          .wolf-item-inner
+              p.figcaption A highly customized form and this slider were delivered as prototypes before development began. It gives the impression of movement in three dimensions and the client wanted to see it before taking it to production. Both prototypes can be viewed 
+                a(href='http://from.ky.la/XyT6') here
+                |  and the repository is 
+                a(href='https://github.com/itsMakeable/cognizant-prototype') here
+                | .
+        .wolf-item.is-caption.is-caption--right(data-speed="-1")
+          .wolf-item-inner
+            .figcaption
+              p The only plugins the site uses are jQuery, Velocity (physics-based animation engine), and waypoints (scroll events). Making the site fast and light.
+
+        .wolf-item
+          .wolf-item-inner
+            .wolf-media.portfolio-media.browser-chrome
+              img.browser-shadow(src='img/sa/sa_06.png', alt='SEO NAME')
+      //- ul.gallery.gallery-col2.spaced
+      //-   li.has-animation.browser-chrome
+      //-     .browser-shadow
+      //-       img(src='img/sa/sa_05.png', alt='SEO NAME')
+      //-   li.has-animation.browser-chrome
+      //-     .browser-shadow(data-delay='200')
+      //-       img(src='img/sa/sa_06.png', alt='SEO NAME')
       ul.gallery.spaced
         li.has-animation
           img(src='img/sa/sa_04.png', alt='SEO NAME')
-        li.has-animation.browser-chrome.browser-shadow
-          img(src='img/sa/sa_07.png', alt='SEO NAME')
+        li.has-animation.browser-chrome.is-large
+          .browser-shadow
+            img(src='img/sa/sa_07.png', alt='SEO NAME')
       //- ul.gallery.gallery-col2.spaced
       //-   li.has-animation
       //-     img(src='img/sa/sa_06.png', alt='SEO NAME')
@@ -53,12 +78,12 @@ block content
     .wrapper
       ul.single-pagination
         li.prev
-          a(href='portfolio-single-1.html')
+          a(href='creative-time.html')
             img(src='img/projects/ct.png', alt='prev')
             span Previous Project
         li.backtoworks
           a(href='index.html') Back To Works
         li.next
-          a(href='portfolio-single-3.html')
+          a(href='clear.html')
             img(src='img/projects/clear.jpg', alt='next')
             span Next Project
