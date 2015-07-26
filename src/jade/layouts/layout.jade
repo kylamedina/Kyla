@@ -16,6 +16,7 @@ html
     link#vendor-css(rel='stylesheet', href='./css/vendor.css', type='text/css', media='all')
     block head
   body
+    include symbols.svg
     //- PAGELOADER
     #page-loader
       .page-loader-inner
@@ -25,9 +26,11 @@ html
       .header-inner.clearfix
         #logo.left-float
           a#dark-logo.logotype(href='index.html')
-            img(src='svg/logo.svg' alt='Logo')
+            strong Kyla Medina
+            //- img(src='svg/logo.svg' alt='Logo')
           a#light-logo.logotype(href='index.html')
-            img(src='svg/logo.svg' alt='Logo')
+            //- img(src='svg/logo.svg' alt='Logo')
+            strong Kyla Medina
         #menu.right-float.clearfix
           a.open-nav(href='#')
             span.hamburger
