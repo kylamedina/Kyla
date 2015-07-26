@@ -618,7 +618,10 @@ header
     position relative
     z-index 10
     top -20px
+    upcase()
+    letter-spacing 2px
     #dark-logo
+      color black
       & + #light-logo
         position absolute
         top 0
@@ -631,6 +634,7 @@ header
       max-height 100%
     .logotype
       transition opacity 0.3s ease
+      font-family Headerfont
     &.show-light-logo
       #dark-logo
         opacity 0
@@ -638,6 +642,7 @@ header
         // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
         & + #light-logo
           opacity 1
+          color white
           // filter alpha(opacity=100)
           // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
   &.hero-invisible
@@ -2076,3 +2081,9 @@ div .column-section:first-child,
 .cv-list
   margin-bottom px(50)
   list-style square
+
+.logos
+  svg
+    display block
+    margin auto
+    max-width px(100)
