@@ -21,6 +21,8 @@
 	position relative
 	// height 100%
 	width 100%
+	img
+		width 100%
 	// video
 	// 	width auto
 	// 	max-width 101%
@@ -42,11 +44,13 @@
 	display block
 
 li.browser-chrome
-	padding px(20)
+	padding px(20) px(20) px(20) px(20)
+	&.is-large
+		padding px(40) px(20) px(20) px(20)
 	&:after
 		left px(20)
 		right px(20)
-		top 0
+		top px(-10px)
 		background-size auto px(6)
 	.browser-shadow
 		// padding-top px(0)
@@ -76,7 +80,7 @@ li.browser-chrome
 	&.is-large
 		&:after
 			background-size auto px(9)
-			top px(-40)
+			top px(0)
 			height px(40)
 
 .waypoint-parent
@@ -105,12 +109,15 @@ li.browser-chrome
 		border 1px solid #f0f0f0
 
 .mkbl-caption-1
-	background: url(../img/mkbl/mkbl_02.png) no-repeat
+	background: url('../img/mkbl/mkbl_02.png')
+	background-repeat no-repeat
 	background-size: auto 100%
 	background-position: 0% 0% 
 	height: 600px 
 	position: relative
 	// top px(-300)
+	+above(1600px)
+		height px(800)
 	.mkbl-caption__container
 		position absolute
 		max-width 40%
@@ -125,8 +132,10 @@ li.browser-chrome
 	background: url(../img/clear/clear_04.png) no-repeat
 	background-size: auto 100%
 	background-position: 0% 0% 
-	height: 700px 
+	height: px(700)
 	position: relative
+	+above(1600px)
+		height px(1000)
 	// top px(-300)
 	.clear-caption__container
 		position absolute

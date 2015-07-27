@@ -2083,7 +2083,12 @@ div .column-section:first-child,
   list-style square
 
 .logos
+  .one-fifth
+    position relative
   svg
     display block
+    @extend $absolute-cover
     margin auto
-    max-width px(100)
+    max-width px(120)
+    max-height px(80)
+    

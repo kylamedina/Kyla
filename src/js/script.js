@@ -393,36 +393,39 @@ jQuery(window).load(function() {
 		
 	});
 	if ($('.waypoint-parent').length != 0) {
-		var scrollTopWaypoint = $('.waypoint-parent').waypoint({
-		  handler: function(direction) {
-		  	if (direction == 'down') {
-		  		$(this.element)
-		  			.find('.waypoint-child')
-		  			.addClass('is-fixed');
-		  	} else {
-		  		$(this.element)
-		  			.find('.waypoint-child')
-		  			.removeClass('is-fixed');
-		  	}
-		  },
-		  offset: '60px'
-		})
-		var scrollBottomWaypoint = $('.waypoint-parent').waypoint({
-		  handler: function(direction) {
-		  	if (direction == 'down') {
-		  		$(this.element)
-		  			.find('.waypoint-child')
-		  			.removeClass('is-fixed')
-		  			.addClass('is-bottom');
-		  	} else {
-		  		$(this.element)
-		  			.find('.waypoint-child')
-		  			.removeClass('is-bottom')
-		  			.addClass('is-fixed');
-		  	}
-		  },
-		  offset:'bottom-in-view'
-		})
+		$( '.waypoint-parent' ).each(function( index ) {
+		  var scrollTopWaypoint = $(this).waypoint({
+		  		  handler: function(direction) {
+		  		  	if (direction == 'down') {
+		  		  		$(this.element)
+		  		  			.find('.waypoint-child')
+		  		  			.addClass('is-fixed');
+		  		  	} else {
+		  		  		$(this.element)
+		  		  			.find('.waypoint-child')
+		  		  			.removeClass('is-fixed');
+		  		  	}
+		  		  },
+		  		  offset: '60px'
+		  		})
+	  		var scrollBottomWaypoint = $(this).waypoint({
+	  		  handler: function(direction) {
+	  		  	if (direction == 'down') {
+	  		  		$(this.element)
+	  		  			.find('.waypoint-child')
+	  		  			.removeClass('is-fixed')
+	  		  			.addClass('is-bottom');
+	  		  	} else {
+	  		  		$(this.element)
+	  		  			.find('.waypoint-child')
+	  		  			.removeClass('is-bottom')
+	  		  			.addClass('is-fixed');
+	  		  	}
+	  		  },
+	  		  offset:'bottom-in-view'
+	  		})
+		});
+		
 	}
 
 	
