@@ -73,8 +73,6 @@ function smoothShow() {
 
 jQuery(window).load(function() {		
 	
-
-	
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -392,40 +390,45 @@ jQuery(window).load(function() {
 		return false;
 		
 	});
+	
 	if ($('.waypoint-parent').length != 0) {
 		$( '.waypoint-parent' ).each(function( index ) {
-		  var scrollTopWaypoint = $(this).waypoint({
-		  		  handler: function(direction) {
-		  		  	if (direction == 'down') {
-		  		  		$(this.element)
-		  		  			.find('.waypoint-child')
-		  		  			.addClass('is-fixed');
-		  		  	} else {
-		  		  		$(this.element)
-		  		  			.find('.waypoint-child')
-		  		  			.removeClass('is-fixed');
-		  		  	}
-		  		  },
-		  		  offset: '60px'
-		  		})
-	  		var scrollBottomWaypoint = $(this).waypoint({
-	  		  handler: function(direction) {
-	  		  	if (direction == 'down') {
-	  		  		$(this.element)
-	  		  			.find('.waypoint-child')
-	  		  			.removeClass('is-fixed')
-	  		  			.addClass('is-bottom');
-	  		  	} else {
-	  		  		$(this.element)
-	  		  			.find('.waypoint-child')
-	  		  			.removeClass('is-bottom')
-	  		  			.addClass('is-fixed');
-	  		  	}
-	  		  },
-	  		  offset:'bottom-in-view'
-	  		})
+		  
+		  var topWaypoint = $(this).waypoint({
+		  	handler: function(direction) {
+		  		if (direction == 'down') {
+		  			console.log('a')
+		  			$(this.element)
+		  				.find('.waypoint-child')
+		  				.addClass('is-fixed');
+		  		} else {
+		  			console.log('b')
+		  			$(this.element)
+		  				.find('.waypoint-child')
+		  				.removeClass('is-fixed');
+		  		}
+		  	},
+		  	offset: '60px'
+		  });
+		  var bottomWaypoint = $(this).find('.waypoint-bottom').waypoint({
+		    handler: function(direction) {
+		    	if (direction == 'down') {
+		    		$(this.element)
+		    			.closest('.waypoint-parent')
+		    			.find('.waypoint-child')
+		    			.removeClass('is-fixed')
+		    			.addClass('is-bottom');
+		    	} else {
+		    		$(this.element)
+			    		.closest('.waypoint-parent')
+		    			.find('.waypoint-child')
+		    			.removeClass('is-bottom')
+		    			.addClass('is-fixed');
+		    	}
+		    },
+		    offset: $(this).closest('.waypoint-parent').find('.waypoint-child').height()
+		  });
 		});
-		
 	}
 
 	
