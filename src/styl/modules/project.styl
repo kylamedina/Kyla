@@ -85,6 +85,9 @@ li.browser-chrome
 
 .waypoint-parent
 	position relative
+	+above(1024px)
+		.browser-chrome
+			width 50%
 	.waypoint-child
 		position absolute
 		left 50%
@@ -98,6 +101,11 @@ li.browser-chrome
 		&.is-bottom
 			top auto
 			bottom 0
+		+below(1024px)
+			float none !important
+			position static !important
+			width 100%
+			margin-top 50px
 		
 .hero--artnet
 	.hero-overlay
@@ -130,22 +138,74 @@ li.browser-chrome
 		bottom 0
 		p
 			vertically-align()
+	+above(1600px)
+		.mkbl-caption__container
+			width 20%
+	+below(1200px)
+		.mkbl-caption__container
+			width 25%
+			left 70%
+	+below(768px)
+		display none
+		
 .clear-caption-1
 	background: url(../img/clear/clear_04.png) no-repeat
-	background-size: auto 100%
-	background-position: 0% 0% 
+	background-size: 100% auto
+	background-position: 50% 0% 
 	height: px(700)
 	position: relative
+	+below(1000px)
+		background: url(../img/clear/clear_06.png) no-repeat
+		background-size: 100% auto
+		.wrapper-mini
+			position relative
+			top 80%
+	
+	+below(600px)
+		.wrapper-mini
+			top 50%
+	+below(400px)
+		.wrapper-mini
+			top 45%
 	+above(1600px)
 		height px(1000)
 	// top px(-300)
 	.clear-caption__container
 		position absolute
-		max-width 40%
-		left 50%
-		width 100%
+		width 40%
+		left 40%
 		height 100%
 		top 0
 		bottom 0
 		p
 			vertically-align()
+	+above(1600px)
+		.clear-caption__container	
+			width 20%
+	+below(1200px)
+		.clear-caption__container
+			top 40%
+			left 10%
+	+below(900px)
+		.clear-caption__container
+			top 30%
+			left 10%
+			width 60%
+	+below(600px)
+		.clear-caption__container
+			top 15%
+			position relative
+			width 80%
+
++below(1024px)
+	.wolf-caption
+		padding 10px
+		background-color white
+
+.mkbl-body
+	+below(1024px)
+		.figcaption.special
+			position relative
+			top -200px
+			min-height 300px
+		

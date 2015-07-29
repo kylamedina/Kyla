@@ -1015,12 +1015,18 @@ footer .widget:first-child, div .widget:first-child
   z-index 0
   &.is-darker
     background-color rgba(#000,0.3)
+
 .hero-video
-  @extend $absolute-cover
+  // @extend $absolute-cover
+  height inherit
   z-index 0
+  video
+    object-fit cover
 #hero
   position relative
   overflow hidden
+  video
+    object-fit cover
   .hero-slider
     position relative
     .slider-item
@@ -2048,6 +2054,9 @@ div .column-section:first-child,
     font-family Secondaryfont
     font-weight 400
     letter-spacing px(2)
+    +below(420px)
+      fs(1.2rem)
+      padding px(5) px(20)
     a
       color black
 
@@ -2057,11 +2066,13 @@ div .column-section:first-child,
   max-width 420px
   p
     fs(1.6rem)
-// .wolf-item.is-caption:nth-child(even)
-//   .wolf-item-inner
 
 .is-caption--left
   text-align left
+  .wolf-item-inner
+    .figcaption
+      position absolute
+      left 0
   
 .is-caption--right
   .wolf-item-inner
@@ -2077,6 +2088,7 @@ div .column-section:first-child,
   li
     display inline-block
     padding 0 px(20)
+
 
 .cv-list
   margin-bottom px(50)
