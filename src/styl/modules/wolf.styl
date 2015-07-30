@@ -41,11 +41,13 @@
 		
 	.portfolio-media
 		a.wolf-media-link
-			img
+			> img
 				transition all 0.5s ease 0.05s
 				opacity 1
-	.portfolio-media a.wolf-media-link:hover img, 
-	.portfolio-media.hovered a.wolf-media-link img
+	.portfolio-media a.wolf-media-link:hover > img, 
+	.portfolio-media.hovered a.wolf-media-link > img,
+	.portfolio-media a.wolf-media-link:hover > div, 
+	.portfolio-media.hovered a.wolf-media-link > div
 		transform scale(1.05)
 		opacity 0.5
 
