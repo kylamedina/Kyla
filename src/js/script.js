@@ -267,7 +267,10 @@ jQuery(window).load(function() {
 			forceHeight: true,
 			video: {
 				width : 780,
-				height : 420
+				height : 420,
+				controls: false,
+				preload: true,
+				loop: true
 				}
 		});
 	}

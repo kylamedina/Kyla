@@ -2,6 +2,7 @@ extends layouts/layout
 
 block content
   section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant.jpg')
+    .hero-overlay
     .page-title
       h5.alttitle Development and Mobile Design
       h1
@@ -50,7 +51,7 @@ block content
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
-              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+              a.img-hover.browser-shadow(href='cognizant5.mp4', data-rel='lightcase:cognizant')
                 .loader
                 video(autoplay preload="auto" loop)
                   //- source(src='cognizant.ogg', type='video/ogg')
@@ -89,7 +90,7 @@ block content
         .wolf-item
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
-              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+              a.img-hover.browser-shadow(href='cognizant4.mp4', data-rel='lightcase:cognizant')
                video(autoplay preload="auto" loop)
                  //- source(src='cognizant.ogg', type='video/ogg')
                  source(src='cognizant4.mp4', type='video/mp4')
@@ -101,21 +102,22 @@ block content
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
               .browser-shadow
-                p.codepen(data-height='268', data-theme-id='0', data-slug-hash='hyeDg', data-default-tab='result', data-user='julianshapiro')
-                 | See the Pen 
-                 a(href='http://codepen.io/julianshapiro/pen/hyeDg/') Velocity.js - Easing: Spring Physics (Tester)
-                 |  by Julian Shapiro (
-                 a(href='http://codepen.io/julianshapiro') @julianshapiro
-                 | ) on 
-                 a(href='http://codepen.io') CodePen
-                 | .
+                p.codepen(data-height='300', data-theme-id='17402', data-slug-hash='LVXgOX', data-default-tab='result', data-user='kylamedina')
+                  | See the Pen 
+                  a(href='http://codepen.io/kylamedina/pen/LVXgOX/') Velocity.js - Easing: Spring Physics (Tester)
+                  |  by Kyla Medina (
+                  a(href='http://codepen.io/kylamedina') @kylamedina
+                  | ) on 
+                  a(href='http://codepen.io') CodePen
+                  | .
                 script(async='', src='//assets.codepen.io/assets/embed/ei.js')
-            .figcaption: p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
+
+            .figcaption(style='margin-top:20px;'): p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
             
         .wolf-item(style='margin-bottom:0')
           .wolf-item-inner
             .wolf-media.portfolio-media.browser-chrome
-              a.img-hover.browser-shadow(href='img/1100x600-light.jpg', data-rel='lightcase:cognizant')
+              a.img-hover.browser-shadow(href='cognizant8.mp4', data-rel='lightcase:cognizant')
                 video(autoplay preload="auto" loop)
                   //- source(src='cognizant.ogg', type='video/ogg')
                   source(src='cognizant8.mp4', type='video/mp4')
