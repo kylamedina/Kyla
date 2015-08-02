@@ -468,6 +468,9 @@ jQuery(window).load(function() {
 	
 	
 	stickyfooter();	
+	$.stellar({
+		hideDistantElements: false
+	})
 		
 });
 

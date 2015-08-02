@@ -312,7 +312,7 @@ ul
       display inline-block
       a
         position relative
-        font-family Tertiaryfont
+        font-family Secondaryfont
         font-weight 400
         font-size 13px
         text-transform none
@@ -614,12 +614,13 @@ header
       display none
   #logo
     max-width 100%
-    height 60px
+    height 40px
     position relative
     z-index 10
-    top -20px
+    line-height 1.2
+    padding 6px 10px
     upcase()
-    letter-spacing 2px
+    letter-spacing 3px
     #dark-logo
       color black
       & + #light-logo
@@ -926,20 +927,25 @@ nav#main-nav
             top 30px
             transition all 400ms ease
 
-nav#main-nav > ul > li:hover > a, nav#main-nav > ul > li.current-menu-item > a
+nav#main-nav > ul > li:hover > a, 
+nav#main-nav > ul > li.current-menu-item > a
   color primary !important
 
-nav#main-nav ul li > ul.submenu > li a em, nav#main-nav ul li > ul.submenu > li a i
+nav#main-nav ul li > ul.submenu > li a em, 
+nav#main-nav ul li > ul.submenu > li a i
   font-size 0.9em
   text-transform none
   letter-spacing 0.05em
 
-nav#main-nav ul li > ul.submenu > li a:hover, nav#main-nav ul li > ul.submenu > li.current-menu-item > a
+nav#main-nav ul li > ul.submenu > li a:hover, 
+nav#main-nav ul li > ul.submenu > li.current-menu-item > a
   opacity 1
   // filter alpha(opacity=100)
   // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=7-100)"
 
-header:not(.hero-invisible) .menu-light .open-nav .hamburger, header:not(.hero-invisible) .menu-light .open-nav .hamburger:before, header:not(.hero-invisible) .menu-light .open-nav .hamburger:after
+header:not(.hero-invisible) .menu-light .open-nav .hamburger, 
+header:not(.hero-invisible) .menu-light .open-nav .hamburger:before, 
+header:not(.hero-invisible) .menu-light .open-nav .hamburger:after
   background-color #ffffff
 
 .menu-light
@@ -2056,7 +2062,7 @@ div .column-section:first-child,
     upcase()
     font-family Secondaryfont
     font-weight 400
-    letter-spacing px(3)
+    letter-spacing px(4)
     +below(420px)
       fs(1.2rem)
       padding px(5) px(20)
@@ -2111,9 +2117,31 @@ div .column-section:first-child,
 
 .profile-pic
   position absolute
-  width 500px
+  width 700px
   height auto
-  right 12%
-  top 2%
+  right 8%
+  top 1%
   z-index -1
-  opacity 0.5
+  opacity 0.9
+
+.triangle
+  width: 0; 
+  height: 0; 
+  border-style: solid;
+  border-width: 0 67.5px 100px 67.5px
+  border-color: transparent transparent #f0f0f0 transparent;
+  position absolute
+  z-index -1
+  &.scale1_2
+    tranform scale(1.2)
+  &.scale1_4
+    tranform scale(1.4)
+  &.scale1_6
+    tranform scale(1.6)
+  &.scale0_8
+    tranform scale(0.8)
+  &.scale0_6
+    tranform scale(0.6)
+  &.scale0_4
+    tranform scale(0.4)
+  
