@@ -12,7 +12,7 @@ gulp.task 'img', ->
     'src/img/**/*.jpg'
     'src/img/**/*.png'
     '!src/img/artnet/*'
-    '!src/img/akc/*'
+    # '!src/img/akc/*'
     '!src/img/cognizant/*'
     '!src/img/esquire/*'
     # '!src/img/projects/*'
