@@ -1,8 +1,9 @@
 extends layouts/layout
 
 block content
-  include includes/triangles.jade
+  //- include includes/triangles.jade
   include includes/header-dark.jade
+  a.open-filter(href='', data-related-grid='portfolio-grid') Filter
   #page-content.page-home
     section#hero.hero-auto
       .page-title.hleft
@@ -52,7 +53,7 @@ block content
                 a.wolf-media-link(href='weather-channel.html')
                   div(style='background:url("img/twc/rain.gif");background-size:cover;background-position: 50% 100%;display:inline-block;')
                    img(src='img/projects/twc.png', alt='Weather Channel App Header Image')
-              .wolf-caption.cbottom.portfolio-caption(style='margin-top:20%;margin-left:20%')
+              .wolf-caption.cbottom.portfolio-caption(style='margin-top:90%;margin-right:-50%')
                 a.wolf-caption-link(href='weather-channel.html')
                   h6.alttitle.portfolio-category Prototyping
                   h4.portfolio-name

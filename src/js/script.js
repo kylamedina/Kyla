@@ -455,12 +455,10 @@ jQuery(window).load(function() {
 		  var topWaypoint = $(this).waypoint({
 		  	handler: function(direction) {
 		  		if (direction == 'down') {
-		  			console.log('a')
 		  			$(this.element)
 		  				.find('.waypoint-child')
 		  				.addClass('is-fixed');
 		  		} else {
-		  			console.log('b')
 		  			$(this.element)
 		  				.find('.waypoint-child')
 		  				.removeClass('is-fixed');

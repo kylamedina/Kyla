@@ -23,15 +23,21 @@
 	width 100%
 	img
 		width 100%
-
-.loader
-	opacity 0.05
-	@extend $absolute-cover
-	background url('../loader.gif') no-repeat
-	background-size 40px 40px
-	background-position 50% 50%
-	min-height 50px
-	min-width 50px
+.brower-chrome
+	img,
+	video
+		position relative
+		z-index 1
+	.loader
+		opacity 0.05
+		@extend $absolute-cover
+		background url('../loader.gif') no-repeat
+		background-size 40px 40px
+		background-position 50% 50%
+		min-height 50px
+		min-width 50px
+	    z-index -1
+	
 
 .wolf-item-inner,
 .wolf-item-inner .img-hover

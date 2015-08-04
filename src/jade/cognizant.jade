@@ -88,18 +88,20 @@ block content
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
+                .loader
                 img.browser-shadow(data-aload="img/cognizant/cog_02.png", alt="")
 
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
                 a.img-hover.browser-shadow(href='cognizant4.mp4', data-rel='lightcase:cognizant')
-                 video(data-aload="cognizant4.mp4" autoplay preload="auto" loop)
-                   //- source(src='cognizant.ogg', type='video/ogg')
-                   //- source(src='cognizant4.mp4', type='video/mp4')
-                   p Your browser does not support the 
-                     code video
-                     |  element.
+                  .loader
+                  video(data-aload="cognizant4.mp4" autoplay preload="auto" loop)
+                    //- source(src='cognizant.ogg', type='video/ogg')
+                    //- source(src='cognizant4.mp4', type='video/mp4')
+                    p Your browser does not support the 
+                      code video
+                      |  element.
 
           .wolf-item
             .wolf-item-inner
@@ -115,12 +117,13 @@ block content
                     | .
                   script(async='', src='//assets.codepen.io/assets/embed/ei.js')
 
-              .figcaption(style='margin-top:20px;'): p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
+              .figcaption(style='margin-top:100px;'): p  I really wanted the site to feel as natural as possible. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed.
               
           .wolf-item(style='margin-bottom:0')
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
                 a.img-hover.browser-shadow(href='cognizant8.mp4', data-rel='lightcase:cognizant')
+                  .loader
                   video(data-aload="cognizant8.mp4" autoplay preload="auto" loop)
                     //- source(src='cognizant.ogg', type='video/ogg')
                     //- source(src='cognizant8.mp4', type='video/mp4')
