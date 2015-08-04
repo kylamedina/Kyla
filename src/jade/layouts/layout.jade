@@ -6,7 +6,10 @@ html
     meta(name='viewport', content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0')
     meta(http-equiv='Content-Type', content='text/html; charset=UTF-8')
     title Kyla Medina
-
+    script.
+      function aload(t){"use strict";t=t||window.document.querySelectorAll("[data-aload]"),void 0===t.length&&(t=[t]);var a,e=0,r=t.length;for(e;r>e;e+=1)a=t[e],a["LINK"!==a.tagName?"src":"href"]=a.getAttribute("data-aload"),a.removeAttribute("data-aload");return t}
+    style.
+      [data-aload] { background-image: none !important; }
     link(href='http://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Maven+Pro:400,700,900', rel='stylesheet', type='text/css')
     link(href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900', rel='stylesheet', type='text/css')
@@ -22,105 +25,27 @@ html
     #page-loader
       .page-loader-inner
         .loader
-          //- strong Loading
-    .triangle(data-stellar-ratio="1.8" style='top:10%;right:10%;display:block;')
-    .triangle.scale0_6(data-stellar-ratio="1.3" style='top:50%;right:60%;display:block;')
-    .triangle.scale1_2(data-stellar-ratio="1.3" style='top:100%;right:40%;display:block;')
-    .triangle.scale0_4(data-stellar-ratio="1.8" style='top:30%;left:40%;display:block;')
-    .triangle.scale1_4(data-stellar-ratio="1.5" style='top:40%;left:20%;display:block;')
-    .triangle.scale1_2(data-stellar-ratio="1.3" style='top:60%;right:10%;display:block;')
-    .triangle.scale1_6(data-stellar-ratio="1.8" style='top:80%;left:12%;display:block;')
-    .triangle.scale0_6(data-stellar-ratio="1.5" style='top:30%;right:15%;display:block;')
-    .triangle.scale0_8(data-stellar-ratio="1.1" style='top:90%;left:11%;display:block;')
-    .triangle.scale1_2(data-stellar-ratio="1.2" style='top:75%;right:5%;display:block;')
-    .triangle.scale0_2(data-stellar-ratio="1.7" style='top:72%;left:5%;display:block;')
-    .triangle(data-stellar-ratio="1.4" style='top:50%;left:5%;display:block;')
-    header#header
-      .header-inner.clearfix
-        #logo.left-float
-          a#dark-logo.logotype(href='index.html')
-            //- strong Kyla Medina
-            //- img(src='svg/logo.svg' alt='Logo')
-          a#light-logo.logotype(href='index.html')
-            //- img(src='svg/logo.svg' alt='Logo')
-            //- strong Kyla Medina
-        #menu.right-float.clearfix
-          a.open-nav(href='#')
-            span.hamburger
-            span.text Menu
-          nav#main-nav
-            ul
-              li.current-menu-item
-                a(href='index.html') Home
-              li
-                a(href='index.html') Projects
-                ul.submenu
-                  li.current-menu-item
-                    a(href='artnet.html')
-                      | Artnet Worldwide
-                  li
-                    a(href='akc.html')
-                      | AKC
-                  li
-                    a(href='weather-channel.html')
-                      | Weather Channel
-                  li
-                    a(href='cognizant.html')
-                      | Cognizant
-                  li
-                    a(href='esquire.html')
-                      | Esquire
-                  li
-                    a(href='mkbl.html')
-                      | Makeable
-                  li
-                    a(href='hard-workers-club.html')
-                      | Hard Workers 
-                      em Club
-                  li
-                    a(href='creative-time.html')
-                      | Creative Time
-                  li
-                    a(href='success-academy.html')
-                      | Success Academy
-                  li
-                    a(href='clear.html')
-                      | Clear
-              li
-                a(href='about.html') About
-              //- li
-              //-   a(href='blog.html') Blog
-          a.open-filter(href='', data-related-grid='portfolio-grid') Filter
-        #header-filter
-          .filter-inner.align-center
-            a.close-filter(href='') Close
-            h5.title-filter
-              strong Filter
-            ul#portfolio-filter.filter.wolf-filter.clearfix(data-related-grid='portfolio-grid')
-              li
-                a.active(href='#', data-filter-value='*') All
-              li
-                a(data-filter-value='.design', href='#', title='Branding') Design
-              li
-                a(data-filter-value='.frontend', href='#', title='Print') Development
-              li
-                a(data-filter-value='.photo', href='#', title='Print') Photography
-    #page-content
-      block content
+          strong Loading
+    
+    block content
 
-      ul.social-list
-        li
-          a(href="http://love.ky.la/" target='_blank') Dropmark
-        li
-          a(href="https://github.com/kylamedina" target='_blank') Github
-        li
-          a(href="https://twitter.com/kylamedina" target='_blank') Twitter
-        li
-          a(href="http://hardworkers.club/" target='_blank') Tumblr
-        //- li
-        //-   a(href="http://kylamedina.vsco.co/grid/1" target='_blank') VSCO
-        li
-          a(href="mailto:hi@ky.la" target='_blank') Email
+    ul.social-list
+      li
+        a(href="http://love.ky.la/" target='_blank') Dropmark
+      li
+        a(href="https://github.com/kylamedina" target='_blank') Github
+      li
+        a(href="https://twitter.com/kylamedina" target='_blank') Twitter
+      li
+        a(href="http://hardworkers.club/" target='_blank') Tumblr
+      //- li
+      //-   a(href="http://kylamedina.vsco.co/grid/1" target='_blank') VSCO
+      li
+        a(href="mailto:hi@ky.la" target='_blank') Email
 
     script(type='text/javascript', src='./js/vendor.js')
+    script.
+      window.onload = function () {
+        aload();
+      };
     block footer

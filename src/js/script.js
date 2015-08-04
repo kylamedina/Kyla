@@ -5,7 +5,62 @@
 -----------------------------------------------------------------------------------*/
 (function(){
 'use strict';
-
+var allimgs = [
+    'img/profile2.jpg',
+    'img/akc/akc_01_small.png',
+    'img/akc/akc_04.png',
+    'img/akc/akc_05.png',
+    'img/akc/akc_02.png',
+    'img/akc/akc_09.png',
+    'img/akc/akc_06.png',
+    'img/akc/akc_07.jpg',
+    'img/artnet/artnet_01.png',
+    'img/artnet/artnet_02.png',
+    'img/artnet/artnet_03.png',
+    'img/clear/clear_05.png',
+    'img/clear/clear_04.png',
+    'img/clear/clear_06.png',
+    'img/cognizant/cog_01.png',
+    'img/ct/ct_06.jpg',
+    'img/ct/ct_07.jpg',
+    'img/ct/ct_08.jpg',
+    'img/ct/ct_09.jpg',
+    'img/ct/ct_03.png',
+    'img/ct/ct_03.png',
+    'img/esquire/esquire_01.png',
+    'img/esquire/esquire_02.png',
+    'img/esquire/esquire_03.png',
+    'img/hwc/hwc_03.jpg',
+    'img/hwc/hwc_04.jpg',
+    'img/hwc/hwc_05.jpg',
+    'img/hwc/hwc_06.jpg',
+    'img/hwc/hwc_07.jpg',
+    'img/hwc/hwc_08.jpg',
+    'img/mkbl/mkbl_01.png',
+    'img/mkbl/mkbl_02.png',
+    'img/mkbl/mkbl_03.png',
+    'img/mkbl/mkbl_04.png',
+    'img/mkbl/mkbl_05.png',
+    'img/mkbl/mkbl_06.png',
+    'img/mkbl/mkbl_07.png',
+    'img/mkbl/mkbl_10.png',
+    'img/mkbl/mkbl_12.png',
+    'img/sa/sa_01.png',
+    'img/sa/sa_04.png',
+    'img/sa/sa_05.png',
+    'img/sa/sa_06.png',
+    'img/sa/sa_07.png',
+    'img/twc/rain.gif',
+    'img/twc/hurricane.gif',
+    'img/twc/twc_01.png',
+    'img/twc/twc_02.png',
+]
+function preCache(){
+    $.each(allimgs, function(){
+        var img = new Image();
+        img.src = this;
+    });
+};
 // REORGANIZE ISOTOPE FUNCTION
 function reorganizeIsotope() {
 	jQuery('.masonry').each(function(){
@@ -70,8 +125,8 @@ function smoothShow() {
 		
 }
 
-
 jQuery(window).load(function() {		
+	preCache();
 	
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W

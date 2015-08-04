@@ -1,66 +1,67 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-big.parallax-section.text-light
-    //- (data-parallax-image='img/projects/twc.jpg')
+  include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-twc
+    section#hero.hero-big.parallax-section.text-light
+      //- (data-parallax-image='img/projects/twc.jpg')
 
-    //- .hero-video
-    video.hero-video(autoplay preload="auto" loop)
-      //- source(src='cognizant.ogg', type='video/ogg')
-      source(src='twc1.mp4', type='video/mp4')
-      p Your browser does not support the 
-        code video
-        |  element.
-    .hero-overlay.is-darker
-    .page-title
-      h5.alttitle Prototyping
-      h1 The Weather Channel
-    a#scroll-down(href='#') Scroll Down
+      //- .hero-video
+      video.hero-video(autoplay preload="auto" loop)
+        //- source(src='cognizant.ogg', type='video/ogg')
+        source(src='twc1.mp4', type='video/mp4')
+        p Your browser does not support the 
+          code video
+          |  element.
+      .hero-overlay.is-darker
+      .page-title
+        h5.alttitle Prototyping
+        h1 The Weather Channel
+      a#scroll-down(href='#') Scroll Down
 
-  section#page-body
-    .wrapper-medium
-      .wolf-grid.clearfix(data-mouseparallax='false' style='margin-bottom:0;')
-        .wolf-item.wfull
-          .wolf-item-inner
-            .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-              img(src='img/twc/twc_01.png', alt='SEO NAME')
-    .wrapper-small
-      h4.align-center
-        strong Prototype
-      h6.alttitle.align-center for the most popular and downloaded weather app of all time.
-      .column-section.clearfix
-          p
-            | The Weather Channel asked Makeable to redesign their flagship app. During the process, I prototyped a concept to present to Apple. It that featured animated backgrounds that changed according to the weather and a card system that makes it highly customizable. The flagship feature of the concept is WeatherLens, which crowdsourced information about the&nbsp;weather.
-    .wrapper.xtra-wide
-      .spacer.spacer-big
-      .wolf-grid.clearfix(data-mouseparallax='false')
-        .wolf-item
-          .wolf-item-inner
-            p When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and&nbsp;Twitter.
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-                img(src='img/twc/twc_02.png', alt='SEO NAME')
-      //- ul.gallery.gallery-col1
-      //-   li.has-animation(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-      //-     img(src="img/twc/twc_02.png", alt="")
-      //-   li.has-animation
-      //-     .figcaption: p  When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
+    section#page-body
+      .wrapper-medium
+        .wolf-grid.clearfix(data-mouseparallax='false' style='margin-bottom:0;')
+          .wolf-item.wfull
+            .wolf-item-inner
+              .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+                img(data-aload='img/twc/twc_01.png', alt='Weather Channel App Screens')
+      .wrapper-small
+        h4.align-center
+          strong Prototype
+        h6.alttitle.align-center for the most popular and downloaded weather app of all time.
+        .column-section.clearfix
+            p
+              | The Weather Channel asked Makeable to redesign their flagship app. During the process, I prototyped a concept to present to Apple. It that featured animated backgrounds that changed according to the weather and a card system that makes it highly customizable. The flagship feature of the concept is WeatherLens, which crowdsourced information about the&nbsp;weather.
+      .wrapper.xtra-wide
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='false')
+          .wolf-item
+            .wolf-item-inner
+              p When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and&nbsp;Twitter.
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+                  img(data-aload='img/twc/twc_02.png', alt='Weather Channel Severe Weather Screen')
+        //- ul.gallery.gallery-col1
+        //-   li.has-animation(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+        //-     img(src="img/twc/twc_02.png", alt="")
+        //-   li.has-animation
+        //-     .figcaption: p  When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
 
-    
-
-    .wrapper
-      ul.single-pagination
-        li.prev
-          a(href='akc.html')
-            img(src='img/projects/akc.jpg', alt='prev')
-            span Previous Project
-        li.backtoworks
-          a(href='index.html') Back To Works
-        li.next
-          a(href='cognizant.html')
-            img(src='img/projects/cognizant.jpg', alt='next')
-            span Next Project
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='akc.html')
+              img(data-aload='img/projects/akc.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='index.html') Back To Works
+          li.next
+            a(href='cognizant.html')
+              img(data-aload='img/projects/cognizant.jpg', alt='next')
+              span Next Project
 
 
 

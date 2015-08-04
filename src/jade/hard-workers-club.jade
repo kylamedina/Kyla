@@ -1,99 +1,102 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/hwc/hwc_02.jpg')
-    .page-title
-      h5.alttitle Design, Development, and Photography
-      h1
-        strong Hard Workers Club
-    a#scroll-down(href='#') Scroll Down
-  section#page-body
-    //- .wrapper
-    //-   .wolf-grid.clearfix(data-randomhorizontaloffset='false')
-    //-     .wolf-item.wfull
-    //-       .wolf-item-inner
-    //-         .wolf-media.portfolio-media.browser-chrome
-    //-           img.browser-shadow(src='img/hwc/hwc_01.png', alt='SEO NAME')
-    .wrapper.xtra-wide
-      
-      ul.gallery.gallery-col1
-        li.has-animation.browser-chrome
-          img.browser-shadow(src="img/hwc/hwc_01.png", alt="")
-    .wrapper-mini
-      .spacer.spacer-big
-      h6
-        strong Details
-      p
-        | Hard Workers Club is my photography website that I designed and developed on Tumblr. Below is my photo CV, I'm pretty big in Europe.
-      h6
-        strong Exhibitions
-      ul.cv-list
-        li New Landscapes, Drewelowe Gallery, Iowa City, IA, 2011
-        li 
-          a(href='http://www.occca.org/2011-10.html') You First
-          | , Orange County Center for Contemporary Art, Santa Ana, 2011
-        li 
-          a(href='http://www.foto8.com/live/foto8-summershow-2011/') Foto8 Summershow 2011
-          | , London, England
-      h6
-        strong Press
-      ul.cv-list
-        li 
-          a(href='http://jenbekmanprojects.tumblr.com/post/5842794474/untitled-2011-by-kyla-medina-hhs-contender') 20x200 
-          | , HHS! Contender: Kyla Medina, 2011
-        li 
-          a(href='http://readcereal.com/forest-gallery-selects/') Cereal Magazine
-          | , Forest, Vol. 4, 2013
-        li 
-          a(href='http://issuu.com/hesa_inprint/docs/hesa_inprint_06') HESA Magazine
-          | , Transportation, Issue 6, 2011
-        li 
-          a(href='http://www.amazon.com/Unreality-UFORA-Nerealnost-UFORY-Contemporary/dp/1500473472/ref=sr_1_1?ie=UTF8&qid=1430236267&sr=8-1&keywords=the+unreality+of+UFORA') The Unreality of UFORA / Nerealnost' UFORY: Notes on Contemporary Art
-          | , Rob Mintz, Dalibor Polivka, 2013
-      h6
-        strong Collections
-      ul.cv-list
-        li 
-          a(href='http://www.cranekalmanbrighton.com/exhibitions/2011_foto8/image_10.html') Crane Kalman Gallery
-          | , Brighton, England
-    div.wrapper-xtrawide
-      .spacer.spacer-big
-      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_03.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_04.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_05.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_06.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_07.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              img(src='img/hwc/hwc_08.jpg', alt='SEO NAME')
-     
+  include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-hwc
+    section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/hwc/hwc_02.jpg')
+      .page-title
+        h5.alttitle Design, Development, and Photography
+        h1
+          strong Hard Workers Club
+      a#scroll-down(href='#') Scroll Down
+    section#page-body
+      //- .wrapper
+      //-   .wolf-grid.clearfix(data-randomhorizontaloffset='false')
+      //-     .wolf-item.wfull
+      //-       .wolf-item-inner
+      //-         .wolf-media.portfolio-media.browser-chrome
+      //-           img.browser-shadow(src='img/hwc/hwc_01.png', alt='SEO NAME')
+      .wrapper.xtra-wide
+        
+        ul.gallery.gallery-col1
+          li.has-animation.browser-chrome
+            img.browser-shadow(data-aload="img/hwc/hwc_01.png", alt="")
+      .wrapper-mini
+        .spacer.spacer-big
+        h6
+          strong Details
+        p
+          | Hard Workers Club is my photography website that I designed and developed on Tumblr. Below is my photo CV, I'm pretty big in Europe.
+        h6
+          strong Exhibitions
+        ul.cv-list
+          li New Landscapes, Drewelowe Gallery, Iowa City, IA, 2011
+          li 
+            a(href='http://www.occca.org/2011-10.html') You First
+            | , Orange County Center for Contemporary Art, Santa Ana, 2011
+          li 
+            a(href='http://www.foto8.com/live/foto8-summershow-2011/') Foto8 Summershow 2011
+            | , London, England
+        h6
+          strong Press
+        ul.cv-list
+          li 
+            a(href='http://jenbekmanprojects.tumblr.com/post/5842794474/untitled-2011-by-kyla-medina-hhs-contender') 20x200 
+            | , HHS! Contender: Kyla Medina, 2011
+          li 
+            a(href='http://readcereal.com/forest-gallery-selects/') Cereal Magazine
+            | , Forest, Vol. 4, 2013
+          li 
+            a(href='http://issuu.com/hesa_inprint/docs/hesa_inprint_06') HESA Magazine
+            | , Transportation, Issue 6, 2011
+          li 
+            a(href='http://www.amazon.com/Unreality-UFORA-Nerealnost-UFORY-Contemporary/dp/1500473472/ref=sr_1_1?ie=UTF8&qid=1430236267&sr=8-1&keywords=the+unreality+of+UFORA') The Unreality of UFORA / Nerealnost' UFORY: Notes on Contemporary Art
+            | , Rob Mintz, Dalibor Polivka, 2013
+        h6
+          strong Collections
+        ul.cv-list
+          li 
+            a(href='http://www.cranekalmanbrighton.com/exhibitions/2011_foto8/image_10.html') Crane Kalman Gallery
+            | , Brighton, England
+      div.wrapper-xtrawide
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_03.jpg', alt='Photography Work')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_04.jpg', alt='Photography Work')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_05.jpg', alt='Photography Work')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_06.jpg', alt='Photography Work')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_07.jpg', alt='Photography Work')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img(data-aload='img/hwc/hwc_08.jpg', alt='Photography Work')
+       
 
-    .wrapper
-      ul.single-pagination
-        li.prev
-          a(href='mkbl.html')
-            img(src='img/projects/mkbl.jpg', alt='prev')
-            span Previous Project
-        li.backtoworks
-          a(href='index.html') Back To Works
-        li.next
-          a(href='creative-time.html')
-            img(src='img/projects/ct.png', alt='next')
-            span Next Project
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='mkbl.html')
+              img(data-aload='img/projects/mkbl.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='index.html') Back To Works
+          li.next
+            a(href='creative-time.html')
+              img(data-aload='img/projects/ct.png', alt='next')
+              span Next Project

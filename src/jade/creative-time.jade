@@ -1,91 +1,91 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/ct/ct_01.jpg')
-    .hero-overlay
-    .page-title
-      h5.alttitle Photography and Front-End Development
-      h1
-        strong Creative Time
-    a#scroll-down(href='#') Scroll Down
+  include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-ct
+    section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/ct/ct_01.jpg')
+      .hero-overlay
+      .page-title
+        h5.alttitle Photography and Front-End Development
+        h1
+          strong Creative Time
+      a#scroll-down(href='#') Scroll Down
 
-  section#page-body
-    .wrapper
-      .wolf-grid.clearfix(data-randomhorizontaloffset='true')
-        //- .wolf-item
-        //-   .wolf-item-inner
-        //-     .wolf-media.portfolio-media
-        //-       a.img-hover(href='img/ct/ct_10.jpg', data-rel='lightcase:creativetime')
-        //-         img(src='img/ct/ct_10.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/ct/ct_06.jpg', data-rel='lightcase:creativetime')
-                img(src='img/ct/ct_06.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/ct/ct_07.jpg', data-rel='lightcase:creativetime')
-                img(src='img/ct/ct_07.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/ct/ct_08.jpg', data-rel='lightcase:creativetime')
-                img(src='img/ct/ct_08.jpg', alt='SEO NAME')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/ct/ct_09.jpg', data-rel='lightcase:creativetime')
-                img(src='img/ct/ct_09.jpg', alt='SEO NAME')
-    .wrapper-mini
-      .spacer.spacer-big
-      h4.align-center
-        strong Digital Art
-      h6.alttitle.align-center for one of the world's foremost public art&nbsp;organizations
-      .column-section.clearfix
-        p Creative Time commissions ambitious art projects throughout New York City and the world. Makeable has had an ongoing relationship with the company, often creating concurrent digital experiences to accompany the art installation. Our work with them is highly experimental and very fast paced. I have been involved in two of the projects in very different capacities.
-      .spacer.spacer-small
-      h6
-        strong Links
-      p
-        a(href='http://creativetime.org/projects/karawalker/' target='_blank') Digital Sugar Baby
-        br
-        a(href='http://creativetime.org/projects/heard-ny/iheardny/' target='_blank') HEARD•NY
-    .wrapper
-      .spacer.spacer-big
-      .wolf-grid.clearfix.is-caption--right(data-randomhorizontaloffset='true')
-        .wolf-item
-          .wolf-item-inner
-            .figcaption
-              p When Kara Walker's Sugar Baby took over the Domino Sugar Factory, I was asked to photograph it prior to the opening in order to create a interactive 3D rendering of the work. Instagram photos with the hashtag #KaraWalkerDomino then built upon the base that I had established. I also shot the promotional photos for the project.
-
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              iframe(src='https://player.vimeo.com/video/100137078?autoplay=1&loop=1&color=79c7c1&title=0&byline=0', width='500', height='281', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='')
-        .wolf-item
-          .wolf-item-inner
-            .wolf-media.portfolio-media
-              a.img-hover(href='img/ct/ct_03.png', data-rel='lightcase:creativetime')
-                img(src='img/ct/ct_03.png', alt='SEO NAME')
-        .wolf-item.is-caption--left
-          .wolf-item-inner
-            .wolf-media.portfolio-media
+    section#page-body
+      .wrapper
+        .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+          //- .wolf-item
+          //-   .wolf-item-inner
+          //-     .wolf-media.portfolio-media
+          //-       a.img-hover(href='img/ct/ct_10.jpg', data-rel='lightcase:creativetime')
+          //-         img(src='img/ct/ct_10.jpg', alt='SEO NAME')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='img/ct/ct_06.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_06.jpg', alt='SEO NAME')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='img/ct/ct_07.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_07.jpg', alt='SEO NAME')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='img/ct/ct_08.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_08.jpg', alt='SEO NAME')
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='img/ct/ct_09.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_09.jpg', alt='SEO NAME')
+      .wrapper-mini
+        .spacer.spacer-big
+        h4.align-center
+          strong Digital Art
+        h6.alttitle.align-center for one of the world's foremost public art&nbsp;organizations
+        .column-section.clearfix
+          p Creative Time commissions ambitious art projects throughout New York City and the world. Makeable has had an ongoing relationship with the company, often creating concurrent digital experiences to accompany the art installation. Our work with them is highly experimental and very fast paced. I have been involved in two of the projects in very different capacities.
+        .spacer.spacer-small
+        h6
+          strong Links
+        p
+          a(href='http://creativetime.org/projects/karawalker/' target='_blank') Digital Sugar Baby
+          br
+          a(href='http://creativetime.org/projects/heard-ny/iheardny/' target='_blank') HEARD•NY
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix.is-caption--right(data-randomhorizontaloffset='true')
+          .wolf-item
+            .wolf-item-inner
               .figcaption
-                p When Nick Cave's transformed Grand Central Terminal’s Vanderbilt Hall with a herd of thirty colorful life-size horses for the show HEARD•NY, Creative Time asked Makeable to create a social media aggregator for posts tagged #IHEARDNY from Facebook, Twitter, Vine, Instagram, and Foursquare. Following the show, I developed an interactive thank you piece showing a selection of posts curated by the artist himself. The social media platform's APIs were used to pull the posts into SVG letters where visitors could explore them.
+                p When Kara Walker's Sugar Baby took over the Domino Sugar Factory, I was asked to photograph it prior to the opening in order to create a interactive 3D rendering of the work. Instagram photos with the hashtag #KaraWalkerDomino then built upon the base that I had established. I also shot the promotional photos for the project.
 
-    .wrapper
-      ul.single-pagination
-        li.prev
-          a(href='hard-workers-club.html')
-            img(src='img/projects/hwc.jpg', alt='prev')
-            span Previous Project
-        li.backtoworks
-          a(href='index.html') Back To Works
-        li.next
-          a(href='success-academy.html')
-            img(src='img/projects/sa.jpg', alt='next')
-            span Next Project
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                iframe(data-aload='https://player.vimeo.com/video/100137078?autoplay=1&loop=1&color=79c7c1&title=0&byline=0', width='500', height='281', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='' src="javascript:false") 
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='img/ct/ct_03.png', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_03.png', alt='SEO NAME')
+          .wolf-item.is-caption--left
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p When Nick Cave's transformed Grand Central Terminal’s Vanderbilt Hall with a herd of thirty colorful life-size horses for the show HEARD•NY, Creative Time asked Makeable to create a social media aggregator for posts tagged #IHEARDNY from Facebook, Twitter, Vine, Instagram, and Foursquare. Following the show, I developed an interactive thank you piece showing a selection of posts curated by the artist himself. The social media platform's APIs were used to pull the posts into SVG letters where visitors could explore them.
 
-
-
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='hard-workers-club.html')
+              img(data-aload='img/projects/hwc.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='index.html') Back To Works
+          li.next
+            a(href='success-academy.html')
+              img(data-aload='img/sa/sa_03.png', alt='next')
+              span Next Project

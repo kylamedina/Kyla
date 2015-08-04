@@ -1,57 +1,60 @@
 extends layouts/layout
 
 block content
-  section#hero.hero-auto
-    .page-title.wrapper
-      #wolf-title.wolf-grid.clearfix
-        .wolf-item.wfull.wright.wolf-text(data-speed='2')
-          .wolf-item-inner
-            .wolf-media
-              img(src='img/esquire/esquire_01.png', alt='Esquire We Build Men Project Header Image')
-            .wolf-caption.ctop(style='width:60%;')
-              h5.alttitle Design and Development
-              h1
-                strong Esquire
-  section#page-body.nopadding
-    .wrapper-mini
-      h6
-        strong Details
-      p
-        | Esquire partnered with Makeable in a mission to revolutionize mentorship for young men by creating a site with the tools and support platform neccessary for mentors. I designed the layout and interactivity for this Webby nominated site. Header elements were designed by Ryan Fleming.
-      h6
-        strong Links
-      p
-        a(href='http://webuildmen.org' target='_blank') We Build Men
-        br
-        a(href='http://from.ky.la/1l8f5' target='_blank') New York Times
+  include includes/triangles.jade
+  include includes/header-dark.jade
+  #page-content.page-esquire
+    section#hero.hero-auto
+      .page-title.wrapper
+        #wolf-title.wolf-grid.clearfix
+          .wolf-item.wfull.wright.wolf-text(data-speed='2')
+            .wolf-item-inner
+              .wolf-media
+                img(src='img/esquire/esquire_01.png', alt='Esquire We Build Men Project Header Image')
+              .wolf-caption.ctop(style='width:60%;')
+                h5.alttitle Design and Development
+                h1
+                  strong Esquire
+    section#page-body.nopadding
+      .wrapper-mini
+        h6
+          strong Details
+        p
+          | Esquire partnered with Makeable in a mission to revolutionize mentorship for young men by creating a site with the tools and support platform neccessary for mentors. I designed the layout and interactivity for this Webby nominated site. Header elements were designed by Ryan Fleming.
+        h6
+          strong Links
+        p
+          a(href='http://webuildmen.org' target='_blank') We Build Men
+          br
+          a(href='http://from.ky.la/1l8f5' target='_blank') New York Times
 
-    .spacer.spacer-big
-    .wrapper
-      ul.gallery.gallery-col2.spaced
-        li.has-animation.browser-chrome
+      .spacer.spacer-big
+      .wrapper
+        ul.gallery.gallery-col2.spaced
+          li.has-animation.browser-chrome
 
-            a.img-hover.browser-shadow(href='./img/esquire/esquire_02.png', data-rel='lightcase:akc')
-              img(src='./img/esquire/esquire_02.png', alt='SEO NAME')
-        li.has-animation.browser-chrome
-           a.img-hover.browser-shadow(href='./img/esquire/esquire_03.png', data-rel='lightcase:akc')
-             img(src='./img/esquire/esquire_03.png', alt='SEO NAME')
-    //-   ul.gallery.spaced
-    //-     li.has-animation
-    //-       img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
-    //-   ul.gallery.gallery-col2.spaced
-    //-     li.has-animation
-    //-       img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
-    //-     li.has-animation(data-delay='200')
-    //-       img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
-    .wrapper
-      ul.single-pagination
-        li.prev
-          a(href='cognizant.html')
-            img(src='img/projects/cognizant.jpg', alt='prev')
-            span Previous Project
-        li.backtoworks
-          a(href='index.html') Back To Works
-        li.next
-          a(href='mkbl.html')
-            img(src='img/projects/mkbl.jpg', alt='next')
-            span Next Project
+              a.img-hover.browser-shadow(href='./img/esquire/esquire_02.png', data-rel='lightcase:akc')
+                img(data-aload='./img/esquire/esquire_02.png', alt='SEO NAME')
+          li.has-animation.browser-chrome
+             a.img-hover.browser-shadow(href='./img/esquire/esquire_03.png', data-rel='lightcase:akc')
+               img(data-aload='./img/esquire/esquire_03.png', alt='SEO NAME')
+      //-   ul.gallery.spaced
+      //-     li.has-animation
+      //-       img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
+      //-   ul.gallery.gallery-col2.spaced
+      //-     li.has-animation
+      //-       img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      //-     li.has-animation(data-delay='200')
+      //-       img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='cognizant.html')
+              img(data-aload='img/projects/cognizant.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='index.html') Back To Works
+          li.next
+            a(href='mkbl.html')
+              img(data-aload='img/projects/mkbl.jpg', alt='next')
+              span Next Project
