@@ -4,7 +4,7 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-ct
-    section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/ct/ct_01.jpg')
+    section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/ct/ct_01-large.jpg')
       .hero-overlay
       .page-title
         h5.alttitle Photography and Front-End Development
@@ -23,23 +23,23 @@ block content
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.img-hover(href='img/ct/ct_06.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_06.jpg', alt='Kara Walker Exhibition Photography #1')
+                a.img-hover(href='img/ct/ct_06-large.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_06-medium.jpg', srcset="img/ct/ct_06-small.jpg 640w, img/ct/ct_06-medium.jpg 800w, img/ct/ct_06-large.jpg 1600w" alt='Kara Walker Exhibition Photography #1')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.img-hover(href='img/ct/ct_07.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_07.jpg', alt='Kara Walker Exhibition Photography #2')
+                a.img-hover(href='img/ct/ct_07-large.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_07-medium.jpg', srcset="img/ct/ct_07-small.jpg 640w, img/ct/ct_07-medium.jpg 800w, img/ct/ct_07-large.jpg 1600w" alt='Kara Walker Exhibition Photography #2')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.img-hover(href='img/ct/ct_08.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_08.jpg', alt='Kara Walker Exhibition Photography #3')
+                a.img-hover(href='img/ct/ct_08-large.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_08-medium.jpg', srcset="img/ct/ct_08-small.jpg 640w, img/ct/ct_08-medium.jpg 800w, img/ct/ct_08-large.jpg 1600w" alt='Kara Walker Exhibition Photography #3')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.img-hover(href='img/ct/ct_09.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_09.jpg', alt='Kara Walker Exhibition Photography #4')
+                a.img-hover(href='img/ct/ct_09-large.jpg', data-rel='lightcase:creativetime')
+                  img(data-aload='img/ct/ct_09-medium.jpg', srcset="img/ct/ct_09-small.jpg 640w, img/ct/ct_09-medium.jpg 800w, img/ct/ct_09-large.jpg 1600w" alt='Kara Walker Exhibition Photography #4')
       .wrapper-mini
         .spacer.spacer-big
         h4.align-center
@@ -68,9 +68,10 @@ block content
                 iframe(data-aload='https://player.vimeo.com/video/100137078?autoplay=1&loop=1&color=79c7c1&title=0&byline=0', width='500', height='281', frameborder='0', webkitallowfullscreen='', mozallowfullscreen='', allowfullscreen='' src="javascript:false") 
           .wolf-item
             .wolf-item-inner
-              .wolf-media.portfolio-media
-                a.img-hover(href='img/ct/ct_03.png', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_03.png', alt='SEO NAME')
+              .wolf-media.portfolio-media.browser-chrome
+                a.browser-shadow.img-hover(href='img/ct/ct_03-large.jpg', data-rel='lightcase:creativetime')
+                  .loader
+                  img(data-aload='img/ct/ct_03-medium.jpg', alt='Creative Time Nick Cave Interactive Website' srcset="img/ct/ct_03-small.jpg 640w, img/ct/ct_03-medium.jpg 800w, img/ct/ct_03-large.jpg 1600w")
           .wolf-item.is-caption--left
             .wolf-item-inner
               .wolf-media.portfolio-media
