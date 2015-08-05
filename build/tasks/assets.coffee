@@ -11,15 +11,10 @@ gulp.task 'img', ->
    gulp.src([
     'src/img/**/*.jpg'
     'src/img/**/*.png'
-    '!src/img/artnet/*'
-    # '!src/img/akc/*'
-    '!src/img/cognizant/*'
-    '!src/img/esquire/*'
-    # '!src/img/projects/*'
   ])
   	.pipe $.plumber(errorHandler: onError)
     # .pipe $.cache($.imagemin())
-  	# .pipe $.imagemin()
+  	.pipe $.imagemin()
   	.pipe gulp.dest('app/img/')
     # .pipe gulp.dest( 'docs/styleguide/img' )
   gulp.src([
