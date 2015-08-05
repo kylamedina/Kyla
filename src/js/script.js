@@ -53,12 +53,29 @@ var allimgs = [
     'img/twc/rain.gif',
     'img/twc/hurricane.gif',
     'img/twc/twc_01.png',
-    'img/twc/twc_02.png',
+    'cog_01.gif',
+    'cog_02.gif',
+    'cog_03.gif'
+]
+var allvids = [
+    'cognizant4.mp4',
+    'cognizant5.mp4',
+    'cognizant8.mp4',
+    'cognizant9.mp4',
+    'cognizant9.mp4',
+    'twc1.mp4',
+    'mkbl1.mp4'
 ]
 function preCache(){
     $.each(allimgs, function(){
         var img = new Image();
         img.src = this;
+    });
+};
+function vidPreCache(){
+    $.each(allvids, function(){
+        var video = document.createElement('video');
+        video.src = this;
     });
 };
 // REORGANIZE ISOTOPE FUNCTION
@@ -77,7 +94,15 @@ function reorganizeIsotope() {
 		if ($container.children('div').hasClass('isotope-item')) { $container.isotope( 'reLayout' ); }
 	});
 }
-
+function playVideo() {
+	if ($('video').length) {
+		$('video').each(function () {
+			if ($(this).visible(true)) {
+				$(this)[0].play();
+			} 
+		});
+	}
+}
 
 // STICKY FOTTER OPTION
 function stickyfooter() {
@@ -127,7 +152,7 @@ function smoothShow() {
 
 jQuery(window).load(function() {		
 	preCache();
-	
+	vidPreCache();
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -533,6 +558,7 @@ jQuery(window).resize(function() {
 
 jQuery( window ).scroll(function() {
 	smoothShow();
+	playVideo();
 });
 
 })(jQuery);

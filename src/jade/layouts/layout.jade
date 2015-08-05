@@ -17,6 +17,7 @@ html
 
     link#default-style-css(rel='stylesheet', href='./css/style.css', type='text/css', media='all')
     link#vendor-css(rel='stylesheet', href='./css/vendor.css', type='text/css', media='all')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js' type="text/javascript")
     block head
   body
     .hidden
@@ -29,7 +30,7 @@ html
     
     block content
 
-    ul.social-list.has-animation
+    ul.social-list
       li
         a(href="http://love.ky.la/" target='_blank') Dropmark
       li
@@ -43,9 +44,13 @@ html
       li
         a(href="mailto:hi@ky.la" target='_blank') Email
 
-    script(type='text/javascript', src='./js/vendor.js')
+    //- script(type='text/javascript', src='./js/vendor.js')
     script.
-      window.onload = function () {
-        aload();
-      };
+      head.load({ app: "./js/vendor.js" }, function() {
+          window.onload = function () {
+            aload();
+          };
+      });
+
+      
     block footer

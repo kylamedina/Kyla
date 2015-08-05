@@ -4,12 +4,12 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-mkbl
-    section#hero.hero-full.parallax-section.text-light(data-parallax-image='img/projects/mkbl.jpg')
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/mkbl.jpg')
       .page-title
         h5.alttitle Design, Development, and Photography
         h1
           strong Makeable
-      a#scroll-down(href='#') Scroll Down
+      //- a#scroll-down(href='#') Scroll Down
     section#page-body.mkbl-body
       .wrapper-small
         h6
@@ -56,7 +56,7 @@ block content
                 img(src='img/mkbl/mkbl_06.png', alt='People looking at thinkmaps')
               .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    
                 
-      div.mkbl-caption-1(src)
+      div.mkbl-caption-1
         .mkbl-caption__container
          p Makeable's color palette is limited to orange, gray, and black. To add more color, I designed with the idea of themes for each page. Specifically, each page in a category like team or projects would have a different gradient and duotone theme.
       .wrapper
@@ -94,12 +94,13 @@ block content
         .spacer.spacer-big
         ul.gallery.gallery-col1
           li.has-animation.browser-chrome.is-large
-            video.browser-shadow(src='mkbl1.mp4' autoplay preload="auto" loop)
-              //- source(src='cognizant.ogg', type='video/ogg')
-              //- source(src='mkbl1.mp4', type='video/mp4')
-              p Your browser does not support the 
-                code video
-                |  element.
+            img.browser-shadow(src='mkbl1.gif', alt='Makeable love page design')
+            //- video.browser-shadow(src='mkbl1.mp4' autoplay preload="auto" loop)
+            //-   //- source(src='cognizant.ogg', type='video/ogg')
+            //-   //- source(src='mkbl1.mp4', type='video/mp4')
+            //-   p Your browser does not support the 
+            //-     code video
+            //-     |  element.
       .wrapper.xtra-wide
         .spacer.spacer-big   
         .waypoint-parent
@@ -127,11 +128,11 @@ block content
         ul.single-pagination
           li.prev
             a(href='esquire.html')
-              img(data-aload='img/projects/esquire.jpg', alt='prev')
+              img(src='img/projects/esquire.jpg', alt='prev')
               span Previous Project
           li.backtoworks
             a(href='index.html') Back To Works
           li.next
             a(href='success-academy.html')
-              img(data-aload='img/projects/sa.jpg', alt='next')
+              img(src='img/projects/sa.jpg', alt='next')
               span Next Project

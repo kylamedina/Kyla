@@ -3,7 +3,7 @@ extends layouts/layout
 block content
   //- include includes/triangles.jade
   include includes/header-dark.jade
-  a.open-filter(href='', data-related-grid='portfolio-grid') Filter
+    
   #page-content.page-home
     section#hero.hero-auto
       .page-title.hleft
@@ -53,7 +53,7 @@ block content
                 a.wolf-media-link(href='weather-channel.html')
                   div(style='background:url("img/twc/rain.gif");background-size:cover;background-position: 50% 100%;display:inline-block;')
                    img(src='img/projects/twc.png', alt='Weather Channel App Header Image')
-              .wolf-caption.cbottom.portfolio-caption(style='margin-top:90%;margin-right:-50%')
+              .wolf-caption.cbottom.portfolio-caption(style='margin-top:300px;margin-right:-100px')
                 a.wolf-caption-link(href='weather-channel.html')
                   h6.alttitle.portfolio-category Prototyping
                   h4.portfolio-name
@@ -63,9 +63,9 @@ block content
               .wolf-media.portfolio-media
                 a.wolf-media-link(href='cognizant.html')
                   img(src='img/projects/cognizant.jpg', alt='Cognizant Latest Thinking Header Image')
-              .wolf-caption.portfolio-caption(style='margin-left:0%;top:4%;')
+              .wolf-caption.portfolio-caption(style='margin-left:0%;margin-bottom:20%;')
                 a.wolf-caption-link(href='cognizant.html')
-                  h6.alttitle.portfolio-category Development and Mobile Design
+                  h6.alttitle.portfolio-category Development, Mobile Design, Prototyping
                   h4.portfolio-name
                     strong Cognizant
           .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc
@@ -73,7 +73,7 @@ block content
               .wolf-media.portfolio-media
                 a.wolf-media-link(href='hard-workers-club.html')
                   img(src='img/projects/hwc.jpg', alt='Hard Workers Club')
-              .wolf-caption.portfolio-caption
+              .wolf-caption.portfolio-caption(style='margin-top:10%;')
                 a.wolf-caption-link(href='hard-workers-club.html')
                   h6.alttitle.portfolio-category Design, Development, and Photography
                   h4.portfolio-name
