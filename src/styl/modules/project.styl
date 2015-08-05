@@ -88,6 +88,7 @@ li.browser-chrome
 
 .waypoint-parent
 	position relative
+	overflow hidden
 	+above(1024px)
 		.browser-chrome
 			width 50%
@@ -122,12 +123,13 @@ li.browser-chrome
 		border 1px solid #f0f0f0
 
 .mkbl-caption-1
-	background: url('../img/mkbl/mkbl_02.png')
+	background: white url('../img/mkbl/mkbl_02.png')
 	background-repeat no-repeat
 	background-size: auto 100%
 	background-position: 0% 0% 
 	height: px(500)
 	position: relative
+	z-index 1
 	// top px(-300)
 	+above(1600px)
 		height px(800)

@@ -55,27 +55,18 @@ var allimgs = [
     'img/twc/twc_01.png',
     'cog_01.gif',
     'cog_02.gif',
-    'cog_03.gif'
-]
-var allvids = [
-    'cognizant4.mp4',
-    'cognizant5.mp4',
-    'cognizant8.mp4',
-    'cognizant9.mp4',
-    'cognizant9.mp4',
-    'twc1.mp4',
-    'mkbl1.mp4'
+    'cog_03.gif',
+    'cognizant4.gif',
+    'cognizant5.gif',
+    'cognizant8.gif',
+    'cognizant9.gif',
+    'mkbl1.gif',
+    'twc1.gif'
 ]
 function preCache(){
     $.each(allimgs, function(){
         var img = new Image();
         img.src = this;
-    });
-};
-function vidPreCache(){
-    $.each(allvids, function(){
-        var video = document.createElement('video');
-        video.src = this;
     });
 };
 // REORGANIZE ISOTOPE FUNCTION
@@ -150,9 +141,11 @@ function smoothShow() {
 		
 }
 
-jQuery(window).load(function() {		
-	preCache();
-	vidPreCache();
+jQuery(window).load(function() {	
+	if (!$('html#mkbl-page').length || !$('html#cognizant-page').length) {
+		preCache();
+	}
+	
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -507,7 +500,7 @@ jQuery(window).load(function() {
 		    			.addClass('is-fixed');
 		    	}
 		    },
-		    offset: $(this).closest('.waypoint-parent').find('.waypoint-child').height()
+		    offset: ($(this).closest('.waypoint-parent').find('.waypoint-child').height()) * 2
 		  });
 		});
 	}

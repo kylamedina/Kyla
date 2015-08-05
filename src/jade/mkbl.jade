@@ -4,7 +4,7 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-mkbl
-    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/mkbl.jpg')
+    section#hero.hero-big.text-light
       .page-title
         h5.alttitle Design, Development, and Photography
         h1
@@ -29,19 +29,19 @@ block content
       //-         .figcaption
       //-           p I've played many roles at Makeable. Designer, Developer, Photographer, even UXer and a part of the strategy team once or twice. It's a reflection of my love for the internet and digital culture.
       //-           p For over two and half years, I've been taking photos of Makeable that are used in company assets. I also recently had the honor of redesigning Makeable's website and which is currently ongoing. I've created a couple different directions and below are some highlights. This page is kind of a work in progress as I will update it as the project progresses from design through development. Interspersed are some of the photos I've taken for Makeable.
-      .wrapper.xtra-wide
+      .wrapper-xtrawide(style='overflow:hidden;')
         .waypoint-parent
           .browser-chrome.is-large
             img.browser-shadow(src='img/mkbl/mkbl_01.png', alt='Makeable Homepage Design')
             .waypoint-bottom
-          .wolf-item.wright.waypoint-child
+          .wolf-item.wright.waypoint-child(style='z-index:-1;')
             .wolf-item-inner
               .figcaption
                 p Makeable has a very fun personality and much of the design created here is very vibrant and colorful. I wanted to reflect that while achieving the business goals provided by the partners.
                 p In this iteration, I emphasized Makeable's process&mdash;Imagine, Make, and Grow&mdash;in a grid system that breaks up the long descriptions that are written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.
                 p During the Imagination phase, Makeable creates story maps that are essentially a creative exersize intended to discover a design direction for the project. I wanted to mimick story maps for screens since they are such an important part of Makeable's process.
               
-      .wrapper
+      .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big
         .spacer.spacer-big  
         .wolf-grid.clearfix(data-randomhorizontaloffset='true')
@@ -59,7 +59,7 @@ block content
       div.mkbl-caption-1
         .mkbl-caption__container
          p Makeable's color palette is limited to orange, gray, and black. To add more color, I designed with the idea of themes for each page. Specifically, each page in a category like team or projects would have a different gradient and duotone theme.
-      .wrapper
+      .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big   
         .wolf-grid.clearfix(data-randomhorizontaloffset='true')
           .wolf-item
@@ -84,13 +84,13 @@ block content
               .figcaption
                 p Makeable's slogan
       
-      .wrapper-mini
+      .wrapper-mini(style='background-color:white;position: relative; z-index:1;')
         h6
           strong A Second Direction
         p In this second direction, I went with a grid-based layout because both founders expressed interest in it. They like the idea of putting as much of the site on the homepage as possible for SEO purposes.
         .spacer.spacer-big
 
-      .wrapper.xtra-wide
+      .wrapper.xtra-wide(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big
         ul.gallery.gallery-col1
           li.has-animation.browser-chrome.is-large
