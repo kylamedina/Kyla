@@ -49,7 +49,7 @@ gulp.task 'default', (cb) ->
 		'img', 
 		'svg',
 		# 'templates',
-		'watch',
+		# 'watch',
 		# 'styleguide'
 		->
 
