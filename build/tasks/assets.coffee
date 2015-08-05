@@ -14,7 +14,7 @@ gulp.task 'img', ->
   ])
   	.pipe $.plumber(errorHandler: onError)
     # .pipe $.cache($.imagemin())
-  	.pipe $.imagemin()
+  	# .pipe $.imagemin()
   	.pipe gulp.dest('app/img/')
     # .pipe gulp.dest( 'docs/styleguide/img' )
   gulp.src([
