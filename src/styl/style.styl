@@ -1956,8 +1956,9 @@ div .column-section:first-child,
   // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
 
 .has-animation
+  transform: translateZ(0)
   &:not(.wolf-item)
-    transform translateY(70px)
+    transform translateY(70px) translateZ(0)
     transition all 0.8s ease 0.2s
   transition opacity 0.8s ease 0.2s
   opacity 0
