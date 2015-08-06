@@ -63,6 +63,8 @@ log/
 ######################
 .DS_Store
 .DS_Store?
+.BridgeCacheT
+.BridgeCache
 ehthumbs.db
 Thumbs.db
 .DS_Store

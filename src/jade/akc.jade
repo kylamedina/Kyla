@@ -4,7 +4,7 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-akc
-    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/akc.jpg')
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/akc-large.jpg')
       .hero-overlay      
       .page-title.hleft
         h5.alttitle Design and Development
@@ -31,7 +31,7 @@ block content
               .wolf-media.portfolio-media.browser-chrome
                 .browser-shadow
                   .loader
-                  img(data-aload='img/akc/akc_01-medium.jpg', alt='AKC Marketplace Website Dog Listing')
+                  img(data-aload='img/akc/akc_01-medium.jpg' srcset="img/akc/akc_01-small.jpg 640w, img/akc/akc_01-medium.jpg 800w, img/akc/akc_01-large.jpg 1280w" alt='AKC Marketplace Website Dog Listing')
           .wolf-item.is-caption(data-speed="-2")
             .wolf-item-inner
               .wolf-media.portfolio-media
@@ -47,12 +47,12 @@ block content
               .wolf-media.portfolio-media.browser-chrome
                 .browser-shadow
                   .loader
-                  img(data-aload='img/akc/akc_04-medium.jpg', alt='AKC Marketplace Website Search Page')
+                  img(data-aload='img/akc/akc_04-medium.jpg' srcset="img/akc/akc_04-small.jpg 640w, img/akc/akc_04-medium.jpg 800w, img/akc/akc_04-large.jpg 1280w" alt='AKC Marketplace Website Search Page')
 
           .wolf-item.wfull
             .wolf-item-inner
               .wolf-media.portfolio-media
-                img.has-animation(src='img/akc/akc_05-medium.png', alt='AKC Marketplace Mobile Site')
+                img.has-animation(src='img/akc/akc_05-medium.png' srcset="img/akc/akc_05-small.png 640w, img/akc/akc_05-medium.png 1440w, img/akc/akc_05-large.png 2250w" alt='AKC Marketplace Mobile Site')
 
         .wrapper-medium.has-animation
           .wolf-item.wfull(style='margin-bottom:0')
@@ -86,18 +86,18 @@ block content
         .spacer.spacer-medium
         .owl-slider
           figure
-            img(src='img/akc/akc_09-medium.jpg', alt='SEO Name')
+            img(src='img/akc/akc_09-medium.jpg' srcset="img/akc/akc_09-small.jpg 640w, img/akc/akc_09-medium.jpg 1000w, img/akc/akc_09-large.jpg 2000w" alt='Dog and Laptop')
             figcaption
               p(style='position:relative;top:-6rem;') I worked on the front-end of the teaser site which uses Expression&nbsp;Engine.
           figure
-            img(data-aload='img/akc/akc_06-medium.jpg', alt='SEO Name')
+            img(data-aload='img/akc/akc_06-medium.jpg' srcset="img/akc/akc_06-small.jpg 640w, img/akc/akc_06-medium.jpg 1000w, img/akc/akc_06-large.jpg 2000w" alt='Mobile Screens')
             figcaption
               p(style='position:relative;top:-6rem;') 
                 | The left screen shows the feed with an event&nbsp;post. 
                 br
                 | The right screen shows a&nbsp;'Wooftale.'
           figure
-            img(data-aload='img/akc/akc_07-medium.jpg', alt='SEO Name')
+            img(data-aload='img/akc/akc_07-medium.jpg' srcset="img/akc/akc_07-small.jpg 640w, img/akc/akc_07-medium.jpg 1000w, img/akc/akc_07-large.jpg 2000w" alt='Dog and Mobile Instagram')
             figcaption
               p(style='position:relative;top:-6rem;') HTML's canvas element was used to allow users to customize the look of the shareable Wooftale. Then a PNG of the canvas element was outputted which could be posted on the feed in the app as well as other social&nbsp;networks.
 
@@ -111,5 +111,5 @@ block content
             a(href='index.html') Back To Works
           li.next
             a(href='weather-channel.html' style='background:url("img/twc/rain.gif");background-size:cover;background-position: 50% 100%;')
-              img(src='img/projects/twc2-small.png', alt='next')
+              img(src='img/projects/twc2.png', alt='next')
               span Next Project
