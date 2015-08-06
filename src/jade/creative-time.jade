@@ -14,7 +14,7 @@ block content
 
     section#page-body
       .wrapper
-        .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media
@@ -24,22 +24,22 @@ block content
             .wolf-item-inner
               .wolf-media.portfolio-media
                 a.img-hover(href='img/ct/ct_06-large.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_06-medium.jpg', srcset="img/ct/ct_06-small.jpg 640w, img/ct/ct_06-medium.jpg 800w, img/ct/ct_06-large.jpg 1600w" alt='Kara Walker Exhibition Photography #1')
+                  img.img-shadow(data-aload='img/ct/ct_06-medium.jpg', srcset="img/ct/ct_06-small.jpg 640w, img/ct/ct_06-medium.jpg 800w, img/ct/ct_06-large.jpg 1600w" alt='Kara Walker Exhibition Photography #1')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
                 a.img-hover(href='img/ct/ct_07-large.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_07-medium.jpg', srcset="img/ct/ct_07-small.jpg 640w, img/ct/ct_07-medium.jpg 800w, img/ct/ct_07-large.jpg 1600w" alt='Kara Walker Exhibition Photography #2')
+                  img.img-shadow(data-aload='img/ct/ct_07-medium.jpg', srcset="img/ct/ct_07-small.jpg 640w, img/ct/ct_07-medium.jpg 800w, img/ct/ct_07-large.jpg 1600w" alt='Kara Walker Exhibition Photography #2')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
                 a.img-hover(href='img/ct/ct_08-large.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_08-medium.jpg', srcset="img/ct/ct_08-small.jpg 640w, img/ct/ct_08-medium.jpg 800w, img/ct/ct_08-large.jpg 1600w" alt='Kara Walker Exhibition Photography #3')
+                  img.img-shadow(data-aload='img/ct/ct_08-medium.jpg', srcset="img/ct/ct_08-small.jpg 640w, img/ct/ct_08-medium.jpg 800w, img/ct/ct_08-large.jpg 1600w" alt='Kara Walker Exhibition Photography #3')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
                 a.img-hover(href='img/ct/ct_09-large.jpg', data-rel='lightcase:creativetime')
-                  img(data-aload='img/ct/ct_09-medium.jpg', srcset="img/ct/ct_09-small.jpg 640w, img/ct/ct_09-medium.jpg 800w, img/ct/ct_09-large.jpg 1600w" alt='Kara Walker Exhibition Photography #4')
+                  img.img-shadow(data-aload='img/ct/ct_09-medium.jpg', srcset="img/ct/ct_09-small.jpg 640w, img/ct/ct_09-medium.jpg 800w, img/ct/ct_09-large.jpg 1600w" alt='Kara Walker Exhibition Photography #4')
       .wrapper-mini
         .spacer.spacer-big
         h4.align-center
@@ -56,7 +56,7 @@ block content
           a(href='http://creativetime.org/projects/heard-ny/iheardny/' target='_blank') HEARD•NY
       .wrapper
         .spacer.spacer-big
-        .wolf-grid.clearfix.is-caption--right(data-randomhorizontaloffset='true')
+        .wolf-grid.clearfix.is-caption--right(data-randomhorizontaloffset='true' data-mouseparallax='true')
           .wolf-item
             .wolf-item-inner
               .figcaption
@@ -69,9 +69,9 @@ block content
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
-                a.browser-shadow.img-hover(href='img/ct/ct_03-large.jpg', data-rel='lightcase:creativetime')
+                a.img-hover(href='img/ct/ct_03-large.jpg', data-rel='lightcase:creativetime')
                   .loader
-                  img(data-aload='img/ct/ct_03-medium.jpg', alt='Creative Time Nick Cave Interactive Website' srcset="img/ct/ct_03-small.jpg 640w, img/ct/ct_03-medium.jpg 800w, img/ct/ct_03-large.jpg 1600w")
+                  img.browser-shadow(data-aload='img/ct/ct_03-medium.jpg', alt='Creative Time Nick Cave Interactive Website' srcset="img/ct/ct_03-small.jpg 640w, img/ct/ct_03-medium.jpg 800w, img/ct/ct_03-large.jpg 1600w")
           .wolf-item.is-caption--left
             .wolf-item-inner
               .wolf-media.portfolio-media
@@ -88,5 +88,5 @@ block content
             a(href='index.html') Back To Works
           li.next
             a(href='success-academy.html')
-              img(src='img/projects/sa-small.png', alt='next')
+              img(src='img/projects/sa-small.jpg', alt='next')
               span Next Project

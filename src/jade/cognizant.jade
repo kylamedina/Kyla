@@ -26,7 +26,7 @@ block content
           
       .wrapper
         .spacer.spacer-big
-        .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
@@ -78,16 +78,21 @@ block content
                     | .
                   script(async='', src='//assets.codepen.io/assets/embed/ei.js')
 
-              .figcaption(style='margin-top:100px;'): p  I really wanted the site to feel as natural as possible in order to create hierarchy and guide the user's attention. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed. I created this Codepen to demonstrate.
-          
-      .wrapper
+              .figcaption(style='margin-top:30px;'): p  I really wanted the site to feel as natural as possible in order to create hierarchy and guide the user's attention. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed. I created this Codepen to demonstrate.
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome(style='height:auto;')
+                a.img-hover.browser-shadow(href='cog_02.gif', data-rel='lightcase:cognizant' style='min-height:auto;') 
+                  .loader
+                  img(src='cog_02.gif', alt='Search Functionality')
+      .wrapper(style='margin-top: 100px;')
         .spacer.spacer-big
-        .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
           .wolf-item.wfull
             .wolf-item-inner
               .wolf-media.portfolio-media
                  .loader 
-                 img(src="img/cognizant/cog_01.png" srcset="img/cognizant/cog-small.jpg 640w, img/cognizant/cog-medium.jpg 800w, img/cognizant/cog-large.jpg 2250w" alt="")
+                 img(src="img/cognizant/cog_01-medium.jpg" srcset="img/cognizant/cog_01-small.jpg 640w, img/cognizant/cog_01-medium.jpg 800w, img/cognizant/cog_01-large.jpg 2250w" alt="")
               .figcaption: p The main concept behind the redesign are the folders that allowed users to collect and collaborate on topics that Cognizant publishes research on.
 
           .wolf-item.is-caption--right
@@ -135,12 +140,7 @@ block content
                   //-   p Your browser does not support the 
                   //-     code video
                   //-     |  element.
-          .wolf-item(style='margin-bottom:0')
-            .wolf-item-inner
-              .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='cog_02.gif', data-rel='lightcase:cognizant' style='min-height:auto;') 
-                  .loader
-                  img(src='cog_02.gif', alt='Share Functionality')
+          
 
       a.hidden(href='cognizant8.gif' data-rel='lightcase:cognizant')
       a.hidden(href='cognizant5.gif' data-rel='lightcase:cognizant')

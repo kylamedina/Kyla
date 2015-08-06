@@ -4,7 +4,8 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-mkbl
-    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='img/projects/mkbl-large.jpg')
+    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='img/mkbl/mkbl_14-large.jpg')
+      .hero-overlay
       .page-title
         h5.alttitle Design, Development, and Photography
         h1
@@ -44,16 +45,18 @@ block content
       .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big
         .spacer.spacer-big  
-        .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                img(src='img/mkbl/mkbl_07-medium.jpg' srcset="img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
+                a.img-hover(href='img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')
+                  img.browser-shadow(src='img/mkbl/mkbl_07-medium.jpg' srcset="img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
               .wolf-caption.portfolio-caption This is an example of the story maps Makeable likes to create during the Imagine phase.
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                img(src='img/mkbl/mkbl_06.png' srcset="img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
+                a.img-hover(href='img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')
+                  img.browser-shadow(src='iimg/mkbl/mkbl_06-medium.jpg' srcset="img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
               .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    
                 
       div.mkbl-caption-1
@@ -61,26 +64,30 @@ block content
          p Makeable's color palette is limited to orange, gray, and black. To add more color, I designed with the idea of themes for each page. Specifically, each page in a category like team or projects would have a different gradient and duotone theme.
       .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big   
-        .wolf-grid.clearfix(data-randomhorizontaloffset='true')
+        .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
-                img.browser-shadow(src='img/mkbl/mkbl_03.png' srcset="img/mkbl/mkbl_03-small.jpg 640w, img/mkbl/mkbl_03-medium.jpg 800w, img/mkbl/mkbl_03-large.jpg 1600w" alt='About page design')
-              .figcaption.special(style='margin-top:30px')
+                a.img-hover(href='img/mkbl/mkbl_03-large.jpg', data-rel='lightcase:mkbl')
+                  img.browser-shadow(src='img/mkbl/mkbl_03-medium.jpg' srcset="img/mkbl/mkbl_03-small.jpg 640w, img/mkbl/mkbl_03-medium.jpg 800w, img/mkbl/mkbl_03-large.jpg 1600w" alt='About page design')
+              .figcaption.special
                 p Above are examples of team profile pages showing how different themes would work. The second shows the quick switch menu which allows you to switch between related pages in a visual way that is consistent with the main navigation dropdown.
           .wolf-item
             .wolf-item-inner
              .wolf-media.portfolio-media.browser-chrome
-                img.browser-shadow(src='img/mkbl/mkbl_04-medium.jpg' srcset="img/mkbl/mkbl_04-small.jpg 640w, img/mkbl/mkbl_04-medium.jpg 800w, img/mkbl/mkbl_04-large.jpg 1600w"  alt='About page design')
+                a.img-hover(href='img/mkbl/mkbl_04-large.jpg', data-rel='lightcase:mkbl')
+                 img.browser-shadow(src='img/mkbl/mkbl_04-medium.jpg' srcset="img/mkbl/mkbl_04-small.jpg 640w, img/mkbl/mkbl_04-medium.jpg 800w, img/mkbl/mkbl_04-large.jpg 1600w"  alt='About page design with quick nav')
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                img(src='img/mkbl/mkbl_05-medium.jpg' srcset="img/mkbl/mkbl_05-small.jpg 640w, img/mkbl/mkbl_05-medium.jpg 800w, img/mkbl/mkbl_05-large.jpg 1480w"  alt='Sara Thompson')
+                a.img-hover(href='img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')
+                  img.browser-shadow(src='img/mkbl/mkbl_13-medium.jpg' srcset="img/mkbl/mkbl_13-small.jpg 640w, img/mkbl/mkbl_13-medium.jpg 800w, img/mkbl/mkbl_05-large.jpg 1480w"  alt='Sara Thompson')
               .figcaption: p Dr. Sara S. Thompson at work.
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media
-                img(src='img/mkbl/mkbl_10-medium.jpg' srcset="img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
+                a.img-hover(href='img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')
+                  img.browser-shadow(src='img/mkbl/mkbl_10-medium.jpg' srcset="img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
               .figcaption
                 p Makeable's slogan
       
@@ -94,7 +101,8 @@ block content
         .spacer.spacer-big
         ul.gallery.gallery-col1
           li.has-animation.browser-chrome.is-large
-            img.browser-shadow(src='mkbl1.gif', alt='Makeable love page design')
+            a.img-hover.browser-shadow(href='mkbl1.gif', data-rel='lightcase:mkbl')
+              img(src='mkbl1.gif', alt='Makeable love page design')
             //- video.browser-shadow(src='mkbl1.mp4' autoplay preload="auto" loop)
             //-   //- source(src='cognizant.ogg', type='video/ogg')
             //-   //- source(src='mkbl1.mp4', type='video/mp4')
@@ -105,7 +113,7 @@ block content
         .spacer.spacer-big   
         .waypoint-parent
           .browser-chrome.is-large
-            img.browser-shadow(src='img/mkbl/mkbl_12.png' srcset="img/mkbl/mkbl_12-small.jpg 640w, img/mkbl/mkbl_12-medium.jpg 800w, img/mkbl/mkbl_12-large.jpg 1284w"  alt='Makeable love page design')
+            img.browser-shadow(src='img/mkbl/mkbl_12-medium.jpg' srcset="img/mkbl/mkbl_12-small.jpg 640w, img/mkbl/mkbl_12-medium.jpg 800w, img/mkbl/mkbl_12-large.jpg 1284w"  alt='Makeable love page design')
             .waypoint-bottom
           .wolf-item.wright.waypoint-child
             .wolf-item-inner
