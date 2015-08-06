@@ -4,7 +4,7 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-cognizant
-    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant.jpg')
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant-large.jpg')
       .hero-overlay
       .page-title
         h5.alttitle Development and Mobile Design
@@ -30,7 +30,7 @@ block content
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='cognizant9.mp4', data-rel='lightcase:cognizant')
+                a.img-hover.browser-shadow(href='cognizant9.gif', data-rel='lightcase:cognizant')
                   .loader
                   img(data-aload='cognizant9.gif', alt='Slider Functionality')
                   //- video(data-aload='cognizant9.mp4' preload="auto" loop)
@@ -87,7 +87,7 @@ block content
             .wolf-item-inner
               .wolf-media.portfolio-media
                  .loader 
-                 img(src="img/cognizant/cog_01.png", alt="")
+                 img(src="img/cognizant/cog_01.png" srcset="img/cognizant/cog-small.jpg 640w, img/cognizant/cog-medium.jpg 800w, img/cognizant/cog-large.jpg 2250w" alt="")
               .figcaption: p The main concept behind the redesign are the folders that allowed users to collect and collaborate on topics that Cognizant publishes research on.
 
           .wolf-item.is-caption--right
@@ -106,12 +106,12 @@ block content
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
                 .loader
-                img.browser-shadow(data-aload="img/cognizant/cog_02.png", alt="")
+                img.browser-shadow(data-aload="img/cognizant/cog_02-medium.jpg" srcset="img/cognizant/cog_02-small.jpg 640w, img/cognizant/cog_02-medium.jpg 800w, img/cognizant/cog_02-large.jpg 1600w" alt="")
 
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='cognizant4.mp4', data-rel='lightcase:cognizant')
+                a.img-hover.browser-shadow(href='cognizant4.gif', data-rel='lightcase:cognizant')
                   .loader
                   img(data-aload='cognizant4.gif', alt='More Slide Functionality')
                   //- video(data-aload="cognizant4.mp4" preload="auto" loop)
@@ -148,7 +148,7 @@ block content
         .spacer.spacer-big
         ul.gallery.gallery-col1
           li.has-animation
-            img(data-aload="img/cognizant/cog_03.png", alt="")
+            img(data-aload="img/cognizant/cog_03-medium.jpg" srcset="img/cognizant/cog_03-small.jpg 640w, img/cognizant/cog_03-medium.jpg 800w, img/cognizant/cog_03-large.jpg 2250w" alt="")
           li.has-animation
             .figcaption: p  I did mobile design in the browser, speeding up the workflow significantly. We showed working comps to the client, making it much easier for them to understand. 
             //- Desktop design was done by Dr. Sara S. Thompson, Adam Pavloff, and Icons by Decho&trade;
@@ -167,7 +167,7 @@ block content
             a(href='index.html') Back To Works
           li.next
             a(href='esquire.html')
-              img(src='img/projects/esquire.jpg', alt='next')
+              img(src='img/projects/esquire-small.jpg', alt='next')
               span Next Project
 
 
