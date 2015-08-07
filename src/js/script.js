@@ -644,7 +644,51 @@ jQuery(window).load(function() {
 	})
 		
 });
-
+$(document).on('ready', function() {
+	if (!$('html#index-page').length && !$('html#about-page').length) {
+		$('#main-nav ul > li').removeClass('current-menu-item')
+		$('#main-nav .submenu li').removeClass('current-menu-item')
+		$('#main-nav ul > li.projects').addClass('current-menu-item')
+		var elmentID = $('html').attr('id')
+		switch (elmentID) {
+		  case 'artnet-page':
+		    $('#main-nav .submenu li.artnet').addClass('current-menu-item')
+		    break;
+		  case 'akc-page':
+		    $('#main-nav .submenu li.akc').addClass('current-menu-item')
+		    break;
+		  case 'weather-channel-page':
+		    $('#main-nav .submenu li.twc').addClass('current-menu-item')
+		    break;
+		  case 'cognizant-page':
+		    $('#main-nav .submenu li.cognizant').addClass('current-menu-item')
+		    break;
+		  case 'hard-workers-club-page':
+		    $('#main-nav .submenu li.hwc').addClass('current-menu-item')
+		    break;
+		  case 'mkbl-page':
+		    $('#main-nav .submenu li.mkbl').addClass('current-menu-item')
+		    break;
+		  case 'esquire-page':
+		    $('#main-nav .submenu li.esquire').addClass('current-menu-item')
+		    break;
+		  case 'creative-time-page':
+		    $('#main-nav .submenu li.ct').addClass('current-menu-item')
+		    break;
+		  case 'success-academy-page':
+		    $('#main-nav .submenu li.sa').addClass('current-menu-item')
+		    break;
+		  case 'clear-page':
+		    $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
+		    break;
+		  default:
+		    break;
+		}
+	} else if (!$('html#index-page').length) {
+		$('#main-nav ul > li').removeClass('current-menu-item')
+		$('#main-nav ul > li.about').addClass('current-menu-item')
+	}
+});
 // jQuery(window).resize(function() { 
 // 	stickyfooter(); 
 // });
