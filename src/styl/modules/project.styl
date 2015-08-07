@@ -133,7 +133,7 @@ li.browser-chrome
 		border 1px solid #f0f0f0
 
 .mkbl-caption-1
-	background: white url('../img/mkbl/mkbl_02.png')
+	background: white url('../img/mkbl/mkbl_02-medium.jpg')
 	background-repeat no-repeat
 	background-size: auto 100%
 	background-position: 0% 0% 
@@ -143,6 +143,15 @@ li.browser-chrome
 	// top px(-300)
 	+above(1600px)
 		height px(800)
+		background: white url('../img/mkbl/mkbl_02-large.jpg')
+		background-repeat no-repeat
+		background-size: auto 100%
+		background-position: 0% 0% 
+	+below(640px)
+		background: white url('../img/mkbl/mkbl_02-small.jpg')
+		background-repeat no-repeat
+		background-size: auto 100%
+		background-position: 0% 0% 
 	.mkbl-caption__container
 		position absolute
 		max-width 40%
@@ -164,13 +173,17 @@ li.browser-chrome
 		display none
 		
 .clear-caption-1
-	background: url(../img/clear/clear_04.png) no-repeat
+	background: url('../img/clear/clear_04-large.jpg') no-repeat
 	background-size: 100% auto
 	background-position: 50% 0% 
 	height: px(700)
 	position: relative
+	@media screen and (max-resolution: 1dppx), screen and (-webkit-max-device-pixel-ratio: 1), screen and (max-device-pixel-ratio: 1)
+		background: url('../img/clear/clear_04-medium.jpg') no-repeat
+		background-size: 100% auto
+		background-position: 50% 0% 
 	+below(1000px)
-		background: url(../img/clear/clear_06.png) no-repeat
+		background: url('../img/clear/clear_06.jpg') no-repeat
 		background-size: 100% auto
 		.wrapper-mini
 			position relative
@@ -184,6 +197,9 @@ li.browser-chrome
 			top 45%
 	+above(1600px)
 		height px(1000)
+		background: url('../img/clear/clear_04-xlarge.jpg') no-repeat
+		background-size: 100% auto
+		background-position: 50% 0% 
 	// top px(-300)
 	.clear-caption__container
 		position absolute

@@ -5,10 +5,10 @@
 -----------------------------------------------------------------------------------*/
 (function(){
 'use strict';
-if ($(window).width() > 1440) {
+if (head.retina) {
 	var allimgs = [
-		'mkbl1.gif',
-		'twc1.gif',
+		'img/mkbl/mkbl_14-large.gif',
+		'img/twc/twc_03-large.gif',
 	    'img/profile2-large.jpg',
 	    'img/akc/akc_01-large.jpg',
 	    'img/akc/akc_04-large.jpg',
@@ -41,8 +41,8 @@ if ($(window).width() > 1440) {
 	    'img/ct/ct_07-large.jpg',
 	    'img/ct/ct_08-large.jpg',
 	    'img/ct/ct_09-large.jpg',
-	    'img/ct/ct_03-large.png',
-	    'img/ct/ct_03-large.png',
+	    'img/ct/ct_03-large.jpg',
+	    'img/ct/ct_03-large.jpg',
 	    'img/esquire/esquire_01-large.jpg',
 	    'img/esquire/esquire_02-large.jpg',
 	    'img/esquire/esquire_03-large.jpg',
@@ -64,7 +64,61 @@ if ($(window).width() > 1440) {
 	]
 } else {
 	var allimgs = [
-	]
+			'img/mkbl/mkbl_14-medium.gif',
+			'img/twc/twc_03-large.gif',
+		    'img/profile2-medium.jpg',
+		    'img/akc/akc_01-medium.jpg',
+		    'img/akc/akc_04-medium.jpg',
+		    'img/akc/akc_05-medium.jpg',
+		    'img/akc/akc_02-medium.jpg',
+		    'img/akc/akc_09-medium.jpg',
+		    'img/akc/akc_06-medium.jpg',
+		    'img/akc/akc_07-medium.jpg',
+		    'img/artnet/artnet_01-large.jpg',
+		    'img/artnet/artnet_02-large.jpg',
+		    'img/artnet/artnet_03-large.jpg',
+		    'img/mkbl/mkbl_01-medium.jpg',
+		    'img/mkbl/mkbl_02-medium.jpg',
+		    'img/mkbl/mkbl_03-medium.jpg',
+		    'img/mkbl/mkbl_04-medium.jpg',
+		    'img/mkbl/mkbl_05-medium.jpg',
+		    'img/mkbl/mkbl_06-medium.jpg',
+		    'img/mkbl/mkbl_07-medium.jpg',
+		    'img/mkbl/mkbl_10-medium.jpg',
+		    'img/mkbl/mkbl_12-medium.jpg',
+		    'img/clear/clear_05-medium.jpg',
+		    'img/clear/clear_04-medium.jpg',
+		    'img/clear/clear_06-medium.jpg',
+		    'img/cognizant/cog_01-medium.jpg',
+		    'img/cognizant/cog_05-medium.gif',
+		    'img/cognizant/cog_06-medium.gif',
+		    'img/cognizant/cog_07-medium.gif',
+		    'img/cognizant/cog_08-medium.gif',
+		    'img/ct/ct_06-medium.jpg',
+		    'img/ct/ct_07-medium.jpg',
+		    'img/ct/ct_08-medium.jpg',
+		    'img/ct/ct_09-medium.jpg',
+		    'img/ct/ct_03-medium.jpg',
+		    'img/ct/ct_03-medium.jpg',
+		    'img/esquire/esquire_01-medium.jpg',
+		    'img/esquire/esquire_02-medium.jpg',
+		    'img/esquire/esquire_03-medium.jpg',
+		    'img/hwc/hwc_03-medium.jpg',
+		    'img/hwc/hwc_04-medium.jpg',
+		    'img/hwc/hwc_05-medium.jpg',
+		    'img/hwc/hwc_06-medium.jpg',
+		    'img/hwc/hwc_07-medium.jpg',
+		    'img/hwc/hwc_08-medium.jpg',
+		    'img/sa/sa_01-medium.jpg',
+		    'img/sa/sa_04-medium.jpg',
+		    'img/sa/sa_05-medium.jpg',
+		    'img/sa/sa_06-medium.jpg',
+		    'img/sa/sa_07-medium.jpg',
+		    'img/twc/rain.gif',
+		    'img/twc/hurricane.gif',
+		    'img/twc/twc_01-medium.png',
+		    'img/twc/twc_02-medium.png'
+		]
 }
 
 function preCache(){
@@ -146,11 +200,11 @@ function smoothShow() {
 }
 
 jQuery(window).load(function() {
-	if (!head.mobile) {
+	// if (head.desktop) {
 		if ($('html#index-page').length) {
 			preCache();
 		}
-	}
+	// }
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
