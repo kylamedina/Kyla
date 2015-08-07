@@ -7,8 +7,6 @@
 'use strict';
 if (head.retina) {
 	var allimgs = [
-		'img/mkbl/mkbl_14-large.gif',
-		'img/twc/twc_03-large.gif',
 	    'img/profile-large.jpg',
 	    'img/akc/akc_01-large.jpg',
 	    'img/akc/akc_04-large.jpg',
@@ -31,7 +29,6 @@ if (head.retina) {
 	    'img/clear/clear_05-large.jpg',
 	    'img/clear/clear_04-large.jpg',
 	    'img/cognizant/cog_01-large.jpg',
-	    'img/cognizant/cog_05-large.gif',
 	    'img/cognizant/cog_06-large.gif',
 	    'img/cognizant/cog_07-large.gif',
 	    'img/cognizant/cog_08-large.gif',
@@ -62,8 +59,6 @@ if (head.retina) {
 	]
 } else if ($(window).width() > 640) {
 	var allimgs = [
-			'img/mkbl/mkbl_14-medium.gif',
-			'img/twc/twc_03-large.gif',
 		    'img/profile-medium.jpg',
 		    'img/akc/akc_01-medium.jpg',
 		    'img/akc/akc_04-medium.jpg',
@@ -86,7 +81,6 @@ if (head.retina) {
 		    'img/clear/clear_05-medium.jpg',
 		    'img/clear/clear_04-medium.jpg',
 		    'img/cognizant/cog_01-medium.jpg',
-		    'img/cognizant/cog_05-large.gif',
 		    'img/cognizant/cog_06-medium.gif',
 		    'img/cognizant/cog_07-medium.gif',
 		    'img/cognizant/cog_08-medium.gif',
@@ -116,8 +110,6 @@ if (head.retina) {
 		    'img/twc/twc_02-medium.png'
 		]
 } else {
-		'img/mkbl/mkbl_14-small.gif',
-		'img/twc/twc_03-small.gif',
 	    'img/profile-small.jpg',
 	    'img/akc/akc_01-small.jpg',
 	    'img/akc/akc_04-small.jpg',
@@ -140,7 +132,6 @@ if (head.retina) {
 	    'img/clear/clear_05-small.jpg',
 	    'img/clear/clear_04-small.jpg',
 	    'img/cognizant/cog_01-small.jpg',
-	    'img/cognizant/cog_05-small.gif',
 	    'img/cognizant/cog_06-small.gif',
 	    'img/cognizant/cog_07-small.gif',
 	    'img/cognizant/cog_08-small.gif',
@@ -250,10 +241,11 @@ function smoothShow() {
 
 jQuery(window).load(function() {
 	// if (head.desktop) {
-		if ($('html#index-page').length) {
+		// if ($('html#index-page').length) {
 			preCache();
-		}
+		// }
 	// }
+	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4');
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/

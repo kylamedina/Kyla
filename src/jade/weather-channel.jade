@@ -4,15 +4,16 @@ block content
   include includes/triangles.jade
   include includes/header-light.jade
   #page-content.page-twc
-    section#hero.hero-big.parallax-section.text-light(data-parallax-image='twc1.gif')
-
-      //- .hero-video
-      //- video.hero-video(autoplay preload="auto" loop)
-      //-   //- source(src='cognizant.ogg', type='video/ogg')
-      //-   source(src='twc1.mp4', type='video/mp4')
-      //-   p Your browser does not support the 
-      //-     code video
-      //-     |  element.
+    section#hero.hero-big.text-light
+      //- .parallax-section.text-light(data-parallax-image='img/twc/twc_03-large.gif')
+  
+      .hero-video
+      video.hero-video(autoplay data-aload='twc1.mp4' preload="auto" loop)
+        //- source(src='cognizant.ogg', type='video/ogg')
+        //- source(src='twc1.mp4', type='video/mp4')
+        p Your browser does not support the 
+          code video
+          |  element.
       .hero-overlay.is-darker
       .page-title
         h5.alttitle Prototyping
@@ -52,13 +53,13 @@ block content
         ul.single-pagination
           li.prev
             a(href='akc.html')
-              img(src='img/projects/akc.jpg', alt='prev')
+              img(src='img/projects/akc-small.jpg', alt='prev')
               span Previous Project
           li.backtoworks
             a(href='index.html') Back To Works
           li.next
             a(href='cognizant.html')
-              img(src='img/projects/cognizant.jpg', alt='next')
+              img(src='img/projects/cognizant-small.jpg', alt='next')
               span Next Project
 
 
