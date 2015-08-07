@@ -5,65 +5,68 @@
 -----------------------------------------------------------------------------------*/
 (function(){
 'use strict';
-var allimgs = [
-    'img/profile2-large.jpg',
-    'img/akc/akc_01-large.jpg',
-    'img/akc/akc_04-large.jpg',
-    'img/akc/akc_05-large.jpg',
-    'img/akc/akc_02-large.jpg',
-    'img/akc/akc_09-large.jpg',
-    'img/akc/akc_06-large.jpg',
-    'img/akc/akc_07-large.jpg',
-    'img/artnet/artnet_01-large.jpg',
-    'img/artnet/artnet_02-large.jpg',
-    'img/artnet/artnet_03-large.jpg',
-    'img/clear/clear_05-large.jpg',
-    'img/clear/clear_04-large.jpg',
-    'img/clear/clear_06-large.jpg',
-    'img/cognizant/cog_01-large.jpg',
-    'img/ct/ct_06-large.jpg',
-    'img/ct/ct_07-large.jpg',
-    'img/ct/ct_08-large.jpg',
-    'img/ct/ct_09-large.jpg',
-    'img/ct/ct_03-large.png',
-    'img/ct/ct_03-large.png',
-    'img/esquire/esquire_01-large.jpg',
-    'img/esquire/esquire_02-large.jpg',
-    'img/esquire/esquire_03-large.jpg',
-    'img/hwc/hwc_03-large.jpg',
-    'img/hwc/hwc_04-large.jpg',
-    'img/hwc/hwc_05-large.jpg',
-    'img/hwc/hwc_06-large.jpg',
-    'img/hwc/hwc_07-large.jpg',
-    'img/hwc/hwc_08-large.jpg',
-    'img/mkbl/mkbl_01-large.jpg',
-    'img/mkbl/mkbl_02-large.jpg',
-    'img/mkbl/mkbl_03-large.jpg',
-    'img/mkbl/mkbl_04-large.jpg',
-    'img/mkbl/mkbl_05-large.jpg',
-    'img/mkbl/mkbl_06-large.jpg',
-    'img/mkbl/mkbl_07-large.jpg',
-    'img/mkbl/mkbl_10-large.jpg',
-    'img/mkbl/mkbl_12-large.jpg',
-    'img/sa/sa_01-large.jpg',
-    'img/sa/sa_04-large.jpg',
-    'img/sa/sa_05-large.jpg',
-    'img/sa/sa_06-large.jpg',
-    'img/sa/sa_07-large.jpg',
-    'img/twc/rain.gif',
-    'img/twc/hurricane.gif',
-    'img/twc/twc_01-large.png',
-    'img/twc/twc_02-large.png',
-    'cog_01.gif',
-    'cog_02.gif',
-    'cog_03.gif',
-    'cognizant4.gif',
-    'cognizant5.gif',
-    'cognizant8.gif',
-    'cognizant9.gif',
-    'mkbl1.gif',
-    'twc1.gif'
-]
+if ($(window).width() > 1440) {
+	var allimgs = [
+		'mkbl1.gif',
+		'twc1.gif',
+	    'img/profile2-large.jpg',
+	    'img/akc/akc_01-large.jpg',
+	    'img/akc/akc_04-large.jpg',
+	    'img/akc/akc_05-large.jpg',
+	    'img/akc/akc_02-large.jpg',
+	    'img/akc/akc_09-large.jpg',
+	    'img/akc/akc_06-large.jpg',
+	    'img/akc/akc_07-large.jpg',
+	    'img/artnet/artnet_01-large.jpg',
+	    'img/artnet/artnet_02-large.jpg',
+	    'img/artnet/artnet_03-large.jpg',
+	    'img/mkbl/mkbl_01-large.jpg',
+	    'img/mkbl/mkbl_02-large.jpg',
+	    'img/mkbl/mkbl_03-large.jpg',
+	    'img/mkbl/mkbl_04-large.jpg',
+	    'img/mkbl/mkbl_05-large.jpg',
+	    'img/mkbl/mkbl_06-large.jpg',
+	    'img/mkbl/mkbl_07-large.jpg',
+	    'img/mkbl/mkbl_10-large.jpg',
+	    'img/mkbl/mkbl_12-large.jpg',
+	    'img/clear/clear_05-large.jpg',
+	    'img/clear/clear_04-large.jpg',
+	    'img/clear/clear_06-large.jpg',
+	    'img/cognizant/cog_01-large.jpg',
+	    'img/cognizant/cog_05-large.gif',
+	    'img/cognizant/cog_06-large.gif',
+	    'img/cognizant/cog_07-large.gif',
+	    'img/cognizant/cog_08-large.gif',
+	    'img/ct/ct_06-large.jpg',
+	    'img/ct/ct_07-large.jpg',
+	    'img/ct/ct_08-large.jpg',
+	    'img/ct/ct_09-large.jpg',
+	    'img/ct/ct_03-large.png',
+	    'img/ct/ct_03-large.png',
+	    'img/esquire/esquire_01-large.jpg',
+	    'img/esquire/esquire_02-large.jpg',
+	    'img/esquire/esquire_03-large.jpg',
+	    'img/hwc/hwc_03-large.jpg',
+	    'img/hwc/hwc_04-large.jpg',
+	    'img/hwc/hwc_05-large.jpg',
+	    'img/hwc/hwc_06-large.jpg',
+	    'img/hwc/hwc_07-large.jpg',
+	    'img/hwc/hwc_08-large.jpg',
+	    'img/sa/sa_01-large.jpg',
+	    'img/sa/sa_04-large.jpg',
+	    'img/sa/sa_05-large.jpg',
+	    'img/sa/sa_06-large.jpg',
+	    'img/sa/sa_07-large.jpg',
+	    'img/twc/rain.gif',
+	    'img/twc/hurricane.gif',
+	    'img/twc/twc_01-large.png',
+	    'img/twc/twc_02-large.png'
+	]
+} else {
+	var allimgs = [
+	]
+}
+
 function preCache(){
     $.each(allimgs, function(){
         var img = new Image();
@@ -142,11 +145,12 @@ function smoothShow() {
 		
 }
 
-jQuery(window).load(function() {	
-	if ($('html#index-page').length) {
-		preCache();
+jQuery(window).load(function() {
+	if (!head.mobile) {
+		if ($('html#index-page').length) {
+			preCache();
+		}
 	}
-	
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
