@@ -18,7 +18,7 @@
 		margin-right auto
 
 .browser-shadow
-	box-shadow 0px 5px 30px rgba(#000,0.1)
+	box-shadow 0px 5px 30px rgba(#000,0.05)
 	border-bottom-right-radius px(5)
 	border-bottom-left-radius px(5)
 	border-top 1px solid #f0f0f0
@@ -28,7 +28,7 @@
 	img
 		width 100%
 .img-shadow
-	box-shadow 0px 5px 30px rgba(#000,0.1)
+	box-shadow 0px 5px 30px rgba(#000,0.05)
 	position relative
 	width 100%
 	img
@@ -111,7 +111,7 @@ li.browser-chrome
 		margin-bottom 0 !important
 		&.is-fixed
 			position fixed
-			top px(60)
+			top px(90)
 		&.is-bottom
 			top auto
 			bottom 0
@@ -249,3 +249,8 @@ li.browser-chrome
 		+ video
 			display none
 		
+.chrome
+	.parallax-image
+		transform none !important
+		top 0 !important
+		position fixed !important

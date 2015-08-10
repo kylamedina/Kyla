@@ -17,7 +17,7 @@ textarea
   padding 0px 0px
   transition all 200ms ease
   border-radius 0px
-  -moz-border-radius 0x
+  -moz-border-radius 0px
   -khtml-border-radius 0px
   -webkit-border-radius 0px
   resize none
@@ -178,7 +178,7 @@ a
     font-size 16px
     padding 22px 65px
   &.sr-button1
-    background #0d0d0d
+    background black
     &:hover
       background primary
   &.sr-button2
@@ -346,9 +346,9 @@ div
   blockquote
     &:first-child
       margin-top 0px
-  .socialmedia-widget
-    &:first-child
-      margin 0
+  // .socialmedia-widget
+  //   &:first-child
+  //     margin 0
   .alert
     &:first-child
       margin 0
@@ -491,10 +491,10 @@ p code
 
 .align-center
   text-align center
-  .socialmedia-widget
-    li
-      margin-right -5px
-      padding 0 10px
+  // .socialmedia-widget
+  //   li
+  //     margin-right -5px
+  //     padding 0 10px
 
 .align-right
   text-align right
@@ -639,6 +639,13 @@ header
     .logotype
       transition opacity 0.3s ease
       font-family Headerfont
+      svg
+        display inline-block
+        size 36px
+        vertical-align middle
+        margin-right 14px
+        position relative
+        top -3px
     &.show-light-logo
       #dark-logo
         opacity 0
@@ -1758,9 +1765,9 @@ div .column-section:first-child,
 //         a
 //           color #008cd2
 
-.socialmedia-widget.align-center, 
-.align-center .socialmedia-widget
-  text-align center
+// .socialmedia-widget.align-center, 
+// .align-center .socialmedia-widget
+//   text-align center
 
 .inline-video
   position relative
@@ -1901,9 +1908,9 @@ div .column-section:first-child,
     li
       width calc(16.66% - 80px)
 
-.team-member
-  .socialmedia-widget
-    margin-top 4px
+// .team-member
+//   .socialmedia-widget
+//     margin-top 4px
 
 .alert
   margin-top 20px
@@ -2081,10 +2088,11 @@ div .column-section:first-child,
         right 1px
         position absolute
         bottom -20px
-        background-color black
+        background-color secondary
         opacity 0
         transition transform 0.4s ease 0.15s, opacity 0.4s ease 0.15s
       &:hover
+        color secondary
         &:after
           transform translateY(-15px)
           opacity 1

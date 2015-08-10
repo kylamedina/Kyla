@@ -22,12 +22,17 @@ block content
       //- a#scroll-down(href='#') Scroll Down
 
     section#page-body
-      .wrapper-medium
-        .wolf-grid.clearfix(data-mouseparallax='true' style='margin-bottom:0;')
-          .wolf-item.wfull
-            .wolf-item-inner
-              .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-                img(data-aload='img/twc/twc_01-medium.png', srcset="img/twc/twc_01-small.png 640w, img/twc/twc_01-medium.png 1480w, img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
+      .wrapper.xtra-wide
+        ul.gallery.gallery-col1
+          li.has-animation(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+            img(data-aload='img/twc/twc_01-medium.png', srcset="img/twc/twc_01-small.png 640w, img/twc/twc_01-medium.png 1480w, img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
+        
+      //- .wrapper-medium
+      //-   .wolf-grid.clearfix(data-mouseparallax='true' style='margin-bottom:0;')
+      //-     .wolf-item.wfull
+      //-       .wolf-item-inner
+      //-         .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+      //-           img(data-aload='img/twc/twc_01-medium.png', srcset="img/twc/twc_01-small.png 640w, img/twc/twc_01-medium.png 1480w, img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
       .wrapper-small
         h4.align-center
           strong A Full-Scale Prototype
@@ -36,7 +41,7 @@ block content
             p The Weather Channel asked Makeable to redesign their flagship app. During the process, I prototyped a concept to present to Apple. It that featured animated backgrounds that changed according to the weather and a card system that makes it highly customizable. The flagship feature of the concept is WeatherLens, which crowdsourced information about the&nbsp;weather.
       .wrapper.xtra-wide
         .spacer.spacer-big
-        .wolf-grid.clearfix(data-mouseparallax='false')
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
           .wolf-item
             .wolf-item-inner
               p When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and&nbsp;Twitter.

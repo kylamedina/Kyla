@@ -584,7 +584,7 @@ $(window).load(function() {
 		  				.removeClass('is-fixed');
 		  		}
 		  	},
-		  	offset: '60px'
+		  	offset: '90px'
 		  });
 		  var bottomWaypoint = $(this).find('.waypoint-bottom').waypoint({
 		    handler: function(direction) {
@@ -648,6 +648,7 @@ $(window).load(function() {
 });
 $(document).on('ready', function() {
 	if ($('#hero').length && $('#hero').hasClass('text-light')) {
+		console.log('this')
 		$('#logo').addClass('show-light-logo');
 		$('.menu').addClass('menu-light');
 	}
