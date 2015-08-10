@@ -648,7 +648,6 @@ $(window).load(function() {
 });
 $(document).on('ready', function() {
 	if ($('#hero').length && $('#hero').hasClass('text-light')) {
-		console.log('this')
 		$('#logo').addClass('show-light-logo');
 		$('.menu').addClass('menu-light');
 	}

@@ -1028,7 +1028,7 @@ footer .widget:first-child, div .widget:first-child
   right 0
   left 0
   background-color rgba(#000,0.2)
-  z-index 0
+  z-index 1
   &.is-darker
     background-color rgba(#000,0.3)
 
@@ -1092,6 +1092,7 @@ footer .widget:first-child, div .widget:first-child
 #hero.hero-half .page-title
   padding 0
   position absolute
+  z-index 2
   top 50%
   left 40px
   transform translateY(-50%)
@@ -2215,3 +2216,6 @@ div .column-section:first-child,
 #index-page
   .open-filter
     display block
+    
+.parallax-content
+  z-index 0 !important
