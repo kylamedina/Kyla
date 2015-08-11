@@ -626,6 +626,9 @@ header
     letter-spacing 3px
     #dark-logo
       color black
+      top: -7px
+      position: relative
+      left: -12px
       & + #light-logo
         position absolute
         top 0
@@ -1097,6 +1100,14 @@ footer .widget:first-child, div .widget:first-child
   left 40px
   transform translateY(-50%)
 
+@media only screen and (max-width: 500px)
+  #hero.hero-full .page-title, 
+  #hero.hero-big .page-title, 
+  #hero.hero-half .page-title
+    left: 0px
+    right: 0
+    margin: auto
+    
 #hero.hero-full .page-title.hright, 
 #hero.hero-big .page-title.hright, 
 #hero.hero-half .page-title.hright
