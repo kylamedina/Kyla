@@ -22,7 +22,7 @@ gulp.task 'js', ->
 			'**/jquery.owl.carousel.js'
 			'**/jquery.wolf.min.js'
 		]))
-		.pipe $.concat 'vendor.js'
+		.pipe $.concat 'app.js'
 		.pipe gulp.dest 'app/js'
 
 gulp.task 'bower', ->
