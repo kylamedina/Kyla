@@ -36,7 +36,7 @@ gulp.task 'styl-watch', ->
 				autoprefixer()
 			]
 			include: ['src/styl']
-			compress: false
+			compress: true
 			url:
     			name: 'embedurl'
 		})
