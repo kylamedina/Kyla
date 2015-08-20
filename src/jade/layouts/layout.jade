@@ -26,8 +26,11 @@ html
     //- PAGELOADER
     #page-loader
       .page-loader-inner
-        .loader
-          strong Loading
+        //- img.loader(src='loading.gif')
+        video.loader(preload="auto" autoplay loop poster='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')
+          source(src='loading_gradient.mp4')
+        //- .loader
+        //-   strong Loading
     
     block content
 

@@ -12,7 +12,7 @@ gulp.task 'jade-watch', ->
 	return gulp.src(['src/jade/**/*.jade','!src/jade/views/**/*.jade','!src/jade/includes/**/*.jade','!src/jade/modules/**/*.jade'])
 		.pipe $.plumber(errorHandler: onError)
 		.pipe $.accord 'jade',
-			pretty: true
+			pretty: false
 		.pipe gulp.dest('app')
 
 gulp.task('jade', ['jade-watch'], browserSync.reload);

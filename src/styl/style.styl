@@ -770,8 +770,16 @@ header.header-open:not(.header-transparent) + #page-body
 .pace-inactive
   display none
 
+.page-loader-inner
+  height 100%
+  position relative
+  
 #page-loader
   position fixed
+  top 0
+  bottom 0
+  right 0
+  left 0
   height 100%
   width 100%
   background #ffffff
@@ -787,7 +795,7 @@ header.header-open:not(.header-transparent) + #page-body
   .loader-subtitle
     margin-top 10px
   .loader
-    margin-top 40px
+    // margin-top 40px
     font-family 'Montserrat'
     font-weight 400
     text-transform uppercase
@@ -796,11 +804,15 @@ header.header-open:not(.header-transparent) + #page-body
     font-size 32px
     line-height 40px
     position absolute
-    top 50%
-    margin-top -20px
+    top 0
     left 0
+    right 0
+    bottom 0
+    margin auto
+    width 250px
+    height 250px
     text-align center
-    width 100%
+    background-color white
 
 #menu
   position relative
@@ -1286,7 +1298,7 @@ header #menu .open-share:hover
   // // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"
 
 #header-filter.filter-is-open .close-filter:before, #header-filter.filter-is-open .close-filter:after,
-	#header-share.share-is-open .close-share:before, #header-share.share-is-open .close-share:after
+  #header-share.share-is-open .close-share:before, #header-share.share-is-open .close-share:after
   opacity 1
   // filter alpha(opacity=100)
   // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
@@ -2168,7 +2180,7 @@ div .column-section:first-child,
   height auto
   right 8%
   top 1%
-  z-index -1
+  z-index 0
   opacity 0.9
   +above(2000px)
     width 1000px
@@ -2227,6 +2239,11 @@ div .column-section:first-child,
 #index-page
   .open-filter
     display block
-    
+
+.video404
+  max-width 320px
+  max-height 320px
+  margin 0 auto
+  
 .parallax-content
   z-index 0 !important

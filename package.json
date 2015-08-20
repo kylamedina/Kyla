@@ -53,5 +53,8 @@
     "rupture": "*",
     "serve-static": "^1.10.0",
     "stylus": "*"
+  },
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
   }
 }

@@ -13,7 +13,7 @@
 				"node_modules",
 				"design",
 				"tmp",
-				// "app",
+				"app",
 				"fonts"
 			],
 			"path": "."
