@@ -1539,8 +1539,14 @@ header.hero-invisible #menu .open-share
       position absolute
       top 50%
       left 50%
+      width 129px
+      height 100px
       transform translateY(-50%) translateX(-50%)
+      background url(../svg/triangle.svg) no-repeat
+      background-position 50% 50%
+      background-size 100px 100px
       a
+        line-height 100px
         &:hover
           color primary
     a
@@ -2113,11 +2119,10 @@ div .column-section:first-child,
         right 1px
         position absolute
         bottom -20px
-        background-color secondary
+        background-color black
         opacity 0
         transition transform 0.4s ease 0.15s, opacity 0.4s ease 0.15s
       &:hover
-        color secondary
         &:after
           transform translateY(-15px)
           opacity 1
