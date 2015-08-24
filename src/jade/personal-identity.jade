@@ -1,0 +1,115 @@
+extends layouts/layout
+
+block content
+  //- include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-akc
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/kyla-large.jpg')
+      .hero-overlay      
+      .page-title
+        h5.alttitle Design
+        h1
+          strong Personal Identity
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.body-akc
+      .wrapper-small.has-animation
+        h4.align-center
+          strong Branded
+        h6.alttitle.align-center for the largest dog community in the world
+        .column-section.clearfix
+            p American Kennel Club approached Makeable with a series of projects that included an overhaul of their website, several apps with desktop experiences, and promotional sites for the apps. I have been involved in all of the projects in different capacities.
+            p I worked as a designer on AKC Marketplace, an offshoot of the main site that allows vets, groomers, dog walkers, boards, breeders, and pet shops to create their own page to promote themselves to the AKC community. I did the design, matching the system created for the main site by 
+              a(href='http://www.gibbygab.com/') Gibbygab
+              | . After the main pages were created as PSDs. I moved to designing in the browser and lead front-end&nbsp;development.
+
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='false')
+          .wolf-item(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                .browser-shadow
+                  .loader
+                  img(data-aload='img/kyla/kyla_01-large.jpg' srcset="img/kyla/kyla_01-small.jpg 640w, img/kyla/kyla_01-large.jpg 800w" alt='')
+          .wolf-item.is-caption(data-speed="-2")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p Marketplace allows businesses to create mini-sites to advertise to the AKC&nbsp;community.
+          .wolf-item.is-caption.is-caption--right(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p Search is a major component of the site. It uses a natural language system and featured results that can be sponsored.
+          .wolf-item(style='margin-bottom:0')
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                .browser-shadow
+                  .loader
+                  img(data-aload='img/akc/akc_04-medium.jpg' srcset="img/akc/akc_04-small.jpg 640w, img/akc/akc_04-medium.jpg 800w, img/akc/akc_04-large.jpg 1280w" alt='AKC Marketplace Website Search Page')
+
+          .wolf-item.wfull
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                img.has-animation(src='img/akc/akc_05-medium.png' srcset="img/akc/akc_05-small.png 640w, img/akc/akc_05-medium.png 800w, img/akc/akc_05-large.png 1440w, img/akc/akc_05-xlarge.png 1960w" alt='AKC Marketplace Mobile Site')
+
+        .wrapper-medium.has-animation
+          .wolf-item.wfull(style='margin-bottom:0')
+            .wolf-item-inner.browser-chrome.is-large
+              .wolf-media.portfolio-media.browser-shadow
+                a(href='img/akc/akc_02-medium.jpg', data-rel='lightcase:akc')
+                  .loader
+                  img(src='img/akc/akc_02-medium.jpg' srcset="img/akc/akc_02-small.jpg 640w, img/akc/akc_02-medium.jpg 1000w, img/akc/akc_02-large.jpg 1400w" alt='AKC Marketplace Website Storefront')
+
+
+      .wrapper-mini.has-animation
+        .spacer.spacer-medium
+        h4.align-center
+          strong Social Networking
+        h6.alttitle.align-center for dogs
+        .column-section.clearfix
+            p I was also involved in Wooftale&mdash;lovingly deemed 'Facebook for Dogs' as the front-end developer. The app uses 'if this then that' logic and measures things like the dog's walking distance and temperature which then posts statuses or 'Wooftales' to the dog's feed. One of the most interesting parts of the app is creating shareable posts via HTML5's canvas. Using javascript to create the canvas, I could basically take a snapshot and export as a PNG that was shareable to the Wooftale feed as well as Instagram and other social&nbsp;networks.
+      .wrapper-mini.has-animation
+        .spacer.spacer-small
+        h6
+          strong Links
+        p
+          a(href='http://marketplace.akc.org' target='_blank') AKC Marketplace
+          br
+          a(href='http://caninechronicle.com/breaking-news/akc-launches-marketplace-for-clubs' target='_blank') 
+            em AKC Launches Marketplace for Clubs
+          br
+          a(href='http://wooftale.com' target='_blank') Wooftale Teaser Site
+
+      .wrapper
+        .spacer.spacer-medium
+        .owl-slider
+          figure
+            img(src='img/akc/akc_09-medium.jpg' srcset="img/akc/akc_09-small.jpg 640w, img/akc/akc_09-medium.jpg 1000w, img/akc/akc_09-large.jpg 2000w" alt='Dog and Laptop')
+            figcaption
+             p.slider-caption I worked on the front-end of the teaser site which uses Expression&nbsp;Engine.
+          figure
+            img(data-aload='img/akc/akc_06-medium.jpg' srcset="img/akc/akc_06-small.jpg 640w, img/akc/akc_06-medium.jpg 1000w, img/akc/akc_06-large.jpg 2000w" alt='Mobile Screens')
+            figcaption
+             p.slider-caption 
+                | The left screen shows the feed with an event&nbsp;post. 
+                br
+                | The right screen shows a&nbsp;'Wooftale.'
+          figure
+            img(data-aload='img/akc/akc_07-medium.jpg' srcset="img/akc/akc_07-small.jpg 640w, img/akc/akc_07-medium.jpg 1000w, img/akc/akc_07-large.jpg 2000w" alt='Dog and Mobile Instagram')
+            figcaption
+             p.slider-caption HTML's canvas element was used to allow users to customize the look of the shareable Wooftale. Then a PNG of the canvas element was outputted which could be posted on the feed in the app as well as other social&nbsp;networks.
+
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='artnet.html')
+              img(src='img/projects/artnet-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='index.html') Back To Works
+          li.next
+            a(href='weather-channel.html' style='background:url("img/twc/rain.gif");background-size:cover;background-position: 50% 100%;')
+              img(src='img/projects/twc2.png', alt='next')
+              span Next Project
