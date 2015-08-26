@@ -19,7 +19,7 @@ requireDir './tasks',
 
 gulp.task 'watch', ['browser-sync'], ->
 	gulp.watch [ 'src/static/**/*' ], ['static']
-	# gulp.watch [ 'src/img/**/*' ], ['img']
+	gulp.watch [ 'src/img/**/*' ], ['img']
 	gulp.watch [ 'src/svg/**/*.svg' ], ['svg']
 	gulp.watch [ 'src/styl/**/*.styl' ], ['styl']
 	gulp.watch [ 'src/css/**/*.css' ], ['css']
