@@ -58,10 +58,11 @@ gulp.task 'browser-sync', ->
 		# proxy: 'localhost:3000'
 		port: 8088
 		open: false
-		tunnel: false
+		tunnel: true
 		online: true
 		logConnections: true
 		injectChanges: true
+		ghostMode: false
 		# snippetOptions:
 		# 	rule:
 		# 		match: /<browsersync>/i,
