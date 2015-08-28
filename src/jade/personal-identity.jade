@@ -113,40 +113,41 @@ block content
                 .loader
                 img(src='img/kyla/kyla_16-large.jpg' srcset="img/kyla/kyla_16-small.jpg 640w, img/kyla/kyla_16-medium.jpg 800w, img/kyla/kyla_16-large.jpg 1920w" alt='ky.la website')
         
-        .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;')
+        .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;position:relative;z-index:1;')
           .wolf-item-inner
-            .wolf-media.portfolio-media.img-shadow
+            .wolf-media.portfolio-media.img-shadow(style='box-shadow:0 -8px 30px rgba(0,0,0,.05);')
               a(href='img/kyla/kyla_17-large.jpg', data-rel='lightcase:kyla')
                 .loader
                 img(src='img/kyla/kyla_17-large-alt.png' srcset="img/kyla/kyla_17-small-alt.png 640w, img/kyla/kyla_17-large-alt.png 1000w, img/kyla/kyla_17-large-alt.png 1400w" alt='ky.la website')
-        .wolf-item.wfull.has-animation(style='padding-bottom:12px;margin-bottom:0;')
-          .wolf-item-inner
-            .wolf-media.portfolio-media.img-shadow
-              a(href='branding01.mp4', data-rel='lightcase:kyla')
-                .loader
-                video(data-aload='branding01.mp4' preload="auto" autoplay loop)
-        .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;')
-          .wolf-item-inner
-            .wolf-media.portfolio-media.img-shadow
-              a(href='img/kyla/kyla_18-large.jpg', data-rel='lightcase:kyla')
-                .loader
-                img(src='img/kyla/kyla_18-large.jpg' srcset="img/kyla/kyla_18-small.jpg 640w, img/kyla/kyla_18-medium.jpg 800w, img/kyla/kyla_18-large.jpg 1920w" alt='ky.la website')
-        .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;')
-          .wolf-item-inner
-            .wolf-media.portfolio-media.img-shadow
-              a(href='img/kyla/kyla_17-large.jpg', data-rel='lightcase:kyla')
-                .loader
-                img(src='img/kyla/kyla_19-large.jpg' srcset="img/kyla/kyla_19-small.jpg 640w, img/kyla/kyla_19-medium.jpg 800w, img/kyla/kyla_19-large.jpg 1920w" alt='ky.la website')
+        div.id-pullup
+          .wolf-item.wfull.has-animation(style='padding-bottom:12px;margin-bottom:0;')
+            .wolf-item-inner
+              .wolf-media.portfolio-media.img-shadow
+                a(href='branding01.mp4', data-rel='lightcase:kyla')
+                  .loader
+                  video(data-aload='branding01.mp4' preload="auto" autoplay loop)
+          .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;')
+            .wolf-item-inner
+              .wolf-media.portfolio-media.img-shadow
+                a(href='img/kyla/kyla_18-large.jpg', data-rel='lightcase:kyla')
+                  .loader
+                  img(src='img/kyla/kyla_18-large.jpg' srcset="img/kyla/kyla_18-small.jpg 640w, img/kyla/kyla_18-medium.jpg 800w, img/kyla/kyla_18-large.jpg 1920w" alt='ky.la website')
+          .wolf-item.wfull.has-animation(style='padding-bottom:0;margin-bottom:0;')
+            .wolf-item-inner
+              .wolf-media.portfolio-media.img-shadow
+                a(href='img/kyla/kyla_17-large.jpg', data-rel='lightcase:kyla')
+                  .loader
+                  img(src='img/kyla/kyla_19-large.jpg' srcset="img/kyla/kyla_19-small.jpg 640w, img/kyla/kyla_19-medium.jpg 800w, img/kyla/kyla_19-large.jpg 1920w" alt='ky.la website')
 
-      .wrapper-small.has-animation
-        .spacer.spacer-medium
-        .column-section.clearfix(style='text-align:center')
-            h6
-              strong Links
-            p
-              a(href='https://clearme.com/' target='_blank') Behance
-              br
-              a(href='http://www.p-decho.com/' target='_blank') Decho Pitukcharoen
+        .wrapper-small.has-animation
+          .spacer.spacer-medium
+          .column-section.clearfix(style='text-align:center')
+              h6
+                strong Links
+              p
+                a(href='https://clearme.com/' target='_blank') Behance
+                br
+                a(href='http://www.p-decho.com/' target='_blank') Decho Pitukcharoen
       .wrapper
         ul.single-pagination
           li.prev
