@@ -753,6 +753,9 @@ $(document).on('ready', function() {
 		  case 'hard-workers-club-page':
 		    $('#main-nav .submenu li.hwc').addClass('current-menu-item')
 		    break;
+		  case 'personal-identity-page':
+		    $('#main-nav .submenu li.pid').addClass('current-menu-item')
+		    break;
 		  case 'mkbl-page':
 		    $('#main-nav .submenu li.mkbl').addClass('current-menu-item')
 		    break;
