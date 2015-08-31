@@ -13,6 +13,7 @@ if (head.retina && $(window).width() > 1140) {
 		'img/projects/mkbl-large.jpg',
 		'img/projects/hwc-large.jpg',
 		'img/projects/cognizant-large.jpg',
+		'img/projects/kyla-large2.jpg',
 	    'img/profile-large.jpg',
 	    'img/akc/akc_01-large.jpg',
 	    'img/akc/akc_04-large.jpg',
