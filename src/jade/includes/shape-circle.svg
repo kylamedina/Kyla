@@ -1,0 +1,30 @@
+<svg class="svg-shape" height="452px" id="circle" version="1.1" viewBox="0 0 452 452" width="452px" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink" shape-rendering='optimizeSpeed' vector-effect="non-scaling-stroke">
+  <defs>
+    <linearGradient id="circle-linearGradient-3" x1="69.0961661%" x2="18.7246904%" y1="104.653059%" y2="2.61253044%">
+      <stop offset="0%" stop-color="#409CF9"></stop>
+      <stop offset="100%" stop-color="#37F6E1"></stop>
+    </linearGradient>
+    <linearGradient id="circle-linearGradient-4" x1="41.4645626%" x2="59.9934474%" y1="1.83170372%" y2="98.5601858%">
+      <stop class="stop-1" offset="0%" stop-color="#669CFF"></stop>
+      <stop class="stop-2" offset="33.5483499%" stop-color="#4B88FA"></stop>
+      <stop class="stop-3" offset="71.4983259%" stop-color="#BB69FF"></stop>
+      <stop class="stop-4" offset="100%" stop-color="#C782FF"></stop>
+    </linearGradient>
+    <linearGradient x1="100%" y1="45.0769993%" x2="4.88374777%" y2="34.7942828%" id="circle-linearGradient-5">
+        <stop stop-color="#00E6BC" offset="0%"></stop>
+        <stop stop-color="#21F0C8" offset="30.5733676%"></stop>
+        <stop stop-color="#B0FFA9" offset="100%"></stop>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-opacity="0" id="circle-1" sketch:type="MSArtboardGroup" stroke="url(#circle-linearGradient-3)" stroke-width="3" transform="translate(-784.000000, -347.000000)" vector-effect="non-scaling-stroke">
+    <circle cx="1010" cy="573" r="225" sketch:type="MSShapeGroup" transform="translate(1010.000000, 573.000000) rotate(349.000000) translate(-1010.000000, -573.000000) " vector-effect="non-scaling-stroke"></circle>
+  </g>
+  <g fill="none" fill-opacity="0" id="circle-2" sketch:type="MSArtboardGroup" stroke="url(#circle-linearGradient-4)" stroke-width="3" transform="translate(-862.000000, -172.000000)" vector-effect="non-scaling-stroke">
+    <circle cx="1088" cy="398" r="225" sketch:type="MSShapeGroup" transform="translate(1088.000000, 398.000000) rotate(349.000000) translate(-1088.000000, -398.000000) " vector-effect="non-scaling-stroke"></circle>
+  </g>
+  <g id="circle-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
+      <g sketch:type="MSArtboardGroup" transform="translate(-845.000000, -469.000000)" stroke="url(#circle-linearGradient-5)" stroke-width="3" vector-effect="non-scaling-stroke">
+          <circle sketch:type="MSShapeGroup" transform="translate(1070.000000, 694.000000) rotate(-138.000000) translate(-1070.000000, -694.000000) " cx="1070" cy="694" r="225" vector-effect="non-scaling-stroke"></circle>
+      </g>
+  </g>
+</svg>

@@ -55,6 +55,7 @@
     "stylus": "*"
   },
   "devDependencies": {
+    "jstransformer-coffee-script": "^1.0.0",
     "uglify-js": "^2.4.24"
   }
 }

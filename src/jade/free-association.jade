@@ -1,0 +1,296 @@
+extends layouts/layout
+
+block head
+	style#animations-styles
+
+block content
+	//- include includes/triangles.jade
+	include includes/header-light.jade
+	#page-content.page-FA
+		section#hero.hero-big.parallax-section.text-light
+			.hero-overlay
+			include includes/shape-triangle.svg
+			include includes/shape-line.svg
+			include includes/shape-line2.svg
+			include includes/shape-circle.svg
+			.page-title
+				h5.alttitle Interaction Design and Photography
+				h1
+					strong Free Association
+
+		section#page-body.FA-body
+			
+			.wrapper-small
+				h4.align-center
+					strong An I
+						small x
+						| D Driven Web App
+				h6.alttitle.align-center for one of the largest IT companies in the world.
+				.column-section.clearfix
+						p Cognizant is an international corporation that provides custom information technology, consulting, and business process outsourcing services. It's the third largest IT company in the world behind Accenture and IBM and it prides itself for pushing the limits of&nbsp;technology.
+						p Cognizant asked Makeable to redesign and rethink the 'Latest Thinking' section of their website. Their 'Latest Thinking' stores white papers and other grey lit for existing and potential clients. We created a Linkedin-powered collaborative content service that allowed users to save articles and create groups to share bundled&nbsp;content.
+
+			.wrapper
+				.spacer.spacer-big
+				.wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
+					.wolf-item.no-mobile-video
+						.wolf-item-inner
+							.wolf-media.portfolio-media.browser-chrome
+								a.img-hover.browser-shadow(href='cognizant9.mp4', data-rel='lightcase:cognizant')
+									.loader
+									img.img-for-small(data-aload='img/cognizant/cog_03-small.jpg' alt='Slider Functionality')
+									video(data-aload='cognizant9.mp4' preload="auto" autoplay loop)
+										//- source(src='cognizant.ogg', type='video/ogg')
+										//- source(src='cognizant9.mp4', type='video/mp4')
+										p Your browser does not support the 
+											code video
+											|  element.
+
+					.wolf-item.is-caption(data-speed="-1")
+						.wolf-item-inner
+								p.figcaption A customized form and this slider were prototyped before development began. The form gives the impression of movement in three dimensions and the client wanted to see it before taking it to production. Both prototypes can are available 
+									a(href='http://from.ky.la/XyT6') here
+									|  and the github repository is&nbsp;
+									a(href='https://github.com/itsMakeable/cognizant-prototype') here
+									| .
+					.wolf-item.is-caption.is-caption--right(data-speed="-1")
+						.wolf-item-inner
+							.figcaption
+								p The style of the animations thoughout the site were created to be 'on-brand' and consistent with the tone of voice the company wants to&nbsp;project. 
+					.wolf-item
+						.wolf-item-inner
+							.wolf-media.portfolio-media.browser-chrome
+								a.img-hover.browser-shadow(href='img/cognizant/cog_10-medium.gif'  data-rel='lightcase:cognizant')
+									.loader
+									img(data-aload='img/cognizant/cog_10-medium.gif' srcset="img/cognizant/cog_10-small.gif 640w, img/cognizant/cog_10-medium.gif 800w, img/cognizant/cog_10-large.gif 1280w" alt='Share Functionality')
+
+					.wolf-item
+						.wolf-item-inner
+							.wolf-media.portfolio-media.browser-chrome(style='height:auto;')
+								a.img-hover.browser-shadow(href='cog_02.gif', data-rel='lightcase:cognizant' style='min-height:auto;') 
+									.loader
+									img(src='img/cognizant/cog_09-medium.gif' srcset="img/cognizant/cog_09-small.gif 640w, img/cognizant/cog_09-medium.gif 800w, img/cognizant/cog_09-large.gif 1280w" alt='Search Functionality')
+							.figcaption(style='margin-top:30px;'): p  I wanted the site to feel as natural as possible creating hierarchy to guide the user's attention. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed. I created this Codepen to demonstrate the physics involved in the&nbsp;animations.
+
+			.wrapper.xtra-wide
+				.spacer.spacer-big
+				ul.gallery.gallery-col1
+					li.has-animation
+						img(data-aload="img/cognizant/cog_03-medium.jpg" srcset="img/cognizant/cog_03-small.jpg 640w, img/cognizant/cog_03-medium.jpg 800w, img/cognizant/cog_03-large.jpg 2250w" alt="")
+					li.has-animation
+						.figcaption: p  I did mobile design in-browser, significantly speeding up the workflow. We showed working comps to the client, making it much easier for them to understand and faster to approve. 
+
+			.wrapper
+				.spacer.spacer-big
+				ul.single-pagination
+					li.prev
+						a(href='weather-channel.html' style='background:url("img/twc/rain.gif");background-size:cover;background-position: 50% 100%;')
+							img(src='img/projects/twc2.png', alt='prev')
+							span Previous Project
+					li.backtoworks
+						a(href='/') Back To Works
+					li.next
+						a(href='personal-identity.html')
+							img(src='img/kyla/kyla_05-small.jpg', alt='next')
+							span Next Project
+
+block footer
+	script
+		:coffee-script
+			head.ready ->
+				$shape = $('.svg-shape')
+				$circle = $('#circle')
+				$triangle = $('#triangle')
+				$line = $('#line')
+
+				lineHeight = ($('.hero-big').width()*2)
+
+				resizeTimer = undefined
+
+				findLineHeight = ->
+					lineHeight = ($('.hero-big').width()*2)
+					$('#line, #line2')
+						.attr('height', lineHeight + 'px')
+						.attr('viewbox','0 0 7 ' + lineHeight)
+						.find('rect')
+						.attr('height',lineHeight)
+
+				bgColorGradient = (color1,color2) ->
+					$bg_s1.attr('stop-color', color1)
+					$bg_s2.attr('stop-color', color2)
+
+				theme1 = () ->
+					shapeStyles = ''
+					n = $(window).width()-$circle.width()/2
+					m = $(window).width()/3
+
+					shapeStyles = '#circle {
+							left:' + n + 'px;
+							top: 173px;
+							-webkit-transform: rotate(0deg);
+							transform: rotate(0deg);
+						}
+						#line {
+						left:' + m + 'px;
+						-webkit-transform: rotate(35deg);
+						transform: rotate(35deg);
+						}
+						#triangle {
+						left: -34px;
+						bottom: -30px;
+						-webkit-transform: rotate(-35deg);
+						transform: rotate(-35deg);
+						}'
+					$('#animations-styles').text('').text(shapeStyles)
+
+				theme2 = () ->
+					shapeStyles = ''
+					n = -$circle.width()/2
+					m = $(window).width()/1.8
+					if $(window).width() > 1600
+						m = $(window).width()/1.6
+					o = $(window).width()-$triangle.width()-50
+
+					shapeStyles = '#circle {
+							left:' + n + 'px;
+							top: 152px;
+							-webkit-transform: rotate(-10deg);
+							transform: rotate(-10deg);
+						}
+						#line {
+							left:' + m + 'px;
+							top: -50px;
+							-webkit-transform: rotate(-35deg);
+							transform: rotate(-35deg);
+						}
+						#triangle {
+							left:' + o + 'px;
+							bottom: -30px;
+							-webkit-transform: rotate(50deg);
+							transform: rotate(50deg);
+						}'
+					$('#animations-styles').text('').text(shapeStyles)
+
+				theme3 = () ->
+					shapeStyles = ''
+					n = $(window).width() - $circle.width()/7
+					if $(window).width() > 1600
+						n = $(window).width() - $circle.width()/4
+					if $(window).width() > 1200 && $(window).width() < 1600
+						n = $(window).width() - $circle.width()/2
+					m = $('.hero-big').height() - $circle.width()*0.8
+					o = $(window).width()+100
+					p = $('.hero-big').height()/5
+					if $(window).height() > 800
+						p = $('.hero-big').height()/3
+
+					shapeStyles = '#circle {
+						left:' + n + 'px;
+						top:' + m + 'px;
+						-webkit-transform: rotate(0deg);
+						transform: rotate(0deg);
+						}
+						#line {
+						left:' + o + 'px;
+						top: -20px;
+						-webkit-transform: rotate(35deg);
+						transform: rotate(35deg);
+						}
+						#triangle {
+							left: -124px;
+							bottom: '+ p + 'px;
+							-webkit-transform: rotate(43deg);
+							transform: rotate(43deg);
+						}'
+					$('#animations-styles').text('').text(shapeStyles)
+
+				logoPosition = () ->
+					shapeStyles = ''
+					# $line.clone().attr('id', 'line2').appendTo('header.header')
+					ww = $(window).width()
+					ww2 = $(window).width()/2
+					wh = $('.hero-big').height() 
+					wh2 = $('.hero-big').height()/2
+					tw = $triangle.width()
+					th = $triangle.height()
+					cw = $circle.width()*1.23
+					circleHorizontalCenter = ww2 - (cw/2)
+					circleVerticalCenter = wh2 - (cw/2)
+					triangleHorizontalCenter = ww2 - (tw/2)
+					triangleVerticalCenter = wh2 - (360/2)
+					lineTop1 = wh2-85
+					lineTop2 = wh2+20
+					lineLeft1 = ww2*3 - 85
+					lineLeft2 = ww2 + 150
+
+					shapeStyles = '#circle {
+							width:' + cw + 'px;
+							height:' + cw + 'px;
+							left:' + circleHorizontalCenter + 'px;
+							top:' + circleVerticalCenter + 'px;
+							transform-origin: 50% 50%;
+							-webkit-transform: rotate(0deg);
+							transform: rotate(0deg);
+						}
+						#line {
+							top:' + lineTop1 + 'px;
+							left: ' + lineLeft1 + 'px;
+							height: ' + ww + 'px;
+							transform-origin: 0% 0%;
+							-webkit-transform: rotate(90deg);
+							transform: rotate(90deg);
+						}
+						#line2 {
+							top:' + lineTop2 + 'px;
+							left: ' + lineLeft2 + 'px;
+							height: ' + ww + 'px;
+							transform-origin: 0% 0%;
+							-webkit-transform: rotate(90deg);
+							transform: rotate(90deg);
+						}
+						#triangle {
+							left:' + triangleHorizontalCenter + 'px;
+							bottom:' + triangleVerticalCenter + 'px;
+							-webkit-transform: rotate(0deg);
+							transform: rotate(0deg);
+						}'
+					$('#animations-styles').text('').text(shapeStyles)
+					$('.svg-shape').css('opacity','1')
+
+				showLogo = () ->
+					$('.header-title').on 'mousedown', ->
+						if !head.touch
+							logoPosition()
+							# $('.header-title').css 'opacity', '0'
+							$('#line2').css 'opacity', '1'
+							$('#line').attr('width','7').find('rect').attr('width','7')
+							$('#line2').attr('width','4').find('rect').attr('width','4')
+							$('#circle').find('g').attr('stroke-width','4')
+							$('#triangle').find('g g').attr('stroke-width','4')
+							$('.svg-shape').css('opacity','0.6')
+					$('.header-title').on 'mouseup', ->
+						if !head.touch
+							# $('.header-title').css 'opacity', '1'
+							$('.svg-shape').not('#line2').css('opacity','1')
+							$('#line2').css 'opacity', '0'
+							$('#line, #line2').attr('width','3').find('rect').attr('width','3')
+							$('#circle').find('g').attr('stroke-width','3')
+							$('#triangle').find('g g').attr('stroke-width','3')
+							$('.svg-shape').css('opacity','1')
+							switchHeader()
+
+				$(window).on 'resize', (e) ->
+					clearTimeout resizeTimer
+					resizeTimer = setTimeout((->
+						lineHeight = ($('.hero-big').width()*2)
+						findLineHeight()
+						return
+					), 250)
+					return
+
+				$(document).on 'ready', (event) ->
+					lineHeight = ($('.hero-big').width()*2)
+
+					$('.svg-shape').not('#line2').css('opacity','1')
+					findLineHeight()
+					theme1()
