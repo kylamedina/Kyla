@@ -215,46 +215,54 @@ block footer
 					wh2 = $('.hero-big').height()/2
 					tw = $triangle.width()
 					th = $triangle.height()
-					cw = $circle.height()*1.23
+					cw = $circle.height()*1.6
 					circleHorizontalCenter = ww2 - (cw/2)
 					circleVerticalCenter = wh2 - (cw/2)
 					triangleHorizontalCenter = ww2 - (tw/2)
 					triangleVerticalCenter = wh2 - (360/2)
-					lineTop1 = wh2-85
-					lineTop2 = wh2+20
-					lineLeft1 = ww2*3 - 85
-					lineLeft2 = ww2 + 150
+					lineTop1 = -wh2 + (wh2/2)
+					lineTop2 = -wh2 + (wh2/2)
+					lineLeft1 = (ww2*2) - ww2/3
+					lineLeft2 = ww2 - ww2/2
 
 					shapeStyles = '#circle {
 							width:' + cw + 'px;
 							height:' + cw + 'px;
 							left:' + circleHorizontalCenter + 'px;
-							top:' + circleVerticalCenter + 'px;
+							top:' + (circleVerticalCenter+25) + 'px;
 							transform-origin: 50% 50%;
 							-webkit-transform: rotate(0deg);
 							transform: rotate(0deg);
+							transition: all 1s ease-out 0s;
 						}
 						#line {
 							top:' + lineTop1 + 'px;
 							left: ' + lineLeft1 + 'px;
-							height: ' + ww + 'px;
-							transform-origin: 0% 0%;
+							height: ' + ww2*1.5 + 'px;
+							bottom: 0;
+							margin: auto;
+							transform-origin: 0% 50%;
 							-webkit-transform: rotate(90deg);
 							transform: rotate(90deg);
+							transition: all 1s ease-out 0s;
 						}
 						#line2 {
 							top:' + lineTop2 + 'px;
 							left: ' + lineLeft2 + 'px;
-							height: ' + ww + 'px;
-							transform-origin: 0% 0%;
+							height: ' + ww2*1.5 + 'px;
+							bottom: 0;
+							transform-origin: 0% 50%;
+							margin: auto;
 							-webkit-transform: rotate(90deg);
 							transform: rotate(90deg);
+							transition: all 1s ease-out 0s;
 						}
 						#triangle {
 							left:' + triangleHorizontalCenter + 'px;
 							bottom:' + triangleVerticalCenter + 'px;
 							-webkit-transform: rotate(0deg);
 							transform: rotate(0deg);
+							transition: all 1s ease-out 0s;
 						}'
 					$('#animations-styles').text('').text(shapeStyles)
 					$('.svg-shape').css('opacity','1')
@@ -265,22 +273,22 @@ block footer
 						if !head.touch
 							clearInterval(window.themeInteraval)
 							logoPosition()
-							# $('.page-title').css 'opacity', '0'
+							$('.page-title').css 'opacity', '0.2'
 							$('#line2').css 'opacity', '1'
-							$('#line').attr('width','7').find('rect').attr('width','7')
-							$('#line2').attr('width','4').find('rect').attr('width','4')
-							$('#circle').find('g').attr('stroke-width','4')
-							$('#triangle').find('g g').attr('stroke-width','4')
-							$('.svg-shape').css('opacity','0.6')
+							# $('#line').attr('width','7').find('rect').attr('width','7')
+							# $('#line2').attr('width','4').find('rect').attr('width','4')
+							# $('#circle').find('g').attr('stroke-width','4')
+							# $('#triangle').find('g g').attr('stroke-width','4')
+							# $('.svg-shape').css('opacity','0.6')
 					$('.page-title').on 'mouseout', ->
 						if !head.touch
 							# $('.page-title').css 'opacity', '1'
 							$('.svg-shape').not('#line2').css('opacity','1')
 							$('#line2').css 'opacity', '0'
-							$('#line, #line2').attr('width','3').find('rect').attr('width','3')
-							$('#circle').find('g').attr('stroke-width','3')
-							$('#triangle').find('g g').attr('stroke-width','3')
-							$('.svg-shape').css('opacity','1')
+							#$('#line, #line2').attr('width','3').find('rect').attr('width','3')
+							#$('#circle').find('g').attr('stroke-width','3')
+							#$('#triangle').find('g g').attr('stroke-width','3')
+							#$('.svg-shape').css('opacity','1')
 							switchHeader()
 							window.themeInteraval
 
@@ -301,14 +309,14 @@ block footer
 					findLineHeight()
 					theme1()
 					showLogo()
-					window.i = 0
-					window.themeInteraval = setInterval (->
-						switch window.i
-							when 0 then theme1() 
-							when 1 then theme2() 
-							when 2 then theme3() 
-								
-						window.i++
-						if window.i > 2
-							window.i = 0
-						), 6000
+					#window.i = 0
+					#window.themeInteraval = setInterval (->
+					#	switch window.i
+					#		when 0 then theme1() 
+					#		when 1 then theme2() 
+					#		when 2 then theme3() 
+					#			
+					#	window.i++
+					#	if window.i > 2
+					#		window.i = 0
+					#	), 6000
