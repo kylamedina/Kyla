@@ -2,17 +2,17 @@
     <defs>
         <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="line-linearGradient-5">
             <stop stop-color="#37F6E1" offset="0%"></stop>
-            <stop stop-color="#409CF9" offset="30%"></stop>
+            <stop stop-color="#409CF9" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="line-linearGradient-6">
             <stop stop-color="#669CFF" offset="0%"></stop>
-            <stop stop-color="#4B88FA" offset="13.5483499%"></stop>
-            <stop stop-color="#BB69FF" offset="21.4983259%"></stop>
+            <stop stop-color="#4B88FA" offset="23.5483499%"></stop>
+            <stop stop-color="#BB69FF" offset="61.4983259%"></stop>
             <stop stop-color="#C782FF" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="line-linearGradient-7">
             <stop stop-color="#B0FFA9" offset="0%"></stop>
-            <stop stop-color="#21F0C8" offset="20.5733676%"></stop>
+            <stop stop-color="#21F0C8" offset="50.5733676%"></stop>
             <stop stop-color="#00E6BC" offset="100%"></stop>
         </linearGradient>
     </defs>

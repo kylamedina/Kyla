@@ -1,41 +1,23 @@
-#page
-	position relative
-	z-index: 1
-	background-color white
-
-.header-gradient
-	position: absolute
-	top: 0
-	bottom: 0
-	left: 0
-	right: 0
-	z-index: 0
-	height: 100vh
-	width: 100vw
-	max-height: inherit
-	min-height: inherit
-	linearGradient stop
-		transition: all 0.1s cubic-bezier(.1, .82, .165, 1)
-	rect
-		transition: all 0.8s cubic-bezier(.1, .82, .165, 1)
-
-.theme-clear 
-	.default-bg
-		opacity: 0
-	.blog-bg
-		opacity: 1
-	#header-svg-bg
-		// bottom: auto
-		animation: 0.6s rollUp cubic-bezier(.19, 1, .22, 1) 0.1s forwards
-	.svg-shape
-		opacity: 0 !important
-		transition: 0.2s ease 0.2s
+// .header-gradient
+// 	position: absolute
+// 	top: 0
+// 	bottom: 0
+// 	left: 0
+// 	right: 0
+// 	z-index: 0
+// 	height: 100vh
+// 	width: 100vw
+// 	max-height: inherit
+// 	min-height: inherit
+#linearGradient-bg1
+	stop
+		transition: all 5s ease
 
 .svg-shape
 	opacity: 0
 	overflow: visible
 	z-index: 0
-	transition: all 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+	transition: all 3s ease-in-out 0s
 	pointer-events none
 	position absolute
 	*
@@ -57,40 +39,39 @@
 #triangle-1, #circle-1, #line-1,
 #triangle-2, #circle-2, #line-2,
 #triangle-3, #circle-3, #line-3
-	transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
-.theme-clear,
+	transition: all 3s ease 0.5s
 .theme-blue
 	#triangle-1, #circle-1, #line-1
 		opacity: 1
 		// z-index: 1
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 	#triangle-2, #circle-2, #line-2,
 	#triangle-3, #circle-3, #line-3
 		opacity: 0
 		// z-index: 0
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 
 .theme-purple
 	#triangle-2, #circle-2, #line-2
 		opacity: 1
 		// z-index: 1
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 	#triangle-1, #circle-1, #line-1,
 	#triangle-3, #circle-3, #line-3
 		opacity: 0
 		// z-index: 0
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 
 .theme-green
 	#triangle-3, #circle-3, #line-3
 		opacity: 1
 		// z-index: 1
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 	#triangle-1, #circle-1, #line-1,
 	#triangle-2, #circle-2, #line-2
 		opacity: 0
 		// z-index: 0
-		transition: opacity 0.7s cubic-bezier(.1, .82, .165, 1) 0s
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
 
 
 #circle
@@ -119,14 +100,3 @@
 		opacity: 0
 	100%
 		opacity: 1
-@keyframes rollUp
-	0%
-		transform: translateY(0)
-	100%
-		transform: translateY(-98.5%)
-
-@keyframes rollDown
-	0%
-		transform: translateY(-98.5%)
-	100%
-		transform: translateY(0%)
