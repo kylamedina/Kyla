@@ -1,6 +1,10 @@
 extends layouts/layout
 
 block head
+	style.
+		.svg-shape {
+			will-change: transform;
+		}
 	style#animations-styles
 
 block content
@@ -38,8 +42,8 @@ block content
 								//- <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 								a.img-hover(href='FA-strobe.mp4', data-rel='lightcase:FA')
 									.loader
-									//- img.img-for-small(data-aload='img/FA/cog_03-small.jpg' alt='Slider Functionality')
-									video(data-aload='FA-strobe.mp4' preload="auto" autoplay loop)
+									img.img-for-small(data-aload='img/FA/FA_01-large.jpg' alt='Photo Shoot')
+									video(data-aload='FA-strobe.mp4' preload="auto" autoplay loop poster='img/FA/FA_01-large.jpg')
 										//- source(src='FA.ogg', type='video/ogg')
 										//- source(src='FA9.mp4', type='video/mp4')
 										p Your browser does not support the 
@@ -48,7 +52,7 @@ block content
 
 					.wolf-item.is-caption(data-speed="-1")
 						.wolf-item-inner
-								p.figcaption Free Association consulted me on setting a photo studio for their agency. I made purchase recommendations and set up the lighting and equipment for the studio. The Instagram gif shows me testing the strobes.
+								p.figcaption Free Association consulted me on setting a photo studio for their agency. There first shoot was portraits for their new site. I made purchase recommendations and set up the lighting and equipment for the studio. The Instagram gif shows me testing the strobes.
 					.wolf-item.is-caption.is-caption--right(data-speed="-1")
 						.wolf-item-inner
 							//- .figcaption
@@ -59,26 +63,20 @@ block content
 								<blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:26.1707988981% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/96epzuqU4t/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Sara T (@sar_mar)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-10T18:05:52+00:00">Nov 10, 2015 at 10:05am PST</time></p></div></blockquote>
 								<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 								.figcaption(style='position:relative;top:30px;')
-									p I set up the lighting for their first shoot, portraits for their new site, to accomplish fashion-esque dramatic lighting. The Instagram shows an example of that photo shoot.
+									p I set up the lighting for their first shoot to accomplish fashion-esque dramatic lighting. The Instagram shows an example of that photo shoot.
 								//- a.img-hover.browser-shadow(href='img/FA/cog_10-medium.gif'  data-rel='lightcase:FA')
 								//- 	.loader
 								//- 	img(data-aload='img/FA/cog_10-medium.gif' srcset="img/FA/cog_10-small.gif 640w, img/FA/cog_10-medium.gif 800w, img/FA/cog_10-large.gif 1280w" alt='Share Functionality')
 
-			//- 		.wolf-item
-			//- 			.wolf-item-inner
-			//- 				.wolf-media.portfolio-media.browser-chrome(style='height:auto;')
-			//- 					a.img-hover.browser-shadow(href='cog_02.gif', data-rel='lightcase:FA' style='min-height:auto;') 
-			//- 						.loader
-			//- 						img(src='img/FA/cog_09-medium.gif' srcset="img/FA/cog_09-small.gif 640w, img/FA/cog_09-medium.gif 800w, img/FA/cog_09-large.gif 1280w" alt='Search Functionality')
-			//- 				.figcaption(style='margin-top:30px;'): p  I wanted the site to feel as natural as possible creating hierarchy to guide the user's attention. The best way to do that is use actual physics to create the animations which Velocity.js supports. A higher tension increases total speed and bounciness. A lower friction increases ending vibration speed. I created this Codepen to demonstrate the physics involved in the&nbsp;animations.
-
-			//- .wrapper.xtra-wide
-			//- 	.spacer.spacer-big
-			//- 	ul.gallery.gallery-col1
-			//- 		li.has-animation
-			//- 			img(data-aload="img/FA/cog_03-medium.jpg" srcset="img/FA/cog_03-small.jpg 640w, img/FA/cog_03-medium.jpg 800w, img/FA/cog_03-large.jpg 2250w" alt="")
-			//- 		li.has-animation
-			//- 			.figcaption: p  I did mobile design in-browser, significantly speeding up the workflow. We showed working comps to the client, making it much easier for them to understand and faster to approve. 
+			.wrapper.wrapper-mini
+				.column-section.clearfix
+					p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photoshoots are in the works. 
+					h6
+						strong Links
+					p
+						a(href='http://freeassociation.is' target='_blank') Free Association
+						br
+						a(href='https://www.instagram.com/sar_mar/' target='_blank') Dr. Sara S. Thompson's Instagram Profile
 
 			.wrapper
 				.spacer.spacer-big
@@ -107,7 +105,8 @@ block footer
 				lineHeight = ($('.hero-big').width()*2)
 
 				resizeTimer = undefined
-
+				
+				window.theme1FirstTime = true
 				findLineHeight = ->
 					lineHeight = ($('.hero-big').width()*2)
 					$('#line, #line2')
@@ -142,9 +141,15 @@ block footer
 						-webkit-transform: rotate(-35deg);
 						transform: rotate(-35deg);
 						}'
+					if window.theme1FirstTime
+						shapeStyles = shapeStyles + '.svg-shape {
+							-webkit-transition: all 2s ease-out 1s !important;
+							transition: all 2s ease-out 1s !important;
+						}'
 					$('#animations-styles').text('').text(shapeStyles)
 					bgColorGradient('#409CF9','#37F6E1')
 					$('.hero-big').removeClass('theme-green theme-purple').addClass('theme-blue')
+					window.theme1FirstTime = false
 				theme2 = () ->
 					shapeStyles = ''
 					n = -$circle.height()*2
@@ -220,10 +225,10 @@ block footer
 					circleVerticalCenter = wh2 - (cw/2)
 					triangleHorizontalCenter = ww2 - (tw/2)
 					triangleVerticalCenter = wh2 - (360/2)
-					lineTop1 = -wh2 + (wh2/2)
-					lineTop2 = -wh2 + (wh2/2)
-					lineLeft1 = (ww2*2) - ww2/3
-					lineLeft2 = ww2 - ww2/2
+					lineTop1 = -wh2 + (wh2/1.6)
+					lineTop2 = -wh2 + (wh2*1.215)
+					lineLeft1 = ww2 + 101
+					lineLeft2 = ww2 - 72
 
 					shapeStyles = '#circle {
 							width:' + cw + 'px;
@@ -238,7 +243,7 @@ block footer
 						#line {
 							top:' + lineTop1 + 'px;
 							left: ' + lineLeft1 + 'px;
-							height: ' + ww2*1.5 + 'px;
+							height: 420px;
 							bottom: 0;
 							margin: auto;
 							transform-origin: 0% 50%;
@@ -249,7 +254,7 @@ block footer
 						#line2 {
 							top:' + lineTop2 + 'px;
 							left: ' + lineLeft2 + 'px;
-							height: ' + ww2*1.5 + 'px;
+							height: 525px;
 							bottom: 0;
 							transform-origin: 0% 50%;
 							margin: auto;
@@ -275,20 +280,11 @@ block footer
 							logoPosition()
 							$('.page-title').css 'opacity', '0.2'
 							$('#line2').css 'opacity', '1'
-							# $('#line').attr('width','7').find('rect').attr('width','7')
-							# $('#line2').attr('width','4').find('rect').attr('width','4')
-							# $('#circle').find('g').attr('stroke-width','4')
-							# $('#triangle').find('g g').attr('stroke-width','4')
-							# $('.svg-shape').css('opacity','0.6')
 					$('.page-title').on 'mouseout', ->
 						if !head.touch
 							# $('.page-title').css 'opacity', '1'
 							$('.svg-shape').not('#line2').css('opacity','1')
 							$('#line2').css 'opacity', '0'
-							#$('#line, #line2').attr('width','3').find('rect').attr('width','3')
-							#$('#circle').find('g').attr('stroke-width','3')
-							#$('#triangle').find('g g').attr('stroke-width','3')
-							#$('.svg-shape').css('opacity','1')
 							switchHeader()
 							window.themeInteraval
 
@@ -301,22 +297,23 @@ block footer
 					), 250)
 					return
 
-				$(document).on 'ready', (event) ->
-					console.log $circle.height()
+				$(window).on 'load', (event) ->
 					lineHeight = ($('.hero-big').width()*2)
 
 					$('.svg-shape').not('#line2').css('opacity','1')
 					findLineHeight()
-					theme1()
-					showLogo()
-					#window.i = 0
-					#window.themeInteraval = setInterval (->
-					#	switch window.i
-					#		when 0 then theme1() 
-					#		when 1 then theme2() 
-					#		when 2 then theme3() 
-					#			
-					#	window.i++
-					#	if window.i > 2
-					#		window.i = 0
-					#	), 6000
+					#theme1()
+					#showLogo()
+					logoPosition()
+					window.i = 0
+					window.themeInteraval = setInterval (->
+
+						switch window.i
+							when 0 then theme1() 
+							when 1 then theme2() 
+							when 2 then theme3() 
+								
+						window.i++
+						if window.i > 2
+							window.i = 0
+						), 2900

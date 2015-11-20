@@ -30,6 +30,7 @@ if (head.retina && $(window).width() > 1140) {
 	    'img/mkbl/mkbl_07-large.jpg',
 	    'img/mkbl/mkbl_10-large.jpg',
 	    'img/mkbl/mkbl_12-large.jpg',
+	    'img/FA/FA_01-large.jpg',
 	    'img/twc/rain.gif',
 	    'img/twc/hurricane.gif',
 	    'img/twc/twc_01-large.png',
@@ -329,7 +330,7 @@ $(window).load(function() {
 			preCache();
 		// }
 	// }
-	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4');
+	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4');
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/

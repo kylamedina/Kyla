@@ -1,1 +1,3094 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fixed",
+				"fixed-photo"
+			],
+			[
+				"mobile",
+				"mobile_pattern	(index.jade)"
+			],
+			[
+				"side",
+				"sidebox--2	(index.jade)"
+			],
+			[
+				"success",
+				"successacademies"
+			],
+			[
+				"back",
+				"background	(section.styl)"
+			],
+			[
+				"is-",
+				"is-orange"
+			],
+			[
+				"font-",
+				"font-family"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"imp",
+				"important"
+			],
+			[
+				"snowfal",
+				"snowfall.jquery.min.js"
+			],
+			[
+				"i",
+				"inherit"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"ip",
+				"important"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"sans",
+				"sansserif	(base.styl)"
+			],
+			[
+				"h",
+				"horizontal"
+			],
+			[
+				"co",
+				"cognizant"
+			],
+			[
+				"crea",
+				"creative-time.jade"
+			],
+			[
+				"suc",
+				"success-academy.jade"
+			],
+			[
+				"alt",
+				"alttitle"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"di",
+				"display	(settings.styl)"
+			],
+			[
+				"ov",
+				"overflow	(application.jade)"
+			],
+			[
+				"nth",
+				"nth-child"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"bak",
+				"background-color"
+			],
+			[
+				"dar",
+				"darkgray"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"tran",
+				"translateX"
+			],
+			[
+				"trans",
+				"transforms"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"img",
+				"img"
+			],
+			[
+				"pro",
+				"proxRegIt"
+			],
+			[
+				"icon_tria",
+				"icon_triangle"
+			],
+			[
+				"icon_tri",
+				"icon_triangle"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"transla",
+				"translateY"
+			],
+			[
+				"tra",
+				"translateX"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"icon_",
+				"icon_searches.svg"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"translate",
+				"translateX"
+			],
+			[
+				"fol",
+				"folder__CTA"
+			],
+			[
+				"dark",
+				"darkblue"
+			],
+			[
+				"cur",
+				"cur:p	cursor:pointer"
+			],
+			[
+				"eas",
+				"ease"
+			],
+			[
+				"tog",
+				"activationToggle"
+			],
+			[
+				"has",
+				"hasClass"
+			],
+			[
+				"light",
+				"lightblue"
+			],
+			[
+				"ac",
+				"activationOn"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"icon_triangle",
+				"icon_triangle-filled"
+			],
+			[
+				"mkbl-s",
+				"mkbl-subinput"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"anima",
+				"animation"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"curre",
+				"currentColor"
+			],
+			[
+				"ease",
+				"ease-out"
+			],
+			[
+				"cu",
+				"currentColor"
+			],
+			[
+				"comp",
+				"component"
+			],
+			[
+				"scroll",
+				"scrollWidth"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"con",
+				"contenteditable"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"trn",
+				"transparent"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"z",
+				"z	z-index"
+			],
+			[
+				"transi",
+				"translation"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"fo",
+				"focus"
+			],
+			[
+				"bu",
+				"button--silent"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"hea",
+				"heavymustard"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"ve",
+				"velocity"
+			],
+			[
+				"num",
+				"numOfSlides"
+			],
+			[
+				"pr",
+				"proxReg"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"qui",
+				"question-mark"
+			],
+			[
+				"syl",
+				"styleguide"
+			],
+			[
+				"app",
+				"append"
+			],
+			[
+				"ver",
+				"vertical-align"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"fon",
+				"fonts"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"no",
+				"not-allowed"
+			],
+			[
+				"check",
+				"checkboxImg"
+			],
+			[
+				"st",
+				"style"
+			],
+			[
+				"k",
+				"keyCode"
+			],
+			[
+				"rem",
+				"removeClass"
+			],
+			[
+				"li",
+				"lightblue"
+			],
+			[
+				"mkbl",
+				"mkbl-sselect"
+			],
+			[
+				"lig",
+				"lightblue"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"zi",
+				"z-index"
+			],
+			[
+				"b",
+				"bd	border"
+			],
+			[
+				"ro",
+				"rotate"
+			],
+			[
+				"Cam",
+				"Campton-Book"
+			],
+			[
+				"$cet",
+				"$center-align"
+			],
+			[
+				"view",
+				"viewmodel"
+			],
+			[
+				"templa",
+				"templatizer"
+			],
+			[
+				"brow",
+				"browserify"
+			],
+			[
+				"letter",
+				"letter-spacing"
+			],
+			[
+				"se",
+				"secondary"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"bro",
+				"browser"
+			],
+			[
+				"packer",
+				"packery"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"dra",
+				"draggability"
+			],
+			[
+				"coff",
+				"coffeeify"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"dee",
+				"deepcoquelicot"
+			],
+			[
+				"sta",
+				"static"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/jade/free-association.jade",
+			"settings":
+			{
+				"buffer_size": 14982,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/styl/modules/header-animations.styl",
+			"settings":
+			{
+				"buffer_size": 2068,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/includes/shape-line.svg",
+			"settings":
+			{
+				"buffer_size": 2562,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Kyla/Sites/freeassociation/app/assets/javascripts/header-animation.js.coffee",
+			"settings":
+			{
+				"buffer_size": 7560,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/includes/header-bg.svg",
+			"settings":
+			{
+				"buffer_size": 1136,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ins",
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"tod",
+				"TodoReview: Project Files"
+			],
+			[
+				"todo",
+				"TodoReview: Project Files"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 166.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Kyla/Sites/kyla"
+	],
+	"file_history":
+	[
+		"/Users/Kyla/Sites/SA-banners7/coaching/300x250/300x250.html",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/functions.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/index.jade",
+		"/Users/Kyla/Downloads/test.html",
+		"/Users/Kyla/Sites/SA-Holiday/src/coffee/app.coffee",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/modules/section.styl",
+		"/Users/Kyla/Sites/SA-Holiday/build/bower.json",
+		"/Users/Kyla/Sites/SA-Holiday/build/components/jquery/bower.json",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/mixins.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/footer.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/layouts/layout-primary.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/modules/footer.styl",
+		"/Users/Kyla/Sites/kyla/src/jade/includes/header-bg.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/index.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/base.styl",
+		"/Users/Kyla/Sites/SA-Holiday/build/components/jquery/src/data.js",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/typography.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/modules/donations.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/settings.styl",
+		"/Users/Kyla/Sites/SA-Holiday/app/index.html",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/logo.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/animations.styl",
+		"/Users/Kyla/Sites/FES/src/coffee/app.coffee",
+		"/Users/Kyla/Sites/FES/src/jade/layouts/layout-primary.jade",
+		"/Users/Kyla/Sites/FES/src/jade/thank-you.jade",
+		"/Users/Kyla/Sites/SA-Holiday/test.html",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/words_stacked.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/caret.svg",
+		"/Users/Kyla/Sites/SA-Holiday/build/gulp.coffee",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/middle-ribbon-white.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/tablet-ribbon--white.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/ribbon-white.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_2--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_3--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_4--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_5--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_6--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_1--white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/words--orange.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/tablet-ribbon.jade",
+		"/Users/Kyla/Sites/SA-Holiday/build/components/jquery-snowfall/src/snowfall.jquery.js",
+		"/Users/Kyla/Sites/SA-Holiday/.git/MERGE_MSG",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/modules/ribbon.jade",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/icon_close.svg",
+		"/Users/Kyla/Sites/SA-Holiday/build/components/jquery/.bower.json",
+		"/Users/Kyla/Sites/SA-Holiday/build/components/jquery-snowfall/bower.json",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_3.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_4.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_5.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/snowflake_6.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/banner_white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/banner_orange.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/banner_orange2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/banner_orange2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/banner_white2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/grid.styl",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/mobile_pattern.svg",
+		"/Users/Kyla/Sites/SA-banners4/Hands/640x480/css/main.css",
+		"/Users/Kyla/Sites/SA-banners4/Code/160x600/css/main.css",
+		"/Users/Kyla/Sites/SA-banners4/Hands/320x50/css/main.css",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/banner_white.svg",
+		"/Users/Kyla/Sites/SA-banners4/Hands/300x250/css/main.css",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/pattern.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/cheer.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/project.sublime-project",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/banner_white.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_3.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_4.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_5.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/snowflake_6.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/symbols/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/symbols/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/symbols/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/symbols/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/includes/symbols.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/cheer.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/pattern.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_3.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_4.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_5.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/snowflake_6.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/jade/layouts/includes/symbols.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/R.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/pattern.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/H.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/E.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/cheer.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/C.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_3.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_4.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_5.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_6.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/monogram.svg",
+		"/Users/Kyla/Sites/SA-Holiday/app/svg/symbols/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/.gitignore",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_1.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_2.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_3.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_4.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_5.svg",
+		"/Users/Kyla/Sites/SA-Holiday/docs/styleguide/svg/symbols/snowflake_6.svg",
+		"/Users/Kyla/Sites/cognizant/src/jade/article.jade",
+		"/Users/Kyla/Sites/SA-banners3/Code/320x50/svg/logo.svg",
+		"/Users/Kyla/Sites/SA-Holiday/src/styl/inputs.styl"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			"*.styl",
+			"*.svg",
+			"symbols/snowflake_*.svg",
+			"*.svg",
+			"*.styl",
+			"*.jade",
+			"*.styl",
+			"*",
+			"*.styl",
+			"*.js",
+			"*.jade",
+			"*.coffee",
+			"*.styl",
+			"*.jade",
+			"*.styl",
+			"src/styl/**/*.styl",
+			"",
+			"*.php",
+			"*.scss",
+			"src/*.js",
+			"*.js",
+			"*.jade",
+			"",
+			"*.styl",
+			"*.jade",
+			"",
+			"*.styl",
+			"*.jade",
+			"*.js",
+			"",
+			"*.scss",
+			"*.styl",
+			"",
+			"*.jade",
+			"*.styl",
+			"",
+			"*.styl",
+			"",
+			"*.styl",
+			"",
+			"*.jade",
+			"*.styl",
+			"",
+			"*.styl",
+			"",
+			"*.styl",
+			".styl",
+			"",
+			"*.styl"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"50% 0%;",
+			" 50% 50%;",
+			"50% 50%;",
+			"0% 0%;",
+			"all 0.5s ease-out 0s;",
+			"overflow",
+			"$circle.width",
+			"header-",
+			"// tra",
+			"5s",
+			"180",
+			" - ($circle.width()*2)",
+			"transition",
+			"cubic-bezier(.1, .82, .165, 1)",
+			" 1s",
+			"0.7s cubic-bezier(.1, .82, .165, 1) 0s",
+			"then \n								",
+			"()",
+			"//- 	cite ",
+			"//- 	cite",
+			"$(this)",
+			".section-",
+			"lef",
+			"+below(1024px)",
+			"100% !impo",
+			"backgrou",
+			"50% !import",
+			"50%",
+			".fixed-photo\n		//- 	im",
+			"		//- .fixed-photo\n		//- 	img(src='img/bg-8.jpg')",
+			"fill",
+			"813px)",
+			".fixed-photo\n			im",
+			"footer",
+			"ribbon",
+			"RIBBON",
+			"ribbon",
+			"footer",
+			"height 100vh",
+			"$('.section:not(.height-auto)').height($(window).height())",
+			"section",
+			"SECTION",
+			"include modules/tablet-ribbon",
+			"footer",
+			"header",
+			"cover",
+			"section",
+			"important",
+			"include modules/ribbon",
+			"include modules/ribbon\n",
+			"include modules/",
+			"section--",
+			"section",
+			"SECTION",
+			"section",
+			"SECTION",
+			"section",
+			"label",
+			"footer",
+			"middle",
+			"side",
+			"snowf",
+			"| is for",
+			"| is fo",
+			"140px",
+			"padding 140px",
+			"orange",
+			"logo",
+			"important",
+			"logo-",
+			"in 0",
+			"0",
+			"1%",
+			"46",
+			"4",
+			"1%",
+			"center-b",
+			"footer",
+			"jeet",
+			"chrome",
+			"uccessacademies.org",
+			"successacademies.org",
+			"fixed-p",
+			"snowflake",
+			"table",
+			"tablet-ribbon",
+			"snow",
+			"table",
+			"middle",
+			"%  ",
+			"doante",
+			"50px",
+			"blue",
+			"footer",
+			"	img\n		left 0\n		right 0",
+			"img\n		left 0\n		right 0",
+			"img",
+			"456px",
+			"right",
+			"')",
+			"right",
+			"735px",
+			"70px",
+			"height 70px !important",
+			"80px",
+			"30px",
+			"80px",
+			"30px",
+			"padding: 14px 10px  !important",
+			"border-ra",
+			"donate-b",
+			"768",
+			"right",
+			"px",
+			"right",
+			"-",
+			"-3",
+			"   ",
+			" ",
+			"| is ",
+			"footer",
+			"stack",
+			"center-box.is",
+			"footer",
+			"		tablet-ribbon",
+			"			\n",
+			"snowfla",
+			"border"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"fs(5.6rem)\nfill='currentColor'",
+			"fill:currentColor;",
+			";fill:currentColor;}",
+			"a(href='/')",
+			"li.backtoworks\n  a(href='/')",
+			"align(vertical)",
+			"align()",
+			"<b>WOOF</b>tale",
+			"WOOFtale",
+			"	",
+			".icon__default-dog",
+			"trans-center",
+			"	defs\noverlay",
+			"darkbeige",
+			"darkeggplant",
+			" cyan",
+			" beige",
+			" eggplant"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/jade/free-association.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 14982,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								14979,
+								14979
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/styl/modules/header-animations.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2068,
+						"regions":
+						{
+							"gutter_color_1052":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1090":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1094":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1096":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1100":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1103,
+										1116
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1101":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1140":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/purple.png",
+								"regions":
+								[
+									[
+										1099,
+										1112
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1179":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1335":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1377":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1387":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1383,
+										1395
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1393":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1397":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1386,
+										1398
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1398":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1412":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1437":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1520":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1767":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/green.png",
+								"regions":
+								[
+									[
+										1382,
+										1394
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1785":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1832,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1827":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1832,
+										1859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1861":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1908,
+										1935
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1903":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										1908,
+										1935
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_423":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_427":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_429":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_431":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										476,
+										498
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_432":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_440":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_464":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_468":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_469":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_470":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_472":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										517,
+										554
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_473":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_481":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_487":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_502":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_506":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_508":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_510":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_511":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_513":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										515,
+										552
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_519":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_525":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_533":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										289,
+										289
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_548":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_551":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_633":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_771":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_791":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										474,
+										496
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_795":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_801":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_805":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										820,
+										831
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_806":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_813":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_820":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_826":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_844":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_870":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/tan.png",
+								"regions":
+								[
+									[
+										553,
+										584
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_940":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										818,
+										829
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								46,
+								46
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/jade/includes/shape-line.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2562,
+						"regions":
+						{
+							"gutter_color_1030":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#21F0C8.png",
+								"regions":
+								[
+									[
+										1031,
+										1098
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1031":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#21F0C8.png",
+								"regions":
+								[
+									[
+										1031,
+										1098
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1098":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00E6BC.png",
+								"regions":
+								[
+									[
+										1099,
+										1159
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_1099":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#00E6BC.png",
+								"regions":
+								[
+									[
+										1099,
+										1159
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_372":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#37F6E1.png",
+								"regions":
+								[
+									[
+										372,
+										430
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_431":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#409CF9.png",
+								"regions":
+								[
+									[
+										431,
+										491
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_603":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#669CFF.png",
+								"regions":
+								[
+									[
+										604,
+										662
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_604":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#669CFF.png",
+								"regions":
+								[
+									[
+										604,
+										662
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_662":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4B88FA.png",
+								"regions":
+								[
+									[
+										663,
+										730
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_663":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#4B88FA.png",
+								"regions":
+								[
+									[
+										663,
+										730
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_730":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#BB69FF.png",
+								"regions":
+								[
+									[
+										731,
+										798
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_731":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#BB69FF.png",
+								"regions":
+								[
+									[
+										731,
+										798
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_798":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C782FF.png",
+								"regions":
+								[
+									[
+										799,
+										859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_799":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#C782FF.png",
+								"regions":
+								[
+									[
+										799,
+										859
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_971":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#B0FFA9.png",
+								"regions":
+								[
+									[
+										972,
+										1030
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_972":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#B0FFA9.png",
+								"regions":
+								[
+									[
+										972,
+										1030
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								480,
+								480
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Kyla/Sites/freeassociation/app/assets/javascripts/header-animation.js.coffee",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6053,
+								6053
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/Better CoffeeScript/CoffeeScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2445.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/jade/includes/header-bg.svg",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1136,
+						"regions":
+						{
+							"gutter_color_344":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#409CF9.png",
+								"regions":
+								[
+									[
+										344,
+										412
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_413":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#37F6E1.png",
+								"regions":
+								[
+									[
+										413,
+										481
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_679":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#409CF9.png",
+								"regions":
+								[
+									[
+										684,
+										739
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_684":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#409CF9.png",
+								"regions":
+								[
+									[
+										684,
+										739
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_735":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#37F6E1.png",
+								"regions":
+								[
+									[
+										740,
+										795
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_740":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#37F6E1.png",
+								"regions":
+								[
+									[
+										740,
+										795
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								256,
+								274
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"syntax": "Packages/XML/XML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "kyla.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"line",
+				"src/jade/includes/shape-line.svg"
+			],
+			[
+				"head",
+				"src/styl/modules/header-animations.styl"
+			],
+			[
+				"fre",
+				"src/jade/free-association.jade"
+			],
+			[
+				"apply",
+				"web/content/site/themes/success-academy/template-how-to-apply.php"
+			],
+			[
+				"se",
+				"src/styl/modules/section.styl"
+			],
+			[
+				"app",
+				"src/coffee/app.coffee"
+			],
+			[
+				"bo",
+				"build/bower.json"
+			],
+			[
+				"",
+				"src/jade/index.jade"
+			],
+			[
+				"rib",
+				"src/jade/modules/ribbon.jade"
+			],
+			[
+				"fun",
+				"src/styl/functions.styl"
+			],
+			[
+				"mi",
+				"src/styl/mixins.styl"
+			],
+			[
+				"ind",
+				"src/jade/index.jade"
+			],
+			[
+				"sec",
+				"src/styl/modules/section.styl"
+			],
+			[
+				"footer",
+				"src/jade/modules/footer.jade"
+			],
+			[
+				"bas",
+				"src/styl/base.styl"
+			],
+			[
+				"la",
+				"src/jade/layouts/layout-primary.jade"
+			],
+			[
+				"ba",
+				"src/styl/base.styl"
+			],
+			[
+				"fu",
+				"src/styl/functions.styl"
+			],
+			[
+				"lay",
+				"src/jade/layouts/layout-primary.jade"
+			],
+			[
+				"mix",
+				"src/styl/mixins.styl"
+			],
+			[
+				"foot",
+				"src/jade/modules/footer.jade"
+			],
+			[
+				"don",
+				"src/styl/modules/donations.styl"
+			],
+			[
+				"for",
+				"src/styl/modules/footer.styl"
+			],
+			[
+				"ty",
+				"src/styl/typography.styl"
+			],
+			[
+				"do",
+				"src/styl/modules/donations.styl"
+			],
+			[
+				"sect",
+				"src/styl/modules/section.styl"
+			],
+			[
+				"dona",
+				"src/styl/modules/donations.styl"
+			],
+			[
+				"an",
+				"src/styl/animations.styl"
+			],
+			[
+				"foo",
+				"src/jade/modules/footer.jade"
+			],
+			[
+				"sta",
+				"src/svg/words_stacked.svg"
+			],
+			[
+				"ca",
+				"src/svg/symbols/caret.svg"
+			],
+			[
+				"b",
+				"build/bower.json"
+			],
+			[
+				"tab",
+				"src/jade/modules/tablet-ribbon.jade"
+			],
+			[
+				"wor",
+				"src/svg/words.svg"
+			],
+			[
+				"set",
+				"src/styl/settings.styl"
+			],
+			[
+				"inde",
+				"src/jade/index.jade"
+			],
+			[
+				"gul",
+				"build/gulp.coffee"
+			],
+			[
+				"icon",
+				"src/svg/symbols/icon_close.svg"
+			],
+			[
+				"bower",
+				"build/components/jquery/.bower.json"
+			],
+			[
+				"bow",
+				"build/components/jquery-snowfall/bower.json"
+			],
+			[
+				"rid",
+				"src/jade/modules/ribbon.jade"
+			],
+			[
+				"ri",
+				"src/jade/modules/ribbon.jade"
+			],
+			[
+				"ribb",
+				"src/jade/modules/ribbon.jade"
+			],
+			[
+				"rin",
+				"src/jade/modules/ribbon.jade"
+			],
+			[
+				"anim",
+				"src/styl/animations.styl"
+			],
+			[
+				"gri",
+				"src/styl/grid.styl"
+			],
+			[
+				"gr",
+				"src/styl/grid.styl"
+			],
+			[
+				"f",
+				"src/styl/functions.styl"
+			],
+			[
+				"typ",
+				"src/styl/typography.styl"
+			],
+			[
+				"section",
+				"src/styl/modules/section.styl"
+			],
+			[
+				"ch",
+				"src/svg/cheer.svg"
+			],
+			[
+				"che",
+				"src/svg/cheer.svg"
+			],
+			[
+				"c.svg",
+				"src/svg/C.svg"
+			],
+			[
+				"h",
+				"src/svg/symbols/H.svg"
+			],
+			[
+				"h.s",
+				"src/svg/H.svg"
+			],
+			[
+				"s",
+				"src/styl/settings.styl"
+			],
+			[
+				"grid",
+				"src/styl/grid.styl"
+			],
+			[
+				"fuc",
+				"src/styl/functions.styl"
+			],
+			[
+				"in",
+				"src/styl/inputs.styl"
+			],
+			[
+				"per",
+				"src/jade/personal-identity.jade"
+			],
+			[
+				"cl",
+				"src/jade/clear.jade"
+			],
+			[
+				"suc",
+				"src/jade/success-academy.jade"
+			],
+			[
+				"har",
+				"src/jade/hard-workers-club.jade"
+			],
+			[
+				"es",
+				"src/jade/esquire.jade"
+			],
+			[
+				"mk",
+				"src/jade/mkbl.jade"
+			],
+			[
+				"cog",
+				"src/jade/cognizant.jade"
+			],
+			[
+				"wea",
+				"src/jade/weather-channel.jade"
+			],
+			[
+				"akc",
+				"src/jade/akc.jade"
+			],
+			[
+				"art",
+				"src/jade/artnet.jade"
+			],
+			[
+				"cla",
+				"src/jade/clear.jade"
+			],
+			[
+				"ak",
+				"src/jade/akc.jade"
+			],
+			[
+				"st",
+				"src/styl/style.styl"
+			],
+			[
+				"pro",
+				"src/styl/modules/project.styl"
+			],
+			[
+				"laa",
+				"src/jade/layouts/layout.jade"
+			],
+			[
+				"k",
+				"kyla.sublime-project"
+			],
+			[
+				"clea",
+				"src/jade/clear.jade"
+			],
+			[
+				"ar",
+				"src/jade/artnet.jade"
+			],
+			[
+				"co",
+				"src/jade/cognizant.jade"
+			],
+			[
+				"scri",
+				"src/js/script.js"
+			],
+			[
+				"para",
+				"src/js/jquery.backgroundparallax.min.js"
+			],
+			[
+				"scrip",
+				"src/js/script.js"
+			],
+			[
+				"logo",
+				"src/jade/includes/logo.jade"
+			],
+			[
+				"sty",
+				"src/styl/style.styl"
+			],
+			[
+				"-ligh",
+				"app/svg/logo-light.svg"
+			],
+			[
+				"logo.j",
+				"src/jade/includes/logo.jade"
+			],
+			[
+				"scr",
+				"src/js/script.js"
+			],
+			[
+				"weather",
+				"src/jade/weather-channel.jade"
+			],
+			[
+				"je",
+				"src/svg/symbols/jet.svg"
+			],
+			[
+				"svg",
+				"build/tasks/svg.coffee"
+			],
+			[
+				"a",
+				"src/jade/about.jade"
+			],
+			[
+				"ab",
+				"src/jade/about.jade"
+			],
+			[
+				"su",
+				"src/jade/success-academy.jade"
+			],
+			[
+				"ass",
+				"build/tasks/assets.coffee"
+			],
+			[
+				"cle",
+				"src/jade/clear.jade"
+			],
+			[
+				"wol",
+				"src/styl/modules/wolf.styl"
+			],
+			[
+				"styl",
+				"src/styl/style.styl"
+			],
+			[
+				"pr",
+				"src/styl/modules/project.styl"
+			],
+			[
+				"sy",
+				"src/styl/style.styl"
+			],
+			[
+				"home",
+				"src/jade/views/home.jade"
+			],
+			[
+				"ro",
+				"src/coffee/routes.coffee"
+			],
+			[
+				"sl",
+				"src/styl/modules/slides.styl"
+			],
+			[
+				"ap",
+				"src/jade/views/application.jade"
+			],
+			[
+				"nav",
+				"src/styl/modules/nav.styl"
+			],
+			[
+				"all",
+				"src/jade/views/all.jade"
+			],
+			[
+				"contr",
+				"src/coffee/controllers.coffee"
+			],
+			[
+				"slid",
+				"src/styl/modules/slides.styl"
+			],
+			[
+				"dat",
+				"src/coffee/data.coffee"
+			],
+			[
+				"hom",
+				"src/jade/views/home.jade"
+			],
+			[
+				"jad",
+				"build/tasks/jade.coffee"
+			],
+			[
+				"da",
+				"src/coffee/data.coffee"
+			],
+			[
+				"data",
+				"src/coffee/data.coffee"
+			],
+			[
+				"but",
+				"src/styl/buttons.styl"
+			],
+			[
+				"sett",
+				"src/styl/settings.styl"
+			],
+			[
+				"ov",
+				"src/styl/modules/overlay.styl"
+			],
+			[
+				"na",
+				"src/styl/modules/nav.styl"
+			],
+			[
+				"gu",
+				"build/gulp.coffee"
+			],
+			[
+				"jade",
+				"build/tasks/jade.coffee"
+			],
+			[
+				"coff",
+				"build/tasks/coffee.coffee"
+			],
+			[
+				"flow",
+				"src/styl/modules/flow-box.styl"
+			],
+			[
+				"gra",
+				"src/styl/gradients.styl"
+			],
+			[
+				"flo",
+				"src/styl/modules/flow-box.styl"
+			],
+			[
+				"button",
+				"src/styl/buttons.styl"
+			],
+			[
+				"slider",
+				"src/jade/modules/flowbox-slider.jade"
+			],
+			[
+				"com",
+				"src/styl/modules/compact-profile-box.styl"
+			],
+			[
+				"eve",
+				"src/coffee/events.coffee"
+			],
+			[
+				"ev",
+				"src/coffee/events.coffee"
+			],
+			[
+				"soc",
+				"src/styl/modules/social-group.styl"
+			],
+			[
+				"ad",
+				"src/styl/modules/article-data.styl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 204.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
