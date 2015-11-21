@@ -16,10 +16,10 @@
 		transition: all 5s ease
 
 .svg-shape
-	opacity: 0
+	// opacity: 0
 	overflow: visible
 	z-index: 0
-	transition: all 3s ease-in-out 0s
+	// transition: all 3s ease-in-out 0s
 	pointer-events none
 	position absolute
 	*
@@ -41,7 +41,7 @@
 #triangle-1, #circle-1, #line-1,
 #triangle-2, #circle-2, #line-2,
 #triangle-3, #circle-3, #line-3
-	transition: all 3s ease 0.5s
+	transition: all 3s ease 0s
 .theme-blue
 	#triangle-1, #circle-1, #line-1
 		opacity: 1
@@ -77,14 +77,16 @@
 
 
 #circle
-	transform: translate(-50%, 0%)
+	// transform: translate(-50%, 0%)
 	padding: 10px
 	transform-origin: 50% 50%
 	z-index: 3
+	width 452px !important
+	height 452px !important
 
 #line
-	top: -10px
-	bottom: -10px
+	top: 0px
+	bottom: 0px
 	width: 3px
 	transform-origin: 50% 50%
 	overflow hidden !important
@@ -92,12 +94,11 @@
 #line2
 	opacity: 0
 	width: 3px
-	bottom: -10px
 	overflow hidden !important
 
 #triangle
-	bottom: -30px
-	left: -34px
+	// bottom: -30px
+	// left: -34px
 	transform-origin: 50% 50%
 	z-index: 3
 

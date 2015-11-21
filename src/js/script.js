@@ -767,8 +767,8 @@ $(document).on('ready', function() {
 		  case 'creative-time-page':
 		    $('#main-nav .submenu li.ct').addClass('current-menu-item')
 		    break;
-		  case 'success-academy-page':
-		    $('#main-nav .submenu li.sa').addClass('current-menu-item')
+		  case 'free-association-page':
+		    $('#main-nav .submenu li.fa').addClass('current-menu-item')
 		    break;
 		  case 'clear-page':
 		    $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
