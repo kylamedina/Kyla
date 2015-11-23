@@ -30,7 +30,7 @@ block content
 					strong Animation and Photography
 				h6.alttitle.align-center for a design agency redesign.
 				.column-section.clearfix
-						p Free Association is a user experience design studio that helps ambitious companies create next generation products and services. I was brought in during their site redesign for my skills in photography and interaction design.
+						p Free Association is a user experience design studio that helps ambitious companies create next generation products and services. I was brought in during their site redesign for my skills in both photography and interaction design.
 
 			.wrapper
 				.spacer.spacer-big
@@ -52,9 +52,17 @@ block content
 
 					.wolf-item.is-caption(data-speed="-1")
 						.wolf-item-inner
-								p.figcaption Free Association consulted me on setting a photo studio for their agency. There first shoot was portraits for their new site. I made purchase recommendations and set up the lighting and equipment for the studio. The Instagram gif shows me testing the strobes.
+								p.figcaption Free Association consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The Instagram gif shows me testing the strobes.
 					.wolf-item.is-caption.is-caption--right(data-speed="-1")
 						.wolf-item-inner
+							.loader
+							img.img-for-small(data-aload='img/FA/FA_02-large.jpg' alt='Photo Shoot')
+							video(data-aload='FA-strobe2.mp4' preload="auto" autoplay loop poster='img/FA/FA_01-large.jpg')
+								//- source(src='FA.ogg', type='video/ogg')
+								//- source(src='FA9.mp4', type='video/mp4')
+								p Your browser does not support the 
+									code video
+									|  element.
 							//- .figcaption
 							//- 	p I set up the lighting for their first shoot, portraits for their new site, to accomplish fashion-esque dramatic lighting. The Instagram shows an example of that photo shoot.
 					.wolf-item
@@ -63,14 +71,14 @@ block content
 								<blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:26.1707988981% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/96epzuqU4t/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A photo posted by Sara T (@sar_mar)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-10T18:05:52+00:00">Nov 10, 2015 at 10:05am PST</time></p></div></blockquote>
 								<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 								.figcaption(style='position:relative;top:30px;')
-									p I set up the lighting for their first shoot to accomplish fashion-esque dramatic lighting. The Instagram shows an example of that photo shoot.
+									p I set up the lighting for their first shoot to accomplish fashion-esque dramatic lighting. 
 								//- a.img-hover.browser-shadow(href='img/FA/cog_10-medium.gif'  data-rel='lightcase:FA')
 								//- 	.loader
 								//- 	img(data-aload='img/FA/cog_10-medium.gif' srcset="img/FA/cog_10-small.gif 640w, img/FA/cog_10-medium.gif 800w, img/FA/cog_10-large.gif 1280w" alt='Share Functionality')
 
 			.wrapper.wrapper-mini
 				.column-section.clearfix
-					p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photoshoots are in the works. 
+					p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photo shoots are in the works. 
 					h6
 						strong Links
 					p
@@ -108,20 +116,14 @@ block footer
 				resizeTimer = undefined
 				
 				window.theme1FirstTime = true
-				#findLineHeight = ->
-				#	lineHeight = ($('.hero-big').width())
-				#	$('#line, #line2')
-				#		.attr('height', lineHeight + 'px')
-				#		.attr('viewbox','0 0 7 ' + lineHeight)
-				#		.find('rect')
-				#		.attr('height',lineHeight)
 
 				bgColorGradient = (color1,color2) ->
 					$bg_s1.attr('stop-color', color1)
 					$bg_s2.attr('stop-color', color2)
 
 				theme1 = () ->
-					ww = $(window).width()/1.5
+					ww = $(window).width()/1.2
+					ww2 = $(window).width()/2
 					n = $(window).width() - ($circle.height()/2)
 					m = $(window).width()/3
 					o = $(window).width()/4
@@ -135,6 +137,7 @@ block footer
 							easing: 'ease'
 						$line.velocity {
 							height: ww
+							left: ww2 - 50
 						},
 							duration: 3000
 							easing: 'ease'
@@ -331,7 +334,7 @@ block footer
 					lineTop1 = -wh2 + 400
 					lineTop2 = -wh2 + 190
 					lineLeft1 = ww2 + 42
-					lineLeft2 = ww2 - 67
+					lineLeft2 = ww2 - 65
 
 					$circle.velocity {
 						left: -circleHorizontalCenter
@@ -340,7 +343,7 @@ block footer
 						width: 452
 						rotateZ: '0deg'
 					},
-						duration: 3000
+						duration: 2900
 						easing: 'ease'
 						queue: ''
 						begin: undefined
@@ -358,7 +361,7 @@ block footer
 						bottom: 0
 						rotateZ: '90deg'
 					},
-						duration: 3000
+						duration: 2900
 						easing: 'ease'
 						queue: ''
 						begin: undefined
@@ -376,7 +379,7 @@ block footer
 						bottom: 0
 						rotateZ: '90deg'
 					},
-						duration: 3000
+						duration: 2900
 						easing: 'ease'
 						queue: ''
 						begin: undefined
@@ -394,7 +397,7 @@ block footer
 						bottom: triangleVerticalCenter
 						rotateZ: '0deg'
 					},
-						duration: 3000
+						duration: 2900
 						easing: 'ease'
 						queue: ''
 						begin: undefined
