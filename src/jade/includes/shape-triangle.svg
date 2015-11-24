@@ -16,18 +16,18 @@
         <stop stop-color="#B0FFA9" offset="100%"></stop>
     </linearGradient>
   </defs>
-  <g id="triangle-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
-      <g id="b-2" sketch:type="MSArtboardGroup" transform="translate(-161.000000, -427.000000)" stroke="url(#triangle-linearGradient-1)" stroke-width="3" fill="#9F4E4E" fill-opacity="0" vector-effect="non-scaling-stroke">
+  <g id="triangle-1" stroke="none" stroke-width="5" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
+      <g id="b-2" sketch:type="MSArtboardGroup" transform="translate(-161.000000, -427.000000)" stroke="url(#triangle-linearGradient-1)" stroke-width="5" fill="#9F4E4E" fill-opacity="0" vector-effect="non-scaling-stroke">
           <path d="M392.364548,430 L164,828 L620,828 L392.364548,430 Z" sketch:type="MSShapeGroup"></path>
       </g>
   </g>
-  <g id="triangle-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-      <g id="p-2" sketch:type="MSArtboardGroup" transform="translate(-889.000000, -546.000000)" stroke="url(#triangle-linearGradient-2)" stroke-width="3">
+  <g id="triangle-2" stroke="none" stroke-width="5" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+      <g id="p-2" sketch:type="MSArtboardGroup" transform="translate(-889.000000, -546.000000)" stroke="url(#triangle-linearGradient-2)" stroke-width="5">
           <path d="M1120.36455,549 L892,947 L1348,947 L1120.36455,549 Z" sketch:type="MSShapeGroup"></path>
       </g>
   </g>
   <g id="triangle-3" stroke="none" stroke-width="0" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
-      <g id="g-2" sketch:type="MSArtboardGroup" transform="translate(-259.000000, -156.000000)" stroke="url(#triangle-linearGradient-3)" stroke-width="3" vector-effect="non-scaling-stroke">
+      <g id="g-2" sketch:type="MSArtboardGroup" transform="translate(-259.000000, -156.000000)" stroke="url(#triangle-linearGradient-3)" stroke-width="5" vector-effect="non-scaling-stroke">
           <path d="M490.364548,159 L262,557 L718,557 L490.364548,159 Z" sketch:type="MSShapeGroup"></path>
       </g>
   </g>

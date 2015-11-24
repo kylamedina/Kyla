@@ -127,7 +127,10 @@ block footer
 					n = $(window).width() - ($circle.height()/2)
 					m = $(window).width()/3
 					o = $(window).width()/4
-					
+					if $(window).width() > $(window).height()
+						lineHeight = $(window).width()
+					else
+						lineHeight = $(window).height()
 					if window.theme1FirstTime
 						$triangle.velocity {				
 							height: 462
@@ -136,8 +139,13 @@ block footer
 							duration: 3000
 							easing: 'ease'
 						$line.velocity {
-							height: ww
-							left: ww2 - 50
+							height: lineHeight*1.1
+							left: ww*1.3
+						},
+							duration: 3000
+							easing: 'ease'
+						$line.find('rect').velocity {
+							height: lineHeight*1.1
 						},
 							duration: 3000
 							easing: 'ease'
@@ -163,7 +171,7 @@ block footer
 						delay: false
 						mobileHA: true
 					$line.velocity {
-						
+						top: '-10px'
 						left: o
 						rotateZ: '35deg'
 					},
@@ -194,6 +202,7 @@ block footer
 						loop: false
 						delay: false
 						mobileHA: true
+					$triangle.find('g').attr('stroke-width','5')
 					bgColorGradient('#409CF9','#37F6E1')
 					$('.hero-big').removeClass('theme-green theme-purple').addClass('theme-blue')
 					window.theme1FirstTime = false
@@ -222,7 +231,6 @@ block footer
 						delay: false
 						mobileHA: true
 					$line.velocity {
-						
 						left: m/1.5
 						rotateZ: '-35deg'
 					},
@@ -283,7 +291,6 @@ block footer
 						delay: false
 						mobileHA: true
 					$line.velocity {
-						
 						left: o
 						rotateZ: '35deg'
 					},
@@ -331,10 +338,10 @@ block footer
 					circleVerticalCenter = wh2 - 226
 					triangleHorizontalCenter = ww2 - (tw/2)
 					triangleVerticalCenter = wh2 - 130
-					lineTop1 = -wh2 + 400
-					lineTop2 = -wh2 + 190
-					lineLeft1 = ww2 + 42
-					lineLeft2 = ww2 - 65
+					lineTop1 = wh2 - 62
+					lineTop2 = wh2 + 50
+					lineLeft1 = ww2 + 65
+					lineLeft2 = ww2 + 210
 
 					$circle.velocity {
 						left: -circleHorizontalCenter
@@ -357,8 +364,7 @@ block footer
 					$line.velocity {
 						left: lineLeft1
 						top: lineTop1
-						height: 338
-						bottom: 0
+						height: 262
 						rotateZ: '90deg'
 					},
 						duration: 2900
@@ -375,8 +381,7 @@ block footer
 					$line2.velocity {
 						left: lineLeft2
 						top: lineTop2
-						height: 266
-						bottom: 0
+						height: 345
 						rotateZ: '90deg'
 					},
 						duration: 2900
@@ -408,6 +413,7 @@ block footer
 						loop: false
 						delay: false
 						mobileHA: true
+					$triangle.find('g').attr('stroke-width','7')
 					$('.svg-shape').css('opacity','1')
 
 

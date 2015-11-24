@@ -1,4 +1,4 @@
-<svg class="svg-shape" id="line" width="3px" height="962px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" shape-rendering='optimizeSpeed' vector-effect="non-scaling-stroke">
+<svg class="svg-shape" id="line" width="3px" height="2000px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" shape-rendering='optimizeSpeed' vector-effect="non-scaling-stroke">
     <defs>
         <linearGradient x1="0%" y1="0%" x2="0%" y2="100%" id="line-linearGradient-5">
             <stop stop-color="#37F6E1" offset="0%"></stop>
@@ -16,19 +16,19 @@
             <stop stop-color="#00E6BC" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="line-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
+    <g id="line-1" stroke="none" stroke-width="5" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
         <g sketch:type="MSArtboardGroup" stroke="none" transform="translate(-480.000000, 0.000000)" fill="url(#line-linearGradient-5)" vector-effect="non-scaling-stroke">
-            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="480" y="0" width="3" height="962"></rect>
+            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="480" y="0" width="5" height="962"></rect>
         </g>
     </g>
-    <g id="line-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
+    <g id="line-2" stroke="none" stroke-width="5" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
         <g sketch:type="MSArtboardGroup" stroke="none" transform="translate(-669.000000, -1.000000)" fill="url(#line-linearGradient-6)" vector-effect="non-scaling-stroke">
-            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="669" y="0" width="3" height="962"></rect>
+            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="669" y="0" width="5" height="962"></rect>
         </g>
     </g>
-    <g id="line-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
+    <g id="line-3" stroke="none" stroke-width="5" fill="none" fill-rule="evenodd" sketch:type="MSPage" vector-effect="non-scaling-stroke">
         <g sketch:type="MSArtboardGroup" transform="translate(-587.000000, 0.000000)" fill="url(#line-linearGradient-7)" vector-effect="non-scaling-stroke">
-            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="587" y="0" width="3" height="962"></rect>
+            <rect vector-effect="non-scaling-stroke" sketch:type="MSShapeGroup" x="587" y="0" width="5" height="962"></rect>
         </g>
     </g>
 </svg>
