@@ -12,17 +12,27 @@ block content
           strong Artnet
       //- a#scroll-down(href='#') Scroll Down
     section#page-body.body--artnet
+
       .horizontal-section
-        .horizontal-inner.wrapper-mini
+        .wrapper.xtra-wide
+          ul.gallery.gallery-col3.spaced
+            li.has-animation
+              a.img-hover(href="img/artnet/artnet_01-large.jpg" data-rel="lightcase:artnet" )
+                img(data-aload='img/artnet/artnet_01-medium.jpg', srcset="img/artnet/artnet_01-small.jpg 640w, img/artnet/artnet_01-large.jpg 850w" alt='Artnet Newsletter')
+            li.has-animation(data-delay='200')
+              a.img-hover(href="img/artnet/artnet_03-large.jpg" data-rel="lightcase:artnet" )
+                img(data-aload='img/artnet/artnet_03-medium.jpg', srcset="img/artnet/artnet_03-small.jpg 640w, img/artnet/artnet_03-large.jpg 850w" alt='Artnet Marketing Photograph')
+            li.has-animation(data-delay='400')
+              a.img-hover(href="img/artnet/artnet_02-large.jpg" data-rel="lightcase:artnet" )
+                img(data-aload='img/artnet/artnet_02-medium.jpg', srcset="img/artnet/artnet_02-small.jpg 640w, img/artnet/artnet_02-large.jpg 850w" alt='Artnet Auction Landing Page')
+        .horizontal-inner.wrapper-small
           h3
             strong Design Lead
           h6.alttitle for an international art website.
 
           .column-section.clearfix
-              p
-                | Artnet enables users to buy, sell, and research fine art online from the most recognized artists in the world. Artnet associates itself with high-end fashion and lifestyle brands and does many collaborative design projects with those partners.
-              p
-                | I designed all Artnet's marketing campaigns as their lead designer for a year and a half. Finished products included websites, emails, new site features, and print collateral.
+              p Artnet enables users to buy, sell, and research fine art online from the most recognized artists in the world. Artnet associates itself with high-end fashion and lifestyle brands and does many collaborative design projects with those partners.
+              p As part of Artnet’s marketing team, I was lead designer on all digital and print design initiatives. I worked alongside strategists and copywriters to ideate and create new marketing campaigns for Artnet and its partners. Finished products included digital and print collateral, email campaigns, and websites. I also developed the digital marketing campaigns and worked with the technology team to create the UX and design for new site features.
       //- .wrapper
       //-   .spacer.spacer-medium
       //-   .wolf-grid.clearfix(data-mouseparallax='false')
@@ -43,22 +53,12 @@ block content
       //-             img(data-aload='img/artnet/artnet_02-medium.jpg', srcset="img/artnet/artnet_02-small.jpg 640w, img/artnet/artnet_02-large.jpg 850w" alt='Artnet Auction Landing Page')
 
 
-      .wrapper.xtra-wide
-        ul.gallery.gallery-col3.spaced
-          li.has-animation
-            a.img-hover(href="img/artnet/artnet_01-large.jpg" data-rel="lightcase:artnet" )
-              img(data-aload='img/artnet/artnet_01-medium.jpg', srcset="img/artnet/artnet_01-small.jpg 640w, img/artnet/artnet_01-large.jpg 850w" alt='Artnet Newsletter')
-          li.has-animation(data-delay='200')
-            a.img-hover(href="img/artnet/artnet_03-large.jpg" data-rel="lightcase:artnet" )
-              img(data-aload='img/artnet/artnet_03-medium.jpg', srcset="img/artnet/artnet_03-small.jpg 640w, img/artnet/artnet_03-large.jpg 850w" alt='Artnet Marketing Photograph')
-          li.has-animation(data-delay='400')
-            a.img-hover(href="img/artnet/artnet_02-large.jpg" data-rel="lightcase:artnet" )
-              img(data-aload='img/artnet/artnet_02-medium.jpg', srcset="img/artnet/artnet_02-small.jpg 640w, img/artnet/artnet_02-large.jpg 850w" alt='Artnet Auction Landing Page')
+
       .wrapper
         ul.single-pagination
           li.prev
-            a(href='success-academy.html')
-              img(src='img/projects/sa-small.jpg', alt='prev')
+            a.rolling-gradient(href='free-association.html')
+              img(src='svg/FA-logo.svg', alt='prev')
               span Previous Project
           li.backtoworks
             a(href='/') Back To Works
