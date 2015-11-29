@@ -37,34 +37,31 @@ block content
 				.wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
 					.wolf-item.no-mobile-video
 						.wolf-item-inner
-							.wolf-media.portfolio-media
-								//- <blockquote class="instagram-media" data-instgrm-version="5" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:658px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:8px;"> <div style=" background:#F8F8F8; line-height:0; margin-top:40px; padding:50.0% 0; text-align:center; width:100%;"> <div style=" background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAMAAAApWqozAAAAGFBMVEUiIiI9PT0eHh4gIB4hIBkcHBwcHBwcHBydr+JQAAAACHRSTlMABA4YHyQsM5jtaMwAAADfSURBVDjL7ZVBEgMhCAQBAf//42xcNbpAqakcM0ftUmFAAIBE81IqBJdS3lS6zs3bIpB9WED3YYXFPmHRfT8sgyrCP1x8uEUxLMzNWElFOYCV6mHWWwMzdPEKHlhLw7NWJqkHc4uIZphavDzA2JPzUDsBZziNae2S6owH8xPmX8G7zzgKEOPUoYHvGz1TBCxMkd3kwNVbU0gKHkx+iZILf77IofhrY1nYFnB/lQPb79drWOyJVa/DAvg9B/rLB4cC+Nqgdz/TvBbBnr6GBReqn/nRmDgaQEej7WhonozjF+Y2I/fZou/qAAAAAElFTkSuQmCC); display:block; height:44px; margin:0 auto -44px; position:relative; top:-22px; width:44px;"></div></div><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://instagram.com/p/9wrQQmqU6C/" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A video posted by Sara T (@sar_mar)</a> on <time style=" font-family:Arial,sans-serif; font-size:14px; line-height:17px;" datetime="2015-11-06T22:43:34+00:00">Nov 6, 2015 at 2:43pm PST</time></p></div></blockquote>
-								//- <script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
+							.wolf-media.portfolio-media.browser-shadow
 								a.img-hover(href='FA-strobe.mp4', data-rel='lightcase:FA')
 									.loader
 									img.img-for-small(data-aload='img/FA/FA_01-large.jpg' alt='Photo Shoot')
-									video(data-aload='FA-strobe.mp4' preload="auto" autoplay loop poster='img/FA/FA_01-large.jpg')
+									video(data-aload='FA-strobe.mp4' preload="auto" loop poster='img/FA/FA_01-large.jpg')
 										//- source(src='FA.ogg', type='video/ogg')
 										//- source(src='FA9.mp4', type='video/mp4')
 										p Your browser does not support the 
 											code video
 											|  element.
+							p.figcaption 
+								| Free Association consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The Instagram gif shows me testing the strobes.
 
-					.wolf-item.is-caption(data-speed="-1")
-						.wolf-item-inner
-								p.figcaption Free Association consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The Instagram gif shows me testing the strobes.
 					.wolf-item.is-caption.is-caption--right(data-speed="-1")
 						.wolf-item-inner
-							.loader
-							img.img-for-small(data-aload='img/FA/FA_02-large.jpg' alt='Photo Shoot')
-							video(data-aload='FA-strobe2.mp4' preload="auto" autoplay loop poster='img/FA/FA_01-large.jpg')
-								//- source(src='FA.ogg', type='video/ogg')
-								//- source(src='FA9.mp4', type='video/mp4')
-								p Your browser does not support the 
-									code video
-									|  element.
-							//- .figcaption
-							//- 	p I set up the lighting for their first shoot, portraits for their new site, to accomplish fashion-esque dramatic lighting. The Instagram shows an example of that photo shoot.
+							.wolf-media.portfolio-media.browser-shadow
+								.loader
+								img.img-for-small(data-aload='img/FA/FA_02-large.jpg' alt='Photo Shoot')
+								video(data-aload='FA-strobe2.mp4' preload="auto" loop poster='img/FA/FA_01-large.jpg')
+									//- source(src='FA.ogg', type='video/ogg')
+									//- source(src='FA9.mp4', type='video/mp4')
+									p Your browser does not support the 
+										code video
+										|  element.
+
 					.wolf-item
 						.wolf-item-inner
 							.wolf-media.portfolio-media
@@ -72,11 +69,22 @@ block content
 								<script async defer src="//platform.instagram.com/en_US/embeds.js"></script>
 								.figcaption(style='position:relative;top:30px;')
 									p I set up the lighting for their first shoot to accomplish fashion-esque dramatic lighting. 
-								//- a.img-hover.browser-shadow(href='img/FA/cog_10-medium.gif'  data-rel='lightcase:FA')
-								//- 	.loader
-								//- 	img(data-aload='img/FA/cog_10-medium.gif' srcset="img/FA/cog_10-small.gif 640w, img/FA/cog_10-medium.gif 800w, img/FA/cog_10-large.gif 1280w" alt='Share Functionality')
+
+					.wolf-item.is-caption(data-speed="-2")
+						.wolf-item-inner
+							
+							.wolf-media.portfolio-media(style='margin-top:20px; position:relative; left: -10px')
+								.loader
+								img.img-for-small(data-aload='img/FA/FA_03-small.jpg' alt='Logo Animation')
+								video(data-aload='FA-Logo-animation.mp4' preload="auto" loop poster='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' style='width:300px;height:auto')
+									//- source(src='FA.ogg', type='video/ogg')
+									//- source(src='FA9.mp4', type='video/mp4')
+									p Your browser does not support the 
+										code video
+										|  element.
 
 			.wrapper.wrapper-mini
+				.spacer.spacer-small
 				.column-section.clearfix
 					p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photo shoots are in the works. 
 					h6
@@ -96,8 +104,8 @@ block content
 					li.backtoworks
 						a(href='/') Back To Works
 					li.next
-						a(href='personal-identity.html')
-							img(src='img/kyla/kyla_05-small.jpg', alt='next')
+						a(href='mkbl.html')
+							img(src='img/projects/mkbl-small.jpg', alt='next')
 							span Next Project
 
 block footer
@@ -432,14 +440,14 @@ block footer
 							switchHeader()
 							window.themeInteraval
 
-				$(window).on 'resize', (e) ->
-					clearTimeout resizeTimer
-					resizeTimer = setTimeout((->
-						#lineHeight = ($('.hero-big').width())
-						#findLineHeight()
-						return
-					), 250)
-					return
+				#$(window).on 'resize', (e) ->
+				#	clearTimeout resizeTimer
+				#	resizeTimer = setTimeout((->
+				#		#lineHeight = ($('.hero-big').width())
+				#		#findLineHeight()
+				#		return
+				#	), 250)
+				#	return
 
 				$(document).on 'ready', (event) ->
 					#lineHeight = ($('.hero-big').width())

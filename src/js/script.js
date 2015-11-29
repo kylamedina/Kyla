@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
- 	Script - All Custom frontend $ scripts & functions
+	Script - All Custom frontend $ scripts & functions
  
 -----------------------------------------------------------------------------------*/
 (function(){
@@ -14,78 +14,78 @@ if (head.retina && $(window).width() > 1140) {
 		'img/projects/hwc-large.jpg',
 		'img/projects/cognizant-large.jpg',
 		'img/projects/kyla-large2.jpg',
-	    'img/profile-large.jpg',
-	    'img/akc/akc_01-large.jpg',
-	    'img/akc/akc_04-large.jpg',
-	    'img/akc/akc_05-large.png',
-	    'img/akc/akc_02-large.jpg',
-	    'img/akc/akc_09-large.jpg',
-	    'img/akc/akc_06-large.jpg',
-	    'img/akc/akc_07-large.jpg',
-	    'img/mkbl/mkbl_01-large.jpg',
-	    'img/mkbl/mkbl_02-large.jpg',
-	    'img/mkbl/mkbl_03-large.jpg',
-	    'img/mkbl/mkbl_04-large.jpg',
-	    'img/mkbl/mkbl_06-large.jpg',
-	    'img/mkbl/mkbl_07-large.jpg',
-	    'img/mkbl/mkbl_10-large.jpg',
-	    'img/mkbl/mkbl_12-large.jpg',
-	    'img/FA/FA_01-large.jpg',
-	    'img/twc/rain.gif',
-	    'img/twc/hurricane.gif',
-	    'img/twc/twc_01-large.png',
-	    'img/twc/twc_02-large.png',
-	    'img/kyla/kyla_01-large.jpg',
-	    'img/kyla/kyla_02-large.jpg',
-	    'img/kyla/kyla_03-large.jpg',
-	    'img/kyla/kyla_04-large.jpg',
-	    'img/kyla/kyla_05-large.jpg',
-	    'img/kyla/kyla_06-large.jpg',
-	    'img/kyla/kyla_07-large.jpg',
-	    'img/kyla/kyla_08-large.jpg',
-	    'img/kyla/kyla_09-large.jpg',
-	    'img/kyla/kyla_10-large.jpg',
-	    'img/kyla/kyla_11-large.jpg',
-	    'img/kyla/kyla_12-large.jpg',
-	    'img/kyla/kyla_13-large.jpg',
-	    'img/kyla/kyla_14-large.jpg',
-	    'img/kyla/kyla_15-large.jpg',
-	    'img/kyla/kyla_16-large.jpg',
-	    'img/kyla/kyla_17-large.jpg',
-	    'img/kyla/kyla_17-large-alt.png',
-	    'img/kyla/kyla_18-large.jpg',
-	    'img/kyla/kyla_19-large.jpg',
-	    'img/artnet/artnet_01-large.jpg',
-	    'img/artnet/artnet_02-large.jpg',
-	    'img/artnet/artnet_03-large.jpg',
-	    'img/cognizant/cog_01-large.jpg',
-	    'img/cognizant/cog_06-large.gif',
-	    'img/cognizant/cog_10-large.gif',
-	    'img/cognizant/cog_11-large.gif',
-	    'img/cognizant/cog_09-large.gif',
-	    'img/ct/ct_06-large.jpg',
-	    'img/ct/ct_07-large.jpg',
-	    'img/ct/ct_08-large.jpg',
-	    'img/ct/ct_09-large.jpg',
-	    'img/ct/ct_03-large.jpg',
-	    'img/ct/ct_03-large.jpg',
-	    'img/hwc/hwc_03-large.jpg',
-	    'img/hwc/hwc_04-large.jpg',
-	    'img/hwc/hwc_05-large.jpg',
-	    'img/hwc/hwc_06-large.jpg',
-	    'img/hwc/hwc_07-large.jpg',
-	    'img/hwc/hwc_08-large.jpg',
-	    'img/esquire/esquire_01-large.jpg',
-	    'img/esquire/esquire_02-large.jpg',
-	    'img/esquire/esquire_03-large.jpg',
-	    'img/clear/clear_05-large.jpg',
-	    'img/clear/clear_04-large.jpg',
-	    'img/sa/sa_01-large.jpg',
-	    'img/sa/sa_04-large.jpg',
-	    'img/sa/sa_05-large.jpg',
-	    'img/sa/sa_06-large.jpg',
-	    'img/sa/sa_07-large.jpg',
-	    'img/cognizant/cog_07-large.gif'
+		'img/profile-large.jpg',
+		'img/akc/akc_01-large.jpg',
+		'img/akc/akc_04-large.jpg',
+		'img/akc/akc_05-large.png',
+		'img/akc/akc_02-large.jpg',
+		'img/akc/akc_09-large.jpg',
+		'img/akc/akc_06-large.jpg',
+		'img/akc/akc_07-large.jpg',
+		'img/mkbl/mkbl_01-large.jpg',
+		'img/mkbl/mkbl_02-large.jpg',
+		'img/mkbl/mkbl_03-large.jpg',
+		'img/mkbl/mkbl_04-large.jpg',
+		'img/mkbl/mkbl_06-large.jpg',
+		'img/mkbl/mkbl_07-large.jpg',
+		'img/mkbl/mkbl_10-large.jpg',
+		'img/mkbl/mkbl_12-large.jpg',
+		'img/FA/FA_01-large.jpg',
+		'img/twc/rain.gif',
+		'img/twc/hurricane.gif',
+		'img/twc/twc_01-large.png',
+		'img/twc/twc_02-large.png',
+		'img/kyla/kyla_01-large.jpg',
+		'img/kyla/kyla_02-large.jpg',
+		'img/kyla/kyla_03-large.jpg',
+		'img/kyla/kyla_04-large.jpg',
+		'img/kyla/kyla_05-large.jpg',
+		'img/kyla/kyla_06-large.jpg',
+		'img/kyla/kyla_07-large.jpg',
+		'img/kyla/kyla_08-large.jpg',
+		'img/kyla/kyla_09-large.jpg',
+		'img/kyla/kyla_10-large.jpg',
+		'img/kyla/kyla_11-large.jpg',
+		'img/kyla/kyla_12-large.jpg',
+		'img/kyla/kyla_13-large.jpg',
+		'img/kyla/kyla_14-large.jpg',
+		'img/kyla/kyla_15-large.jpg',
+		'img/kyla/kyla_16-large.jpg',
+		'img/kyla/kyla_17-large.jpg',
+		'img/kyla/kyla_17-large-alt.png',
+		'img/kyla/kyla_18-large.jpg',
+		'img/kyla/kyla_19-large.jpg',
+		'img/artnet/artnet_01-large.jpg',
+		'img/artnet/artnet_02-large.jpg',
+		'img/artnet/artnet_03-large.jpg',
+		'img/cognizant/cog_01-large.jpg',
+		'img/cognizant/cog_06-large.gif',
+		'img/cognizant/cog_10-large.gif',
+		'img/cognizant/cog_11-large.gif',
+		'img/cognizant/cog_09-large.gif',
+		'img/ct/ct_06-large.jpg',
+		'img/ct/ct_07-large.jpg',
+		'img/ct/ct_08-large.jpg',
+		'img/ct/ct_09-large.jpg',
+		'img/ct/ct_03-large.jpg',
+		'img/ct/ct_03-large.jpg',
+		'img/hwc/hwc_03-large.jpg',
+		'img/hwc/hwc_04-large.jpg',
+		'img/hwc/hwc_05-large.jpg',
+		'img/hwc/hwc_06-large.jpg',
+		'img/hwc/hwc_07-large.jpg',
+		'img/hwc/hwc_08-large.jpg',
+		'img/esquire/esquire_01-large.jpg',
+		'img/esquire/esquire_02-large.jpg',
+		'img/esquire/esquire_03-large.jpg',
+		'img/clear/clear_05-large.jpg',
+		'img/clear/clear_04-large.jpg',
+		'img/sa/sa_01-large.jpg',
+		'img/sa/sa_04-large.jpg',
+		'img/sa/sa_05-large.jpg',
+		'img/sa/sa_06-large.jpg',
+		'img/sa/sa_07-large.jpg',
+		'img/cognizant/cog_07-large.gif'
 	]
 } else if ($(window).width() > 640) {
 	var allimgs = [
@@ -95,75 +95,75 @@ if (head.retina && $(window).width() > 1140) {
 		'img/projects/mkbl-medium.jpg',
 		'img/projects/hwc-medium.jpg',
 		'img/projects/cognizant-medium.jpg',
-	    'img/profile-medium.jpg',
-	    'img/akc/akc_01-medium.jpg',
-	    'img/akc/akc_04-medium.jpg',
-	    'img/akc/akc_05-medium.png',
-	    'img/akc/akc_02-medium.jpg',
-	    'img/akc/akc_09-medium.jpg',
-	    'img/akc/akc_06-medium.jpg',
-	    'img/akc/akc_07-medium.jpg',
-	    'img/mkbl/mkbl_01-medium.jpg',
-	    'img/mkbl/mkbl_02-medium.jpg',
-	    'img/mkbl/mkbl_03-medium.jpg',
-	    'img/mkbl/mkbl_04-medium.jpg',
-	    'img/mkbl/mkbl_06-medium.jpg',
-	    'img/mkbl/mkbl_07-medium.jpg',
-	    'img/mkbl/mkbl_10-medium.jpg',
-	    'img/mkbl/mkbl_12-medium.jpg',
-	    'img/twc/rain.gif',
-	    'img/twc/hurricane.gif',
-	    'img/twc/twc_01-medium.png',
-	    'img/twc/twc_02-medium.png',
-	    'img/kyla/kyla_01-medium.jpg',
-	    'img/kyla/kyla_02-medium.jpg',
-	    'img/kyla/kyla_03-medium.jpg',
-	    'img/kyla/kyla_04-medium.jpg',
-	    'img/kyla/kyla_05-medium.jpg',
-	    'img/kyla/kyla_06-medium.jpg',
-	    'img/kyla/kyla_07-medium.jpg',
-	    'img/kyla/kyla_08-medium.jpg',
-	    'img/kyla/kyla_09-medium.jpg',
-	    'img/kyla/kyla_10-medium.jpg',
-	    'img/kyla/kyla_11-medium.jpg',
-	    'img/kyla/kyla_12-medium.jpg',
-	    'img/kyla/kyla_13-medium.jpg',
-	    'img/kyla/kyla_14-medium.jpg',
-	    'img/kyla/kyla_15-medium.jpg',
-	    'img/kyla/kyla_16-medium.jpg',
-	    'img/kyla/kyla_17-medium.jpg',
-	    'img/kyla/kyla_17-medium-alt.png',
-	    'img/kyla/kyla_18-medium.jpg',
-	    'img/kyla/kyla_19-medium.jpg',
-	    'img/ct/ct_06-medium.jpg',
-	    'img/ct/ct_07-medium.jpg',
-	    'img/ct/ct_08-medium.jpg',
-	    'img/ct/ct_09-medium.jpg',
-	    'img/ct/ct_03-medium.jpg',
-	    'img/ct/ct_03-medium.jpg',
-	    'img/hwc/hwc_03-medium.jpg',
-	    'img/hwc/hwc_04-medium.jpg',
-	    'img/hwc/hwc_05-medium.jpg',
-	    'img/hwc/hwc_07-medium.jpg',
-	    'img/hwc/hwc_08-medium.jpg',
-	    'img/cognizant/cog_01-medium.jpg',
-	    'img/cognizant/cog_06-medium.gif',
-	    'img/cognizant/cog_10-medium.gif',
-	    'img/cognizant/cog_11-medium.gif',
-	    'img/cognizant/cog_09-medium.gif',
-	    'img/artnet/artnet_01-large.jpg',
-	    'img/artnet/artnet_02-large.jpg',
-	    'img/artnet/artnet_03-large.jpg',
-	    'img/clear/clear_05-medium.jpg',
-	    'img/clear/clear_04-medium.jpg',
-	    'img/esquire/esquire_01-medium.jpg',
-	    'img/esquire/esquire_02-medium.jpg',
-	    'img/esquire/esquire_03-medium.jpg',
-	    'img/sa/sa_01-medium.jpg',
-	    'img/sa/sa_04-medium.jpg',
-	    'img/sa/sa_05-medium.jpg',
-	    'img/sa/sa_06-medium.jpg',
-	    'img/sa/sa_07-medium.jpg'
+		'img/profile-medium.jpg',
+		'img/akc/akc_01-medium.jpg',
+		'img/akc/akc_04-medium.jpg',
+		'img/akc/akc_05-medium.png',
+		'img/akc/akc_02-medium.jpg',
+		'img/akc/akc_09-medium.jpg',
+		'img/akc/akc_06-medium.jpg',
+		'img/akc/akc_07-medium.jpg',
+		'img/mkbl/mkbl_01-medium.jpg',
+		'img/mkbl/mkbl_02-medium.jpg',
+		'img/mkbl/mkbl_03-medium.jpg',
+		'img/mkbl/mkbl_04-medium.jpg',
+		'img/mkbl/mkbl_06-medium.jpg',
+		'img/mkbl/mkbl_07-medium.jpg',
+		'img/mkbl/mkbl_10-medium.jpg',
+		'img/mkbl/mkbl_12-medium.jpg',
+		'img/twc/rain.gif',
+		'img/twc/hurricane.gif',
+		'img/twc/twc_01-medium.png',
+		'img/twc/twc_02-medium.png',
+		'img/kyla/kyla_01-medium.jpg',
+		'img/kyla/kyla_02-medium.jpg',
+		'img/kyla/kyla_03-medium.jpg',
+		'img/kyla/kyla_04-medium.jpg',
+		'img/kyla/kyla_05-medium.jpg',
+		'img/kyla/kyla_06-medium.jpg',
+		'img/kyla/kyla_07-medium.jpg',
+		'img/kyla/kyla_08-medium.jpg',
+		'img/kyla/kyla_09-medium.jpg',
+		'img/kyla/kyla_10-medium.jpg',
+		'img/kyla/kyla_11-medium.jpg',
+		'img/kyla/kyla_12-medium.jpg',
+		'img/kyla/kyla_13-medium.jpg',
+		'img/kyla/kyla_14-medium.jpg',
+		'img/kyla/kyla_15-medium.jpg',
+		'img/kyla/kyla_16-medium.jpg',
+		'img/kyla/kyla_17-medium.jpg',
+		'img/kyla/kyla_17-medium-alt.png',
+		'img/kyla/kyla_18-medium.jpg',
+		'img/kyla/kyla_19-medium.jpg',
+		'img/ct/ct_06-medium.jpg',
+		'img/ct/ct_07-medium.jpg',
+		'img/ct/ct_08-medium.jpg',
+		'img/ct/ct_09-medium.jpg',
+		'img/ct/ct_03-medium.jpg',
+		'img/ct/ct_03-medium.jpg',
+		'img/hwc/hwc_03-medium.jpg',
+		'img/hwc/hwc_04-medium.jpg',
+		'img/hwc/hwc_05-medium.jpg',
+		'img/hwc/hwc_07-medium.jpg',
+		'img/hwc/hwc_08-medium.jpg',
+		'img/cognizant/cog_01-medium.jpg',
+		'img/cognizant/cog_06-medium.gif',
+		'img/cognizant/cog_10-medium.gif',
+		'img/cognizant/cog_11-medium.gif',
+		'img/cognizant/cog_09-medium.gif',
+		'img/artnet/artnet_01-large.jpg',
+		'img/artnet/artnet_02-large.jpg',
+		'img/artnet/artnet_03-large.jpg',
+		'img/clear/clear_05-medium.jpg',
+		'img/clear/clear_04-medium.jpg',
+		'img/esquire/esquire_01-medium.jpg',
+		'img/esquire/esquire_02-medium.jpg',
+		'img/esquire/esquire_03-medium.jpg',
+		'img/sa/sa_01-medium.jpg',
+		'img/sa/sa_04-medium.jpg',
+		'img/sa/sa_05-medium.jpg',
+		'img/sa/sa_06-medium.jpg',
+		'img/sa/sa_07-medium.jpg'
 	]
 } else {
 	var allimgs = [
@@ -173,84 +173,83 @@ if (head.retina && $(window).width() > 1140) {
 		'img/projects/mkbl-small.jpg',
 		'img/projects/hwc-small.jpg',
 		'img/projects/cognizant-small.jpg',
-	    'img/profile-small.jpg',
-	    'img/akc/akc_01-small.jpg',
-	    'img/akc/akc_04-small.jpg',
-	    'img/akc/akc_05-small.png',
-	    'img/akc/akc_02-small.jpg',
-	    'img/akc/akc_09-small.jpg',
-	    'img/akc/akc_06-small.jpg',
-	    'img/akc/akc_07-small.jpg',
-	    'img/mkbl/mkbl_01-small.jpg',
-	    'img/mkbl/mkbl_02-small.jpg',
-	    'img/mkbl/mkbl_03-small.jpg',
-	    'img/mkbl/mkbl_04-small.jpg',
-	    'img/mkbl/mkbl_06-small.jpg',
-	    'img/mkbl/mkbl_07-small.jpg',
-	    'img/mkbl/mkbl_10-small.jpg',
-	    'img/mkbl/mkbl_12-small.jpg',
-	    'img/twc/rain.gif',
-	    'img/twc/hurricane.gif',
-	    'img/twc/twc_01-small.png',
-	    'img/twc/twc_02-small.png',
-	    'img/kyla/kyla_01-small.jpg',
-	    'img/kyla/kyla_02-small.jpg',
-	    'img/kyla/kyla_03-small.jpg',
-	    'img/kyla/kyla_04-small.jpg',
-	    'img/kyla/kyla_05-small.jpg',
-	    'img/kyla/kyla_06-small.jpg',
-	    'img/kyla/kyla_07-small.jpg',
-	    'img/kyla/kyla_08-small.jpg',
-	    'img/kyla/kyla_09-small.jpg',
-	    'img/kyla/kyla_10-small.jpg',
-	    'img/kyla/kyla_11-small.jpg',
-	    'img/kyla/kyla_12-small.jpg',
-	    'img/kyla/kyla_13-small.jpg',
-	    'img/kyla/kyla_14-small.jpg',
-	    'img/kyla/kyla_15-small.jpg',
-	    'img/kyla/kyla_16-small.jpg',
-	    'img/kyla/kyla_17-small.jpg',
-	    'img/kyla/kyla_17-small-alt.png',
-	    'img/kyla/kyla_18-small.jpg',
-	    'img/kyla/kyla_19-small.jpg',
-	    'img/clear/clear_05-small.jpg',
-	    'img/clear/clear_06.jpg',
-	    'img/cognizant/cog_01-small.jpg',
-	    'img/cognizant/cog_06-small.gif',
-	    'img/cognizant/cog_07-small.gif',
-	    'img/cognizant/cog_08-small.gif',
-	    'img/hwc/hwc_03-small.jpg',
-	    'img/hwc/hwc_04-small.jpg',
-	    'img/hwc/hwc_05-small.jpg',
-	    'img/hwc/hwc_06-small.jpg',
-	    'img/hwc/hwc_07-small.jpg',
-	    'img/hwc/hwc_08-small.jpg',
-	    'img/artnet/artnet_01-small.jpg',
-	    'img/artnet/artnet_02-small.jpg',
-	    'img/artnet/artnet_03-small.jpg',
-	    'img/ct/ct_06-small.jpg',
-	    'img/ct/ct_07-small.jpg',
-	    'img/ct/ct_08-small.jpg',
-	    'img/ct/ct_09-small.jpg',
-	    'img/ct/ct_03-small.jpg',
-	    'img/ct/ct_03-small.jpg',
-	    'img/esquire/esquire_01-small.jpg',
-	    'img/esquire/esquire_02-small.jpg',
-	    'img/esquire/esquire_03-small.jpg',
-	    'img/sa/sa_01-small.jpg',
-	    'img/sa/sa_04-small.jpg',
-	    'img/sa/sa_05-small.jpg',
-	    'img/sa/sa_06-small.jpg',
-	    'img/sa/sa_07-small.jpg',
-	    'img/cognizant/cog_07-small.gif'
+		'img/profile-small.jpg',
+		'img/akc/akc_01-small.jpg',
+		'img/akc/akc_04-small.jpg',
+		'img/akc/akc_05-small.png',
+		'img/akc/akc_02-small.jpg',
+		'img/akc/akc_09-small.jpg',
+		'img/akc/akc_06-small.jpg',
+		'img/akc/akc_07-small.jpg',
+		'img/mkbl/mkbl_01-small.jpg',
+		'img/mkbl/mkbl_02-small.jpg',
+		'img/mkbl/mkbl_03-small.jpg',
+		'img/mkbl/mkbl_04-small.jpg',
+		'img/mkbl/mkbl_06-small.jpg',
+		'img/mkbl/mkbl_07-small.jpg',
+		'img/mkbl/mkbl_10-small.jpg',
+		'img/mkbl/mkbl_12-small.jpg',
+		'img/twc/rain.gif',
+		'img/twc/hurricane.gif',
+		'img/twc/twc_01-small.png',
+		'img/twc/twc_02-small.png',
+		'img/kyla/kyla_01-small.jpg',
+		'img/kyla/kyla_02-small.jpg',
+		'img/kyla/kyla_03-small.jpg',
+		'img/kyla/kyla_04-small.jpg',
+		'img/kyla/kyla_05-small.jpg',
+		'img/kyla/kyla_06-small.jpg',
+		'img/kyla/kyla_07-small.jpg',
+		'img/kyla/kyla_08-small.jpg',
+		'img/kyla/kyla_09-small.jpg',
+		'img/kyla/kyla_10-small.jpg',
+		'img/kyla/kyla_11-small.jpg',
+		'img/kyla/kyla_12-small.jpg',
+		'img/kyla/kyla_13-small.jpg',
+		'img/kyla/kyla_14-small.jpg',
+		'img/kyla/kyla_15-small.jpg',
+		'img/kyla/kyla_16-small.jpg',
+		'img/kyla/kyla_17-small.jpg',
+		'img/kyla/kyla_17-small-alt.png',
+		'img/kyla/kyla_18-small.jpg',
+		'img/kyla/kyla_19-small.jpg',
+		'img/clear/clear_05-small.jpg',
+		'img/clear/clear_06.jpg',
+		'img/cognizant/cog_01-small.jpg',
+		'img/cognizant/cog_06-small.gif',
+		'img/cognizant/cog_07-small.gif',
+		'img/hwc/hwc_03-small.jpg',
+		'img/hwc/hwc_04-small.jpg',
+		'img/hwc/hwc_05-small.jpg',
+		'img/hwc/hwc_06-small.jpg',
+		'img/hwc/hwc_07-small.jpg',
+		'img/hwc/hwc_08-small.jpg',
+		'img/artnet/artnet_01-small.jpg',
+		'img/artnet/artnet_02-small.jpg',
+		'img/artnet/artnet_03-small.jpg',
+		'img/ct/ct_06-small.jpg',
+		'img/ct/ct_07-small.jpg',
+		'img/ct/ct_08-small.jpg',
+		'img/ct/ct_09-small.jpg',
+		'img/ct/ct_03-small.jpg',
+		'img/ct/ct_03-small.jpg',
+		'img/esquire/esquire_01-small.jpg',
+		'img/esquire/esquire_02-small.jpg',
+		'img/esquire/esquire_03-small.jpg',
+		'img/sa/sa_01-small.jpg',
+		'img/sa/sa_04-small.jpg',
+		'img/sa/sa_05-small.jpg',
+		'img/sa/sa_06-small.jpg',
+		'img/sa/sa_07-small.jpg',
+		'img/cognizant/cog_07-small.gif'
 	]
 }
 
 function preCache(){
-    $.each(allimgs, function(){
-        var img = new Image();
-        img.src = this;
-    });
+	$.each(allimgs, function(){
+		var img = new Image();
+		img.src = this;
+	});
 };
 // REORGANIZE ISOTOPE FUNCTION
 function reorganizeIsotope() {
@@ -340,10 +339,23 @@ $(window).load(function() {
 		});
 	});
 		
-	
-	
+	var oldPageYOffset = 0;
+	$(window).on('scroll.start', function() {
+		$(window).off('scroll.start');
+		if (window.pageYOffset != oldPageYOffset)
+		{
+			oldPageYOffset = window.pageYOffset;
+			setTimeout(function() {
+				$('video').attr('autoplay','autoplay');
+				$('video').each(function () {
+					$(this).get(0).play();
+				});
+			}, 1000)
+		}	
+	});
+
 	/*---------------------------------------------- 
-				   	 P A R A L L A X
+					 P A R A L L A X
 	------------------------------------------------*/
 	if($().parallax) { 
 		$('.parallax-section').parallax();
@@ -502,7 +514,7 @@ $(window).load(function() {
 	
 	
 	/*---------------------------------------------- 
-				   	 V I D E O   B G
+					 V I D E O   B G
 	------------------------------------------------*/
 	// if($().bgVideo) { 
 	// 	setTimeout(function() {
@@ -513,7 +525,7 @@ $(window).load(function() {
 	
 	
 	/*---------------------------------------------- 
-				   	L I G H T C A S E
+					L I G H T C A S E
 	------------------------------------------------*/
 	if($().lightcase) { 
 		$('a[data-rel^=lightcase]').lightcase({ 
@@ -628,7 +640,7 @@ $(window).load(function() {
 	
 	
 	/*---------------------------------------------- 
-				        T A B S 
+						T A B S 
 	------------------------------------------------*/	
 	// $(".tabs").each(function() {
 	// 	var thisItem = $(this); 
@@ -656,36 +668,36 @@ $(window).load(function() {
 		$( '.waypoint-parent' ).each(function( index ) {
 		  
 		  var topWaypoint = $(this).waypoint({
-		  	handler: function(direction) {
-		  		if (direction == 'down') {
-		  			$(this.element)
-		  				.find('.waypoint-child')
-		  				.addClass('is-fixed');
-		  		} else {
-		  			$(this.element)
-		  				.find('.waypoint-child')
-		  				.removeClass('is-fixed');
-		  		}
-		  	},
-		  	offset: '90px'
+			handler: function(direction) {
+				if (direction == 'down') {
+					$(this.element)
+						.find('.waypoint-child')
+						.addClass('is-fixed');
+				} else {
+					$(this.element)
+						.find('.waypoint-child')
+						.removeClass('is-fixed');
+				}
+			},
+			offset: '90px'
 		  });
 		  var bottomWaypoint = $(this).find('.waypoint-bottom').waypoint({
-		    handler: function(direction) {
-		    	if (direction == 'down') {
-		    		$(this.element)
-		    			.closest('.waypoint-parent')
-		    			.find('.waypoint-child')
-		    			.removeClass('is-fixed')
-		    			.addClass('is-bottom');
-		    	} else {
-		    		$(this.element)
-			    		.closest('.waypoint-parent')
-		    			.find('.waypoint-child')
-		    			.removeClass('is-bottom')
-		    			.addClass('is-fixed');
-		    	}
-		    },
-		    offset: ($(this).closest('.waypoint-parent').find('.waypoint-child').height()) * 2
+			handler: function(direction) {
+				if (direction == 'down') {
+					$(this.element)
+						.closest('.waypoint-parent')
+						.find('.waypoint-child')
+						.removeClass('is-fixed')
+						.addClass('is-bottom');
+				} else {
+					$(this.element)
+						.closest('.waypoint-parent')
+						.find('.waypoint-child')
+						.removeClass('is-bottom')
+						.addClass('is-fixed');
+				}
+			},
+			offset: ($(this).closest('.waypoint-parent').find('.waypoint-child').height()) * 2
 		  });
 		});
 	}
@@ -741,40 +753,40 @@ $(document).on('ready', function() {
 		var elmentID = $('html').attr('id')
 		switch (elmentID) {
 		  case 'artnet-page':
-		    $('#main-nav .submenu li.artnet').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.artnet').addClass('current-menu-item')
+			break;
 		  case 'akc-page':
-		    $('#main-nav .submenu li.akc').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.akc').addClass('current-menu-item')
+			break;
 		  case 'weather-channel-page':
-		    $('#main-nav .submenu li.twc').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.twc').addClass('current-menu-item')
+			break;
 		  case 'cognizant-page':
-		    $('#main-nav .submenu li.cognizant').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.cognizant').addClass('current-menu-item')
+			break;
 		  case 'hard-workers-club-page':
-		    $('#main-nav .submenu li.hwc').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.hwc').addClass('current-menu-item')
+			break;
 		  case 'personal-identity-page':
-		    $('#main-nav .submenu li.pid').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.pid').addClass('current-menu-item')
+			break;
 		  case 'mkbl-page':
-		    $('#main-nav .submenu li.mkbl').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.mkbl').addClass('current-menu-item')
+			break;
 		  case 'esquire-page':
-		    $('#main-nav .submenu li.esquire').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.esquire').addClass('current-menu-item')
+			break;
 		  case 'creative-time-page':
-		    $('#main-nav .submenu li.ct').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.ct').addClass('current-menu-item')
+			break;
 		  case 'free-association-page':
-		    $('#main-nav .submenu li.fa').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.fa').addClass('current-menu-item')
+			break;
 		  case 'clear-page':
-		    $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
-		    break;
+			$('#main-nav .submenu li.clear-li').addClass('current-menu-item')
+			break;
 		  default:
-		    break;
+			break;
 		}
 	} else if (!$('html#index-page').length) {
 		$('#main-nav ul > li').removeClass('current-menu-item')
