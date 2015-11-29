@@ -1897,7 +1897,11 @@ div .column-section:first-child,
     position relative
     li
       width calc(100% - 80px)
-      margin 0 40px 80px 40px
+      margin 80px 40px 0px 40px
+      +below(1024px)
+        width calc(100% - 80px) !important
+        margin 40px 40px 0px 40px !important
+        
   li
     margin 0
     padding 0
@@ -1916,9 +1920,15 @@ div .column-section:first-child,
 .gallery-col3
   li
     width 33.3%
+    +below(768px)
+      width 100%
   &.spaced
     li
       width calc(33.3% - 80px)
+      +below(1024px)
+        width calc(33.3% - 30px)
+      +below(768px)
+        width 100%
 
 .gallery-col4
   li
