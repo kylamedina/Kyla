@@ -13,6 +13,13 @@ block content
       //- a#scroll-down(href='#') Scroll Down
 
     section#page-body
+      .wrapper-small
+        h4.align-center
+          strong Digital Art
+        h6.alttitle.align-center for one of the world's foremost public art&nbsp;organizations
+        .column-section.clearfix
+          p Creative Time commissions ambitious art projects throughout New York City and the world. Makeable has had an ongoing relationship with the company, often creating concurrent digital experiences to accompany an art installation. Our work with them is highly experimental and very fast paced. I have been involved in two of the projects in very different capacities.
+        .spacer.spacer-big
       .wrapper
         .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
           //- .wolf-item
@@ -40,20 +47,8 @@ block content
               .wolf-media.portfolio-media
                 a.img-hover(href='img/ct/ct_09-large.jpg', data-rel='lightcase:creativetime')
                   img.img-shadow(data-aload='img/ct/ct_09-medium.jpg', srcset="img/ct/ct_09-small.jpg 640w, img/ct/ct_09-medium.jpg 800w, img/ct/ct_09-large.jpg 1600w" alt='Kara Walker Exhibition Photography #4')
-      .wrapper-mini
-        .spacer.spacer-big
-        h4.align-center
-          strong Digital Art
-        h6.alttitle.align-center for one of the world's foremost public art&nbsp;organizations
-        .column-section.clearfix
-          p Creative Time commissions ambitious art projects throughout New York City and the world. Makeable has had an ongoing relationship with the company, often creating concurrent digital experiences to accompany the art installation. Our work with them is highly experimental and very fast paced. I have been involved in two of the projects in very different capacities.
-        .spacer.spacer-small
-        h6
-          strong Links
-        p
-          a(href='http://creativetime.org/projects/karawalker/' target='_blank') Digital Sugar Baby
-          br
-          a(href='http://creativetime.org/projects/heard-ny/iheardny/' target='_blank') HEARD•NY
+      
+
       .wrapper
         .spacer.spacer-big
         .wolf-grid.clearfix.is-caption--right(data-randomhorizontaloffset='true' data-mouseparallax='true')
@@ -72,12 +67,19 @@ block content
                 a.img-hover(href='img/ct/ct_03-large.jpg', data-rel='lightcase:creativetime')
                   .loader
                   img.browser-shadow(data-aload='img/ct/ct_03-medium.jpg', alt='Creative Time Nick Cave Interactive Website' srcset="img/ct/ct_03-small.jpg 640w, img/ct/ct_03-medium.jpg 800w, img/ct/ct_03-large.jpg 1600w")
-          .wolf-item.is-caption--left
+          .wolf-item.is-caption--left(data-speed="-2")
             .wolf-item-inner
               .wolf-media.portfolio-media
                 .figcaption
                   p When Nick Cave's transformed Grand Central Terminal’s Vanderbilt Hall with a herd of thirty colorful life-size horses for the show HEARD•NY, Creative Time asked Makeable to create a social media aggregator for posts tagged #IHEARDNY from Facebook, Twitter, Vine, Instagram, and Foursquare. Following the show, I developed an interactive thank you piece showing a selection of posts curated by the artist himself. The social media platform's APIs were used to pull the posts into SVG letters where visitors could explore them.
-
+        .wrapper-mini
+          .spacer.spacer-small
+          h6
+            strong Links
+          p
+            a(href='http://creativetime.org/projects/karawalker/' target='_blank') Digital Sugar Baby
+            br
+            a(href='http://creativetime.org/projects/heard-ny/iheardny/' target='_blank') HEARD•NY
       .wrapper
         ul.single-pagination
           li.prev

@@ -31,11 +31,12 @@ block content
 				h6.alttitle.align-center for a design agency redesign.
 				.column-section.clearfix
 						p Free Association is a user experience design studio that helps ambitious companies create next generation products and services. I was brought in during their site redesign for my skills in both photography and interaction design / development.
+						p The header animation above is very similar to the animation I did for the Free Association website except it's used to indicate page transitions. The shapes are symbolic for the shapes used to create the FA logo which can be seen below.
 
 			.wrapper
 				.spacer.spacer-big
 				.wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
-					.wolf-item.no-mobile-video
+					.wolf-item
 						.wolf-item-inner
 							.wolf-media.portfolio-media.browser-shadow
 								a.img-hover(href='FA-strobe.mp4', data-rel='lightcase:FA')
@@ -48,9 +49,9 @@ block content
 											code video
 											|  element.
 							p.figcaption 
-								| Free Association consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The Instagram gif shows me testing the strobes.
+								| Free Association also consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The gif above shows me testing the strobes.
 
-					.wolf-item.is-caption.is-caption--right(data-speed="-1")
+					.wolf-item(data-speed="-1")
 						.wolf-item-inner
 							.wolf-media.portfolio-media.browser-shadow
 								.loader
@@ -450,19 +451,19 @@ block footer
 				#	return
 
 				$(document).on 'ready', (event) ->
-					#lineHeight = ($('.hero-big').width())
-
 					$('.svg-shape').not('#line2').css('opacity','1')
-					#findLineHeight()
 					#theme3()
-					logoPosition()
-					window.i = 0
-					window.themeInteraval = setInterval (->
-						switch window.i
-							when 0 then theme1() 
-							when 1 then theme2() 
-							when 2 then theme3() 
-						window.i++
-						if window.i > 2
-							window.i = 0
-						), 3000
+					if !head.mobile
+						logoPosition()
+						window.i = 0
+						window.themeInteraval = setInterval (->
+							switch window.i
+								when 0 then theme1() 
+								when 1 then theme2() 
+								when 2 then theme3() 
+							window.i++
+							if window.i > 2
+								window.i = 0
+							), 3000
+					else
+						theme1()
