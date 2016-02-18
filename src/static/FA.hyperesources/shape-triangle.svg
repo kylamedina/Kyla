@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="triangle" shape-rendering="optimizeSpeed" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 424.9 370.8"
+	 style="enable-background:new 0 0 424.9 370.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#9F4E4E;fill-opacity:0;stroke:url(#SVGID_1_);stroke-width:7;}
+	.st1{display:none;}
+	.st2{display:inline;}
+	.st3{fill:none;stroke:url(#SVGID_2_);stroke-width:5;}
+	.st4{fill:none;stroke:url(#SVGID_3_);stroke-width:5;}
+</style>
+<g id="triangle-1" vector-effect="non-scaling-stroke" sketch:type="MSPage">
+	<g id="b-2" transform="translate(-161.000000, -427.000000)" vector-effect="non-scaling-stroke" sketch:type="MSArtboardGroup">
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="284.6404" y1="891.5303" x2="285.255" y2="892.6617" gradientTransform="matrix(414.5455 0 0 -361.8182 -117133.3281 323669.5938)">
+			<stop  offset="0" style="stop-color:#409CF9"/>
+			<stop  offset="1" style="stop-color:#37F6E1"/>
+		</linearGradient>
+		<path sketch:type="MSShapeGroup" class="st0" d="M373.8,433L166.2,794.8h414.5L373.8,433z"/>
+	</g>
+</g>
+<g id="triangle-2" sketch:type="MSPage" class="st1">
+	<g id="p-2" transform="translate(-889.000000, -546.000000)" sketch:type="MSArtboardGroup" class="st2">
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="2468.6426" y1="1012.0815" x2="2467.4375" y2="1012.5457" gradientTransform="matrix(414.5455 0 0 -361.8182 -1021772.625 366844.9375)">
+			<stop  offset="0" style="stop-color:#669CFF"/>
+			<stop  offset="0.3355" style="stop-color:#4B88FA"/>
+			<stop  offset="0.715" style="stop-color:#BB69FF"/>
+			<stop  offset="1" style="stop-color:#C782FF"/>
+		</linearGradient>
+		<path sketch:type="MSShapeGroup" class="st3" d="M1101.8,552L894.2,913.8h414.5L1101.8,552z"/>
+	</g>
+</g>
+<g id="triangle-3" vector-effect="non-scaling-stroke" sketch:type="MSPage" class="st1">
+	
+		<g id="g-2" transform="translate(-259.000000, -156.000000)" vector-effect="non-scaling-stroke" sketch:type="MSArtboardGroup" class="st2">
+		
+			<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="576.7531" y1="620.9921" x2="576.4112" y2="622.0255" gradientTransform="matrix(414.5455 0 0 -361.8182 -238911.7031 225345.8594)">
+			<stop  offset="0" style="stop-color:#00E6BC"/>
+			<stop  offset="0.3057" style="stop-color:#21F0C8"/>
+			<stop  offset="1" style="stop-color:#B0FFA9"/>
+		</linearGradient>
+		<path sketch:type="MSShapeGroup" class="st4" d="M471.8,162L264.2,523.8h414.5L471.8,162z"/>
+	</g>
+</g>
+</svg>

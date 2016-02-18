@@ -12,12 +12,16 @@ block content
 	include includes/header-light.jade
 	#page-content.page-FA
 		section#hero.hero-big.parallax-section.text-light.theme-blue
-			//- .hero-overlay
-			include includes/header-bg.svg
-			include includes/shape-triangle.svg
-			include includes/shape-line.svg
-			include includes/shape-line2.svg
-			include includes/shape-circle.svg
+			#fa_hype_container(style='margin:auto;position:relative;width:100%;height:1000px;overflow:hidden;', aria-live='polite')
+				script(type='text/javascript', charset='utf-8', src='FA.hyperesources/fa_hype_generated_script.js?32365')
+
+
+			//- //- .hero-overlay
+			//- include includes/header-bg.svg
+			//- include includes/shape-triangle.svg
+			//- include includes/shape-line.svg
+			//- include includes/shape-line2.svg
+			//- include includes/shape-circle.svg
 			.page-title
 				h5.alttitle Interaction Design and Photography
 				h1
@@ -85,9 +89,9 @@ block content
 										|  element.
 
 			.wrapper.wrapper-mini
-				.spacer.spacer-small
+				.spacer.spacer-medium
 				.column-section.clearfix
-					p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photo shoots are in the works. 
+					//- p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photo shoots are in the works. 
 					h6
 						strong Links
 					p
