@@ -5,8 +5,7 @@
 			"file_exclude_patterns":
 			[
 				"*.zip",
-				"*.otf",
-				// "*.sublime-workspace",
+				"*.otf"
 			],
 			"folder_exclude_patterns":
 			[
@@ -17,6 +16,9 @@
 				"fonts"
 			],
 			"path": "."
+		},
+		{
+			"path": "/usr/local/Cellar/cowsay/3.03/share/cows"
 		}
 	],
 	"settings":
