@@ -40,26 +40,27 @@ block content
               .figcaption
                 p Makeable has a fun personality and much of the design created by the company is vibrant and colorful. I wanted to reflect that while achieving the business goals provided by the partners.
                 p In this iteration, I emphasized Makeable's process&mdash;Imagine, Make, and Grow&mdash;in a grid system that breaks up the long descriptions written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.
-                p During the Imagination phase, Makeable creates story maps that are creative exercise intended to discover a design direction for the project. I wanted to mimic story maps for screens since they are such an important part of Makeable's process. The site UI in this mockup is placeholder, borrowed from 
-                  a(href='https://www.enginethemes.com/') here
-                  | .
+                p During the Imagination phase, Makeable creates story maps that are creative exercise intended to discover a design direction for the project. I wanted to mimic story maps for screens since they are such an important part of Makeable's process. 
+                //- The site UI in this mockup is placeholder, borrowed from 
+                //-   a(href='https://www.enginethemes.com/') here
+                //-   | .
               
       .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big
         .spacer.spacer-big  
-        .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
-          .wolf-item
-            .wolf-item-inner
-              .wolf-media.portfolio-media.img-shadow
-                a.img-hover(href='img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')
-                  img(src='img/mkbl/mkbl_07-medium.jpg' srcset="img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
-              .wolf-caption.portfolio-caption This is an example of the story maps Makeable creates during the Imagine phase.
-          .wolf-item
-            .wolf-item-inner
-              .wolf-media.portfolio-media.img-shadow
-                a.img-hover(href='img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')
-                  img(src='iimg/mkbl/mkbl_06-medium.jpg' srcset="img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
-              .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    
+        //- .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')
+        //-   .wolf-item
+        //-     .wolf-item-inner
+        //-       .wolf-media.portfolio-media.img-shadow
+        //-         a.img-hover(href='img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')
+        //-           img(src='img/mkbl/mkbl_07-medium.jpg' srcset="img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
+        //-       .wolf-caption.portfolio-caption This is an example of the story maps Makeable creates during the Imagine phase.
+        //-   .wolf-item
+        //-     .wolf-item-inner
+        //-       .wolf-media.portfolio-media.img-shadow
+        //-         a.img-hover(href='img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')
+        //-           img(src='iimg/mkbl/mkbl_06-medium.jpg' srcset="img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
+        //-       .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    
                 
       div.mkbl-caption-1
         .mkbl-caption__container
@@ -72,7 +73,7 @@ block content
               .wolf-media.portfolio-media.browser-chrome
                 a.img-hover.browser-shadow(href='img/mkbl/mkbl_03-large.jpg', data-rel='lightcase:mkbl')
                   img(src='img/mkbl/mkbl_03-medium.jpg' srcset="img/mkbl/mkbl_03-small.jpg 640w, img/mkbl/mkbl_03-medium.jpg 800w, img/mkbl/mkbl_03-large.jpg 1600w" alt='About page design')
-              .figcaption.special
+              .figcaption.special(style='margin-top: 30px;')
                 p These examples of team profile pages show how different themes would work. The second image shows the quick switch menu allowing users to switch between related pages in a visual way consistent with the main navigation dropdown.
           .wolf-item
             .wolf-item-inner
@@ -84,37 +85,55 @@ block content
              .wolf-media.portfolio-media.browser-chrome
                 a.img-hover.browser-shadow(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
                  img(src='img/mkbl/mkbl_16-large.jpg' srcset="img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1600w"  alt='About page design with quick nav')
-          .wolf-item
-            .wolf-item-inner
-             .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
-                 img(src='img/mkbl/mkbl_17-large.jpg' srcset="img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
+          .wolf-item.is-caption(data-speed="-2")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  .figcaption
+                    p An SEO page with illustration.
+          //- .wolf-item
+          //-   .wolf-item-inner
+          //-    .wolf-media.portfolio-media.browser-chrome
+          //-       a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
+          //-        img(src='img/mkbl/mkbl_17-large.jpg' srcset="img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media.img-shadow
           //-       a.img-hover(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
           //-         img(src='img/mkbl/mkbl_16-medium.jpg' srcset="img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1330w"  alt='Sara Thompson')
           //-     .figcaption: p Dr. Sara S. Thompson at work.
-          .wolf-item
-            .wolf-item-inner
-              .wolf-media.portfolio-media.img-shadow
-                a.img-hover(href='img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')
-                  img(src='img/mkbl/mkbl_13-medium.jpg' srcset="img/mkbl/mkbl_13-small.jpg 640w, img/mkbl/mkbl_13-medium.jpg 800w, img/mkbl/mkbl_13-large.jpg 1480w"  alt='Sara Thompson')
-              .figcaption: p Dr. Sara S. Thompson at work.
-          .wolf-item
-            .wolf-item-inner
-              .wolf-media.portfolio-media.img-shadow
-                a.img-hover(href='img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')
-                  img(src='img/mkbl/mkbl_10-medium.jpg' srcset="img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
-              .figcaption
-                p Makeable's slogan
+          //- .wolf-item
+          //-   .wolf-item-inner
+          //-     .wolf-media.portfolio-media.img-shadow
+          //-       a.img-hover(href='img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')
+          //-         img(src='img/mkbl/mkbl_13-medium.jpg' srcset="img/mkbl/mkbl_13-small.jpg 640w, img/mkbl/mkbl_13-medium.jpg 800w, img/mkbl/mkbl_13-large.jpg 1480w"  alt='Sara Thompson')
+          //-     .figcaption: p Dr. Sara S. Thompson at work.
+          //- .wolf-item
+          //-   .wolf-item-inner
+          //-     .wolf-media.portfolio-media.img-shadow
+          //-       a.img-hover(href='img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')
+          //-         img(src='img/mkbl/mkbl_10-medium.jpg' srcset="img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
+          //-     .figcaption
+          //-       p Makeable's slogan
       
       .wrapper-mini(style='background-color:white;position: relative; z-index:1;')
         h6
           strong A Second Direction
         p In the second direction, I went with a grid-based layout because both founders expressed interest in it. They like the idea of displaying as much information about the company on the homepage as possible for SEO purposes.
         .spacer.spacer-big
-
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover.img-shadow(href='img/mkbl/mkbl_18-large.jpg', data-rel='lightcase:mkbl' )
+                  .loader
+                  img(data-aload='img/mkbl/mkbl_18-large.jpg' srcset="img/mkbl/mkbl_18-small.jpg 640w, img/mkbl/mkbl_18-medium.jpg 800w, img/mkbl/mkbl_18-large.jpg 1280w" alt='Makeable Wireframes')
+          .wolf-item.is-caption(data-speed="-2")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  .figcaption
+                    p I wireframed the this direction with my bare hands.
       .wrapper.xtra-wide.no-mobile-video(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-small
         ul.gallery.gallery-col1
