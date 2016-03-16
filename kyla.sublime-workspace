@@ -519,30 +519,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "src/jade/free-association.jade",
-			"settings":
-			{
-				"buffer_size": 15112,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/jade/includes/header-bg.svg",
-			"settings":
-			{
-				"buffer_size": 682,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/jade/includes/shape-circle.svg",
-			"settings":
-			{
-				"buffer_size": 2754,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -613,6 +589,9 @@
 	],
 	"file_history":
 	[
+		"/Users/kyla/Sites/success-academy-school-leaders-banners/300X250.html",
+		"/Users/kyla/Sites/Kyla/src/jade/includes/header-bg.svg",
+		"/Users/kyla/Sites/Kyla/src/jade/free-association.jade",
 		"/Users/kyla/Sites/Kyla/src/styl/style.styl",
 		"/Users/kyla/Sites/Kyla/src/css/wolf.css",
 		"/Users/kyla/Sites/Kyla/src/styl/modules/project.styl",
@@ -625,7 +604,6 @@
 		"/Users/kyla/Sites/Kyla/src/jade/personal-identity.jade",
 		"/Users/kyla/Sites/v2v/viewerstovolunteers.com/.git/MERGE_MSG",
 		"/Users/kyla/Sites/Kyla/.git/MERGE_MSG",
-		"/Users/kyla/Sites/Kyla/src/jade/includes/header-bg.svg",
 		"/Users/Kyla/Sites/freeassociation/app/assets/javascripts/header-animation.js.coffee",
 		"/Users/kyla/Sites/Kyla/src/jade/includes/shape-line.svg",
 		"/Users/kyla/Sites/Kyla/src/jade/esquire.jade",
@@ -633,7 +611,6 @@
 		"/Users/kyla/Sites/Kyla/src/jade/layouts/layout.jade",
 		"/Users/kyla/Sites/Kyla/build/gulp.coffee",
 		"/Users/kyla/Sites/Kyla/src/styl/modules/header-animations.styl",
-		"/Users/kyla/Sites/Kyla/src/jade/free-association.jade",
 		"/Users/kyla/Sites/Kyla/src/jade/index.jade",
 		"/Users/Kyla/Sites/kyla/src/jade/free-association.jade",
 		"/Users/Kyla/Sites/SA-banners7/coaching/300x250/300x250.html",
@@ -739,8 +716,7 @@
 		"/Users/Kyla/Sites/SA-Holiday/src/svg/E.svg",
 		"/Users/Kyla/Sites/SA-Holiday/src/svg/R.svg",
 		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/E.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_2.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/R.svg"
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_2.svg"
 	],
 	"find":
 	{
@@ -972,447 +948,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "src/jade/free-association.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15112,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								373,
-								373
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/jade/includes/header-bg.svg",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 682,
-						"regions":
-						{
-							"gutter_color_344":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#409CF9.png",
-								"regions":
-								[
-									[
-										344,
-										412
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_413":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#37F6E1.png",
-								"regions":
-								[
-									[
-										413,
-										481
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_684":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#409CF9.png",
-								"regions":
-								[
-									[
-										504,
-										504
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_740":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#37F6E1.png",
-								"regions":
-								[
-									[
-										504,
-										504
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								674,
-								674
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/jade/includes/shape-circle.svg",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 2754,
-						"regions":
-						{
-							"gutter_color_1101":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#00E6BC.png",
-								"regions":
-								[
-									[
-										1101,
-										1155
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1156":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#21F0C8.png",
-								"regions":
-								[
-									[
-										1156,
-										1219
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1220":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#B0FFA9.png",
-								"regions":
-								[
-									[
-										1220,
-										1276
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_428":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#409CF9.png",
-								"regions":
-								[
-									[
-										428,
-										480
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_481":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#37F6E1.png",
-								"regions":
-								[
-									[
-										481,
-										535
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_676":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#669CFF.png",
-								"regions":
-								[
-									[
-										676,
-										743
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_744":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#4B88FA.png",
-								"regions":
-								[
-									[
-										744,
-										820
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_821":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#BB69FF.png",
-								"regions":
-								[
-									[
-										821,
-										897
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_898":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#C782FF.png",
-								"regions":
-								[
-									[
-										898,
-										967
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								2188,
-								2188
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/XML/XML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 191.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1464,6 +1001,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"fa",
+				"Kyla/src/jade/free-association.jade"
+			],
 			[
 				"header",
 				"Kyla/src/jade/includes/header-bg.svg"
@@ -1971,10 +1512,6 @@
 			[
 				"gra",
 				"src/styl/gradients.styl"
-			],
-			[
-				"flo",
-				"src/styl/modules/flow-box.styl"
 			]
 		],
 		"width": 0.0
