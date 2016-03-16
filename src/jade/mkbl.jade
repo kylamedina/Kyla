@@ -84,11 +84,16 @@ block content
              .wolf-media.portfolio-media.browser-chrome
                 a.img-hover.browser-shadow(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
                  img(src='img/mkbl/mkbl_16-large.jpg' srcset="img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1600w"  alt='About page design with quick nav')
-          .wolf-item
-            .wolf-item-inner
-             .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
-                 img(src='img/mkbl/mkbl_17-large.jpg' srcset="img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
+          .wolf-item.is-caption(data-speed="-2")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  .figcaption
+                    p An SEO page with illustration.
+          //- .wolf-item
+          //-   .wolf-item-inner
+          //-    .wolf-media.portfolio-media.browser-chrome
+          //-       a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
+          //-        img(src='img/mkbl/mkbl_17-large.jpg' srcset="img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media.img-shadow
@@ -114,7 +119,20 @@ block content
           strong A Second Direction
         p In the second direction, I went with a grid-based layout because both founders expressed interest in it. They like the idea of displaying as much information about the company on the homepage as possible for SEO purposes.
         .spacer.spacer-big
-
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover.img-shadow(href='img/mkbl/mkbl_18-large.jpg', data-rel='lightcase:mkbl' )
+                  .loader
+                  img(data-aload='img/mkbl/mkbl_18-large.jpg' srcset="img/mkbl/mkbl_18-small.jpg 640w, img/mkbl/mkbl_18-medium.jpg 800w, img/mkbl/mkbl_18-large.jpg 1280w" alt='Makeable Wireframes')
+          .wolf-item.is-caption(data-speed="-2")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  .figcaption
+                    p I made the wireframes with my bare hands.
       .wrapper.xtra-wide.no-mobile-video(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-small
         ul.gallery.gallery-col1
