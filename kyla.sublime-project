@@ -16,9 +16,6 @@
 				"fonts"
 			],
 			"path": "."
-		},
-		{
-			"path": "/usr/local/Cellar/cowsay/3.03/share/cows"
 		}
 	],
 	"settings":
