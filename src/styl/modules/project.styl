@@ -18,7 +18,7 @@
 		margin-right auto
 
 .browser-shadow
-	box-shadow 0px 5px 30px rgba(#000,0.05)
+	box-shadow 0px 5px 30px rgba(#000,0.15)
 	border-bottom-right-radius px(5)
 	border-bottom-left-radius px(5)
 	border-top 1px solid #f0f0f0
@@ -28,7 +28,7 @@
 	img
 		width 100%
 .img-shadow
-	box-shadow 0px 5px 30px rgba(#000,0.05)
+	box-shadow 0px 5px 30px rgba(#000,0.15)
 	position relative
 	width 100%
 	img
@@ -52,7 +52,7 @@
 .wolf-item-inner,
 .wolf-item-inner .img-hover
 	width 100%
-	height 100% !important
+	// height 100% !important
 	min-height px(250)
 	display block
 
@@ -99,6 +99,7 @@ li.browser-chrome
 .waypoint-parent
 	position relative
 	overflow hidden
+	padding-top 4rem
 	+above(1024px)
 		.browser-chrome
 			width 50%
@@ -109,9 +110,10 @@ li.browser-chrome
 		top 0
 		width 700px
 		margin-bottom 0 !important
+		margin-top 4rem
 		&.is-fixed
 			position fixed
-			top px(90)
+			top px(40)
 		&.is-bottom
 			top auto
 			bottom 0
@@ -154,15 +156,15 @@ li.browser-chrome
 		background-position: 0% 0% 
 	.mkbl-caption__container
 		position absolute
-		max-width 40%
-		left 50%
+		max-width 30%
+		left 60%
 		width 100%
 		height 100%
 		top 0
 		bottom 0
 		p
 			vertically-align()
-	+above(1600px)
+	+above(1800px)
 		.mkbl-caption__container
 			width 20%
 	+below(1200px)

@@ -1,0 +1,145 @@
+extends layouts/layout
+
+block content
+  //- include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-akc
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/akc-notes/marketplace_map.jpg')
+      .hero-overlay.is-darker
+      .page-title.hleft
+        h5.alttitle Design and Development
+        h1
+          strong American 
+            br
+            | Kennel Club
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.body-akc
+      .wrapper-small.has-animation
+        h4.align-center
+          strong Design Process
+        h6.alttitle.align-center Multi-Project Client
+        .column-section.clearfix
+            p American Kennel Club approached Makeable with a series of projects including an overhaul of their website, several apps, and promotional sites. My main involvement was in AKC Marketplace, which allows vets, groomers, dog walkers, boards, breeders, and pet shops to create their own page to promote their business to the AKC community.
+            p A moodboard was created by the creative director and two designers prior to site design. After the moodboard was approved, wireframing began. Once approved, two designers began working on the AKC main site and I began working on AKC Marketplace shortly after.
+
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='false')
+          .wolf-item(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                a.img-hover.browser-shadow(href='AKC_Marketplace_Wireframes.pdf', data-rel='lightcase:akc' title='View in PDF <a href="AKC_Marketplace_Wireframes.pdf" target="_blank">new tab</a>')
+                  .loader
+                  //-  srcset="img/akc/akc_01-small.jpg 640w, img/akc/akc_01-medium.jpg 800w, img/akc/akc_01-large.jpg 1280w"
+                  img(data-aload='img/akc-notes/marketplace_syndication.jpg' alt='AKC Marketplace Website Dog Listing')
+          .wolf-item.is-caption(data-speed="-2")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p Prior to beginning work, I was briefed on the requirements and provided wireframes that had been approved by the client. 
+          .wolf-item.is-caption.is-caption--right(data-speed="-3")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p A style guide for the AKC main site had been started. We shared styles whenever possible although the project requirements for the two site differed. The AKC main site is very marketing oriented while AKC Marketplace is more of a web application or CMS like Squarespace.
+          .wolf-item(style='margin-bottom:0' data-speed="3")
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                a.img-hover.browser-shadow(href='img/akc/akc_04-large.jpg', data-rel='lightcase:AKC')
+                  .loader
+                  //- srcset="img/akc/akc_04-small.jpg 640w, img/akc/akc_04-medium.jpg 800w, img/akc/akc_04-large.jpg 1280w"
+                  img(data-aload='img/akc-notes/styleguide.jpg' alt='AKC Marketplace Website Dog Listing')
+          
+          .wolf-item(data-speed="0")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover.img-shadow(href='img/akc-notes/marketplace_presentation.jpg', data-rel='lightcase:AKC')
+                  .loader
+                  //- srcset="img/akc/akc_04-small.jpg 640w, img/akc/akc_04-medium.jpg 800w, img/akc/akc_04-large.jpg 1280w"
+                  img(data-aload='img/akc-notes/marketplace_presentation.jpg' alt='AKC Marketplace Website Dog Listing')
+          .wolf-item.is-caption(data-speed="-1")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p I presented to the client through three rounds of design.
+          .wolf-item.is-caption.is-caption--right(data-speed="-2")
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p I did QA development and reported bugs in Github. The whole process was agile and following user testing I redesigned components of the site as the client requested.
+          .wolf-item(data-speed="-1")
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                .img-hover.browser-shadow
+                  .loader
+                  //-  srcset="img/akc/akc_01-small.jpg 640w, img/akc/akc_01-medium.jpg 800w, img/akc/akc_01-large.jpg 1280w"
+                  img(data-aload='img/akc-notes/marketplace_github.jpg' alt='AKC Marketplace Website Dog Listing')
+          
+
+
+          //- .wolf-item.wfull
+          //-   .wolf-item-inner
+          //-     .wolf-media.portfolio-media
+          //-       //- srcset="img/akc/akc_05-small.png 640w, img/akc/akc_05-medium.png 800w, img/akc/akc_05-large.png 1440w, img/akc/akc_05-xlarge.png 1960w"
+          //-       img.has-animation(data-aload='img/akc-notes/styleguide.jpg'  alt='AKC Styleguide')
+
+      //-   .wrapper-medium.has-animation
+      //-     .wolf-item.wfull(style='margin-bottom:0')
+      //-       .wolf-item-inner.browser-chrome.is-large
+      //-         .wolf-media.portfolio-media.browser-shadow
+      //-           a(href='img/akc/akc_02-medium.jpg', data-rel='lightcase:akc')
+      //-             .loader
+      //-             img(src='img/akc/akc_02-medium.jpg' srcset="img/akc/akc_02-small.jpg 640w, img/akc/akc_02-medium.jpg 1000w, img/akc/akc_02-large.jpg 1400w" alt='AKC Marketplace Website Storefront')
+
+
+      //- .wrapper-small.has-animation
+      //-   .spacer.spacer-medium
+      //-   h4.align-center
+      //-     strong Social Networking
+      //-   h6.alttitle.align-center for dogs
+      //-   .column-section.clearfix
+      //-       p I was also the front-end developer of Wooftale&mdash;lovingly deemed 'Facebook for Dogs.' The app uses 'if this, then that' logic to measure things like the dog's walking distance and temperature then  posts statuses or 'Wooftales' to the dog's feed. One of the most interesting parts of the app is creating shareable posts via HTML5's canvas. Using javascript to create the canvas, I could take a snapshot and export a PNG that was shareable to the Wooftale feed as well as Instagram and other social&nbsp;networks.
+      //- .wrapper-mini.has-animation
+      //-   .spacer.spacer-small
+      //-   h6
+      //-     strong Links
+      //-   p
+      //-     a(href='http://marketplace.akc.org' target='_blank') AKC Marketplace
+      //-     br
+      //-     a(href='http://caninechronicle.com/breaking-news/akc-launches-marketplace-for-clubs' target='_blank') 
+      //-       em AKC Launches Marketplace for Clubs
+      //-     br
+      //-     a(href='http://wooftale.com' target='_blank') Wooftale Teaser Site
+
+      //- .wrapper
+      //-   .spacer.spacer-medium
+      //-   .owl-slider
+      //-     figure
+      //-       img(src='img/akc/akc_09-medium.jpg' srcset="img/akc/akc_09-small.jpg 640w, img/akc/akc_09-medium.jpg 1000w, img/akc/akc_09-large.jpg 2000w" alt='Dog and Laptop')
+      //-       figcaption
+      //-        p.slider-caption I led front-end development of the Wooftale promotional site and app.
+      //-     figure
+      //-       img(data-aload='img/akc/akc_06-medium.jpg' srcset="img/akc/akc_06-small.jpg 640w, img/akc/akc_06-medium.jpg 1000w, img/akc/akc_06-large.jpg 2000w" alt='Mobile Screens')
+      //-       figcaption
+      //-        p.slider-caption 
+      //-           | The left screen shows the feed with an event&nbsp;post. 
+      //-           br
+      //-           | The right screen shows a&nbsp;'Wooftale' post in the app feed.
+      //-     figure
+      //-       img(data-aload='img/akc/akc_07-medium.jpg' srcset="img/akc/akc_07-small.jpg 640w, img/akc/akc_07-medium.jpg 1000w, img/akc/akc_07-large.jpg 2000w" alt='Dog and Mobile Instagram')
+      //-       figcaption
+      //-        p.slider-caption Using HTML's canvas element allowed users to customize the look of the shareable Wooftale. A PNG of the canvas element was then output and posted to the feed in the app as well as other social&nbsp;networks.
+
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='hard-workers-club.html')
+              img(src='img/projects/hwc-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='/') Back To Works
+          li.next
+            a(href='artnet.html')
+              img(src='img/projects/artnet-small.jpg', alt='prev')
+              span Next Project

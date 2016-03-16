@@ -29,7 +29,7 @@
 		text-align: left;
 
 		color: #aaa;
-		text-shadow: 0 0 10px rgba(0,0,0,0.5);
+		/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 	}
 
 	/* Content */
@@ -202,7 +202,7 @@
 	#lightcase-case .lightcase-caption {
 		margin: 0;
 		padding: 0;
-
+		/*text-transform: none;*/
 		font-size: 17px;
 		line-height: 1.5;
 		font-weight: normal;
@@ -389,7 +389,7 @@
 		line-height: 18px;
 		text-align: left;
 
-		text-shadow: 0 0 10px rgba(0,0,0,0.5);
+		/*text-shadow: 0 0 10px rgba(0,0,0,0.5);*/
 	}
 
 	#lightcase-case:not([data-type=image]):not([data-type=video]):not([data-type=flash]):not([data-type=error]),
