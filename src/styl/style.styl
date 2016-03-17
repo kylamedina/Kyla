@@ -621,7 +621,7 @@ header
     line-height 1.2
     padding 6px 10px
     upcase()
-    letter-spacing 3px
+    letter-spacing 2px
     #dark-logo
       color black
       top: -7px
@@ -2193,9 +2193,15 @@ div .column-section:first-child,
   width 700px
   height auto
   right 8%
-  top 0
+  top 6%
   z-index 0
   opacity 0.9
+  +below(768px)
+    left auto !important
+    top 0% !important
+    right 0 
+  +between(768px,1024px)
+    width 50%
   +above(2000px)
     width 1000px
     top 8%

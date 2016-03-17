@@ -2,7 +2,7 @@ h1, h2, h3, h4, h5, h6
 	font-family Headerfont
 	font-weight 400
 	text-transform uppercase
-	letter-spacing 0.08em
+	letter-spacing 0.04em
 	color inherit
 	
 ::selection
@@ -26,17 +26,30 @@ h1, h2, h3, h4, h5, h6
 	color white
 
 h1
-	font-size 66px
-	line-height 1.212121212
+	font-size 88px
+	line-height 1.1
 	color lightblack
 	position relative
 	z-index 1
+	letter-spacing -1px
+	
 	+above(2000px)
 		fs(100px)
 	+below(768px)
 		font-size 24px !important
 		line-height 1.4 !important
-
+.page-home h1
+	// fs(6.6rem)
+	text-transform none
+small
+	fs(1.3rem)
+	display block
+	margin-top 24px
+	letter-spacing 2px
+	font-family Secondaryfont
+	+below(768px)
+		margin-top 10px
+		fs(1rem)
 h2
 	font-size 56px
 	line-height 66px

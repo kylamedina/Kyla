@@ -5,22 +5,26 @@ block content
   include includes/header-dark.jade
     
   #page-content.page-home
+    img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
     section#hero.hero-auto
       .page-title.hleft
         h1 
-            | Hi, I am a friendly 
+            //- | Super Famous
             br
-            | interaction designer 
-            //- br
-            //- | 
+            | Designer &amp; Dev-
+            br
+            | eloper
+            small NW YRK CTY 
             //- a(alt='' href='about.html').colored designer &amp; Developer
             //- |  working
             //- | in 
-            br
-            span.colored in sunny New York&nbsp;City.
+            //- br
+            //- span.colored in sunny New York&nbsp;City.
             //- span(style='font-size: 20px;position:relative;top:1px;') &#9650;
-
+    .spacer.spacer-big
+    .spacer.spacer-big
     section#page-body.nopadding
+
       .wrapper.wrapper-huge
         #portfolio-grid.wolf-grid.clearfix(data-randomhorizontaloffset='true', data-mouseparallax='true')
           .wolf-item.portfolio-wolf-item.frontend.design.project-akc
