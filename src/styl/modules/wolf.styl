@@ -1,0 +1,108 @@
+// .portfolio-name
+// 	font-family Fancy
+// 	font-style italic
+	
+.portfolio-wolf-item
+	.portfolio-caption
+		a
+			transition all 0.6s $ease-out-quint 0.4s
+			display block
+			color black
+			// padding px(20) px(20) px(15) px(20)
+			.portfolio-category
+				transform translateY(4rem)
+				opacity 0
+				transition transform 0.4s $ease-in-sine 0.1s, opacity 0.4s $ease-in-sine 0.1s
+				
+			.portfolio-name
+				transition transform 0.4s $ease-in-sine, opacity 0.4s $ease-in-sine
+				opacity 0
+				transform translateY(4rem)
+		a:hover,
+		&.hovered a
+			// transform translateX(-20px)
+			transition all 0.2s $ease-in-quint 0s
+			transform translateY(0)
+			// background-color white
+			.portfolio-category
+				transform translateY(0)
+				transition transform 0.4s $ease-out-sine, opacity 0.4s $ease-out-sine
+				opacity 1
+				
+			.portfolio-name
+				opacity 1
+				transform translateY(0)
+				transition transform 0.4s $ease-out-sine 0.04s, opacity 0.4s $ease-out-sine 0.04s
+				
+	// &.wright .portfolio-caption a:hover, 
+	// &.wright .portfolio-caption.hovered a
+	// 	// transform translateX(20px)
+	// 	background-color white
+		
+	.portfolio-media
+		a.wolf-media-link,
+			> div,
+			img
+				transition all 0.5s ease 0.05s
+				opacity 1
+	.portfolio-media a.wolf-media-link:hover img, 
+	.portfolio-media.hovered a.wolf-media-link img
+		transform scale(1.05)
+		opacity 0.3
+	.portfolio-media a.wolf-media-link:hover > div, 
+	.portfolio-media.hovered a.wolf-media-link > div
+		opacity 0.3
+
+.photography-wolf-item
+	.photography-caption
+		a
+			display inline-block
+			&:hover
+				h6
+					color primary
+		.photography-media
+			a
+				transition all 0.3s ease
+				&:hover
+					opacity 0.5
+		
+.wolf-media-link
+	video
+		transition 0.3s ease
+	&:hover video
+		opacity 0.4
+.wolf-item
+	transform: translateZ(0)
+	&.project-clear
+		.portfolio-caption:not(.static)
+			top px(100)
+			bottom auto
+	&.project-sa
+		.portfolio-caption:not(.static)
+			top auto
+			bottom px(0)
+	&.project-artnet
+		.portfolio-caption:not(.static)
+			top auto
+			bottom px(0)
+	&.project-hwc
+		.portfolio-caption:not(.static)
+			bottom auto
+			top px(50)
+	&.project-twc
+		.portfolio-caption:not(.static)
+			bottom auto !important
+			top px(0) !important
+			width 100%
+	&.project-ct
+		.portfolio-media
+			padding-top px(65)
+		// .portfolio-caption:not(.static)
+		// 	bottom auto
+		// 	top 0
+		.wolf-media
+			background-color lightgray
+
+.wolf-text
+	.text-light
+		color white

@@ -1,0 +1,112 @@
+.page-title
+	transition opacity 0.5s ease 0.5s
+// .header-gradient
+// 	position: absolute
+// 	top: 0
+// 	bottom: 0
+// 	left: 0
+// 	right: 0
+// 	z-index: 0
+// 	height: 100vh
+// 	width: 100vw
+// 	max-height: inherit
+// 	min-height: inherit
+#linearGradient-bg1
+	stop
+		transition: all 5s ease
+
+.svg-shape
+	// opacity: 0
+	overflow: visible
+	z-index: 0
+	// transition: all 3s $ease-in-out 0s
+	pointer-events none
+	position absolute
+	*
+		overflow: visible
+	circle
+		width: 100%
+.mobile
+	.svg-shape
+		opacity 0.5 !important
+
+.header
+	padding: 0 !important
+	overflow: hidden
+	// background-color: none !important
+	// background: none !important
+	.svg-shape
+		position: absolute
+		z-index: 2
+		#triangle-1, #circle-1, #line-1
+			position: relative  
+
+#triangle-1, #circle-1, #line-1,
+#triangle-2, #circle-2, #line-2,
+#triangle-3, #circle-3, #line-3
+	transition: all 3s ease 0s
+.theme-blue
+	#triangle-1, #circle-1, #line-1
+		opacity: 1
+		// z-index: 1
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+	#triangle-2, #circle-2, #line-2,
+	#triangle-3, #circle-3, #line-3
+		opacity: 0
+		// z-index: 0
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+
+.theme-purple
+	#triangle-2, #circle-2, #line-2
+		opacity: 1
+		// z-index: 1
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+	#triangle-1, #circle-1, #line-1,
+	#triangle-3, #circle-3, #line-3
+		opacity: 0
+		// z-index: 0
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+
+.theme-green
+	#triangle-3, #circle-3, #line-3
+		opacity: 1
+		// z-index: 1
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+	#triangle-1, #circle-1, #line-1,
+	#triangle-2, #circle-2, #line-2
+		opacity: 0
+		// z-index: 0
+		// transition: all 5s cubic-bezier(.1, .82, .165, 1)
+
+
+#circle
+	// transform: translate(-50%, 0%)
+	padding: 10px
+	transform-origin: 50% 50%
+	z-index: 3
+	width 452px !important
+	height 452px !important
+
+#line, #line2
+	// top: 0px
+	// bottom: 0px
+	width: 5px
+	transform-origin: 50% 0%
+	overflow hidden
+	
+#line2
+	opacity: 0
+	width: 5px
+	overflow hidden !important
+
+#triangle
+	// bottom: -30px
+	// left: -34px
+	transform-origin: 50% 50%
+	z-index: 3
+
+@keyframes fadeIn
+	0%
+		opacity: 0
+	100%
+		opacity: 1

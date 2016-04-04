@@ -1,0 +1,275 @@
+.project-cognizant.portfolio-wolf-item
+	.wolf-caption.portfolio-caption
+		top 5% !important
+	
+.owl-item
+	p
+		display block
+		margin 0 auto
+		text-align center
+		max-width px(540)
+		fs(1.6rem)
+		
+.wolf-item.wfull
+	.wolf-item-inner, img
+		float none !important
+		display block
+		margin-left auto
+		margin-right auto
+
+.browser-shadow
+	box-shadow 0px 5px 30px rgba(#000,0.15)
+	border-bottom-right-radius px(5)
+	border-bottom-left-radius px(5)
+	border-top 1px solid #f0f0f0
+	position relative
+	background #fdfdfd
+	width 100%
+	img
+		width 100%
+.img-shadow
+	box-shadow 0px 5px 30px rgba(#000,0.15)
+	position relative
+	width 100%
+	img
+		width 100%
+.brower-chrome
+	img,
+	video
+		position relative
+		z-index 1
+	.loader
+		opacity 0.05
+		@extend $absolute-cover
+		background url('../loader.gif') no-repeat
+		background-size 40px 40px
+		background-position 50% 50%
+		min-height 50px
+		min-width 50px
+	    z-index -1
+	
+
+.wolf-item-inner,
+.wolf-item-inner .img-hover
+	width 100%
+	// height 100% !important
+	min-height px(250)
+	display block
+
+li.browser-chrome
+	padding px(20) px(20) px(20) px(20)
+	&.is-large
+		padding px(40) px(20) px(20) px(20)
+	&:after
+		left px(20)
+		right px(20)
+		top px(-10px)
+		background-size auto px(6)
+	.browser-shadow
+		// padding-top px(0)
+		border-top 1px solid #fafafa
+		&:after
+			top 0
+
+.browser-chrome
+	height 100%
+	width 100%
+	position relative
+	&:after
+		content ''
+		display block
+		height px(30)
+		position absolute
+		top px(-30)
+		left 0
+		right 0
+		// width 100%
+		z-index 99
+		background #fdfdfd url('../svg/dots.svg') no-repeat
+		background-position px(10) 50%
+		background-size auto px(8)
+		border-top-left-radius px(5)
+		border-top-right-radius px(5)
+	&.is-large
+		&:after
+			background-size auto px(9)
+			top px(-40)
+			height px(40)
+
+.waypoint-parent
+	position relative
+	overflow hidden
+	padding-top 4rem
+	+above(1024px)
+		.browser-chrome
+			width 50%
+	.waypoint-child
+		position absolute
+		left 50%
+		right 0
+		top 0
+		width 700px
+		margin-bottom 0 !important
+		margin-top 4rem
+		&.is-fixed
+			position fixed
+			top px(40)
+		&.is-bottom
+			top auto
+			bottom 0
+		+below(1024px)
+			float none !important
+			position static !important
+			width 100%
+			margin-top 50px
+		
+.hero--artnet
+	.hero-overlay
+		background-color rgba(#000,0.4)
+	.parallax-image
+		background-position: 0% 0% !important
+		
+.body--artnet
+	padding-top 50px !important
+	.gallery li
+		border 1px solid #f0f0f0
+
+.mkbl-caption-1
+	background: white url('../img/mkbl/mkbl_02-medium.jpg')
+	background-repeat no-repeat
+	background-size: auto 100%
+	background-position: 0% 0% 
+	height: px(500)
+	position: relative
+	z-index 1
+	// top px(-300)
+	+above(1600px)
+		height px(800)
+		background: white url('../img/mkbl/mkbl_02-large.jpg')
+		background-repeat no-repeat
+		background-size: auto 100%
+		background-position: 0% 0% 
+	+below(640px)
+		background: white url('../img/mkbl/mkbl_02-small.jpg')
+		background-repeat no-repeat
+		background-size: auto 100%
+		background-position: 0% 0% 
+	.mkbl-caption__container
+		position absolute
+		max-width 30%
+		left 60%
+		width 100%
+		height 100%
+		top 0
+		bottom 0
+		p
+			vertically-align()
+	+above(1800px)
+		.mkbl-caption__container
+			width 20%
+	+below(1200px)
+		.mkbl-caption__container
+			width 25%
+			left 70%
+	+below(768px)
+		display none
+		
+.clear-caption-1
+	background: url('../img/clear/clear_04-large.jpg') no-repeat
+	background-size: 100% auto
+	background-position: 50% 0% 
+	height: px(700)
+	position: relative
+	@media screen and (max-resolution: 1dppx), screen and (-webkit-max-device-pixel-ratio: 1), screen and (max-device-pixel-ratio: 1)
+		background: url('../img/clear/clear_04-medium.jpg') no-repeat
+		background-size: 100% auto
+		background-position: 50% 0% 
+	+below(1000px)
+		background: url('../img/clear/clear_06.jpg') no-repeat
+		background-size: 100% auto
+		.wrapper-mini
+			position relative
+			top 80%
+	
+	+below(600px)
+		.wrapper-mini
+			top 50%
+	+below(400px)
+		.wrapper-mini
+			top 45%
+	+above(1600px)
+		height px(1000)
+		background: url('../img/clear/clear_04-xlarge.jpg') no-repeat
+		background-size: 100% auto
+		background-position: 50% 0% 
+	// top px(-300)
+	.clear-caption__container
+		position absolute
+		width 40%
+		left 40%
+		height 100%
+		top 0
+		bottom 0
+		p
+			vertically-align()
+	+above(1600px)
+		.clear-caption__container	
+			width 20%
+	+below(1200px)
+		.clear-caption__container
+			top 40%
+			left 10%
+	+below(900px)
+		.clear-caption__container
+			top 30%
+			left 10%
+			width 60%
+	+below(600px)
+		.clear-caption__container
+			top 15%
+			position relative
+			width 80%
+
++below(1024px)
+	.wolf-caption:not(.portfolio-caption)
+		padding 10px
+		background-color white
+
+.mkbl-body
+	+below(1024px)
+		.figcaption.special
+			position relative
+			top -200px
+			min-height 300px
+
+.img-for-small
+	display none
+	
++below(1024px)
+	.img-for-small
+		display block
+		+ video
+			display none
+		
+// .chrome
+// 	.parallax-image
+// 		transform none !important
+// 		top 0 !important
+// 		// position fixed !important
+
+.page-mkbl
+	+below(640px)
+		#hero
+			background-position 100% 80% !important
+			
+.slider-caption
+	position relative
+	+above(1024px)
+		top -6rem
+		
+.id-pullup
+	position relative
+	+above(640px)
+		top -40px
+	+above(960px)
+		top -86px

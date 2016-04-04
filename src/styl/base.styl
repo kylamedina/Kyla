@@ -1,0 +1,144 @@
+*
+	-webkit-tap-highlight-color rgba(0,0,0,0)
+	box-sizing inherit
+	&:before,
+	&:after
+		box-sizing inherit
+	&:focus
+		outline none
+
+
+.clearfix
+	*display inline-block
+	height 1%
+	&:after
+		content ""
+		display block
+		clear both
+		visibility hidden
+		font-size 0
+		height 0
+
+.clear
+	clear both
+	display block
+	font-size 0
+	height 0
+	line-height 0
+	width 100%
+
+article, 
+aside, 
+details, 
+.overlaycaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+menu, 
+nav, 
+section, 
+dialog
+	display block
+
+audio, 
+canvas, 
+video
+	display inline-block
+	*display inline
+	*zoom 1
+
+audio
+	&:not([controls])
+		display none
+
+iframe
+	display block
+	
+[hidden]
+	display none
+	visibility hidden
+	
+html
+	font-size 62.5%
+	// height 100%
+	-webkit-font-smoothing initial
+	font-smoothing initial
+	// text-rendering optimizeLegibility
+	// font-smooth always
+	box-sizing border-box
+	-webkit-text-size-adjust 100%
+	-ms-text-size-adjust 100%
+	position relative
+	
+body
+	-webkit-touch-callout none
+	-webkit-text-size-adjust none
+	// -webkit-user-select none
+	box-sizing border-box
+	color black
+	letter-spacing px(1px)
+	font-family Bodyfont
+	font-weight 300
+	letter-spacing 0.02em
+	font-size 16px
+	line-height 26px
+	text-align left
+	position relative
+	background #ffffff
+	// min-height 100%
+	&.loading-end
+		.pace
+			opacity 0 !important
+	&.is-active
+		opacity: 1 !important
+
+main
+	height 100%
+
+img, canvas, svg, video, iframe, object
+	width 100%
+	margin auto
+	display block
+	
+i
+	display inline-block
+	vertical-align middle
+	font inherit
+		
+.icon_text
+	display inline-block
+	vertical-align middle
+	line-height 1
+	
+.hidden
+	position: absolute
+	height: 0
+	width: 0
+	visibility: hidden
+
+::-moz-selection
+	background-color: indigo
+	color white
+
+::selection
+	background-color: indigo
+	color white
+
+// #page-body
+// 	background-color white
+#page-content
+	background-color white
+	overflow visible !important
+	min-height 100% !important
+
+.no-mobile-video
+	display none
+.no-mobile
+	.no-mobile-video
+		display block
+		
+#lightcase-case
+	z-index 9999 !important
+#lightcase-overlay
+	z-index 9997 !important

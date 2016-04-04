@@ -1,0 +1,47 @@
+align(direction = both)
+  position: absolute
+  transform-style: preserve-3d
+
+  if (direction == horizontal) or (direction == h)
+    left: 50%
+    transform: translateX(-50%)
+  else if (direction == vertical) or (direction == v)
+    top: 50%
+    transform: translateY(-50%)
+  else
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+$absolute-cover
+	position absolute
+	top 0
+	bottom 0
+	right 0
+	left 0
+	margin auto
+
+$truncated
+	width 100%
+	overflow hidden
+	white-space: nowrap
+	text-overflow: ellipsis
+
+.center
+	align()
+	width 100%
+
+// .triangle
+// 	width: 0
+// 	height: 0
+// 	border-style: solid
+// 	border-width: 1.3rem 1.3rem 1.3rem 0
+// 	border-color: transparent black transparent transparent
+.dribbble
+	width 100%
+	max-width 400px
+	height 100%
+	max-height 300px
+	&.center
+		// @include $absolute-cover
+		align()
