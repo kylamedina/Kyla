@@ -4,10 +4,6 @@
 		"selected_items":
 		[
 			[
-				"hard",
-				"hard-workers-club.jade"
-			],
-			[
 				"fixed",
 				"fixed-photo"
 			],
@@ -514,6 +510,10 @@
 			[
 				"dee",
 				"deepcoquelicot"
+			],
+			[
+				"sta",
+				"static"
 			]
 		]
 	},
@@ -528,11 +528,10 @@
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "src/jade/akc-notes.jade",
 			"settings":
 			{
-				"buffer_size": 8711,
+				"buffer_size": 8992,
 				"line_ending": "Unix"
 			}
 		},
@@ -549,72 +548,49 @@
 			"settings":
 			{
 				"buffer_size": 13671,
-=======
-			"file": "src/jade/akc.jade",
-			"settings":
-			{
-				"buffer_size": 6618,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "src/jade/akc.jade",
 			"settings":
 			{
-				"buffer_size": 6618,
-=======
-			"file": "src/jade/artnet.jade",
-			"settings":
-			{
-				"buffer_size": 4160,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+				"buffer_size": 6628,
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
+			"contents": "extends layouts/layout\n\nblock content\n  //- include includes/triangles.jade\n  include includes/header-light.jade\n  #page-content.page-mkbl\n    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='img/mkbl/mkbl_14-large.jpg')\n      //- .hero-overlay\n      .page-title\n        h5.alttitle Design, Development, and Photography\n        h1\n          strong Makeable\n      //- a#scroll-down(href='#') Scroll Down\n    section#page-body.mkbl-body\n      .wrapper-small\n        h6\n          strong Details\n        p I've played many roles at Makeable, including but not limited to designer, developer, photographer, music DJ, and even strategist. It's a reflection of my love for the internet and digital&nbsp;culture.\n        p For over two and half years, I've been taking photos of Makeable for company assets. I also recently had the honor of redesigning Makeable's website and is currently on-going project. I've created a few different directions based on stakeholder requirements and this page includes some of the highlights. I am currently the only contributor to the project from wireframing to design to development. This page is a work in progress and I will update it as the project progresses from design through development. All the interspersed photos were shot by me as&nbsp;well.\n        .spacer.spacer-big  \n      //- .wrapper\n      //-   .wolf-grid.clearfix(data-randomhorizontaloffset='true')\n      //-     .wolf-item\n      //-       .wolf-item-inner\n      //-         .wolf-media.portfolio-media\n      //-           img(src='img/mkbl/mkbl_05.png', alt='SEO NAME')\n      //-         .figcaption: p Dr. Sara S. Thompson at work.\n      //-     .wolf-item\n      //-       .wolf-item-inner\n      //-         .figcaption\n      //-           p I've played many roles at Makeable. Designer, Developer, Photographer, even UXer and a part of the strategy team once or twice. It's a reflection of my love for the internet and digital culture.\n      //-           p For over two and half years, I've been taking photos of Makeable that are used in company assets. I also recently had the honor of redesigning Makeable's website and which is currently ongoing. I've created a couple different directions and below are some highlights. This page is kind of a work in progress as I will update it as the project progresses from design through development. Interspersed are some of the photos I've taken for Makeable.\n      .wrapper-xtrawide(style='overflow:hidden;')\n        .waypoint-parent\n          .browser-chrome.is-large\n            img.browser-shadow(src='img/mkbl/mkbl_01-large.jpg' srcset=\"img/mkbl/mkbl_01-small.jpg 640w, img/mkbl/mkbl_01-large.jpg 789w\" alt='Makeable Homepage Design')\n            .waypoint-bottom\n          .wolf-item.wright.waypoint-child(style='z-index:0;')\n            .wolf-item-inner\n              .figcaption\n                p Makeable has a fun personality and much of the design created by the company is vibrant and colorful. I wanted to reflect that while achieving the business goals provided by the partners.\n                p In this iteration, I emphasized Makeable's process&mdash;Imagine, Make, and Grow&mdash;in a grid system that breaks up the long descriptions written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.\n                p During the Imagination phase, Makeable creates story maps that are creative exercise intended to discover a design direction for the project. I wanted to mimic story maps for screens since they are such an important part of Makeable's process. \n                //- The site UI in this mockup is placeholder, borrowed from \n                //-   a(href='https://www.enginethemes.com/') here\n                //-   | .\n              I worked on several directions\n      .wrapper(style='background-color:white;position: relative; z-index:1;')\n        .spacer.spacer-big\n        .spacer.spacer-big  \n        //- .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')\n        //-   .wolf-item\n        //-     .wolf-item-inner\n        //-       .wolf-media.portfolio-media.img-shadow\n        //-         a.img-hover(href='img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')\n        //-           img(src='img/mkbl/mkbl_07-medium.jpg' srcset=\"img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w\" alt='Makeable Thinkmaps')\n        //-       .wolf-caption.portfolio-caption This is an example of the story maps Makeable creates during the Imagine phase.\n        //-   .wolf-item\n        //-     .wolf-item-inner\n        //-       .wolf-media.portfolio-media.img-shadow\n        //-         a.img-hover(href='img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')\n        //-           img(src='iimg/mkbl/mkbl_06-medium.jpg' srcset=\"img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w\" alt='People looking at thinkmaps')\n        //-       .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    \n                \n      div.mkbl-caption-1\n        .mkbl-caption__container\n         p Makeable's color palette is limited to orange, gray, and black. To add more color, I designed with the idea of themes for each page. Each page in a category like team or projects would have a different gradient and duotone theme.\n      .wrapper(style='background-color:white;position: relative; z-index:1;')\n        .spacer.spacer-big   \n        .wolf-grid.clearfix(data-randomhorizontaloffset='true' data-mouseparallax='true')\n          .wolf-item\n            .wolf-item-inner\n              .wolf-media.portfolio-media.browser-chrome\n                a.img-hover.browser-shadow(href='img/mkbl/mkbl_03-large.jpg', data-rel='lightcase:mkbl')\n                  img(src='img/mkbl/mkbl_03-medium.jpg' srcset=\"img/mkbl/mkbl_03-small.jpg 640w, img/mkbl/mkbl_03-medium.jpg 800w, img/mkbl/mkbl_03-large.jpg 1600w\" alt='About page design')\n              .figcaption.special(style='margin-top: 30px;')\n                p These examples of team profile pages show how different themes would work. The second image shows the quick switch menu allowing users to switch between related pages in a visual way consistent with the main navigation dropdown.\n          .wolf-item\n            .wolf-item-inner\n             .wolf-media.portfolio-media.browser-chrome\n                a.img-hover.browser-shadow(href='img/mkbl/mkbl_04-large.jpg', data-rel='lightcase:mkbl')\n                 img(src='img/mkbl/mkbl_04-medium.jpg' srcset=\"img/mkbl/mkbl_04-small.jpg 640w, img/mkbl/mkbl_04-medium.jpg 800w, img/mkbl/mkbl_04-large.jpg 1600w\"  alt='About page design with quick nav')\n          .wolf-item\n            .wolf-item-inner\n             .wolf-media.portfolio-media.browser-chrome\n                a.img-hover.browser-shadow(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')\n                 img(src='img/mkbl/mkbl_16-large.jpg' srcset=\"img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1600w\"  alt='About page design with quick nav')\n          .wolf-item.is-caption(data-speed=\"-2\")\n              .wolf-item-inner\n                .wolf-media.portfolio-media\n                  .figcaption\n                    p An SEO page with illustration.\n          //- .wolf-item\n          //-   .wolf-item-inner\n          //-    .wolf-media.portfolio-media.browser-chrome\n          //-       a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')\n          //-        img(src='img/mkbl/mkbl_17-large.jpg' srcset=\"img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w\"  alt='About page design with quick nav')\n          //- .wolf-item\n          //-   .wolf-item-inner\n          //-     .wolf-media.portfolio-media.img-shadow\n          //-       a.img-hover(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')\n          //-         img(src='img/mkbl/mkbl_16-medium.jpg' srcset=\"img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1330w\"  alt='Sara Thompson')\n          //-     .figcaption: p Dr. Sara S. Thompson at work.\n          //- .wolf-item\n          //-   .wolf-item-inner\n          //-     .wolf-media.portfolio-media.img-shadow\n          //-       a.img-hover(href='img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')\n          //-         img(src='img/mkbl/mkbl_13-medium.jpg' srcset=\"img/mkbl/mkbl_13-small.jpg 640w, img/mkbl/mkbl_13-medium.jpg 800w, img/mkbl/mkbl_13-large.jpg 1480w\"  alt='Sara Thompson')\n          //-     .figcaption: p Dr. Sara S. Thompson at work.\n          //- .wolf-item\n          //-   .wolf-item-inner\n          //-     .wolf-media.portfolio-media.img-shadow\n          //-       a.img-hover(href='img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')\n          //-         img(src='img/mkbl/mkbl_10-medium.jpg' srcset=\"img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w\"  alt='Jonathan Delefortrie')\n          //-     .figcaption\n          //-       p Makeable's slogan\n      \n      .wrapper-mini(style='background-color:white;position: relative; z-index:1;')\n        h6\n          strong A Second Direction\n        p In the second direction, I went with a grid-based layout because both founders expressed interest in it. They like the idea of displaying as much information about the company on the homepage as possible for SEO purposes.\n        .spacer.spacer-big\n      .wrapper\n        .spacer.spacer-big\n        .wolf-grid.clearfix(data-mouseparallax='true')\n          .wolf-item(data-speed=\"0\")\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.img-hover.img-shadow(href='img/mkbl/mkbl_18-large.jpg', data-rel='lightcase:mkbl' )\n                  .loader\n                  img(data-aload='img/mkbl/mkbl_18-large.jpg' srcset=\"img/mkbl/mkbl_18-small.jpg 640w, img/mkbl/mkbl_18-medium.jpg 800w, img/mkbl/mkbl_18-large.jpg 1280w\" alt='Makeable Wireframes')\n          .wolf-item.is-caption(data-speed=\"-2\")\n              .wolf-item-inner\n                .wolf-media.portfolio-media\n                  .figcaption\n                    p I wireframed the this direction with my bare hands.\n      .wrapper.xtra-wide.no-mobile-video(style='background-color:white;position: relative; z-index:1;')\n        .spacer.spacer-small\n        ul.gallery.gallery-col1\n          li.has-animation\n            .browser-chrome.is-large\n              a.img-hover.browser-shadow(href='mkbl1.mp4' data-rel='lightcase:mkbl')\n                img.img-for-small(src='img/mkbl/mkbl_14-small.jpg' alt='Makeable love page design')\n                video(data-aload='mkbl1.mp4' preload=\"auto\" loop)\n                  //- source(src='cognizant.ogg', type='video/ogg')\n                  //- source(src='mkbl1.mp4', type='video/mp4')\n                  p Your browser does not support the \n                    code video\n                    |  element.\n      .wrapper-xtrawide\n        .spacer.spacer-big   \n        .waypoint-parent\n          .browser-chrome.is-large\n            img.browser-shadow(src='img/mkbl/mkbl_12-medium.jpg' srcset=\"img/mkbl/mkbl_12-small.jpg 640w, img/mkbl/mkbl_12-medium.jpg 800w, img/mkbl/mkbl_12-large.jpg 1284w\"  alt='Makeable love page design')\n            .waypoint-bottom\n          .wolf-item.wright.waypoint-child\n            .wolf-item-inner\n              .figcaption\n                p The color in this design direction would come directly from the brands Makeable works with. This Weather Channel example illustrates that.\n      //- .wrapper.xtra-wide\n      //-   .spacer.spacer-big   \n      //-   .wolf-grid.clearfix(data-randomhorizontaloffset='true')\n      //-     .wolf-item.wleft\n      //-       .wolf-item-inner\n      //-         .figcaption\n      //-           p In this iteration, my primary objectives were to emphasize Makeable's process&mdash;Imagine, Make, and Grow&mdash;in an easily readable way with a grid system that breaks up the long descriptions that are written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.\n      //-           p During the Imagination phase, Makeable creates story maps that are essentially a creative exersize that creates a design direction for the project and is printed for clients. I wanted to mimick story maps for screens because they are a very important part of Makeable's process.\n      //-     .wolf-item.wright\n      //-       .wolf-item-inner\n      //-         .wolf-media.portfolio-media.browser-chrome\n      //-           img.browser-shadow(src='img/mkbl/mkbl_12.png', alt='SEO NAME')\n\n      .wrapper\n        ul.single-pagination\n          li.prev\n            a(href='personal-identity.html')\n              img(src='img/kyla/kyla_05-small.jpg', alt='prev')\n              span Previous Project\n          li.backtoworks\n            a(href='/') Back To Works\n          li.next\n            a(href='esquire.html')\n              img(src='img/projects/esquire-small.jpg', alt='next')\n              span Next Project\n",
+			"file": "src/jade/mkbl.jade",
+			"file_size": 13335,
+			"file_write_time": 131026423630000000,
+			"settings":
+			{
+				"buffer_size": 13365,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "src/styl/modules/wolf.styl",
 			"settings":
 			{
-				"buffer_size": 2341,
-=======
-			"file": "src/styl/style.styl",
-			"settings":
-			{
-				"buffer_size": 46485,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+				"buffer_size": 2417,
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "src/styl/style.styl",
 			"settings":
 			{
 				"buffer_size": 46485,
-=======
-			"file": "src/styl/base.styl",
-			"settings":
-			{
-				"buffer_size": 2051,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 				"line_ending": "Unix"
 			}
 		},
 		{
-<<<<<<< HEAD
 			"file": "src/styl/modules/header-animations.styl",
 			"settings":
 			{
 				"buffer_size": 2159,
-=======
-			"file": "src/jade/hard-workers-club.jade",
-			"settings":
-			{
-				"buffer_size": 5488,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 				"line_ending": "Unix"
 			}
 		}
@@ -681,12 +657,13 @@
 	"expanded_folders":
 	[
 		"/Users/kyla/Sites/Kyla",
+		"/Users/kyla/Sites/Kyla/build",
 		"/Users/kyla/Sites/Kyla/src",
-<<<<<<< HEAD
 		"/Users/kyla/Sites/Kyla/src/static"
 	],
 	"file_history":
 	[
+		"/Users/kyla/Sites/Kyla/kyla.sublime-workspace",
 		"/Users/kyla/Sites/Kyla/src/jade/hard-workers-club.jade",
 		"/Users/kyla/Sites/success-academy-school-leaders-banners/300X250.html",
 		"/Users/kyla/Sites/Kyla/src/jade/includes/header-bg.svg",
@@ -702,14 +679,6 @@
 		"/Users/kyla/Sites/Kyla/src/jade/personal-identity.jade",
 		"/Users/kyla/Sites/v2v/viewerstovolunteers.com/.git/MERGE_MSG",
 		"/Users/kyla/Sites/Kyla/.git/MERGE_MSG",
-=======
-		"/Users/kyla/Sites/Kyla/src/img",
-		"/Users/kyla/Sites/Kyla/src/img/projects"
-	],
-	"file_history":
-	[
-		"/Users/kyla/Sites/Kyla/src/jade/includes/header-bg.svg",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 		"/Users/Kyla/Sites/freeassociation/app/assets/javascripts/header-animation.js.coffee",
 		"/Users/kyla/Sites/Kyla/src/jade/includes/shape-line.svg",
 		"/Users/kyla/Sites/Kyla/src/jade/esquire.jade",
@@ -717,7 +686,6 @@
 		"/Users/kyla/Sites/Kyla/src/jade/layouts/layout.jade",
 		"/Users/kyla/Sites/Kyla/build/gulp.coffee",
 		"/Users/kyla/Sites/Kyla/src/styl/modules/header-animations.styl",
-		"/Users/kyla/Sites/Kyla/src/jade/free-association.jade",
 		"/Users/kyla/Sites/Kyla/src/jade/index.jade",
 		"/Users/Kyla/Sites/kyla/src/jade/free-association.jade",
 		"/Users/Kyla/Sites/SA-banners7/coaching/300x250/300x250.html",
@@ -822,21 +790,7 @@
 		"/Users/Kyla/Sites/SA-Holiday/src/jade/layouts/includes/symbols.svg",
 		"/Users/Kyla/Sites/SA-Holiday/src/svg/E.svg",
 		"/Users/Kyla/Sites/SA-Holiday/src/svg/R.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/E.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_2.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/R.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/pattern.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/H.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/E.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/cheer.svg",
-		"/Users/Kyla/Sites/SA-Holiday/app/svg/C.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/C.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_1.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_3.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_4.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_5.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/snowflake_6.svg",
-		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/monogram.svg"
+		"/Users/Kyla/Sites/SA-Holiday/src/svg/symbols/E.svg"
 	],
 	"find":
 	{
@@ -906,7 +860,6 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-<<<<<<< HEAD
 			"_30oct2014",
 			"title",
 			"text-shadow",
@@ -924,10 +877,6 @@
 			"chrome",
 			".browser-chrome",
 			"browser",
-=======
-			"overlay",
-			"overla",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 			"wrapper",
 			"wide",
 			"   ",
@@ -1038,26 +987,7 @@
 			"')",
 			"right",
 			"735px",
-<<<<<<< HEAD
 			"70px"
-=======
-			"70px",
-			"height 70px !important",
-			"80px",
-			"30px",
-			"80px",
-			"30px",
-			"padding: 14px 10px  !important",
-			"border-ra",
-			"donate-b",
-			"768",
-			"right",
-			"px",
-			"right",
-			"-",
-			"-3",
-			"   "
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1095,11 +1025,7 @@
 	"groups":
 	[
 		{
-<<<<<<< HEAD
-			"selected": 1,
-=======
-			"selected": 4,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+			"selected": 5,
 			"sheets":
 			[
 				{
@@ -1115,13 +1041,8 @@
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								1168,
 								1168
-=======
-								5728,
-								5728
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							]
 						],
 						"settings":
@@ -1129,20 +1050,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-<<<<<<< HEAD
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-<<<<<<< HEAD
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1153,26 +1070,16 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-<<<<<<< HEAD
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-=======
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1183,52 +1090,21 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-<<<<<<< HEAD
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-=======
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-<<<<<<< HEAD
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content"
-=======
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							],
 							"hasHeader": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -1236,47 +1112,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
 						"translation.y": 436.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
-=======
-						"translation.y": 1884.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-<<<<<<< HEAD
 					"file": "src/jade/akc-notes.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8711,
-=======
-					"file": "src/jade/akc.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6618,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+						"buffer_size": 8992,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
-								4046,
-								4046
-=======
-								0,
-								0
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+								995,
+								995
 							]
 						],
 						"settings":
@@ -1284,7 +1140,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-<<<<<<< HEAD
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1295,19 +1150,11 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-=======
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-<<<<<<< HEAD
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -1318,13 +1165,6 @@
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-=======
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1335,56 +1175,26 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-<<<<<<< HEAD
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-=======
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-<<<<<<< HEAD
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
-<<<<<<< HEAD
 								"bh_default_content"
-=======
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							],
 							"hasHeader": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -1392,47 +1202,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-<<<<<<< HEAD
-						"translation.y": 1513.0,
+						"translation.y": 468.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-=======
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-<<<<<<< HEAD
 					"file": "src/jade/weather-channel.jade",
 					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 4176,
-=======
-					"file": "src/jade/artnet.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4160,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								657,
 								634
-=======
-								361,
-								361
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							]
 						],
 						"settings":
@@ -1440,20 +1230,16 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-<<<<<<< HEAD
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-<<<<<<< HEAD
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
@@ -1464,26 +1250,16 @@
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-<<<<<<< HEAD
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-=======
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -1494,52 +1270,21 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-<<<<<<< HEAD
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-=======
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-<<<<<<< HEAD
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content"
-=======
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							],
 							"hasHeader": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -1550,16 +1295,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-<<<<<<< HEAD
-					"stack_index": 1,
-=======
-					"stack_index": 2,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-<<<<<<< HEAD
 					"file": "src/css/lightcase.css",
 					"semi_transient": false,
 					"settings":
@@ -1568,34 +1308,18 @@
 						"regions":
 						{
 							"gutter_color_10140":
-=======
-					"file": "src/styl/style.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 46485,
-						"regions":
-						{
-							"gutter_color_10182":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										10168,
 										10198
-=======
-										10182,
-										10231
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_10148":
 							{
 								"flags": 144,
@@ -1605,22 +1329,10 @@
 									[
 										10148,
 										10174
-=======
-							"gutter_color_10363":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										10363,
-										10399
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_10175":
 							{
 								"flags": 144,
@@ -1630,22 +1342,10 @@
 									[
 										10175,
 										10205
-=======
-							"gutter_color_10534":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										10534,
-										10570
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_10396":
 							{
 								"flags": 144,
@@ -1655,22 +1355,10 @@
 									[
 										10396,
 										10433
-=======
-							"gutter_color_1072":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fa4d5a.png",
-								"regions":
-								[
-									[
-										1072,
-										1094
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1055":
 							{
 								"flags": 144,
@@ -1680,22 +1368,10 @@
 									[
 										1059,
 										1084
-=======
-							"gutter_color_11895":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										11895,
-										11924
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1059":
 							{
 								"flags": 144,
@@ -1705,22 +1381,10 @@
 									[
 										1059,
 										1084
-=======
-							"gutter_color_12021":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										12021,
-										12048
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_10595":
 							{
 								"flags": 144,
@@ -1730,22 +1394,10 @@
 									[
 										10595,
 										10624
-=======
-							"gutter_color_12095":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										12095,
-										12135
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11096":
 							{
 								"flags": 144,
@@ -1755,22 +1407,10 @@
 									[
 										11124,
 										11146
-=======
-							"gutter_color_12158":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										12158,
-										12198
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11119":
 							{
 								"flags": 144,
@@ -1780,44 +1420,23 @@
 									[
 										11127,
 										11149
-=======
-							"gutter_color_12454":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										12454,
-										12471
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11127":
-=======
-							"gutter_color_13231":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11127,
 										11149
-=======
-										13231,
-										13252
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11131":
 							{
 								"flags": 144,
@@ -1827,22 +1446,10 @@
 									[
 										11131,
 										11153
-=======
-							"gutter_color_13417":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										13417,
-										13444
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11202":
 							{
 								"flags": 144,
@@ -1852,22 +1459,10 @@
 									[
 										11202,
 										11216
-=======
-							"gutter_color_13445":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										13445,
-										13491
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11248":
 							{
 								"flags": 144,
@@ -1877,22 +1472,10 @@
 									[
 										11256,
 										11277
-=======
-							"gutter_color_13492":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										13492,
-										13578
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11256":
 							{
 								"flags": 144,
@@ -1902,22 +1485,10 @@
 									[
 										11256,
 										11277
-=======
-							"gutter_color_13597":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										13597,
-										13624
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11260":
 							{
 								"flags": 144,
@@ -1927,66 +1498,36 @@
 									[
 										11260,
 										11281
-=======
-							"gutter_color_13625":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										13625,
-										13669
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11324":
-=======
-							"gutter_color_13670":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11324,
 										11366
-=======
-										13670,
-										13754
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11332":
-=======
-							"gutter_color_13795":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11360,
 										11398
-=======
-										13795,
-										13829
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11367":
 							{
 								"flags": 144,
@@ -1996,22 +1537,10 @@
 									[
 										11367,
 										11405
-=======
-							"gutter_color_13915":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										13915,
-										13942
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11371":
 							{
 								"flags": 144,
@@ -2021,22 +1550,10 @@
 									[
 										11399,
 										11434
-=======
-							"gutter_color_14109":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										14109,
-										14138
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11406":
 							{
 								"flags": 144,
@@ -2046,110 +1563,62 @@
 									[
 										11406,
 										11441
-=======
-							"gutter_color_14526":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										14526,
-										14549
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11407":
-=======
-							"gutter_color_15311":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11435,
 										11468
-=======
-										15311,
-										15332
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11441":
-=======
-							"gutter_color_15333":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11468,
 										11498
-=======
-										15333,
-										15373
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11442":
-=======
-							"gutter_color_15374":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11442,
 										11475
-=======
-										15374,
-										15454
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11476":
-=======
-							"gutter_color_15581":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11476,
 										11506
-=======
-										15581,
-										15602
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11773":
 							{
 								"flags": 144,
@@ -2159,22 +1628,10 @@
 									[
 										11781,
 										11840
-=======
-							"gutter_color_15603":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										15603,
-										15641
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11781":
 							{
 								"flags": 144,
@@ -2184,44 +1641,23 @@
 									[
 										11781,
 										11840
-=======
-							"gutter_color_15642":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										15642,
-										15720
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11785":
-=======
-							"gutter_color_16149":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#000000.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										11785,
 										11844
-=======
-										16149,
-										16171
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11810":
 							{
 								"flags": 144,
@@ -2231,22 +1667,10 @@
 									[
 										11835,
 										11855
-=======
-							"gutter_color_16172":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fe9088.png",
-								"regions":
-								[
-									[
-										16172,
-										16265
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11925":
 							{
 								"flags": 144,
@@ -2256,22 +1680,10 @@
 									[
 										11933,
 										12091
-=======
-							"gutter_color_1619":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1619,
-										1648
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11933":
 							{
 								"flags": 144,
@@ -2281,22 +1693,10 @@
 									[
 										11933,
 										12091
-=======
-							"gutter_color_16613":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										16613,
-										16633
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_11937":
 							{
 								"flags": 144,
@@ -2306,22 +1706,10 @@
 									[
 										11937,
 										12095
-=======
-							"gutter_color_16951":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										16951,
-										16968
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_12228":
 							{
 								"flags": 144,
@@ -2331,22 +1719,10 @@
 									[
 										12253,
 										12273
-=======
-							"gutter_color_17148":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										17148,
-										17174
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_12229":
 							{
 								"flags": 144,
@@ -2356,22 +1732,10 @@
 									[
 										12237,
 										12258
-=======
-							"gutter_color_17404":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										17404,
-										17432
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_12237":
 							{
 								"flags": 144,
@@ -2381,22 +1745,10 @@
 									[
 										12237,
 										12258
-=======
-							"gutter_color_1766":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										1766,
-										1781
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_12241":
 							{
 								"flags": 144,
@@ -2406,22 +1758,10 @@
 									[
 										12241,
 										12262
-=======
-							"gutter_color_17912":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										17912,
-										17929
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_13171":
 							{
 								"flags": 144,
@@ -2431,44 +1771,23 @@
 									[
 										13179,
 										13208
-=======
-							"gutter_color_18156":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										18156,
-										18184
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_13178":
-=======
-							"gutter_color_1863":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										13195,
 										13222
-=======
-										1863,
-										1883
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_13179":
 							{
 								"flags": 144,
@@ -2478,44 +1797,23 @@
 									[
 										13179,
 										13208
-=======
-							"gutter_color_1892":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#d9d9d9.png",
-								"regions":
-								[
-									[
-										1892,
-										1918
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_13183":
-=======
-							"gutter_color_19082":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										13183,
 										13212
-=======
-										19082,
-										19103
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1885":
 							{
 								"flags": 144,
@@ -2525,22 +1823,10 @@
 									[
 										1889,
 										1903
-=======
-							"gutter_color_19701":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										19701,
-										19731
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1889":
 							{
 								"flags": 144,
@@ -2550,22 +1836,10 @@
 									[
 										1889,
 										1903
-=======
-							"gutter_color_19862":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										19862,
-										19889
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_2236":
 							{
 								"flags": 144,
@@ -2575,22 +1849,10 @@
 									[
 										2240,
 										2269
-=======
-							"gutter_color_2023":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#b2b2b2.png",
-								"regions":
-								[
-									[
-										2023,
-										2038
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_2240":
 							{
 								"flags": 144,
@@ -2600,22 +1862,10 @@
 									[
 										2240,
 										2269
-=======
-							"gutter_color_20493":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										20493,
-										20519
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_249":
 							{
 								"flags": 144,
@@ -2625,22 +1875,10 @@
 									[
 										249,
 										268
-=======
-							"gutter_color_21090":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										21090,
-										21116
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_2847":
 							{
 								"flags": 144,
@@ -2650,22 +1888,10 @@
 									[
 										2851,
 										2865
-=======
-							"gutter_color_21183":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										21183,
-										21206
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_2851":
 							{
 								"flags": 144,
@@ -2675,22 +1901,10 @@
 									[
 										2851,
 										2865
-=======
-							"gutter_color_21373":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										21373,
-										21410
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_310":
 							{
 								"flags": 144,
@@ -2700,22 +1914,10 @@
 									[
 										310,
 										324
-=======
-							"gutter_color_21432":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f7f7f7.png",
-								"regions":
-								[
-									[
-										21432,
-										21452
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_325":
 							{
 								"flags": 144,
@@ -2725,22 +1927,10 @@
 									[
 										325,
 										354
-=======
-							"gutter_color_2148":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										2148,
-										2172
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_4714":
 							{
 								"flags": 144,
@@ -2750,22 +1940,10 @@
 									[
 										4722,
 										4753
-=======
-							"gutter_color_21525":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										21525,
-										21547
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_4722":
 							{
 								"flags": 144,
@@ -2775,22 +1953,10 @@
 									[
 										4722,
 										4753
-=======
-							"gutter_color_21656":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#bac.png",
-								"regions":
-								[
-									[
-										21656,
-										21668
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_4747":
 							{
 								"flags": 144,
@@ -2800,22 +1966,10 @@
 									[
 										4755,
 										4800
-=======
-							"gutter_color_21814":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										21814,
-										21831
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_4755":
 							{
 								"flags": 144,
@@ -2825,35 +1979,10 @@
 									[
 										4755,
 										4800
-=======
-							"gutter_color_22484":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000.png",
-								"regions":
-								[
-									[
-										22484,
-										22517
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_22544":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000.png",
-								"regions":
-								[
-									[
-										22544,
-										22579
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
-									]
-								],
-								"scope": "gutter_color"
-							},
-<<<<<<< HEAD
 							"gutter_color_485":
 							{
 								"flags": 144,
@@ -2863,22 +1992,10 @@
 									[
 										485,
 										499
-=======
-							"gutter_color_2260":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										2260,
-										2275
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_500":
 							{
 								"flags": 144,
@@ -2888,22 +2005,10 @@
 									[
 										500,
 										544
-=======
-							"gutter_color_2392":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fa4d5a.png",
-								"regions":
-								[
-									[
-										2392,
-										2411
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_5046":
 							{
 								"flags": 144,
@@ -2913,22 +2018,10 @@
 									[
 										5054,
 										5083
-=======
-							"gutter_color_24579":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										24579,
-										24594
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_5054":
 							{
 								"flags": 144,
@@ -2938,22 +2031,10 @@
 									[
 										5054,
 										5083
-=======
-							"gutter_color_25072":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										25072,
-										25087
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_5623":
 							{
 								"flags": 144,
@@ -2963,22 +2044,10 @@
 									[
 										5631,
 										5645
-=======
-							"gutter_color_25523":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f.png",
-								"regions":
-								[
-									[
-										25523,
-										25543
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_5631":
 							{
 								"flags": 144,
@@ -2988,22 +2057,10 @@
 									[
 										5631,
 										5645
-=======
-							"gutter_color_25526":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f2f2.png",
-								"regions":
-								[
-									[
-										25526,
-										25546
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_700":
 							{
 								"flags": 144,
@@ -3013,148 +2070,23 @@
 									[
 										704,
 										729
-=======
-							"gutter_color_25527":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f2f2.png",
-								"regions":
-								[
-									[
-										25526,
-										25546
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_26108":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										26108,
-										26123
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_26111":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										26111,
-										26126
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_26112":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										26111,
-										26126
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2680":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/rgba(0,0,0,0.0).png",
-								"regions":
-								[
-									[
-										2680,
-										2725
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_27487":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										27487,
-										27513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_27490":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										27490,
-										27516
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_27491":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										27490,
-										27516
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2752":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										2752,
-										2769
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
-									]
-								],
-								"scope": "gutter_color"
-							},
-<<<<<<< HEAD
 							"gutter_color_704":
-=======
-							"gutter_color_28639":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#fff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										704,
 										729
-=======
-										28639,
-										28654
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_727":
 							{
 								"flags": 144,
@@ -3164,22 +2096,10 @@
 									[
 										731,
 										778
-=======
-							"gutter_color_28642":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										28642,
-										28657
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_731":
 							{
 								"flags": 144,
@@ -3189,44 +2109,23 @@
 									[
 										731,
 										778
-=======
-							"gutter_color_28643":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										28642,
-										28657
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7468":
-=======
-							"gutter_color_2877":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										7476,
 										7505
-=======
-										2877,
-										2908
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7475":
 							{
 								"flags": 144,
@@ -3236,22 +2135,10 @@
 									[
 										7499,
 										7525
-=======
-							"gutter_color_28782":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										28782,
-										28797
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7476":
 							{
 								"flags": 144,
@@ -3261,22 +2148,10 @@
 									[
 										7476,
 										7505
-=======
-							"gutter_color_28785":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										28785,
-										28800
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7498":
 							{
 								"flags": 144,
@@ -3286,22 +2161,10 @@
 									[
 										7506,
 										7532
-=======
-							"gutter_color_28786":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										28785,
-										28800
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7503":
 							{
 								"flags": 144,
@@ -3311,22 +2174,10 @@
 									[
 										7527,
 										7549
-=======
-							"gutter_color_28925":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										28925,
-										28940
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7506":
 							{
 								"flags": 144,
@@ -3336,22 +2187,10 @@
 									[
 										7506,
 										7532
-=======
-							"gutter_color_28928":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										28928,
-										28943
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7526":
 							{
 								"flags": 144,
@@ -3361,22 +2200,10 @@
 									[
 										7534,
 										7556
-=======
-							"gutter_color_28929":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										28928,
-										28943
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7534":
 							{
 								"flags": 144,
@@ -3386,22 +2213,10 @@
 									[
 										7534,
 										7556
-=======
-							"gutter_color_29078":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										29078,
-										29093
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7549":
 							{
 								"flags": 144,
@@ -3411,22 +2226,10 @@
 									[
 										7557,
 										7580
-=======
-							"gutter_color_29081":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										29081,
-										29096
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7551":
 							{
 								"flags": 144,
@@ -3436,22 +2239,10 @@
 									[
 										7575,
 										7605
-=======
-							"gutter_color_29082":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										29081,
-										29096
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7557":
 							{
 								"flags": 144,
@@ -3461,66 +2252,36 @@
 									[
 										7557,
 										7580
-=======
-							"gutter_color_29177":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										29177,
-										29203
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7574":
-=======
-							"gutter_color_29180":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										7582,
 										7612
-=======
-										29180,
-										29206
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7582":
-=======
-							"gutter_color_29181":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										7582,
 										7612
-=======
-										29180,
-										29206
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7646":
 							{
 								"flags": 144,
@@ -3530,22 +2291,10 @@
 									[
 										7654,
 										7673
-=======
-							"gutter_color_29526":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										29526,
-										29550
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7654":
 							{
 								"flags": 144,
@@ -3555,22 +2304,10 @@
 									[
 										7654,
 										7673
-=======
-							"gutter_color_29529":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										29529,
-										29553
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7707":
 							{
 								"flags": 144,
@@ -3580,22 +2317,10 @@
 									[
 										7715,
 										7729
-=======
-							"gutter_color_29530":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										29529,
-										29553
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7715":
 							{
 								"flags": 144,
@@ -3605,22 +2330,10 @@
 									[
 										7715,
 										7729
-=======
-							"gutter_color_29574":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										29574,
-										29593
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_775":
 							{
 								"flags": 144,
@@ -3630,22 +2343,10 @@
 									[
 										779,
 										823
-=======
-							"gutter_color_29577":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										29577,
-										29596
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_779":
 							{
 								"flags": 144,
@@ -3655,22 +2356,10 @@
 									[
 										779,
 										823
-=======
-							"gutter_color_29578":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										29577,
-										29596
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_7860":
 							{
 								"flags": 144,
@@ -3680,22 +2369,10 @@
 									[
 										7860,
 										7904
-=======
-							"gutter_color_3037":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										3037,
-										3054
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_820":
 							{
 								"flags": 144,
@@ -3705,22 +2382,10 @@
 									[
 										824,
 										866
-=======
-							"gutter_color_30574":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										30574,
-										30589
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_824":
 							{
 								"flags": 144,
@@ -3730,22 +2395,10 @@
 									[
 										824,
 										866
-=======
-							"gutter_color_30577":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										30577,
-										30592
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8285":
 							{
 								"flags": 144,
@@ -3755,22 +2408,10 @@
 									[
 										8313,
 										8336
-=======
-							"gutter_color_30578":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										30577,
-										30592
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8286":
 							{
 								"flags": 144,
@@ -3780,22 +2421,10 @@
 									[
 										8286,
 										8318
-=======
-							"gutter_color_30735":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f7f.png",
-								"regions":
-								[
-									[
-										30735,
-										30755
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8309":
 							{
 								"flags": 144,
@@ -3805,22 +2434,10 @@
 									[
 										8337,
 										8361
-=======
-							"gutter_color_30738":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f7f7f7.png",
-								"regions":
-								[
-									[
-										30738,
-										30758
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8320":
 							{
 								"flags": 144,
@@ -3830,22 +2447,10 @@
 									[
 										8320,
 										8343
-=======
-							"gutter_color_30739":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f7f7f7.png",
-								"regions":
-								[
-									[
-										30738,
-										30758
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8335":
 							{
 								"flags": 144,
@@ -3855,198 +2460,114 @@
 									[
 										8363,
 										8388
-=======
-							"gutter_color_3077":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										3077,
-										3099
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8344":
-=======
-							"gutter_color_31881":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8344,
 										8368
-=======
-										31881,
-										31904
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8361":
-=======
-							"gutter_color_31882":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8389,
 										8415
-=======
-										31881,
-										31904
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8370":
-=======
-							"gutter_color_31905":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8370,
 										8395
-=======
-										31905,
-										31928
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8389":
-=======
-							"gutter_color_31906":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8417,
 										8440
-=======
-										31905,
-										31928
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8396":
-=======
-							"gutter_color_32007":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8396,
 										8422
-=======
-										32007,
-										32036
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8413":
-=======
-							"gutter_color_32008":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8441,
 										8465
-=======
-										32007,
-										32036
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8424":
-=======
-							"gutter_color_32403":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8424,
 										8447
-=======
-										32403,
-										32430
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8439":
-=======
-							"gutter_color_32404":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										8467,
 										8482
-=======
-										32403,
-										32430
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8448":
 							{
 								"flags": 144,
@@ -4056,48 +2577,10 @@
 									[
 										8448,
 										8472
-=======
-							"gutter_color_327":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										327,
-										342
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_33606":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										33606,
-										33625
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_33609":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										33609,
-										33628
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
-									]
-								],
-								"scope": "gutter_color"
-							},
-<<<<<<< HEAD
 							"gutter_color_863":
 							{
 								"flags": 144,
@@ -4107,22 +2590,10 @@
 									[
 										867,
 										906
-=======
-							"gutter_color_33610":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										33609,
-										33628
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_867":
 							{
 								"flags": 144,
@@ -4132,22 +2603,10 @@
 									[
 										867,
 										906
-=======
-							"gutter_color_3382":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										3382,
-										3402
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_8947":
 							{
 								"flags": 144,
@@ -4157,77 +2616,43 @@
 									[
 										8947,
 										8961
-=======
-							"gutter_color_33919":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										33919,
-										33953
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_9770":
-=======
-							"gutter_color_33922":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										9798,
 										9827
-=======
-										33922,
-										33956
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_9779":
-=======
-							"gutter_color_33923":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										9779,
 										9804
-=======
-										33922,
-										33956
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_9805":
-=======
-							"gutter_color_34820":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										9805,
 										9834
 									]
@@ -4311,7 +2736,7 @@
 						"translation.y": 4322.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -4320,15 +2745,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6618,
+						"buffer_size": 6628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								966,
-								1115
+								1441,
+								1441
 							]
 						],
 						"settings":
@@ -4336,31 +2761,26 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_curly",
 								"bh_curly_center",
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
@@ -4376,21 +2796,26 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
 							],
 							"hasHeader": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
@@ -4398,19 +2823,109 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 29.0,
+						"translation.y": 1456.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 5,
+					"file": "src/jade/mkbl.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13365,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3601,
+								3601
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content"
+							],
+							"hasHeader": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 756.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
 					"file": "src/styl/modules/wolf.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2341,
+						"buffer_size": 2417,
 						"regions":
 						{
 							"gutter_color_1003":
@@ -4763,11 +3278,11 @@
 						"translation.y": 64.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "src/styl/style.styl",
 					"semi_transient": false,
 					"settings":
@@ -6656,26 +5171,17 @@
 									[
 										32260,
 										32287
-=======
-										34820,
-										34849
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_32260":
-=======
-							"gutter_color_34821":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										32260,
 										32287
 									]
@@ -6730,26 +5236,17 @@
 									[
 										33477,
 										33507
-=======
-										34820,
-										34849
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_33770":
-=======
-							"gutter_color_3490":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										33771,
 										33803
 									]
@@ -6830,15 +5327,10 @@
 									[
 										34677,
 										34706
-=======
-										3490,
-										3514
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_34693":
 							{
 								"flags": 144,
@@ -6848,22 +5340,10 @@
 									[
 										34694,
 										34707
-=======
-							"gutter_color_3530":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										3530,
-										3552
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_3490":
 							{
 								"flags": 144,
@@ -6873,22 +5353,10 @@
 									[
 										3490,
 										3514
-=======
-							"gutter_color_35604":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/gray.png",
-								"regions":
-								[
-									[
-										35604,
-										35646
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_3530":
 							{
 								"flags": 144,
@@ -6898,44 +5366,23 @@
 									[
 										3530,
 										3552
-=======
-							"gutter_color_35607":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/gray.png",
-								"regions":
-								[
-									[
-										35607,
-										35649
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35461":
-=======
-							"gutter_color_35608":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gray.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35462,
 										35505
-=======
-										35607,
-										35649
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35463":
 							{
 								"flags": 144,
@@ -6945,22 +5392,10 @@
 									[
 										35464,
 										35506
-=======
-							"gutter_color_35673":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										35673,
-										35695
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35464":
 							{
 								"flags": 144,
@@ -6970,44 +5405,23 @@
 									[
 										35464,
 										35506
-=======
-							"gutter_color_35676":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										35676,
-										35698
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35532":
-=======
-							"gutter_color_35677":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35533,
 										35555
-=======
-										35676,
-										35698
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35533":
 							{
 								"flags": 144,
@@ -7017,66 +5431,36 @@
 									[
 										35533,
 										35555
-=======
-							"gutter_color_35843":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#446.png",
-								"regions":
-								[
-									[
-										35843,
-										35869
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35702":
-=======
-							"gutter_color_35846":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#446ebf.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35703,
 										35729
-=======
-										35846,
-										35872
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35703":
-=======
-							"gutter_color_35847":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#446ebf.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35703,
 										35729
-=======
-										35846,
-										35872
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35714":
 							{
 								"flags": 144,
@@ -7086,66 +5470,36 @@
 									[
 										35715,
 										35731
-=======
-							"gutter_color_35977":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#39a.png",
-								"regions":
-								[
-									[
-										35977,
-										36003
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35836":
-=======
-							"gutter_color_35980":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#39aadc.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35837,
 										35863
-=======
-										35980,
-										36006
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35837":
-=======
-							"gutter_color_35981":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#39aadc.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35837,
 										35863
-=======
-										35980,
-										36006
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35848":
 							{
 								"flags": 144,
@@ -7155,66 +5509,36 @@
 									[
 										35849,
 										35865
-=======
-							"gutter_color_36110":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#4c6.png",
-								"regions":
-								[
-									[
-										36110,
-										36136
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35969":
-=======
-							"gutter_color_36113":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#4c6781.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35970,
 										35996
-=======
-										36113,
-										36139
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35970":
-=======
-							"gutter_color_36114":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#4c6781.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										35970,
 										35996
-=======
-										36113,
-										36139
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_35981":
 							{
 								"flags": 144,
@@ -7224,66 +5548,36 @@
 									[
 										35982,
 										35998
-=======
-							"gutter_color_36242":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#15c.png",
-								"regions":
-								[
-									[
-										36242,
-										36268
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36101":
-=======
-							"gutter_color_36245":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#15c9f5.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36102,
 										36128
-=======
-										36245,
-										36271
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36102":
-=======
-							"gutter_color_36246":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#15c9f5.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36102,
 										36128
-=======
-										36245,
-										36271
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36113":
 							{
 								"flags": 144,
@@ -7293,66 +5587,36 @@
 									[
 										36114,
 										36130
-=======
-							"gutter_color_36377":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f14.png",
-								"regions":
-								[
-									[
-										36377,
-										36403
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36236":
-=======
-							"gutter_color_36380":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f14980.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36237,
 										36263
-=======
-										36380,
-										36406
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36237":
-=======
-							"gutter_color_36381":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f14980.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36237,
 										36263
-=======
-										36380,
-										36406
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36248":
 							{
 								"flags": 144,
@@ -7362,22 +5626,10 @@
 									[
 										36249,
 										36265
-=======
-							"gutter_color_3640":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										3640,
-										3664
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36373":
 							{
 								"flags": 144,
@@ -7387,66 +5639,36 @@
 									[
 										36374,
 										36400
-=======
-							"gutter_color_36514":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#2ea.png",
-								"regions":
-								[
-									[
-										36514,
-										36540
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36374":
-=======
-							"gutter_color_36517":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#2ea06f.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36374,
 										36400
-=======
-										36517,
-										36543
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36385":
-=======
-							"gutter_color_36518":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#2ea06f.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36386,
 										36402
-=======
-										36517,
-										36543
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_3640":
 							{
 								"flags": 144,
@@ -7456,66 +5678,36 @@
 									[
 										3640,
 										3664
-=======
-							"gutter_color_36648":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#00b.png",
-								"regions":
-								[
-									[
-										36648,
-										36674
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36507":
-=======
-							"gutter_color_36651":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#00b0f0.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36508,
 										36534
-=======
-										36651,
-										36677
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36508":
-=======
-							"gutter_color_36652":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#00b0f0.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36508,
 										36534
-=======
-										36651,
-										36677
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36519":
 							{
 								"flags": 144,
@@ -7525,66 +5717,36 @@
 									[
 										36520,
 										36536
-=======
-							"gutter_color_36781":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f04.png",
-								"regions":
-								[
-									[
-										36781,
-										36807
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36640":
-=======
-							"gutter_color_36784":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f04783.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36641,
 										36667
-=======
-										36784,
-										36810
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36641":
-=======
-							"gutter_color_36785":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f04783.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36641,
 										36667
-=======
-										36784,
-										36810
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36652":
 							{
 								"flags": 144,
@@ -7594,66 +5756,36 @@
 									[
 										36653,
 										36669
-=======
-							"gutter_color_36916":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#81d.png",
-								"regions":
-								[
-									[
-										36916,
-										36942
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36775":
-=======
-							"gutter_color_36919":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#81d3fd.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36776,
 										36802
-=======
-										36919,
-										36945
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36776":
-=======
-							"gutter_color_36920":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#81d3fd.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36776,
 										36802
-=======
-										36919,
-										36945
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36787":
 							{
 								"flags": 144,
@@ -7663,66 +5795,36 @@
 									[
 										36788,
 										36804
-=======
-							"gutter_color_37046":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ff8.png",
-								"regions":
-								[
-									[
-										37046,
-										37072
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36905":
-=======
-							"gutter_color_37049":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ff8322.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36906,
 										36932
-=======
-										37049,
-										37075
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36906":
-=======
-							"gutter_color_37050":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ff8322.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										36906,
 										36932
-=======
-										37049,
-										37075
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_36917":
 							{
 								"flags": 144,
@@ -7732,66 +5834,36 @@
 									[
 										36918,
 										36934
-=======
-							"gutter_color_37183":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#d63.png",
-								"regions":
-								[
-									[
-										37183,
-										37209
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37042":
-=======
-							"gutter_color_37186":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#d63d1e.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37043,
 										37069
-=======
-										37186,
-										37212
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37043":
-=======
-							"gutter_color_37187":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#d63d1e.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37043,
 										37069
-=======
-										37186,
-										37212
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37054":
 							{
 								"flags": 144,
@@ -7801,66 +5873,36 @@
 									[
 										37055,
 										37071
-=======
-							"gutter_color_37319":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#c81.png",
-								"regions":
-								[
-									[
-										37319,
-										37345
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37178":
-=======
-							"gutter_color_37322":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#c81e1e.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37179,
 										37205
-=======
-										37322,
-										37348
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37179":
-=======
-							"gutter_color_37323":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#c81e1e.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37179,
 										37205
-=======
-										37322,
-										37348
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37190":
 							{
 								"flags": 144,
@@ -7870,66 +5912,36 @@
 									[
 										37191,
 										37207
-=======
-							"gutter_color_37453":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ee4.png",
-								"regions":
-								[
-									[
-										37453,
-										37479
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37312":
-=======
-							"gutter_color_37456":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ee423d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37313,
 										37339
-=======
-										37456,
-										37482
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37313":
-=======
-							"gutter_color_37457":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ee423d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37313,
 										37339
-=======
-										37456,
-										37482
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37324":
 							{
 								"flags": 144,
@@ -7939,66 +5951,36 @@
 									[
 										37325,
 										37341
-=======
-							"gutter_color_37584":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#746.png",
-								"regions":
-								[
-									[
-										37584,
-										37610
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37443":
-=======
-							"gutter_color_37587":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#74624d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37444,
 										37470
-=======
-										37587,
-										37613
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37444":
-=======
-							"gutter_color_37588":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#74624d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37444,
 										37470
-=======
-										37587,
-										37613
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37455":
 							{
 								"flags": 144,
@@ -8008,66 +5990,36 @@
 									[
 										37456,
 										37472
-=======
-							"gutter_color_37720":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#956.png",
-								"regions":
-								[
-									[
-										37720,
-										37746
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37579":
-=======
-							"gutter_color_37723":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#95604b.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37580,
 										37606
-=======
-										37723,
-										37749
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37580":
-=======
-							"gutter_color_37724":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#95604b.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37580,
 										37606
-=======
-										37723,
-										37749
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37591":
 							{
 								"flags": 144,
@@ -8077,66 +6029,36 @@
 									[
 										37592,
 										37608
-=======
-							"gutter_color_37851":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#036.png",
-								"regions":
-								[
-									[
-										37851,
-										37877
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37710":
-=======
-							"gutter_color_37854":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#036567.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37711,
 										37737
-=======
-										37854,
-										37880
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37711":
-=======
-							"gutter_color_37855":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#036567.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37711,
 										37737
-=======
-										37854,
-										37880
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37722":
 							{
 								"flags": 144,
@@ -8146,66 +6068,36 @@
 									[
 										37723,
 										37739
-=======
-							"gutter_color_37985":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#008.png",
-								"regions":
-								[
-									[
-										37985,
-										38011
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37844":
-=======
-							"gutter_color_37988":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#008cd2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37845,
 										37871
-=======
-										37988,
-										38014
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37845":
-=======
-							"gutter_color_37989":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#008cd2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										37845,
 										37871
-=======
-										37988,
-										38014
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_37856":
 							{
 								"flags": 144,
@@ -8215,66 +6107,36 @@
 									[
 										37857,
 										37873
-=======
-							"gutter_color_38250":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										38250,
-										38267
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38109":
-=======
-							"gutter_color_38253":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38110,
 										38127
-=======
-										38253,
-										38270
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38110":
-=======
-							"gutter_color_38254":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38110,
 										38127
-=======
-										38253,
-										38270
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38114":
 							{
 								"flags": 144,
@@ -8284,66 +6146,36 @@
 									[
 										38115,
 										38129
-=======
-							"gutter_color_38678":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										38678,
-										38695
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38537":
-=======
-							"gutter_color_38681":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38538,
 										38555
-=======
-										38681,
-										38698
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38538":
-=======
-							"gutter_color_38682":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38538,
 										38555
-=======
-										38681,
-										38698
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38861":
 							{
 								"flags": 144,
@@ -8353,61 +6185,32 @@
 									[
 										38862,
 										38881
-=======
-							"gutter_color_39002":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fff.png",
-								"regions":
-								[
-									[
-										39002,
-										39021
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38862":
-=======
-							"gutter_color_39005":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38862,
 										38881
-=======
-										39005,
-										39024
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_38871":
-=======
-							"gutter_color_39006":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#ffffff.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										38872,
 										38903
-=======
-										39005,
-										39024
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
@@ -8425,95 +6228,58 @@
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_39962":
-=======
-							"gutter_color_40106":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										39963,
 										40005
-=======
-										40106,
-										40148
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_39963":
-=======
-							"gutter_color_40107":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										39963,
 										40005
-=======
-										40106,
-										40148
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_39983":
-=======
-							"gutter_color_40149":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										39984,
 										40004
-=======
-										40149,
-										40193
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40005":
-=======
-							"gutter_color_40150":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40006,
 										40050
-=======
-										40149,
-										40193
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40006":
 							{
 								"flags": 144,
@@ -8523,66 +6289,36 @@
 									[
 										40006,
 										40050
-=======
-							"gutter_color_40986":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#3fa.png",
-								"regions":
-								[
-									[
-										40986,
-										41001
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40835":
-=======
-							"gutter_color_40989":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#3fabf6.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40836,
 										40851
-=======
-										40989,
-										41004
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40836":
-=======
-							"gutter_color_40990":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#3fabf6.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40836,
 										40851
-=======
-										40989,
-										41004
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40839":
 							{
 								"flags": 144,
@@ -8592,66 +6328,36 @@
 									[
 										40840,
 										40864
-=======
-							"gutter_color_41015":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fca.png",
-								"regions":
-								[
-									[
-										41015,
-										41030
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40864":
-=======
-							"gutter_color_41018":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#fcad25.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40865,
 										40880
-=======
-										41018,
-										41033
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40865":
-=======
-							"gutter_color_41019":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#fcad25.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40865,
 										40880
-=======
-										41018,
-										41033
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40896":
 							{
 								"flags": 144,
@@ -8661,44 +6367,23 @@
 									[
 										40897,
 										40912
-=======
-							"gutter_color_41047":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#8fc.png",
-								"regions":
-								[
-									[
-										41047,
-										41062
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40897":
-=======
-							"gutter_color_41050":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#8fc236.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										40897,
 										40912
-=======
-										41050,
-										41065
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40926":
 							{
 								"flags": 144,
@@ -8708,22 +6393,10 @@
 									[
 										40927,
 										40942
-=======
-							"gutter_color_41051":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#8fc236.png",
-								"regions":
-								[
-									[
-										41050,
-										41065
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_40927":
 							{
 								"flags": 144,
@@ -8733,22 +6406,10 @@
 									[
 										40927,
 										40942
-=======
-							"gutter_color_41077":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fa4.png",
-								"regions":
-								[
-									[
-										41077,
-										41092
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41087":
 							{
 								"flags": 144,
@@ -8758,22 +6419,10 @@
 									[
 										41088,
 										41110
-=======
-							"gutter_color_41080":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fa4d5a.png",
-								"regions":
-								[
-									[
-										41080,
-										41095
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41088":
 							{
 								"flags": 144,
@@ -8783,44 +6432,23 @@
 									[
 										41088,
 										41110
-=======
-							"gutter_color_41081":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#fa4d5a.png",
-								"regions":
-								[
-									[
-										41080,
-										41095
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41092":
-=======
-							"gutter_color_41238":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										41093,
 										41107
-=======
-										41238,
-										41260
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41128":
 							{
 								"flags": 144,
@@ -8830,22 +6458,10 @@
 									[
 										41129,
 										41153
-=======
-							"gutter_color_41241":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f2f2.png",
-								"regions":
-								[
-									[
-										41241,
-										41263
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41129":
 							{
 								"flags": 144,
@@ -8855,22 +6471,10 @@
 									[
 										41129,
 										41153
-=======
-							"gutter_color_41242":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f2f2.png",
-								"regions":
-								[
-									[
-										41241,
-										41263
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_4131":
 							{
 								"flags": 144,
@@ -8880,66 +6484,36 @@
 									[
 										4131,
 										4157
-=======
-							"gutter_color_41279":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										41279,
-										41303
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41337":
-=======
-							"gutter_color_41282":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										41338,
 										41353
-=======
-										41282,
-										41306
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41338":
-=======
-							"gutter_color_41283":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										41338,
 										41353
-=======
-										41282,
-										41306
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_41342":
 							{
 								"flags": 144,
@@ -8949,22 +6523,10 @@
 									[
 										41343,
 										41359
-=======
-							"gutter_color_41488":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										41488,
-										41503
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42054":
 							{
 								"flags": 144,
@@ -8974,22 +6536,10 @@
 									[
 										42055,
 										42080
-=======
-							"gutter_color_41491":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										41491,
-										41506
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42055":
 							{
 								"flags": 144,
@@ -8999,198 +6549,114 @@
 									[
 										42055,
 										42080
-=======
-							"gutter_color_41492":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										41491,
-										41506
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42065":
-=======
-							"gutter_color_42208":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42066,
 										42081
-=======
-										42208,
-										42233
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42080":
-=======
-							"gutter_color_42209":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42081,
 										42113
-=======
-										42208,
-										42233
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42081":
-=======
-							"gutter_color_42234":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42081,
 										42113
-=======
-										42234,
-										42266
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42096":
-=======
-							"gutter_color_42235":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42097,
 										42122
-=======
-										42234,
-										42266
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42186":
-=======
-							"gutter_color_42340":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42187,
 										42215
-=======
-										42340,
-										42368
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42187":
-=======
-							"gutter_color_42341":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42187,
 										42215
-=======
-										42340,
-										42368
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42204":
-=======
-							"gutter_color_42388":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42205,
 										42228
-=======
-										42388,
-										42424
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42234":
-=======
-							"gutter_color_42389":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42235,
 										42271
-=======
-										42388,
-										42424
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42235":
 							{
 								"flags": 144,
@@ -9200,22 +6666,10 @@
 									[
 										42235,
 										42271
-=======
-							"gutter_color_42530":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f.png",
-								"regions":
-								[
-									[
-										42530,
-										42573
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42257":
 							{
 								"flags": 144,
@@ -9225,44 +6679,23 @@
 									[
 										42258,
 										42276
-=======
-							"gutter_color_42533":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f2f2.png",
-								"regions":
-								[
-									[
-										42533,
-										42576
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42379":
-=======
-							"gutter_color_42534":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42380,
 										42423
-=======
-										42533,
-										42576
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42380":
 							{
 								"flags": 144,
@@ -9272,22 +6705,10 @@
 									[
 										42380,
 										42423
-=======
-							"gutter_color_4275":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										4275,
-										4301
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42937":
 							{
 								"flags": 144,
@@ -9297,66 +6718,36 @@
 									[
 										42938,
 										42957
-=======
-							"gutter_color_43088":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0.png",
-								"regions":
-								[
-									[
-										43088,
-										43107
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42938":
-=======
-							"gutter_color_43091":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42938,
 										42957
-=======
-										43091,
-										43110
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_42943":
-=======
-							"gutter_color_43092":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										42944,
 										42966
-=======
-										43091,
-										43110
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43078":
 							{
 								"flags": 144,
@@ -9366,55 +6757,30 @@
 									[
 										43079,
 										43118
-=======
-							"gutter_color_43229":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f2f.png",
-								"regions":
-								[
-									[
-										43229,
-										43268
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43079":
-=======
-							"gutter_color_43232":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43079,
 										43118
-=======
-										43232,
-										43271
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43098":
-=======
-							"gutter_color_43233":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43099,
 										43120
 									]
@@ -9430,48 +6796,30 @@
 									[
 										43361,
 										43385
-=======
-										43232,
-										43271
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43361":
-=======
-							"gutter_color_43514":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43361,
 										43385
-=======
-										43514,
-										43538
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43372":
-=======
-							"gutter_color_43515":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43373,
 										43387
 									]
@@ -9487,48 +6835,30 @@
 									[
 										43536,
 										43560
-=======
-										43514,
-										43538
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43536":
-=======
-							"gutter_color_43689":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43536,
 										43560
-=======
-										43689,
-										43713
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43551":
-=======
-							"gutter_color_43690":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43552,
 										43563
 									]
@@ -9544,433 +6874,257 @@
 									[
 										43893,
 										43910
-=======
-										43689,
-										43713
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_43893":
-=======
-							"gutter_color_44046":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										43893,
 										43910
-=======
-										44046,
-										44063
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_44090":
-=======
-							"gutter_color_44047":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										44091,
 										44121
-=======
-										44046,
-										44063
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_44091":
-=======
-							"gutter_color_44244":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										44091,
 										44121
-=======
-										44244,
-										44274
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_44111":
-=======
-							"gutter_color_44245":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										44112,
 										44132
-=======
-										44244,
-										44274
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45275":
-=======
-							"gutter_color_45429":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45276,
 										45292
-=======
-										45429,
-										45445
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45278":
-=======
-							"gutter_color_45432":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45279,
 										45295
-=======
-										45432,
-										45448
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45279":
-=======
-							"gutter_color_45433":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45279,
 										45295
-=======
-										45432,
-										45448
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45369":
-=======
-							"gutter_color_45527":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45370,
 										45382
-=======
-										45527,
-										45544
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45376":
-=======
-							"gutter_color_45530":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45377,
 										45394
-=======
-										45530,
-										45547
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45377":
-=======
-							"gutter_color_45531":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45377,
 										45394
-=======
-										45530,
-										45547
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45481":
-=======
-							"gutter_color_45635":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45482,
 										45495
-=======
-										45635,
-										45654
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45484":
-=======
-							"gutter_color_45638":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45485,
 										45504
-=======
-										45638,
-										45657
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45485":
-=======
-							"gutter_color_45639":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45485,
 										45504
-=======
-										45638,
-										45657
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45504":
-=======
-							"gutter_color_45655":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45505,
 										45524
-=======
-										45655,
-										45674
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45505":
-=======
-							"gutter_color_45658":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45505,
 										45524
-=======
-										45658,
-										45677
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45507":
-=======
-							"gutter_color_45659":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/gold.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45508,
 										45518
-=======
-										45658,
-										45677
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45649":
-=======
-							"gutter_color_45800":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45650,
 										45713
-=======
-										45800,
-										45863
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45650":
-=======
-							"gutter_color_45803":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45650,
 										45713
-=======
-										45803,
-										45866
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_45691":
-=======
-							"gutter_color_45804":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f2f2f2.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										45692,
 										45755
-=======
-										45803,
-										45866
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_46165":
 							{
 								"flags": 144,
@@ -9980,44 +7134,23 @@
 									[
 										46166,
 										46194
-=======
-							"gutter_color_46316":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f0f.png",
-								"regions":
-								[
-									[
-										46316,
-										46344
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_46166":
-=======
-							"gutter_color_46319":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#f0f0f0.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										46166,
 										46194
-=======
-										46319,
-										46347
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_46461":
 							{
 								"flags": 144,
@@ -10027,61 +7160,32 @@
 									[
 										46462,
 										46484
-=======
-							"gutter_color_46320":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f0f0f0.png",
-								"regions":
-								[
-									[
-										46319,
-										46347
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_46462":
-=======
-							"gutter_color_46615":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										46462,
 										46484
-=======
-										46615,
-										46637
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_46468":
-=======
-							"gutter_color_46616":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										46469,
 										46484
-=======
-										46619,
-										46641
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
@@ -10099,68 +7203,41 @@
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_5969":
-=======
-							"gutter_color_6113":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										5969,
 										5999
-=======
-										6113,
-										6143
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_6000":
-=======
-							"gutter_color_6144":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										6000,
 										6028
-=======
-										6144,
-										6172
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_6363":
-=======
-							"gutter_color_6507":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/#0d0d0d.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										6363,
 										6384
-=======
-										6507,
-										6528
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
@@ -10185,7 +7262,6 @@
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										677,
 										692
 									]
@@ -10361,11 +7437,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 8,
 					"file": "src/styl/modules/header-animations.styl",
 					"semi_transient": false,
 					"settings":
@@ -10382,15 +7458,10 @@
 									[
 										1135,
 										1189
-=======
-										677,
-										692
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1149":
 							{
 								"flags": 144,
@@ -10400,22 +7471,10 @@
 									[
 										1149,
 										1162
-=======
-							"gutter_color_7574":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										7574,
-										7589
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1417":
 							{
 								"flags": 144,
@@ -10425,22 +7484,10 @@
 									[
 										1418,
 										1472
-=======
-							"gutter_color_7723":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f7f7f7.png",
-								"regions":
-								[
-									[
-										7723,
-										7743
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1432":
 							{
 								"flags": 144,
@@ -10450,22 +7497,10 @@
 									[
 										1432,
 										1444
-=======
-							"gutter_color_7744":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										7744,
-										7759
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1811":
 							{
 								"flags": 144,
@@ -10475,22 +7510,10 @@
 									[
 										1812,
 										1835
-=======
-							"gutter_color_786":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#0d0d0d.png",
-								"regions":
-								[
-									[
-										786,
-										808
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1812":
 							{
 								"flags": 144,
@@ -10500,22 +7523,10 @@
 									[
 										1812,
 										1835
-=======
-							"gutter_color_9243":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										9243,
-										9251
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1814":
 							{
 								"flags": 144,
@@ -10525,22 +7536,10 @@
 									[
 										1815,
 										1841
-=======
-							"gutter_color_950":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										950,
-										972
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1835":
 							{
 								"flags": 144,
@@ -10563,125 +7562,10 @@
 									[
 										1836,
 										1860
-=======
-							"gutter_color_9533":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										9533,
-										9555
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								25208,
-								25208
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 22325.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/styl/base.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2051,
-						"regions":
-						{
-							"gutter_color_1040":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										1040,
-										1052
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1853":
 							{
 								"flags": 144,
@@ -10691,66 +7575,36 @@
 									[
 										1854,
 										1877
-=======
-							"gutter_color_1209":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ffffff.png",
-								"regions":
-								[
-									[
-										1209,
-										1228
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1992":
-=======
-							"gutter_color_1272":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										1993,
 										2020
-=======
-										1272,
-										1295
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_1993":
-=======
-							"gutter_color_1309":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										1993,
 										2020
-=======
-										1309,
-										1332
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_2010":
 							{
 								"flags": 144,
@@ -10760,22 +7614,10 @@
 									[
 										2011,
 										2022
-=======
-							"gutter_color_1659":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/indigo.png",
-								"regions":
-								[
-									[
-										1659,
-										1684
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_491":
 							{
 								"flags": 144,
@@ -10785,22 +7627,10 @@
 									[
 										492,
 										516
-=======
-							"gutter_color_1685":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1685,
-										1697
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_492":
 							{
 								"flags": 144,
@@ -10810,22 +7640,10 @@
 									[
 										492,
 										516
-=======
-							"gutter_color_1711":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/indigo.png",
-								"regions":
-								[
-									[
-										1711,
-										1736
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_525":
 							{
 								"flags": 144,
@@ -10835,22 +7653,10 @@
 									[
 										526,
 										548
-=======
-							"gutter_color_1737":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1737,
-										1749
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_526":
 							{
 								"flags": 144,
@@ -10860,22 +7666,10 @@
 									[
 										526,
 										548
-=======
-							"gutter_color_1765":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1765,
-										1791
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_566":
 							{
 								"flags": 144,
@@ -10885,88 +7679,49 @@
 									[
 										567,
 										604
-=======
-							"gutter_color_1806":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1806,
-										1829
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_567":
-=======
-							"gutter_color_1830":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										567,
 										604
-=======
-										1830,
-										1858
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_604":
-=======
-							"gutter_color_1859":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										605,
 										636
-=======
-										1859,
-										1886
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_605":
-=======
-							"gutter_color_1983":
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-<<<<<<< HEAD
 										605,
 										636
-=======
-										1983,
-										2007
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_608":
 							{
 								"flags": 144,
@@ -10976,22 +7731,10 @@
 									[
 										609,
 										646
-=======
-							"gutter_color_2":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/rgba(0,0,0,0).png",
-								"regions":
-								[
-									[
-										2,
-										44
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_849":
 							{
 								"flags": 144,
@@ -11001,22 +7744,10 @@
 									[
 										850,
 										881
-=======
-							"gutter_color_2016":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										2027,
-										2051
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_867":
 							{
 								"flags": 144,
@@ -11026,22 +7757,10 @@
 									[
 										868,
 										879
-=======
-							"gutter_color_2017":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										2027,
-										2051
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
 							},
-<<<<<<< HEAD
 							"gutter_color_868":
 							{
 								"flags": 144,
@@ -11051,17 +7770,6 @@
 									[
 										868,
 										879
-=======
-							"gutter_color_2027":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										2027,
-										2051
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 									]
 								],
 								"scope": "gutter_color"
@@ -11070,13 +7778,8 @@
 						"selection":
 						[
 							[
-<<<<<<< HEAD
 								0,
 								0
-=======
-								2007,
-								2007
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 							]
 						],
 						"settings":
@@ -11084,60 +7787,21 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-<<<<<<< HEAD
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-=======
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
 								"bh_square_close",
 								"bh_square_content",
-<<<<<<< HEAD
-=======
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-<<<<<<< HEAD
-=======
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
@@ -11148,68 +7812,11 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-<<<<<<< HEAD
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content",
-=======
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2277.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/jade/hard-workers-club.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5488,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5363,
-								5363
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
@@ -11220,30 +7827,16 @@
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-<<<<<<< HEAD
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-=======
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-<<<<<<< HEAD
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
@@ -11258,35 +7851,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
-=======
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"hasHeader": false,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1830.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -11341,7 +7906,18 @@
 		"selected_items":
 		[
 			[
-<<<<<<< HEAD
+				"mak",
+				"src/jade/mkbl.jade"
+			],
+			[
+				"wor",
+				"kyla.sublime-workspace"
+			],
+			[
+				"ak",
+				"src/jade/akc.jade"
+			],
+			[
 				"hard",
 				"src/jade/hard-workers-club.jade"
 			],
@@ -11352,10 +7928,6 @@
 			[
 				"ligh",
 				"src/css/lightcase.css"
-			],
-			[
-				"ak",
-				"src/jade/akc.jade"
 			],
 			[
 				"wo",
@@ -11396,30 +7968,30 @@
 			[
 				"con",
 				"src/jade/cognizant.jade"
-=======
-				"sty",
-				"src/styl/style.styl"
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 			],
 			[
-				"ba",
-				"src/styl/base.styl"
+				"akc",
+				"src/jade/akc.jade"
 			],
 			[
-				"st",
-				"src/styl/style.styl"
+				"per",
+				"src/jade/personal-identity.jade"
 			],
 			[
 				"art",
 				"src/jade/artnet.jade"
 			],
 			[
-				"har",
-				"src/jade/hard-workers-club.jade"
+				"wolf",
+				"src/css/wolf.css"
 			],
 			[
-				"ak",
-				"src/jade/akc.jade"
+				"sty",
+				"src/styl/style.styl"
+			],
+			[
+				"pro",
+				"src/styl/modules/project.styl"
 			],
 			[
 				"in",
@@ -11494,6 +8066,10 @@
 				"src/styl/base.styl"
 			],
 			[
+				"ba",
+				"src/styl/base.styl"
+			],
+			[
 				"fu",
 				"src/styl/functions.styl"
 			],
@@ -11556,10 +8132,6 @@
 			[
 				"tab",
 				"src/jade/modules/tablet-ribbon.jade"
-			],
-			[
-				"wor",
-				"src/svg/words.svg"
 			],
 			[
 				"set",
@@ -11658,10 +8230,6 @@
 				"src/styl/functions.styl"
 			],
 			[
-				"per",
-				"src/jade/personal-identity.jade"
-			],
-			[
 				"cl",
 				"src/jade/clear.jade"
 			],
@@ -11674,37 +8242,16 @@
 				"src/jade/esquire.jade"
 			],
 			[
-				"mk",
-				"src/jade/mkbl.jade"
-			],
-			[
 				"cog",
 				"src/jade/cognizant.jade"
 			],
 			[
-<<<<<<< HEAD
 				"cla",
 				"src/jade/clear.jade"
 			],
 			[
 				"st",
 				"src/styl/style.styl"
-=======
-				"wea",
-				"src/jade/weather-channel.jade"
-			],
-			[
-				"akc",
-				"src/jade/akc.jade"
-			],
-			[
-				"cla",
-				"src/jade/clear.jade"
-			],
-			[
-				"pro",
-				"src/styl/modules/project.styl"
->>>>>>> 667fd2f19fae2aae7d47b57138546800a2390d0b
 			],
 			[
 				"laa",
@@ -11795,10 +8342,6 @@
 				"src/styl/style.styl"
 			],
 			[
-				"pr",
-				"src/styl/modules/project.styl"
-			],
-			[
 				"sy",
 				"src/styl/style.styl"
 			],
@@ -11873,46 +8416,6 @@
 			[
 				"jade",
 				"build/tasks/jade.coffee"
-			],
-			[
-				"coff",
-				"build/tasks/coffee.coffee"
-			],
-			[
-				"flow",
-				"src/styl/modules/flow-box.styl"
-			],
-			[
-				"gra",
-				"src/styl/gradients.styl"
-			],
-			[
-				"flo",
-				"src/styl/modules/flow-box.styl"
-			],
-			[
-				"button",
-				"src/styl/buttons.styl"
-			],
-			[
-				"slider",
-				"src/jade/modules/flowbox-slider.jade"
-			],
-			[
-				"com",
-				"src/styl/modules/compact-profile-box.styl"
-			],
-			[
-				"eve",
-				"src/coffee/events.coffee"
-			],
-			[
-				"ev",
-				"src/coffee/events.coffee"
-			],
-			[
-				"soc",
-				"src/styl/modules/social-group.styl"
 			]
 		],
 		"width": 0.0
@@ -11943,7 +8446,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 204.0,
+	"side_bar_width": 256.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
