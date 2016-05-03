@@ -500,8 +500,8 @@ $(window).load(function() {
 			disableShrink: true,
 			forceHeight: true,
 			video: {
-				width : 780,
-				height : 420,
+				width : 1080,
+				height : 720,
 				controls: false,
 				preload: true,
 				loop: true

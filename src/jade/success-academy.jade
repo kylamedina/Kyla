@@ -4,47 +4,52 @@ block content
   //- include includes/triangles.jade
   include includes/header-dark.jade
   #page-content.page-sa
-    section#hero.hero-auto
-      .page-title.wrapper
-        #wolf-title.wolf-grid.clearfix
-          .wolf-item.wfull.wright.wolf-text(data-speed='2')
-            .wolf-item-inner
-              .wolf-media
-                img(src='img/sa/sa_01-medium.jpg' srcset="img/sa/sa_01-small.jpg 640w, img/sa/sa_01-medium.jpg 800w, img/sa/sa_01-large.jpg 1800w" alt='Success Academy Classroom')
-              .wolf-caption.ctop(style='width:60%;')
-                h5.alttitle Interaction Design, Development, UX
-                h1
-                  strong Success Academy
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/sa/sa_02-large.jpg')
+      .page-title
+        h5.alttitle Strategy, UX, Design
+        h1
+          strong Success Academy
+      //- a#scroll-down(href='#') Scroll Down
+    //- section#hero.hero-auto
+    //-   .page-title.wrapper
+    //-     #wolf-title.wolf-grid.clearfix
+    //-       .wolf-item.wfull.wright.wolf-text(data-speed='2')
+    //-         .wolf-item-inner
+    //-           .wolf-media
+    //-             img(src='img/sa/sa_02-medium.jpg' srcset="img/sa/sa_02-small.jpg 640w, img/sa/sa_02-medium.jpg 800w, img/sa/sa_02-large.jpg 1800w" alt='Success Academy Classroom')
+    //-           .wolf-caption.ctop(style='width:60%;')
+    //-             h5.alttitle Strategy, UX, Design
+    //-             h1
+    //-               strong Success Academy
     section#page-body.nopadding
+      .spacer.spacer-big
       .wrapper-small
         h6
-          strong Project Details
-        p Success Academy is a network of world-class charter schools across New York City. They also serve as a catalyst and national model for education reform through their writing platform, Mission Possible. SA asked Makeable to help show off their creative instructional approach by updating their website. Our work allowed them to highlight every school in their network, establish a platform for generating interest in education reform, and provide e-commerace capabilities for events and extracurricular activities. I developed the entire front-end and in-browser interaction design and implemented the Google Maps API, several social network APIs, and used HTML5's Canvas for graphs across the site. The whole site was finished in two weeks in hyper-agile workflow with the visual designer, 
-          a(href='http://www.stompsondesign.com/' target='_blank') Dr. Sara S. Thompson.
-        //- h6
-        //-   strong Languages
-        //- p
-        //-   | PHP, Sass, Coffeescript
-        //-   br
-        //-   | csswinner - Winner of the Day
-        //-   br
-        //-   | cssreel - Winner of the Day
-        p
-          a(href='http://successacademies.org/' targe='_blank'): strong Visit Site
-        //-   br
-        //-   a(href='http://www.annasalvador.com')
-        //-     strong annasalavdor.com
+          strong Work-in-Progress
+        p Success Academy is a network of world-class charter schools serving New York City. After working as the front-end developer of the successacademies.org site, I was asked to do strategy, UX, and design of the Success Academies Careers site. In the requirements for the new site, we outlined four major goals: 
+        ul
+          li Motivate potential candidates to apply
+          li Set candidates up for success during the hiring process
+          li Inspire candidates so they are primed to accept an offer
+          li Establish relevance to a millennial audience
+       
+
       .spacer.spacer-big
+      //- .issuuembed#sa-research(data-configid='2658242/35308558' style='display:none')
+      //-   script(type='text/javascript', src='//e.issuu.com/embed.js', async='true')
+
       .wrapper
         .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
           .wolf-item
             .wolf-item-inner
-              .wolf-media.portfolio-media.browser-chrome
-                img.browser-shadow(data-aload='img/sa/sa_05-medium.jpg' srcset="img/sa/sa_05-small.jpg 640w, img/sa/sa_05-medium.jpg 800w, img/sa/sa_05-large.jpg 1346w" alt='Success Academy Homepage')
+              .wolf-media.portfolio-media
+                a(href='/SA_research/index.html'  data-rel='lightcase:sa' title='Click presentation or use arrow keys to advance. <a href="/SA_research/index.html" target="_blank" alt="Research Presentation">View Fullscreen</a>')
+                  img(data-aload='img/sa/sa_09-large.png' srcset="img/sa/sa_09-large.png 640w, img/sa/sa_09-large.png 800w, img/sa/sa_09-large.png 1338w" alt='Success Academy Graphs')
          
           .wolf-item.is-caption.is-caption--left(data-speed="-1")
             .wolf-item-inner
-                p.figcaption I've actually developed this site twice. After finishing the first round, Pentagram rebranded Success Academy. SA then asked Makeable to redesign the site a second time to reflect the new branding. We took what we learned the first iteration and made huge improvements to the site.
+                p.figcaption In the first section of the research, I presented an analysis of how other companies are accomplishing the goals we outlined. In the second section, I researched special considerations the client requested we look into, and finally, I looked at their current sites analytics.
+                a(href='' target='_blank')
           .wolf-item.is-caption.is-caption--right(data-speed="-1")
             .wolf-item-inner
               .figcaption
@@ -52,8 +57,9 @@ block content
 
           .wolf-item
             .wolf-item-inner
-              .wolf-media.portfolio-media.browser-chrome
-                img.browser-shadow(data-aload='img/sa/sa_06-medium.jpg' srcset="img/sa/sa_06-small.jpg 640w, img/sa/sa_06-medium.jpg 800w, img/sa/sa_06-large.jpg 1338w" alt='Success Academy Graphs')
+              .wolf-media.portfolio-media
+                a(href='/SA_concepts/index.html'  data-rel='lightcase:sa' title='Click presentation or use arrow keys to advance. <a href="/SA_concepts/index.html" target="_blank" alt="UX Concepts Presentation">View Fullscreen</a>')
+                  img(data-aload='img/sa/sa_08-large.png' srcset="img/sa/sa_08-large.png 640w, img/sa/sa_08-large.png 800w, img/sa/sa_08-large.png 1338w" alt='Success Academy Graphs')
         //- ul.gallery.gallery-col2.spaced
         //-   li.has-animation.browser-chrome
         //-     .browser-shadow
