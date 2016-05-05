@@ -33,10 +33,7 @@ block content
             p Cognizant needed a design vocabulary to unify its 100+ sites for its products and services. After auditing all the sites and identifing key elements, patterns, and pages, I worked in close collaboration with internal design and development teams at Cognizant to create a holistic design system that could adapt to content anywhere in the Cognizant network of websites and align design decision-making moving forward. This strategy eventually will take shape as a front-end code base similar to Twitter Bootstrap and user-centric resource site with searchable content, educational materials, design patterns, and code snippets.
         .spacer.spacer-small
 
-      video(data-aload="cognizant-sites1.mp4" preload="auto" loop autoplay)
-        p Your browser does not support the 
-          code video
-          |  element.
+      
       style.
         .issuuembed > div > div:nth-of-type(2) {display:none}
 
@@ -63,32 +60,39 @@ block content
                        |  element.
                   //- img(data-aload='img/cognizant/cogs_03-large.jpg' srcset="img/cognizant/cogs_03-large.jpg 640w, img/cognizant/cogs_03-large.jpg 800w, img/cognizant/cogs_03-large.jpg 1280w" alt='Share Functionality')
           .spacer.spacer-medium
-          .wolf-item.no-mobile-video(data-speed="3")
-            .wolf-item-inner
-              .wolf-media.portfolio-media
-                a(href='#cog-styleguide', data-rel='lightcase:cognizant')
-                   .loader
-                   video(data-aload='cognizant-sites2.mp4' preload="auto" loop)
-                      p Your browser does not support the 
-                        code video
-                        |  element.
-
-          .wolf-item.is-caption(data-speed="-4")
-            .wolf-item-inner
-              p.figcaption I created a styleguide to guide development, aid in the creation of future modules, standardize custom site sections and interactions. It includes responsive vertical and baseline grids, a modular type scale, interactivity guidelines, and photo treatment step-through.
           
-
+          
+      video(data-aload="cognizant-sites1.mp4" preload="auto" loop autoplay)
+        p Your browser does not support the 
+          code video
+          |  element.
       img(src="img/cognizant/cogs_01-large.jpg" srcset="img/cognizant/cogs_01-small.jpg 640w, img/cognizant/cogs_01-medium.jpg 800w, img/cognizant/cogs_01-large.jpg 2250w" alt="")
-      .wrapper-mini
+      .wrapper
         .spacer.spacer-big
-        h6
-          strong References
-        p
-          a(href='http://vanseodesign.com/web-design/modular-benefits/' target='_blank') Modular Design
-          br
-          a(href='http://bradfrost.com/blog/post/atomic-web-design/' target='_blank') Atomic Design
-          br
-          a(href='http://getbootstrap.com/' target='_blank') Twitter Bootstrap
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
+            .wolf-item.no-mobile-video(data-speed="3")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  a(href='#cog-styleguide', data-rel='lightcase:cognizant')
+                     .loader
+                     video(data-aload='cognizant-sites2.mp4' preload="auto" loop)
+                        p Your browser does not support the 
+                          code video
+                          |  element.
+
+            .wolf-item.is-caption(data-speed="-4")
+              .wolf-item-inner
+                p.figcaption I created a styleguide to guide development, aid in the creation of future modules, standardize custom site sections and interactions. It includes responsive vertical and baseline grids, a modular type scale, interactivity guidelines, and photo treatment step-through.
+      //- .wrapper-mini
+      //-   .spacer.spacer-big
+      //-   h6
+      //-     strong References
+      //-   p
+      //-     a(href='http://vanseodesign.com/web-design/modular-benefits/' target='_blank') Modular Design
+      //-     br
+      //-     a(href='http://bradfrost.com/blog/post/atomic-web-design/' target='_blank') Atomic Design
+      //-     br
+      //-     a(href='http://getbootstrap.com/' target='_blank') Twitter Bootstrap
       .wrapper
         .spacer.spacer-big
         ul.single-pagination
