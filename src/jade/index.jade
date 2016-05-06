@@ -5,10 +5,16 @@ block content
   include includes/header-dark.jade
     
   #page-content.page-home
-    img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
-    section#hero.hero-auto
-      .page-title.hleft
-        h1 
+    //- img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
+    
+     
+    section#hero.hero-full
+      video.video-cover(data-aload='subway.mp4' preload="auto" loop autoplay)
+      .white-background
+        .big-logo(data-stellar-ratio="1.8").
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><style>.st0{fill:#333}.st1{fill:url(#XMLID_3_)}.st2{fill:#fff}.st3{fill:url(#XMLID_9_)}.st4{opacity:.72;fill:url(#XMLID_10_);enable-background:new}.st5{fill:url(#XMLID_11_)}.st6{display:none}.st7{display:inline;fill:#fff}</style><path id="XMLID_90_" class="st0" d="M1.8 89.4l44.9-77.8 44.9 77.8z"/><linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="65.463" y1="-436.79" x2="91.603" y2="-482.067" gradientTransform="translate(0 504)"><stop offset="0" stop-color="#fe7988"/><stop offset=".196" stop-color="#cf587e"/><stop offset=".415" stop-color="#573590"/><stop offset=".591" stop-color="#273d97"/><stop offset=".773" stop-color="#2d3868"/><stop offset=".913" stop-color="#313442"/><stop offset="1" stop-color="#333"/></linearGradient><path id="XMLID_180_" class="st1" d="M45.9 55.9L72 10.6l26.2 45.3z"/></svg>
+      .page-title.hleft.homepage-title
+        h1(data-stellar-ratio="1.5")
             //- | Super Famous
             br
             | Designer &amp; Dev-
@@ -21,9 +27,10 @@ block content
             //- br
             //- span.colored in sunny New York&nbsp;City.
             //- span(style='font-size: 20px;position:relative;top:1px;') &#9650;
-    .spacer.spacer-big
-    .spacer.spacer-big
+    
     section#page-body.nopadding
+      .spacer.spacer-big
+      .spacer.spacer-big
 
       .wrapper.wrapper-huge
         #portfolio-grid.wolf-grid.clearfix(data-randomhorizontaloffset='true', data-mouseparallax='true')
@@ -44,10 +51,10 @@ block content
           .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.wolf-media-link(alt='cognizant' href='cognizant-sites.html')
+                a.wolf-media-link(alt='cognizant' href='cognizant-design.html')
                   img(src='img/projects/cognizant2-large.jpg' srcset="img/projects/cognizants-small.jpg 640w, img/projects/cognizant2-medium.jpg 800w, img/projects/cognizant2-large.jpg 1200w" alt='Cognizant Modular Design System')
               .wolf-caption.portfolio-caption(style='margin-left:0%;margin-bottom:20%;')
-                a.wolf-caption-link(alt='cognizant' href='cognizant.html')
+                a.wolf-caption-link(alt='cognizant' href='cognizant-IxD.html')
                   h6.alttitle.portfolio-category Design
                   h4.portfolio-name
                     strong Cognizant
@@ -108,10 +115,10 @@ block content
           .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.wolf-media-link(alt='cognizant' href='cognizant.html')
+                a.wolf-media-link(alt='cognizant' href='cognizant-IxD.html')
                   img(src='img/projects/cognizant-medium.jpg' srcset="img/projects/cognizant-small.jpg 640w, img/projects/cognizant-medium.jpg 800w, img/projects/cognizant-large.jpg 1200w" alt='Cognizant Latest Thinking Header Image')
               .wolf-caption.portfolio-caption(style='margin-left:-20%;margin-bottom:20%;')
-                a.wolf-caption-link(alt='cognizant' href='cognizant.html')
+                a.wolf-caption-link(alt='cognizant' href='cognizant-IxD.html')
                   h6.alttitle.portfolio-category Prototyping, Design, and Development
                   h4.portfolio-name
                     strong Cognizant
@@ -149,6 +156,16 @@ block content
                   h4.portfolio-name
                     strong Success Academy
           
+          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc(style='opacity:0')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.wolf-media-link(alt='hard workers club' href='hard-workers-club.html')
+                  img(src='img/projects/hwc-medium.jpg' srcset="img/projects/hwc-small.jpg 640w, img/projects/hwc-medium.jpg 800w, img/projects/hwc-large.jpg 1024w" alt='Hard Workers Club')
+              .wolf-caption.portfolio-caption(style='margin-top:10%;')
+                a.wolf-caption-link(alt='hard workers club' href='hard-workers-club.html')
+                  h6.alttitle.portfolio-category Design, Development, and Photography
+                  h4.portfolio-name
+                    strong Hard Workers Club
           .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc
             .wolf-item-inner
               .wolf-media.portfolio-media
