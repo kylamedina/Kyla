@@ -1,0 +1,111 @@
+extends layouts/layout
+block head
+  style.
+    @font-face {
+    font-family: 'Proxima Nova-Regular';
+    src: url('cognizant.hyperesources/Proxima Nova-Regular.otf') format('opentype');
+    }
+  style.
+    @font-face {
+    font-family: 'Proxima Nova-Bold';
+    src: url('cognizant.hyperesources/Proxima Nova-Bold.otf') format('opentype');
+    }
+block content
+  //- include includes/triangles.jade
+  include includes/header-light.jade
+  #page-content.page-cognizant
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant2-large.jpg')
+      .hero-overlay
+      .page-title
+        h5.alttitle Design
+        h1
+          strong Cognizant
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.cognizant-body
+      
+      .wrapper-small
+        h4.align-center
+          strong Modular Design System
+        h6.alttitle.align-center for 100+ sites across the internet
+        .column-section.clearfix
+            p Cognizant is a NASDAQ-100 and S&amp;P 500 international corporation that provides custom information technology, consulting, and business process outsourcing services. It's the third largest IT company in the world behind Accenture and IBM and it prides itself for pushing the limits of&nbsp;technology.
+            p Cognizant needed a design vocabulary to unify its 100+ sites for its products and services. After auditing all the sites and identifing key elements, patterns, and pages, I worked in close collaboration with internal design and development teams at Cognizant to create a holistic design system that could adapt to content anywhere in the Cognizant network of websites and align design decision-making moving forward. This strategy eventually will take shape as a front-end code base similar to Twitter Bootstrap and user-centric resource site with searchable content, educational materials, design patterns, and code snippets.
+        .spacer.spacer-small
+
+      
+      style.
+        .issuuembed > div > div:nth-of-type(2) {display:none}
+
+      //- iframe#cog-styleguide(width='1000', height='600', src='//e.issuu.com/embed.html#2658242/35303204', frameborder='0', allowfullscreen='' style='display:none')
+      
+      #cog-styleguide.issuuembed(data-configid='2658242/35404386', style='display:none')
+        script(type='text/javascript', src='//e.issuu.com/embed.js', async='true')
+
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
+          .wolf-item.is-caption.is-caption--left
+            .wolf-item-inner
+              .figcaption
+                p A work-in-progress view of the module pasteboard. Each module includes 3 or 4 responsive views depending on the needs of the module. There are also variations for light and dark backgrounds that provides visual breaks in the horizontal stripe layout that is created as the modules are built up.
+          .wolf-item
+            .wolf-item-inner
+              .wolf-media.portfolio-media.browser-chrome
+                a.img-hover.browser-shadow(href='cognizant-sites3.mp4'  data-rel='lightcase:cognizant')
+                  .loader
+                  img(data-aload='img/cognizant/cogs_03-large.jpg' srcset="img/cognizant/cogs_03-large.jpg 640w, img/cognizant/cogs_03-large.jpg 800w, img/cognizant/cogs_03-large.jpg 1280w" alt='Share Functionality')
+          .spacer.spacer-medium
+          
+          
+      video(data-aload="cognizant-sites1.mp4" preload="auto" loop autoplay)
+        p Your browser does not support the 
+          code video
+          |  element.
+      img(src="img/cognizant/cogs_01-large.jpg" srcset="img/cognizant/cogs_01-small.jpg 640w, img/cognizant/cogs_01-medium.jpg 800w, img/cognizant/cogs_01-large.jpg 2250w" alt="")
+      .wrapper
+        .spacer.spacer-big
+        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
+            .wolf-item.no-mobile-video(data-speed="3")
+              .wolf-item-inner
+                .wolf-media.portfolio-media
+                  a(href='#cog-styleguide', data-rel='lightcase:cognizant')
+                     .loader
+                     video(data-aload='cognizant-sites2.mp4' preload="auto" loop)
+                        p Your browser does not support the 
+                          code video
+                          |  element.
+
+            .wolf-item.is-caption(data-speed="-4")
+              .wolf-item-inner
+                p.figcaption I created a styleguide to guide development, aid in the creation of future modules, standardize custom site sections and interactions. It includes responsive vertical and baseline grids, a modular type scale, interactivity guidelines, and photo treatment step-through.
+      //- .wrapper-mini
+      //-   .spacer.spacer-big
+      //-   h6
+      //-     strong References
+      //-   p
+      //-     a(href='http://vanseodesign.com/web-design/modular-benefits/' target='_blank') Modular Design
+      //-     br
+      //-     a(href='http://bradfrost.com/blog/post/atomic-web-design/' target='_blank') Atomic Design
+      //-     br
+      //-     a(href='http://getbootstrap.com/' target='_blank') Twitter Bootstrap
+      a.hidden(href='img/cognizant/cogs_04-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_05-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_06-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_07-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_08-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_09-large.jpg'  data-rel='lightcase:cognizant')
+      a.hidden(href='img/cognizant/cogs_10-large.jpg'  data-rel='lightcase:cognizant')
+      .wrapper
+        .spacer.spacer-big
+        ul.single-pagination
+          li.prev
+            a(href='mkbl.html')
+              img(src='img/projects/mkbl-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='/') Back To Works
+          li.next
+            a(href='esquire.html')
+              img(src='img/projects/esquire-small.jpg', alt='next')
+              span Next Project

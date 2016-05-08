@@ -225,30 +225,30 @@ function preCache(){
 	});
 };
 // REORGANIZE ISOTOPE FUNCTION
-function reorganizeIsotope() {
-	$('.masonry').each(function(){
-		var $container = $(this);
-		var maxitemwidth = $container.data('maxitemwidth');
-		if (!maxitemwidth) { maxitemwidth = 370; }
-		var itemmargin = parseInt($container.children('div').css('marginRight')) + parseInt($container.children('div').css('marginLeft'), 10);
-		var containerwidth = Math.ceil(($container.width() - itemmargin));
-		var rows = Math.ceil(containerwidth/maxitemwidth);
-		var marginperrow = (rows-1)*itemmargin;
-		var newitemmargin = marginperrow / rows;
-		var itemwidth = Math.floor((containerwidth/rows)-newitemmargin - 1);
-		$container.children('div').css({ 'width': itemwidth+'px' });
-		if ($container.children('div').hasClass('isotope-item')) { $container.isotope( 'reLayout' ); }
-	});
-}
-// function playVideo() {
-// 	if ($('video').length) {
-// 		$('video').each(function () {
-// 			if ($(this).visible(true)) {
-// 				$(this)[0].play();
-// 			} 
-// 		});
-// 	}
+// function reorganizeIsotope() {
+// 	$('.masonry').each(function(){
+// 		var $container = $(this);
+// 		var maxitemwidth = $container.data('maxitemwidth');
+// 		if (!maxitemwidth) { maxitemwidth = 370; }
+// 		var itemmargin = parseInt($container.children('div').css('marginRight')) + parseInt($container.children('div').css('marginLeft'), 10);
+// 		var containerwidth = Math.ceil(($container.width() - itemmargin));
+// 		var rows = Math.ceil(containerwidth/maxitemwidth);
+// 		var marginperrow = (rows-1)*itemmargin;
+// 		var newitemmargin = marginperrow / rows;
+// 		var itemwidth = Math.floor((containerwidth/rows)-newitemmargin - 1);
+// 		$container.children('div').css({ 'width': itemwidth+'px' });
+// 		if ($container.children('div').hasClass('isotope-item')) { $container.isotope( 'reLayout' ); }
+// 	});
 // }
+function playVideo() {
+	if ($('video').length) {
+		$('video').each(function () {
+			if ($(this).visible(true)) {
+				$(this)[0].play();
+			} 
+		});
+	}
+}
 
 // STICKY FOTTER OPTION
 function stickyfooter() {
@@ -280,19 +280,19 @@ function smoothShow() {
 	});
 	
 	/* -- S K I L L -- */
-	$('.skill').each(function() {
-		var thisItem = $(this);
-		var visible = thisItem.visible(true);
-		var percent = thisItem.find('.skill-bar .skill-active ').attr('data-perc');
-		if (thisItem.hasClass( "anim" )) {} 
-		else if (visible) {
-			var randomval = Math.floor(Math.random() * (300 - 50 + 1)) + 50;
-			thisItem.addClass("anim");
-			thisItem.find('.skill-bar .skill-active ').animate({'width': percent+'%',}, 2000, 'easeInOutQuart', function(){
-				$(this).find('.tooltip').delay(randomval).animate({'opacity':1}, 500);	
-			}).css('overflow', 'visible');
-		}
-	});
+	// $('.skill').each(function() {
+	// 	var thisItem = $(this);
+	// 	var visible = thisItem.visible(true);
+	// 	var percent = thisItem.find('.skill-bar .skill-active ').attr('data-perc');
+	// 	if (thisItem.hasClass( "anim" )) {} 
+	// 	else if (visible) {
+	// 		var randomval = Math.floor(Math.random() * (300 - 50 + 1)) + 50;
+	// 		thisItem.addClass("anim");
+	// 		thisItem.find('.skill-bar .skill-active ').animate({'width': percent+'%',}, 2000, 'easeInOutQuart', function(){
+	// 			$(this).find('.tooltip').delay(randomval).animate({'opacity':1}, 500);	
+	// 		}).css('overflow', 'visible');
+	// 	}
+	// });
 		
 }
 
@@ -302,7 +302,19 @@ $(window).load(function() {
 			preCache();
 		// }
 	// }
-	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4');
+	if (head.desktop) {
+		$('#index-page .hero-full').mousemove(function(e) {
+		    $('.big-logo svg').offset({
+		        left: (e.pageX-300),
+		        top: (e.pageY-300)
+		    });
+		});
+	}
+	
+	// if ($('.video-cover').length >  0) { 
+	// 	$('.video-cover').get(0).play();
+	// }
+	// var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4');
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -312,20 +324,20 @@ $(window).load(function() {
 		});
 	});
 		
-	var oldPageYOffset = 0;
-	$(window).on('scroll.start', function() {
-		$(window).off('scroll.start');
-		if (window.pageYOffset != oldPageYOffset)
-		{
-			oldPageYOffset = window.pageYOffset;
-			setTimeout(function() {
-				$('video').attr('autoplay','autoplay');
-				$('video').each(function () {
-					$(this).get(0).play();
-				});
-			}, 1000)
-		}	
-	});
+	// var oldPageYOffset = 0;
+	// $(window).on('scroll.start', function() {
+	// 	$(window).off('scroll.start');
+	// 	if (window.pageYOffset != oldPageYOffset)
+	// 	{
+	// 		oldPageYOffset = window.pageYOffset;
+	// 		setTimeout(function() {
+	// 			$('video').attr('autoplay','autoplay');
+	// 			$('video').each(function () {
+	// 				$(this).get(0).play();
+	// 			});
+	// 		}, 1000)
+	// 	}	
+	// });
 
 	/*---------------------------------------------- 
 					 P A R A L L A X
@@ -342,39 +354,39 @@ $(window).load(function() {
 		/*---------------------------------------------- 
 					  C A L L   I S O T O P E   
 		------------------------------------------------*/	
-		$('.masonry').each(function(){
-			var $container = $(this);
+		// $('.masonry').each(function(){
+		// 	var $container = $(this);
 			
-			$container.imagesLoaded( function(){
-				$container.isotope({
-					itemSelector : '.masonry-item',
-					transformsEnabled: true			// Important for videos
-				});	
-			});
-		});
+		// 	$container.imagesLoaded( function(){
+		// 		$container.isotope({
+		// 			itemSelector : '.masonry-item',
+		// 			transformsEnabled: true			// Important for videos
+		// 		});	
+		// 	});
+		// });
 		
 		
 		/*---------------------------------------------- 
 					 I S O T O P E : Filter
 		------------------------------------------------*/
-		$('.masonry-filter').on("click", "li a", function() { 
-			var thisItem = $(this);
-			var parentul = thisItem.parents('ul.filter').data('related-grid');
-			thisItem.parents('ul.filter').find('li a').removeClass('active');
-			thisItem.addClass('active');
+		// $('.masonry-filter').on("click", "li a", function() { 
+		// 	var thisItem = $(this);
+		// 	var parentul = thisItem.parents('ul.filter').data('related-grid');
+		// 	thisItem.parents('ul.filter').find('li a').removeClass('active');
+		// 	thisItem.addClass('active');
 			
-			var selector = thisItem.attr('data-filter-value');
-			$('#'+parentul).isotope({ filter: selector }, function(){ });
+		// 	var selector = thisItem.attr('data-filter-value');
+		// 	$('#'+parentul).isotope({ filter: selector }, function(){ });
 			
-			return false;
-		});
+		// 	return false;
+		// });
 		
 		
-		reorganizeIsotope();
+		// reorganizeIsotope();
 			
-		$(window).resize(function() {
-			reorganizeIsotope();
-		});
+		// $(window).resize(function() {
+		// 	reorganizeIsotope();
+		// });
 		
 		
 	} /* END if isotope */
@@ -396,10 +408,10 @@ $(window).load(function() {
 	/*---------------------------------------------- 
 				 B A C K   T O P   T O P
 	------------------------------------------------*/
-	$('#backtotop').on("click", function() { 
-		$('html, body').animate({scrollTop: 0}, 1000, 'easeInOutQuart');
-		return false;						   
-	});
+	// $('#backtotop').on("click", function() { 
+	// 	$('html, body').animate({scrollTop: 0}, 1000, 'easeInOutQuart');
+	// 	return false;						   
+	// });
 	
 	
 	
@@ -734,8 +746,11 @@ $(document).on('ready', function() {
 		  case 'weather-channel-page':
 			$('#main-nav .submenu li.twc').addClass('current-menu-item')
 			break;
-		  case 'cognizant-page':
-			$('#main-nav .submenu li.cognizant').addClass('current-menu-item')
+		  case 'cognizant-IxD-page':
+			$('#main-nav .submenu li.cognizant-ixd').addClass('current-menu-item')
+			break;
+		  case 'cognizant-design-page':
+			$('#main-nav .submenu li.cognizant-design').addClass('current-menu-item')
 			break;
 		  case 'hard-workers-club-page':
 			$('#main-nav .submenu li.hwc').addClass('current-menu-item')
@@ -773,7 +788,7 @@ $(document).on('ready', function() {
 $(window).on('scroll', function() {
 	window.requestAnimationFrame(smoothShow);
 	// smoothShow();
-	// playVideo();
+	playVideo();
 });
 
 })($);
