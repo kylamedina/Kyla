@@ -303,7 +303,7 @@ $(window).load(function() {
 		// }
 	// }
 	if (head.desktop) {
-		$('#index-page .hero-full').mousemove(function(e) {
+		$('#index-page .hero-full, #home-page .hero-full').mousemove(function(e) {
 		    $('.big-logo svg').offset({
 		        left: (e.pageX-300),
 		        top: (e.pageY-300)
