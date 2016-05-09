@@ -2137,6 +2137,9 @@ div .column-section:first-child,
   padding-top px(90)
   padding-bottom px(100)
   margin auto
+  +below(420px)
+    padding-top px(65)
+    padding-bottom px(65)
   li
     display inline-block
     padding px(5) px(36)
@@ -2144,12 +2147,11 @@ div .column-section:first-child,
     fs(1.5rem)
     upcase()
     font-family Secondaryfont
-    
     font-weight 400
     letter-spacing px(4)
     +below(420px)
       fs(1.2rem)
-      padding px(5) px(20)
+      padding px(10) px(20)
       display block
     a
       color black
@@ -2335,10 +2337,13 @@ div .column-section:first-child,
   
 .video-cover
   // @extends $absolute-cover
-  width 100%
+  object-fit cover
+  min-width 100%
   height 100vh
   position fixed
   z-index 0
+  +below(768px)
+    width auto
 
 .white-background
   // @extends $absolute-cover
@@ -2355,6 +2360,14 @@ div .column-section:first-child,
   width 45vw
   margin-top 5%
   position relative
+  +below(420px)
+    margin-top 25%
+    position absolute
+    left 0
+    right 0
+    top 0 !important
+    bottom 0 !important
+    width 90%
   // .st0
   //   mix-blend-mode: screen
 
@@ -2364,4 +2377,7 @@ div .column-section:first-child,
     top 34%
     h1
       font-size 5.9vw
-      
+
+.hide-item-portfolio
+  +below(768px)
+    display none

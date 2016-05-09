@@ -314,7 +314,7 @@ $(window).load(function() {
 	// if ($('.video-cover').length >  0) { 
 	// 	$('.video-cover').get(0).play();
 	// }
-	// var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4');
+	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4', 'cognizant-sites1.mp4');
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -770,8 +770,11 @@ $(document).on('ready', function() {
 		  case 'free-association-page':
 			$('#main-nav .submenu li.fa').addClass('current-menu-item')
 			break;
-		  case 'clear-page':
-			$('#main-nav .submenu li.clear-li').addClass('current-menu-item')
+		 //  case 'clear-page':
+			// $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
+			// break;
+		  case 'success-academy-page':
+			$('#main-nav .submenu li.sa').addClass('current-menu-item')
 			break;
 		  default:
 			break;

@@ -49,8 +49,11 @@ small
 	opacity 0.5
 	position absolute
 	bottom 100px
-	right 0px
-	transform rotate(-90deg)
+	+below(420px)
+		left 20px
+	+above(420px)
+		right 0px
+		transform rotate(-90deg)
 	+below(768px)
 		margin-top 10px
 		fs(1rem)
