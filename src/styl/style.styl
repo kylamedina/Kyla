@@ -2112,6 +2112,9 @@ div .column-section:first-child,
 //     bottom -20px
 //     left 0
 //     right 0
+.main-footer   
+  left 0
+  right 0
 #index-page,
 #home-page
   .main-footer   
@@ -2121,15 +2124,19 @@ div .column-section:first-child,
     left 0
     right 0
     z-index 1
-    background-color rgba(#000,0.7)
-    mix-blend-mode: darken
+    background-color rgba(#000,0.6)
+    mix-blend-mode: multiply
+    -webkit-font-smoothing: antialiased
+    font-smoothing antialiased
 
     // screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion, hue, saturation, color, and luminosity
+      
 .social-list
   // background-color white
   text-align center
   padding-top px(90)
   padding-bottom px(100)
+  margin auto
   li
     display inline-block
     padding px(5) px(36)
@@ -2137,8 +2144,7 @@ div .column-section:first-child,
     fs(1.5rem)
     upcase()
     font-family Secondaryfont
-    -webkit-font-smoothing: antialiased
-    font-smoothing antialiased
+    
     font-weight 400
     letter-spacing px(4)
     +below(420px)
@@ -2146,7 +2152,7 @@ div .column-section:first-child,
       padding px(5) px(20)
       display block
     a
-      color white
+      color black
       position relative
       &:after
         content ''
@@ -2165,7 +2171,11 @@ div .column-section:first-child,
           opacity 1
           transition transform 0.4s cubic-bezier(.175, .885, .32, 1.1), opacity 0.3s ease
 
-
+#index-page,
+#home-page
+  .social-list
+    li a
+      color white
 .figcaption
   fs(1.6rem)
   // text-align center
