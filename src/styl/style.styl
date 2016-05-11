@@ -7,7 +7,7 @@ input[type=password],
 input[type=email],
 textarea
   font-family Headerfont
-  font-weight 700
+  // font-weight 700
   font-size 16px
   background transparent
   border none
@@ -151,7 +151,7 @@ a
     color #0d0d0d
   &.sr-button
     display inline-block
-    font-family 'Montserrat'
+    font-family Headerfont
     font-weight 400
     font-size 12px
     line-height 20px !important
@@ -364,8 +364,8 @@ div
     &:first-child
       margin-top 0px
 
-strong, b, dt
-  font-weight 600
+// strong, b, dt
+//   font-weight 600
 
 i, dfn, em
   font-style italic
@@ -377,16 +377,15 @@ strong em,
 b em,
 dt em
   font-style italic
-  font-weight 700
+  // font-weight 700
 
 blockquote
   margin 60px
   font-size 24px
   line-height 32px
-  font-family Tertiaryfont
-  font-weight 300
+  // font-weight 300
   color #0d0d0d
-  font-style italic
+  // font-style italic
   p
     margin 0
 
@@ -804,7 +803,7 @@ header.header-open:not(.header-transparent) + #page-body
     margin-top 10px
   .loader
     // margin-top 40px
-    font-family 'Montserrat'
+    font-family Headerfont
     font-weight 400
     text-transform uppercase
     letter-spacing 0.1em
@@ -910,8 +909,8 @@ nav#main-nav
     li
       & > a
         display inline-block
-        font-family Secondaryfont
-        font-weight 700
+        font-family Mediumfont
+        // font-weight 700
         font-size 14px
         line-height 30px
         text-transform uppercase
@@ -1101,8 +1100,8 @@ header.hero-invisible #menu .open-nav .hamburger:after
     padding-bottom 120px
     position relative
     text-align center
-    h1
-      font-weight 600
+    // h1
+    //   font-weight 600
     // h1
     //   font-family Fancy
     //   font-style italic
@@ -1125,7 +1124,7 @@ header.hero-invisible #menu .open-nav .hamburger:after
   position absolute
   z-index 10
   top 50%
-  left 20px
+  left 32px
   transform translateY(-50%)
 
 @media only screen and (max-width: 500px)
@@ -1207,14 +1206,14 @@ header.hero-invisible #menu .open-nav .hamburger:after
 #header-filter, #header-share
   z-index 11
   position fixed
-  top -150px
+  top -120px
   left 0
   width 100%
   min-height 150px
   overflow hidden
   transition top 0.4s ease
   top -150px
-  min-height 150px
+  min-height 120px
 
 #header-filter.filter-is-open, #header-share.share-is-open
   top 0px
@@ -1264,12 +1263,13 @@ header.hero-invisible #menu .open-nav .hamburger:after
   right 0px
   transition all 200ms ease
 
-header.hero-invisible #menu .open-filter,
-header #menu .open-share
-  opacity 0.5
-  // filter alpha(opacity=50)
-  // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
-  visibility visible
+#index-page
+  header.hero-invisible #menu .open-filter,
+  header #menu .open-share
+    opacity 0.5
+    // filter alpha(opacity=50)
+    // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"
+    visibility visible
 
 header #menu .open-filter:hover,
 header #menu .open-share:hover
@@ -1373,7 +1373,6 @@ header.hero-invisible #menu .open-share
         transform scale(1.05)
   .blog-content
     .time
-      font-family Tertiaryfont
       font-weight 400
       letter-spacing 0.04em
       background #0d0d0d
@@ -1840,7 +1839,7 @@ div .column-section:first-child,
       color primary
   &:after
     content attr(data-button)
-    font-family 'Montserrat'
+    font-family Headerfont
     font-weight 400
     font-size 12px
     text-transform uppercase
@@ -2119,7 +2118,6 @@ div .column-section:first-child,
   left 0
   right 0
 #index-page,
-#home-page,
 #about-page
   .main-footer   
     position fixed
@@ -2130,8 +2128,8 @@ div .column-section:first-child,
     z-index 1
     background-color rgba(#000,0.6)
     mix-blend-mode: multiply
-    -webkit-font-smoothing: antialiased
-    font-smoothing antialiased
+    // -webkit-font-smoothing: antialiased
+    // font-smoothing antialiased
 
     // screen, overlay, darken, lighten, color-dodge, color-burn, hard-light, soft-light, difference, exclusion, hue, saturation, color, and luminosity
       
@@ -2148,11 +2146,11 @@ div .column-section:first-child,
     display inline-block
     padding px(5) px(36)
     list-style none
-    fs(1.5rem)
+    fs(1.6rem)
     upcase()
-    font-family Secondaryfont
-    font-weight 400
-    letter-spacing px(4)
+    font-family Lightfont
+    // font-weight 400
+    letter-spacing px(5)
     +below(420px)
       fs(1.2rem)
       padding px(10) px(20)
@@ -2178,7 +2176,6 @@ div .column-section:first-child,
           transition transform 0.4s cubic-bezier(.175, .885, .32, 1.1), opacity 0.3s ease
 
 #index-page,
-#home-page,
 #about-page
   .social-list
     li a
@@ -2315,7 +2312,6 @@ div .column-section:first-child,
   display none
 
 #index-page,
-#home-page
   .open-filter
     display block
 
@@ -2364,8 +2360,9 @@ div .column-section:first-child,
 .big-logo
   margin auto
   width 45vw
-  margin-top 5%
-  position relative
+  left 0
+  right 0
+  position absolute
   +below(420px)
     margin-top 25%
     position absolute
@@ -2378,10 +2375,9 @@ div .column-section:first-child,
   //   mix-blend-mode: screen
 
 #index-page,
-#home-page,
 #about-page
   #hero.hero-full .page-title
-    top 34%
+    // top 34%
     h1
       font-size 6.5vw
 

@@ -17,13 +17,9 @@ h1, h2, h3, h4, h5, h6
 	background #0d0d0d
 	color white
 
-.text-light h1, 
-.text-light h2, 
-.text-light h3, 
-.text-light h4, 
-.text-light h5, 
-.text-light h6
-	color white
+.text-light 
+	h1, h2, h3, h4, h5, h6
+		color white
 
 h1
 	font-size 88px
@@ -31,8 +27,10 @@ h1
 	color lightblack
 	position relative
 	z-index 1
+	font-weight 900
 	letter-spacing 1px
 	// text-transform none
+	// font-family Mediumfont
 	+above(2000px)
 		fs(100px)
 	+below(768px)
@@ -44,9 +42,9 @@ small
 	display block
 	margin-top 24px
 	letter-spacing 2px
-	font-family Secondaryfont
-	// font-weight 600
-	opacity 0.5
+	font-family Bodyfont
+	font-weight 600
+	// opacity 0.5
 	position absolute
 	bottom 100px
 	+below(420px)
@@ -68,6 +66,9 @@ h3
 h4
 	font-size 27px
 	line-height 1.4
+	font-family Mediumfont
+	strong
+		font-family Headerfont
 	small
 		text-transform lowercase
 
@@ -102,7 +103,7 @@ h6 + h1, h6 + h2, h6 + h3, h6 + h4, h6 + h5, h6 + h6
 .alttitle
 	font-family Secondaryfont
 	font-weight 400
-	fs(1.6rem)
+	fs(1.8rem)
 	text-transform none
 	letter-spacing 0.04em
 
