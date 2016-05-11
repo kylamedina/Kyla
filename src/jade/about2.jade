@@ -1,102 +1,67 @@
 extends layouts/layout
 
 block content
-  include includes/header-dark.jade
+  include includes/header-light.jade
+  img.video-cover(data-aload='bg3.gif')
   #page-content.page-about
     img.video-cover(data-aload='bg3.gif')
-    section#page-body
-      
-      .spacer.spacer-small
-      //- img.golden-triangle(src='svg/golden_triangle.svg' data-stellar-ratio="1.2")
-      //- img.golden-triangle2(src='svg/golden_triangle2.svg' data-stellar-ratio="1.6")
-      .wrapper
-        img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
-        h1
+    section#hero.hero-full.multiply.text-light 
+      .page-title.hleft.homepage-title
+        h1(data-stellar-ratio="1.9")
           strong
             | Mostly made
             br
             span of triangles
             | .
-        //- .spacer.spacer-big
-        //- //- div.gap-divider
-        //- .spacer.spacer-big
-        //- .spacer.spacer-big
-        p
+        .icon-scroll(data-stellar-ratio="1.8")
+      //- a#scroll-down(href='#') Scroll Down
+    section#page-body
+      
+        .spacer.spacer-small
+        //- img.golden-triangle(src='svg/golden_triangle.svg' data-stellar-ratio="1.2")
+        //- img.golden-triangle2(src='svg/golden_triangle2.svg' data-stellar-ratio="1.6")
+        .wrapper
+          img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
           
-          | I'm a digital creative 
-          | with a passion for 
-          br
-          | minimalism, design psychology,
-          | and geometry.
-        p
-          | I'm currently a designer 
-          | and creative
-          br
-          | technologist at 
-          | Makeable
-          | .
-        //- note
-            | Buy it, use it, break it, fix it,
-            | Trash it, change it, mail - upgrade it,
-            | Charge it, point it, zoom it, press it,
-            | Snap it, work it, quick - erase it,
-            | Write it, cut it, paste it, save it,
-            | Load it, check it, quick - rewrite it,
-            | Plug it, play it, burn it, rip it,
-            | Drag and drop it, zip - unzip it,
-            | Lock it, fill it, call it, find it,
-            | View it, code it, jam - unlock it,
-            | Surf it, scroll it, pause it, click it,
-            | Cross it, crack it, switch - update it,
-            | Name it, rate it, tune it, print it,
-            | Scan it, send it, fax - rename it
-            | Touch it, bring it, pay it, watch it,
-            | Turn it, leave it, start - format it.
-        .spacer.spacer-big
-        .spacer.spacer-big
-          //- .wrapper-small
-          //-   div.align-center.has-animation(style='text-align:center;')
-          //-     .spacer.spacer-small
-          //-     h2(style='text-align:center; border-bottom: 2px solid #222; display:inline-block;font-size:14px;line-height:1.4') Things I like
-          //-     p Photoshop &bull; Illustrator &bull; Indesign &bull; After Effects &bull; Sketch &bull; Animate &bull; Hype &bull; Lightroom &bull; Macaw &bull; Invision &bull; Sublime &bull; Xcode &bull; Github &bull; Origami &bull; UXPin &bull; Muse &bull; XD &bull; Dropmark
-          //-   .spacer.spacer-big
-          //- .wrapper
-          //-   .spacer.spacer-big
-          //-   .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
-          //-     .wolf-item.wfull.wright.wolf-text(data-speed='1.3')
-          //-       .wolf-item-inner(style='width:40%;')
-          //-         .wolf-media
-          //-           img(src='svg/golden_triangle2.svg', alt='' style='opacity:0.1')
-          //-         .wolf-caption(style='width:55%;')
-                    //- h3
-                    //-   strong Design
-                    //- h5.alttitle Worth a thousand words
-                    //-   a.sr-button.sr-button1.mini-button(href='portfolio-single-1.html') See Example
-          //- .wolf-item.wfull.wleft.wolf-text(data-speed='1.6')
-          //-   .wolf-item-inner(style='width:40%;')
-          //-     //- .wolf-media
-          //-     //-   img(src='img/blue_03.jpg', alt='SEO NAME')
-          //-     .wolf-caption(style='width:55%;')
-          //-       h3
-          //-         strong Development
-          //-       h5.alttitle Worth a thousand words
-          //-       p
-          //-         | Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-                //- p
-                //-   a.sr-button.sr-button1.mini-button(href='portfolio-single-2.html') See Example
-        //-   .wolf-item.wfull.wright.wolf-text(data-speed='0.9')
-        //-     .wolf-item-inner(style='max-width:40%;')
-        //-       //- .wolf-media
-        //-       //-   img(src='img/blue_01.jpg', alt='SEO NAME')
-        //-       .wolf-caption(style='width:55%;')
-        //-         h3
-        //-           strong Photography
-        //-         h5.alttitle Worth a thousand words
-        //-         p
-        //-           | I have had success shooting personal projects as well has experience art directing photo shoots.
-        //-         //- p
-        //-         //-   a.sr-button.sr-button1.mini-button(href='portfolio-single-3.html') See Example
+          //- .spacer.spacer-big
+          //- //- div.gap-divider
+          //- .spacer.spacer-big
+          //- .spacer.spacer-big
+          h4(style='position:relative;z-index:10;text-transform:none')
+            
+            | I'm a digital creative 
+            | with a passion for 
+            br
+            | minimalism, design psychology,
+            | and geometry.
+          h4(style='position:relative;z-index:10;text-transform:none')
+            | I'm currently a designer 
+            | and creative
+            br
+            | technologist at 
+            | Makeable
+            | .
+          //- note
+              | Buy it, use it, break it, fix it,
+              | Trash it, change it, mail - upgrade it,
+              | Charge it, point it, zoom it, press it,
+              | Snap it, work it, quick - erase it,
+              | Write it, cut it, paste it, save it,
+              | Load it, check it, quick - rewrite it,
+              | Plug it, play it, burn it, rip it,
+              | Drag and drop it, zip - unzip it,
+              | Lock it, fill it, call it, find it,
+              | View it, code it, jam - unlock it,
+              | Surf it, scroll it, pause it, click it,
+              | Cross it, crack it, switch - update it,
+              | Name it, rate it, tune it, print it,
+              | Scan it, send it, fax - rename it
+              | Touch it, bring it, pay it, watch it,
+              | Turn it, leave it, start - format it.
+          .spacer.spacer-big
+
         //- .spacer.spacer-small
+        //- LOGOS------------------------------------------------
         .wrapper
           div.align-center.has-animation(style='text-align:center;')
             .spacer.spacer-small
@@ -127,4 +92,3 @@ block content
             .column.one-fifth.last-col.
               <svg id="mkbl" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 66.3 66.3"><title>Makeable</title><path fill="#464646" d="M60.5 26.6l4.3-3.3c-.6-1.9-1.4-3.8-2.3-5.5l-5.3.7-3.6-4.7 2.1-5c-1.5-1.4-3-2.6-4.7-3.6l-4.3 3.3-5.5-2.3-.7-5.4C38.6.4 36.6.1 34.6 0l-2.1 5-5.9.8-3.3-4.3c-1.9.6-3.8 1.3-5.5 2.3l.7 5.3-4.7 3.6-5-2.1c-1.4 1.5-2.6 3-3.6 4.7l3.3 4.3-2.3 5.5-5.3.7c-.4 1.9-.7 3.9-.8 5.9l5 2.1.8 5.9L1.6 43c.6 1.9 1.3 3.8 2.3 5.5l5.4-.7 3.6 4.7-2.1 5c1.5 1.4 3 2.6 4.7 3.6l4.3-3.3 5.5 2.3.7 5.3c1.9.4 3.9.7 5.9.8l2.1-5 5.9-.8 3.3 4.3c1.9-.6 3.8-1.4 5.5-2.3l-.7-5.3 4.7-3.6 5 2.1c1.4-1.5 2.6-3 3.6-4.7L58 46.6l2.3-5.5 5.3-.7c.4-1.9.7-3.9.8-5.9l-5-2.1-.9-5.8z"/><path fill="#FFF" d="M36.3 58.1C50.1 56.3 59.8 43.7 58 29.9 56.3 16.2 43.7 6.4 29.9 8.2 16.2 9.9 6.4 22.6 8.2 36.3c1.7 13.8 14.4 23.5 28.1 21.8zm-5.9-46.2c11.7-1.5 22.4 6.8 23.9 18.5s-6.8 22.4-18.4 23.9C24.2 55.8 13.5 47.5 12 35.8c-1.6-11.6 6.7-22.4 18.4-23.9z"/><path fill="#FFF" d="M44.3 29.2c.5-1.5.7-2.5.7-3.4-.1-1.4-.9-2.7-2.4-2.7-1.2 0-3.2.8-4.7 2.4-.2-1.3-1-2.4-2.4-2.4-1.1 0-3.5 1.1-4.9 3.1L31 25c.7-1.8-.2-2-.7-2h-1.9s-.2 0-.3.2c-.9 2.4-11.1 3.9-10.8 7.6.2 2 2.6 1.7 4 1.3.5-.1.3-.3 0-.4-.4-.2-.7-.5-.7-1.1-.1-1.7 2.9-2.4 6.5-3.6 0 0-2.5 9.4-4.3 12.8l-.3.6c-.4.5.1.5.1.5h3.8l3.7-11.7c1.1-1.3 2.2-2 2.9-2 .3 0 .6.2.6.5 0 .5-.4 1.7-.9 3.2l-3.2 9.9h3.9l3.7-11.5c1.1-1.4 2.3-2.2 3-2.2.3 0 .5.2.6.5 0 .5-.4 1.7-.9 3.2 0 0-2.6 8.4-2.6 8.7 0 0-.6 1.9-.6 2.6v.2c-.2 2.5.8 3.8 2.7 3.8 2.8 0 3.4-2 3.4-2s-3.5 1.4-1.8-3.8l3.4-11.1z"/></svg>
           .spacer.spacer-medium
-          

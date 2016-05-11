@@ -17,8 +17,8 @@ requireDir = require('require-dir')
 requireDir './tasks',
   recurse: true
 
-# gulp.task 'watch', ['browser-sync'], ->
-gulp.task 'watch', ->
+gulp.task 'watch', ['browser-sync'], ->
+	# gulp.task 'watch', ->
 	gulp.watch [ 'src/static/**/*' ], ['static']
 	gulp.watch [ 'src/img/**/*' ], ['img']
 	gulp.watch [ 'src/svg/**/*.svg' ], ['svg']

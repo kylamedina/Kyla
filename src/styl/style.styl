@@ -414,10 +414,12 @@ p code
   margin 0
   min-width 1080px
 
+#index-page #page-body
+  background-color white
 #page-body
   padding-top 150px
   padding-top 150px
-  background-color white
+  // background-color white
   position relative
   z-index 1
   &.nopadding
@@ -597,25 +599,26 @@ header
               transition top 0.3s ease 1.0s, opacity 0.3s ease 1.0s
             &:nth-child(8n)
               transition top 0.3s ease 1.1s, opacity 0.3s ease 1.1s
-    &:not(.header-transparent)
-      .menu-light
-        nav#main-nav
-          & > ul
-            & > li
-              & > a
-                color #0d0d0d
-    &.header-transparent
-      #menu
-        &.menu-light
-          .open-nav
-            .text
-              color #ffffff
-            .hamburger
-              &:before
-                background-color #ffffff
-              &:after
-                background-color #ffffff
+  &:not(.header-transparent)
+    .menu-light
+      nav#main-nav
+        & > ul
+          & > li
+            & > a
+              color #0d0d0d
   &.header-transparent
+    #menu
+      &.menu-light
+        .open-nav
+          .text
+            color #ffffff
+          .hamburger
+            &:before
+              background-color #ffffff
+            &:after
+              background-color #ffffff
+  &.header-transparent
+    background transparent
     &:after
       background transparent
       display none
@@ -2343,6 +2346,7 @@ div .column-section:first-child,
   min-width 100%
   height 100vh
   position fixed
+  // top 0
   z-index 0
   +below(768px)
     width auto
@@ -2374,18 +2378,17 @@ div .column-section:first-child,
   //   mix-blend-mode: screen
 
 #index-page,
-#home-page
+#home-page,
+#about2-page
   #hero.hero-full .page-title
     top 34%
     h1
-      font-size 8vw
+      font-size 6.5vw
 
 .hide-item-portfolio
   +below(768px)
     display none
-
-body,html
-  cursor auto
+    
 #index-page
   #hero:hover
     cursor none
@@ -2393,4 +2396,11 @@ body,html
       cursor auto;
   #header .header-inner:hover
     cursor auto;
+
+#about2-page #page-body
+  background-color white
+  min-height 100vh
     
+.multiply
+  background-color rgba(#000,0.8)
+  mix-blend-mode: multiply
