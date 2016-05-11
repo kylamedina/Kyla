@@ -521,7 +521,7 @@ header
     position absolute
   .header-inner
     padding 0px 40px
-    height 0
+    height auto
     margin-top 60px
     margin-bottom 60px
     &.wrapper
@@ -2116,7 +2116,8 @@ div .column-section:first-child,
   left 0
   right 0
 #index-page,
-#home-page
+#home-page,
+#about2-page
   .main-footer   
     position fixed
     // height 100px
@@ -2174,7 +2175,8 @@ div .column-section:first-child,
           transition transform 0.4s cubic-bezier(.175, .885, .32, 1.1), opacity 0.3s ease
 
 #index-page,
-#home-page
+#home-page,
+#about2-page
   .social-list
     li a
       color white
@@ -2235,7 +2237,7 @@ div .column-section:first-child,
   width 700px
   height auto
   right 8%
-  top 6%
+  top 8%
   z-index 0
   opacity 0.9
   +below(768px)
@@ -2246,7 +2248,7 @@ div .column-section:first-child,
     width 50%
   +above(2000px)
     width 1000px
-    top 8%
+    top 10%
 .golden-triangle
   position absolute
   width 25%
@@ -2376,8 +2378,19 @@ div .column-section:first-child,
   #hero.hero-full .page-title
     top 34%
     h1
-      font-size 5.5vw
+      font-size 6.9vw
 
 .hide-item-portfolio
   +below(768px)
     display none
+
+body,html
+  cursor auto
+#index-page
+  #hero:hover
+    cursor none
+    #header .header-inner:hover
+      cursor auto;
+  #header .header-inner:hover
+    cursor auto;
+    

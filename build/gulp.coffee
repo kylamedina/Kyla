@@ -18,6 +18,7 @@ requireDir './tasks',
   recurse: true
 
 gulp.task 'watch', ['browser-sync'], ->
+	# gulp.task 'watch', ->
 	gulp.watch [ 'src/static/**/*' ], ['static']
 	gulp.watch [ 'src/img/**/*' ], ['img']
 	gulp.watch [ 'src/svg/**/*.svg' ], ['svg']
@@ -83,6 +84,6 @@ gulp.task 'clear', (done) ->
   $.cache.clearAll done
 
 gulp.task 'static', ->
-	gulp.src(['src/static/**/*'], { base: 'src/static/'})
+	gulp.src(['src/static/*'], { base: 'src/static/'})
 		.pipe $.plumber(errorHandler: onError)
 		.pipe gulp.dest('app/')
