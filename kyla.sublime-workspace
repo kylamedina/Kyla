@@ -519,6 +519,17 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "extends layouts/layout\nblock head\n  style.\n    @font-face {\n    font-family: 'Proxima Nova-Regular';\n    src: url('cognizant.hyperesources/Proxima Nova-Regular.otf') format('opentype');\n    }\n  style.\n    @font-face {\n    font-family: 'Proxima Nova-Bold';\n    src: url('cognizant.hyperesources/Proxima Nova-Bold.otf') format('opentype');\n    }\nblock content\n  //- include includes/triangles.jade\n  include includes/header-light.jade\n  #page-content.page-cognizant\n    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant2-large.jpg')\n      .hero-overlay\n      .page-title\n        h5.alttitle Design\n        h1\n          strong Cognizant\n      //- a#scroll-down(href='#') Scroll Down\n\n    section#page-body.cognizant-body\n      \n      .wrapper-small\n        h4.align-center\n          strong Modular Design System\n        h6.alttitle.align-center for 100+ sites across the internet\n        .column-section.clearfix\n            p Cognizant is a NASDAQ-100 and S&amp;P 500 international corporation that provides custom information technology, consulting, and business process outsourcing services. It's the third largest IT company in the world behind Accenture and IBM and it prides itself for pushing the limits of&nbsp;technology.\n            p Cognizant needed a design vocabulary to unify its 100+ sites for its products and services. After auditing all the sites and identifing key elements, patterns, and pages, I worked in close collaboration with internal design and development teams at Cognizant to create a holistic design system that could adapt to content anywhere in the Cognizant network of websites and align design decision-making moving forward. This strategy eventually will take shape as a front-end code base similar to Twitter Bootstrap and user-centric resource site with searchable content, educational materials, design patterns, and code snippets.\n        .spacer.spacer-small\n\n      \n      style.\n        .issuuembed > div > div:nth-of-type(2) {display:none}\n\n      //- iframe#cog-styleguide(width='1000', height='600', src='//e.issuu.com/embed.html#2658242/35303204', frameborder='0', allowfullscreen='' style='display:none')\n      \n      #cog-styleguide.issuuembed(data-configid='2658242/35404386', style='display:none')\n        script(type='text/javascript', src='//e.issuu.com/embed.js', async='true')\n\n      .wrapper\n        .spacer.spacer-big\n        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')\n          .wolf-item.is-caption.is-caption--left\n            .wolf-item-inner\n              .figcaption\n                p A work-in-progress view of the module pasteboard. Each module includes 3 or 4 responsive views depending on the needs of the module. There are also variations for light and dark backgrounds that provides visual breaks in the horizontal stripe layout that is created as the modules are built up.\n          .wolf-item\n            .wolf-item-inner\n              .wolf-media.portfolio-media.browser-chrome\n                a.img-hover.browser-shadow(href='cognizant-sites3.mp4'  data-rel='lightcase:cognizant')\n                  .loader\n                  img(data-aload='img/cognizant/cogs_03-large.jpg' srcset=\"img/cognizant/cogs_03-large.jpg 640w, img/cognizant/cogs_03-large.jpg 800w, img/cognizant/cogs_03-large.jpg 1280w\" alt='Share Functionality')\n          .spacer.spacer-medium\n          \n          \n      video(data-aload=\"cognizant-sites1.mp4\" preload=\"auto\" loop autoplay)\n        p Your browser does not support the \n          code video\n          |  element.\n      img(src=\"img/cognizant/cogs_01-large.jpg\" srcset=\"img/cognizant/cogs_01-small.jpg 640w, img/cognizant/cogs_01-medium.jpg 800w, img/cognizant/cogs_01-large.jpg 2250w\" alt=\"\")\n      .wrapper\n        .spacer.spacer-big\n        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')\n            .wolf-item.no-mobile-video(data-speed=\"3\")\n              .wolf-item-inner\n                .wolf-media.portfolio-media\n                  a(href='#cog-styleguide', data-rel='lightcase:cognizant')\n                     .loader\n                     video(data-aload='cognizant-sites2.mp4' preload=\"auto\" loop)\n                        p Your browser does not support the \n                          code video\n                          |  element.\n\n            .wolf-item.is-caption(data-speed=\"-4\")\n              .wolf-item-inner\n                p.figcaption I created a styleguide to guide development, aid in the creation of future modules, standardize custom site sections and interactions. It includes responsive vertical and baseline grids, a modular type scale, interactivity guidelines, and photo treatment step-through.\n      //- .wrapper-mini\n      //-   .spacer.spacer-big\n      //-   h6\n      //-     strong References\n      //-   p\n      //-     a(href='http://vanseodesign.com/web-design/modular-benefits/' target='_blank') Modular Design\n      //-     br\n      //-     a(href='http://bradfrost.com/blog/post/atomic-web-design/' target='_blank') Atomic Design\n      //-     br\n      //-     a(href='http://getbootstrap.com/' target='_blank') Twitter Bootstrap\n      a.hidden(href='img/cognizant/cogs_04-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_05-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_06-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_07-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_08-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_09-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_10-large.jpg'  data-rel='lightcase:cognizant')\n      .wrapper\n        .spacer.spacer-big\n        ul.single-pagination\n          li.prev\n            a(href='mkbl.html')\n              img(src='img/projects/mkbl-small.jpg', alt='prev')\n              span Previous Project\n          li.backtoworks\n            a(href='/') Back To Works\n          li.next\n            a(href='esquire.html')\n              img(src='img/projects/esquire-small.jpg', alt='next')\n              span Next Project",
+			"file": "src/jade/cognizant-sites.jade",
+			"file_size": 6231,
+			"file_write_time": 131073221710000000,
+			"settings":
+			{
+				"buffer_size": 6231,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -589,7 +600,7 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Kyla/Sites/Kyla"
+		"/Users/kyla/Sites/Kyla"
 	],
 	"file_history":
 	[
@@ -950,8 +961,99 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/jade/cognizant-sites.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6231,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content"
+							],
+							"hasHeader": false,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1337.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1003,6 +1105,10 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"site",
+				"src/jade/cognizant-sites.jade"
+			],
 			[
 				"st",
 				"src/styl/style.styl"
@@ -1510,10 +1616,6 @@
 			[
 				"slider",
 				"src/jade/modules/flowbox-slider.jade"
-			],
-			[
-				"com",
-				"src/styl/modules/compact-profile-box.styl"
 			]
 		],
 		"width": 0.0

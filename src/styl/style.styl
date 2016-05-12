@@ -2227,9 +2227,11 @@ div .column-section:first-child,
   svg
     display block
     @extend $absolute-cover
+    bottom 2px
     margin auto
     max-width px(120)
     max-height px(80)
+    overflow visible
 
 
 .profile-pic
@@ -2379,7 +2381,7 @@ div .column-section:first-child,
   #hero.hero-full .page-title
     // top 34%
     h1
-      font-size 6.5vw
+      font-size 9.8vw
 
 .hide-item-portfolio
   +below(768px)
@@ -2400,3 +2402,6 @@ div .column-section:first-child,
 .multiply
   background-color rgba(#000,0.8)
   mix-blend-mode: multiply
+  
+.about-logo
+  width 40px
