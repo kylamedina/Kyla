@@ -648,7 +648,53 @@ $(window).load(function() {
 	// 	return false;
 		
 	// });
-	
+	// $('.modal-menu li').on('mouseover', function(argument) {
+	// 	var elmentID = $(this).attr('class')
+	// 	var videoBgSrc = $('.video-cover')
+	// 	switch (elmentID) {
+	// 	  case 'artnet':
+	// 		videoBgSrc.attr('src', 'img/projects/artnet-large.jpg')
+	// 		break;
+	// 	  case 'akc':
+	// 		videoBgSrc.attr('src', 'img/projects/akc-large.jpg')
+	// 		break;
+	// 	  case 'twc':
+	// 		videoBgSrc.attr('src', 'img/projects/akc-large.jpg')
+	// 		break;
+	// 	  case 'cognizant-ixd':
+	// 		videoBgSrc.attr('src', 'img/projects/cognizant-large.jpg')
+	// 		break;
+	// 	  case 'cognizant-design':
+	// 		videoBgSrc.attr('src', 'img/projects/cognizant2-large.jpg')
+	// 		break;
+	// 	  case 'hwc':
+	// 		videoBgSrc.attr('src', 'img/projects/hwc-large.jpg')
+	// 		break;
+	// 	  case 'pid':
+	// 		videoBgSrc.attr('src', 'img/projects/pid-large.jpg')
+	// 		break;
+	// 	  case 'mkbl':
+	// 		videoBgSrc.attr('src', 'img/projects/mkbl-large.jpg')
+	// 		break;
+	// 	  case 'esquire':
+	// 		videoBgSrc.attr('src', 'img/projects/esquire-large.jpg')
+	// 		break;
+	// 	  case 'ct':
+	// 		videoBgSrc.attr('src', 'img/projects/ct-large.jpg')
+	// 		break;
+	// 	  case 'fa':
+	// 		videoBgSrc.attr('src', 'img/projects/fa-large.jpg')
+	// 		break;
+	// 	 //  case 'clear-page':
+	// 		// videoBgSrc.attr('src', 'img/projects/akc-large.jpg')
+	// 		// break;
+	// 	  case 'sa':
+	// 		videoBgSrc.attr('src', 'img/projects/sa-large.jpg')
+	// 		break;
+	// 	  default:
+	// 		break;
+	// 	}
+	// })
 	if ($('.waypoint-parent').length != 0) {
 		$( '.waypoint-parent' ).each(function( index ) {
 		  
