@@ -91,10 +91,10 @@ footer .footer-inner { padding: 100px 0; }
 /* Menu */	
 header:after { position: fixed; top: 0px; left: auto; right: -300px; width: 300px; height: 100%;	transition: right 0.4s ease; background: #ffffff !important; display: block !important; }
 header.nav-is-open:after { right: 0; }
-nav#main-nav { visibility: visible; position: fixed; top: 150px; right: -240px; padding-right: 20px; width: 220px; height: calc(100% - 190px); overflow-y: scroll; transition: all 0.4s ease; opacity: 0; filter: alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	 }
-header.nav-is-open #menu nav#main-nav { right: 20px; opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  }
+nav#main-nav { visibility: visible; position: fixed; top: 150px; right: -240px; padding-right: 20px; width: 380px; height: calc(100% - 190px); overflow-y: scroll; transition: all 0.4s ease; opacity: 0; filter: alpha(opacity=0); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";	 }
+header.nav-is-open #menu nav#main-nav { padding-right: 60px;right: -20px; opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";  }
 nav#main-nav ul > li { margin: 0; display: block; position: relative; transition: none; top: 0; opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; text-align: right; }
-nav#main-nav ul li > ul.submenu { position: relative; display: none; top: 0 !important; right: 0; width: 100%; padding: 0 0 20px 0; opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; visibility: visible; transition: none !important; }
+nav#main-nav ul li > ul.submenu { position: relative; display: none; top: 0 !important; right: -60px; width: 100%; padding: 0 60px 20px 0; opacity: 1; filter: alpha(opacity=100); -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"; visibility: visible; transition: none !important; }
 nav#main-nav ul li > ul.submenu > li { margin: 0; padding: 0 !important; background: none; }
 nav#main-nav ul li > ul.submenu > li a { color: #0d0d0d; }
 nav#main-nav ul li > ul.submenu > li a:hover, nav#main-nav ul li > ul.submenu > li.current-menu-item > a { color: #ea4452; }

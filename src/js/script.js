@@ -397,11 +397,13 @@ $(window).load(function() {
 	/*---------------------------------------------- 
 					 O P E N   N A V 
 	------------------------------------------------*/
-	$('header').on("click", ".open-nav", function() { 
-		$('header').toggleClass('nav-is-open'); 
+	$('.open-nav').on("click", function() { 
+		$('#header').toggleClass('nav-is-open');
+		// if ($('#header').hasClass('nav-is-open')) {
+		$('body').removeClass('modal-is-active');
+		// }
 		return false;
 	});
-	
 	
 	
 	
@@ -838,6 +840,12 @@ $(window).on('scroll', function() {
 	window.requestAnimationFrame(smoothShow);
 	// smoothShow();
 	playVideo();
+});
+$('#main-nav .projects').on('click', function(e) {
+	e.preventDefault();
+	if ($(window).width() > 1024) {
+		$('body').toggleClass('modal-is-active');
+	}
 });
 
 })($);
