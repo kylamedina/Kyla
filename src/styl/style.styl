@@ -2376,12 +2376,17 @@ div .column-section:first-child,
   // .st0
   //   mix-blend-mode: screen
 
-#index-page,
+#index-page
+  #hero.hero-full .page-title
+    // top 34%
+    h1
+      font-size 8.7vw
+
 #about-page
   #hero.hero-full .page-title
     // top 34%
     h1
-      font-size 9.8vw
+      font-size 10vw
 
 .hide-item-portfolio
   +below(768px)
@@ -2405,3 +2410,8 @@ div .column-section:first-child,
   
 .about-logo
   width 40px
+  
+h6.email-link a
+  color purple
+  &:hover
+    color pink

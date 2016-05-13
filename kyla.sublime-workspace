@@ -520,13 +520,77 @@
 	"buffers":
 	[
 		{
-			"contents": "extends layouts/layout\nblock head\n  style.\n    @font-face {\n    font-family: 'Proxima Nova-Regular';\n    src: url('cognizant.hyperesources/Proxima Nova-Regular.otf') format('opentype');\n    }\n  style.\n    @font-face {\n    font-family: 'Proxima Nova-Bold';\n    src: url('cognizant.hyperesources/Proxima Nova-Bold.otf') format('opentype');\n    }\nblock content\n  //- include includes/triangles.jade\n  include includes/header-light.jade\n  #page-content.page-cognizant\n    section#hero.hero-big.parallax-section.text-light(data-parallax-image='img/projects/cognizant2-large.jpg')\n      .hero-overlay\n      .page-title\n        h5.alttitle Design\n        h1\n          strong Cognizant\n      //- a#scroll-down(href='#') Scroll Down\n\n    section#page-body.cognizant-body\n      \n      .wrapper-small\n        h4.align-center\n          strong Modular Design System\n        h6.alttitle.align-center for 100+ sites across the internet\n        .column-section.clearfix\n            p Cognizant is a NASDAQ-100 and S&amp;P 500 international corporation that provides custom information technology, consulting, and business process outsourcing services. It's the third largest IT company in the world behind Accenture and IBM and it prides itself for pushing the limits of&nbsp;technology.\n            p Cognizant needed a design vocabulary to unify its 100+ sites for its products and services. After auditing all the sites and identifing key elements, patterns, and pages, I worked in close collaboration with internal design and development teams at Cognizant to create a holistic design system that could adapt to content anywhere in the Cognizant network of websites and align design decision-making moving forward. This strategy eventually will take shape as a front-end code base similar to Twitter Bootstrap and user-centric resource site with searchable content, educational materials, design patterns, and code snippets.\n        .spacer.spacer-small\n\n      \n      style.\n        .issuuembed > div > div:nth-of-type(2) {display:none}\n\n      //- iframe#cog-styleguide(width='1000', height='600', src='//e.issuu.com/embed.html#2658242/35303204', frameborder='0', allowfullscreen='' style='display:none')\n      \n      #cog-styleguide.issuuembed(data-configid='2658242/35404386', style='display:none')\n        script(type='text/javascript', src='//e.issuu.com/embed.js', async='true')\n\n      .wrapper\n        .spacer.spacer-big\n        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')\n          .wolf-item.is-caption.is-caption--left\n            .wolf-item-inner\n              .figcaption\n                p A work-in-progress view of the module pasteboard. Each module includes 3 or 4 responsive views depending on the needs of the module. There are also variations for light and dark backgrounds that provides visual breaks in the horizontal stripe layout that is created as the modules are built up.\n          .wolf-item\n            .wolf-item-inner\n              .wolf-media.portfolio-media.browser-chrome\n                a.img-hover.browser-shadow(href='cognizant-sites3.mp4'  data-rel='lightcase:cognizant')\n                  .loader\n                  img(data-aload='img/cognizant/cogs_03-large.jpg' srcset=\"img/cognizant/cogs_03-large.jpg 640w, img/cognizant/cogs_03-large.jpg 800w, img/cognizant/cogs_03-large.jpg 1280w\" alt='Share Functionality')\n          .spacer.spacer-medium\n          \n          \n      video(data-aload=\"cognizant-sites1.mp4\" preload=\"auto\" loop autoplay)\n        p Your browser does not support the \n          code video\n          |  element.\n      img(src=\"img/cognizant/cogs_01-large.jpg\" srcset=\"img/cognizant/cogs_01-small.jpg 640w, img/cognizant/cogs_01-medium.jpg 800w, img/cognizant/cogs_01-large.jpg 2250w\" alt=\"\")\n      .wrapper\n        .spacer.spacer-big\n        .wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')\n            .wolf-item.no-mobile-video(data-speed=\"3\")\n              .wolf-item-inner\n                .wolf-media.portfolio-media\n                  a(href='#cog-styleguide', data-rel='lightcase:cognizant')\n                     .loader\n                     video(data-aload='cognizant-sites2.mp4' preload=\"auto\" loop)\n                        p Your browser does not support the \n                          code video\n                          |  element.\n\n            .wolf-item.is-caption(data-speed=\"-4\")\n              .wolf-item-inner\n                p.figcaption I created a styleguide to guide development, aid in the creation of future modules, standardize custom site sections and interactions. It includes responsive vertical and baseline grids, a modular type scale, interactivity guidelines, and photo treatment step-through.\n      //- .wrapper-mini\n      //-   .spacer.spacer-big\n      //-   h6\n      //-     strong References\n      //-   p\n      //-     a(href='http://vanseodesign.com/web-design/modular-benefits/' target='_blank') Modular Design\n      //-     br\n      //-     a(href='http://bradfrost.com/blog/post/atomic-web-design/' target='_blank') Atomic Design\n      //-     br\n      //-     a(href='http://getbootstrap.com/' target='_blank') Twitter Bootstrap\n      a.hidden(href='img/cognizant/cogs_04-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_05-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_06-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_07-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_08-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_09-large.jpg'  data-rel='lightcase:cognizant')\n      a.hidden(href='img/cognizant/cogs_10-large.jpg'  data-rel='lightcase:cognizant')\n      .wrapper\n        .spacer.spacer-big\n        ul.single-pagination\n          li.prev\n            a(href='mkbl.html')\n              img(src='img/projects/mkbl-small.jpg', alt='prev')\n              span Previous Project\n          li.backtoworks\n            a(href='/') Back To Works\n          li.next\n            a(href='esquire.html')\n              img(src='img/projects/esquire-small.jpg', alt='next')\n              span Next Project",
-			"file": "src/jade/cognizant-sites.jade",
-			"file_size": 6231,
-			"file_write_time": 131073221710000000,
+			"file": "src/jade/cognizant-design.jade",
 			"settings":
 			{
-				"buffer_size": 6231,
+				"buffer_size": 6858,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "extends layouts/layout\n\nblock content\n  //- include includes/triangles.jade\n  include includes/header-dark.jade\n    \n  #page-content.page-home\n    //- img.profile-pic(src=\"img/profile-medium.jpg\" srcset=\"img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w\" alt=\"Profile Photo\" data-stellar-ratio=\"1.8\")\n    \n     \n    section#hero.hero-full\n      //- video.video-cover(data-aload='nyc.mp4' loop preload ='')\n      //- video.video-cover(loop preload ='')\n      //-   source(src=\"subway.mp4\" type=\"video/mp4\")\n      //-   source(src=\"subway.webm\" type=\"video/webm\")\n      img.video-cover(data-aload='bg1.gif')\n      .white-background\n        .big-logo(data-stellar-ratio=\"1.8\").\n          <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><style>.st0{fill:#333}.st1{fill:url(#XMLID_3_)}.st2{fill:#fff}.st3{fill:url(#XMLID_9_)}.st4{opacity:.72;fill:url(#XMLID_10_);enable-background:new}.st5{fill:url(#XMLID_11_)}.st6{display:none}.st7{display:inline;fill:#fff}</style><path id=\"XMLID_90_\" class=\"st0\" d=\"M1.8 89.4l44.9-77.8 44.9 77.8z\"/><linearGradient id=\"XMLID_3_\" gradientUnits=\"userSpaceOnUse\" x1=\"65.463\" y1=\"-436.79\" x2=\"91.603\" y2=\"-482.067\" gradientTransform=\"translate(0 504)\"><stop offset=\"0\" stop-color=\"#fe7988\"/><stop offset=\".196\" stop-color=\"#cf587e\"/><stop offset=\".415\" stop-color=\"#573590\"/><stop offset=\".591\" stop-color=\"#273d97\"/><stop offset=\".773\" stop-color=\"#2d3868\"/><stop offset=\".913\" stop-color=\"#313442\"/><stop offset=\"1\" stop-color=\"#333\"/></linearGradient><path id=\"XMLID_180_\" class=\"st1\" d=\"M45.9 55.9L72 10.6l26.2 45.3z\"/></svg>\n      //- .big-logo(data-stellar-ratio=\"1.8\").\n      //-   <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><style>.sts0{fill:#333;opacity:0;}.st1{fill:url(#XMLID_3_2)}.st2{fill:#fff}.st3{fill:url(#XMLID_9_)}.st4{opacity:.72;fill:url(#XMLID_10_);enable-background:new}.st5{fill:url(#XMLID_11_)}.st6{display:none}.st7{display:inline;fill:#fff}</style><path id=\"XMLID_90_\" class=\"sts0\" d=\"M1.8 89.4l44.9-77.8 44.9 77.8z\"/><linearGradient id=\"XMLID_3_2\" gradientUnits=\"userSpaceOnUse\" x1=\"65.463\" y1=\"-436.79\" x2=\"91.603\" y2=\"-482.067\" gradientTransform=\"translate(0 504)\"><stop offset=\"0\" stop-color=\"#fe7988\"/><stop offset=\".196\" stop-color=\"#cf587e\"/><stop offset=\".415\" stop-color=\"#573590\"/><stop offset=\".591\" stop-color=\"#273d97\"/><stop offset=\".773\" stop-color=\"#2d3868\"/><stop offset=\".913\" stop-color=\"#313442\"/><stop offset=\"1\" stop-color=\"#333\"/></linearGradient><path id=\"XMLID_180_\" class=\"st1 img-shadow\" d=\"M45.9 55.9L72 10.6l26.2 45.3z\"/></svg>\n      .page-title.hleft.homepage-title\n        h1(data-stellar-ratio=\"1.5\")\n            //- | Super Famous\n            br\n            | Designer &amp; Dev-\n            br\n            | eloper\n             \n            //- a(alt='' href='about.html').colored designer &amp; Developer\n            //- |  working\n            //- | in \n            //- br\n            //- span.colored in sunny New York&nbsp;City.\n            //- span(style='font-size: 20px;position:relative;top:1px;') &#9650;\n      small NW YRK CTY\n    section#page-body.nopadding\n      .spacer.spacer-big\n      .spacer.spacer-big\n\n      .wrapper.wrapper-huge\n        #portfolio-grid.wolf-grid.clearfix(data-randomhorizontaloffset='true', data-mouseparallax='true')\n          \n          .wolf-item.portfolio-wolf-item.frontend.design.project-akc\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='akc' href='akc.html')\n                  img(src='img/projects/akc.png' srcset=\"img/projects/akc-small.png 640w, img/projects/akc-medium.png 800w, img/projects/akc-large.png 1480w\" alt='American Kennel Club Projects')\n              .wolf-caption.portfolio-caption(style='margin-bottom: 15%;')\n                a.wolf-caption-link(alt='akc' href='akc.html')\n                  h6.alttitle.portfolio-category Design and Development\n                  h4.portfolio-name\n                   strong\n                     | American\n                     br\n                     | Kennel Club\n          .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='cognizant' href='cognizant-design.html')\n                  img(src='img/projects/cognizant2-large.jpg' srcset=\"img/projects/cognizants-small.jpg 640w, img/projects/cognizant2-medium.jpg 800w, img/projects/cognizant2-large.jpg 1200w\" alt='Cognizant Modular Design System')\n              .wolf-caption.portfolio-caption(style='margin-left:0%;margin-bottom:20%;')\n                a.wolf-caption-link(alt='cognizant' href='cognizant-IxD.html')\n                  h6.alttitle.portfolio-category Design\n                  h4.portfolio-name\n                    strong Cognizant\n          .wolf-item.portfolio-wolf-item.frontend.design.project-artnet\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='artnet' href='artnet.html')\n                  img(src='img/projects/artnet-medium.jpg' srcset=\"img/projects/artnet-small.jpg 640w, img/projects/artnet-medium.jpg 800w, img/projects/artnet-large.jpg 1351w\" alt='Artnet Photo')\n              .wolf-caption.portfolio-caption\n                a.wolf-caption-link(alt='artnet' href='artnet.html')\n                  h6.alttitle.portfolio-category Design\n                  h4.portfolio-name\n                    strong Artnet Worldwide\n          \n          .wolf-item.portfolio-wolf-item.design.project-clear\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='personal identity' href='personal-identity.html')\n                  video(data-aload='branding01-small.mp4' alt='Personal Identity' loop)\n              .wolf-caption.portfolio-caption(style='margin-top: 10%;')\n                a.wolf-caption-link(alt='personal identity' href='personal-identity.html')\n                  h6.alttitle.portfolio-category Design\n                  h4.portfolio-name\n                    strong Personal<br>Identity\n          .wolf-item.portfolio-wolf-item.frontend.photo.design.project-fa\n            .wolf-item-inner\n              .wolf-media.portfolio-media.rolling-gradient\n                a.wolf-media-link(alt='free association' href='free-association.html')\n                  img(src='svg/FA-logo.svg' alt='Free Association Homepage')\n              .wolf-caption.portfolio-caption(style='margin-top: 10%;')\n                a.wolf-caption-link(alt='free association' href='free-association.html')\n                  h6.alttitle.portfolio-category Interaction Design, Photography\n                  h4.portfolio-name\n                    strong Free Association\n          .wolf-item.portfolio-wolf-item.frontend.project-twc\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='weather channel' href='weather-channel.html')\n                  div(style='background:url(\"img/twc/rain.gif\");background-size:cover;background-position: 50% 100%;display:inline-block;')\n                   img(src='img/projects/twc.png', alt='Weather Channel App Header Image')\n              .wolf-caption.cbottom.portfolio-caption(style='margin-top:300px;margin-right:-100px')\n                a.wolf-caption-link(alt='weather channel' href='weather-channel.html')\n                  h6.alttitle.portfolio-category Prototyping\n                  h4.portfolio-name\n                    strong Weather Channel\n          \n          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-mkbl\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='Makeable' href='mkbl.html')\n                  img(src='img/projects/mkbl-medium.png' srcset=\"img/projects/mkbl-small.jpg 640w, img/projects/mkbl-medium.jpg 800w, img/projects/mkbl-large.jpg 1183w\" alt='Makeable Portfolio Header Image')\n              .wolf-caption.portfolio-caption(style='margin-left:-34%;margin-bottom:0%;')\n                a.wolf-caption-link(alt='Makeable' href='mkbl.html')\n                  h6.alttitle.portfolio-category Design, Development, and Photography\n                  h4.portfolio-name\n                    strong Makeable\n          \n          .wolf-item.portfolio-wolf-item.frontend.design.project-cognizant\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='cognizant' href='cognizant-IxD.html')\n                  img(src='img/projects/cognizant-medium.jpg' srcset=\"img/projects/cognizant-small.jpg 640w, img/projects/cognizant-medium.jpg 800w, img/projects/cognizant-large.jpg 1200w\" alt='Cognizant Latest Thinking Header Image')\n              .wolf-caption.portfolio-caption(style='margin-left:-20%;margin-bottom:20%;')\n                a.wolf-caption-link(alt='cognizant' href='cognizant-IxD.html')\n                  h6.alttitle.portfolio-category Prototyping, Design, and Development\n                  h4.portfolio-name\n                    strong Cognizant\n          \n          .wolf-item.portfolio-wolf-item.frontend.design.project-esquire\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='esquire' href='esquire.html')\n                  img(src='img/projects/esquire-medium.jpg' srcset=\"img/projects/esquire-small.jpg 640w, img/projects/esquire-medium.jpg 800w, img/projects/esquire-large.jpg 1480w\" alt='Esquire Kid')\n              .wolf-caption.portfolio-caption(style='margin-top: 0%;')\n                a.wolf-caption-link(alt='esquire' href='esquire.html')\n                  h6.alttitle.portfolio-category Design\n                  h4.portfolio-name\n                    strong Esquire\n\n          //- .wolf-item.portfolio-wolf-item.frontend.photo.project-ct\n          //-   .wolf-item-inner\n          //-     .wolf-media.portfolio-media\n          //-       a.wolf-media-link(alt='creative time' href='creative-time.html')\n          //-         img(src='img/projects/ct-medium.png' srcset=\"img/projects/ct-small.png 640w, img/projects/ct-medium.png 800w, img/projects/ct-large.png 1127w\" alt='Nick Cave Creative Time')\n          //-     .wolf-caption.portfolio-caption\n          //-       a.wolf-caption-link(alt='creative time' href='creative-time.html')\n          //-         h6.alttitle.portfolio-category Photography and Development\n          //-         h4.portfolio-name\n          //-           strong Creative Time\n          \n          .wolf-item.portfolio-wolf-item.frontend.project-sa\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='' href='success-academy.html')\n                  img(src='img/sa/sa_02-large.jpg' srcset=\"img/sa/sa_02-large.jpg 640w, img/sa/sa_02-large.jpg 800w, img/sa/sa_02-large.jpg 1600w\" alt='Success Academy Jobs')\n              .wolf-caption.portfolio-caption\n                a.wolf-caption-link(alt='' href='success-academy.html')\n                  h6.alttitle.portfolio-category Strategy, UX, Design\n                  h4.portfolio-name\n                    strong Success Academy\n          \n          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc(style='opacity:0')\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='hard workers club' href='hard-workers-club.html')\n                  img(src='img/projects/hwc-medium.jpg' srcset=\"img/projects/hwc-small.jpg 640w, img/projects/hwc-medium.jpg 800w, img/projects/hwc-large.jpg 1024w\" alt='Hard Workers Club')\n              .wolf-caption.portfolio-caption(style='margin-top:10%;')\n                a.wolf-caption-link(alt='hard workers club' href='hard-workers-club.html')\n                  h6.alttitle.portfolio-category Design, Development, and Photography\n                  h4.portfolio-name\n                    strong Hard Workers Club\n          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc\n            .wolf-item-inner\n              .wolf-media.portfolio-media\n                a.wolf-media-link(alt='hard workers club' href='hard-workers-club.html')\n                  img(src='img/projects/hwc-medium.jpg' srcset=\"img/projects/hwc-small.jpg 640w, img/projects/hwc-medium.jpg 800w, img/projects/hwc-large.jpg 1024w\" alt='Hard Workers Club')\n              .wolf-caption.portfolio-caption(style='margin-top:10%;')\n                a.wolf-caption-link(alt='hard workers club' href='hard-workers-club.html')\n                  h6.alttitle.portfolio-category Design, Development, and Photography\n                  h4.portfolio-name\n                    strong Hard Workers Club\n          //- .wolf-item.portfolio-wolf-item.frontend.project-clear\n          //-   .wolf-item-inner\n          //-     .wolf-media.portfolio-media\n          //-       a.wolf-media-link(alt='' href='clear.html')\n          //-         img(src='img/projects/clear-medium.jpg' srcset=\"img/projects/clear-small.jpg 640w, img/projects/clear-medium.jpg 800w, img/projects/clear-large.jpg 1480w\" alt='Clear Card')\n          //-     .wolf-caption.portfolio-caption\n          //-       a.wolf-caption-link(alt='' href='clear.html')\n          //-         h6.alttitle.portfolio-category Front-End Development\n          //-         h4.portfolio-name\n          //-           strong Clear\n          \n",
+			"file": "src/jade/home.jade",
+			"file_size": 13393,
+			"file_write_time": 131072119010000000,
+			"settings":
+			{
+				"buffer_size": 13393,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/index.jade",
+			"settings":
+			{
+				"buffer_size": 12914,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/cognizant-IxD.jade",
+			"settings":
+			{
+				"buffer_size": 11259,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/about.jade",
+			"settings":
+			{
+				"buffer_size": 27397,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/styl/style.styl",
+			"settings":
+			{
+				"buffer_size": 49095,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/js/script.js",
+			"settings":
+			{
+				"buffer_size": 24694,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/jade/includes/nav.jade",
+			"settings":
+			{
+				"buffer_size": 1461,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/styl/typography.styl",
+			"settings":
+			{
+				"buffer_size": 3031,
 				"line_ending": "Unix"
 			}
 		}
@@ -538,10 +602,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 168.0,
-		"last_filter": "",
+		"height": 210.0,
+		"last_filter": "dash",
 		"selected_items":
 		[
+			[
+				"dash",
+				"DashDoc: invoke Dash with selected word"
+			],
 			[
 				"tab",
 				"Indentation: Convert to Tabs"
@@ -600,10 +668,17 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/kyla/Sites/Kyla"
+		"/Users/Kyla/Sites/Kyla"
 	],
 	"file_history":
 	[
+		"/Users/Kyla/Sites/Kyla/src/styl/base.styl",
+		"/Users/Kyla/Sites/Kyla/src/jade/layouts/layout.jade",
+		"/Users/Kyla/Sites/Kyla/src/js/script.js",
+		"/Users/Kyla/Sites/Kyla/src/styl/style.styl",
+		"/Users/Kyla/Sites/Kyla/src/styl/settings.styl",
+		"/Users/Kyla/Sites/Kyla/src/styl/typography.styl",
+		"/Users/Kyla/Sites/Kyla/src/styl/modules/wolf.styl",
 		"/Users/kyla/Sites/Kyla/kyla.sublime-workspace",
 		"/Users/kyla/Sites/Kyla/src/jade/includes/header-dark.jade",
 		"/Users/kyla/Sites/Kyla/src/jade/includes/header-light.jade",
@@ -724,18 +799,11 @@
 		"/Users/Kyla/Sites/kyla/src/coffee/routes.coffee",
 		"/Users/Kyla/Sites/kyla/src/jade/views/grid.jade",
 		"/Users/Kyla/Sites/kyla/src/jade/views/application.jade",
-		"/Users/Kyla/Sites/kyla/src/coffee/app.coffee",
-		"/Users/Kyla/Sites/kyla/src/styl/modules/grid.styl",
-		"/Users/Kyla/Sites/kyla/src/styl/modules/nav.styl",
-		"/Users/Kyla/Sites/kyla/src/jade/views/home.jade",
-		"/Users/Kyla/Sites/kyla/src/styl/modules/slides.styl",
-		"/Users/Kyla/Sites/kyla/src/jade/views/artnet.jade",
-		"/Users/Kyla/Sites/kyla-old/src/jade/views/application.jade",
-		"/Users/Kyla/Sites/kyla-old/src/jade/index.jade"
+		"/Users/Kyla/Sites/kyla/src/coffee/app.coffee"
 	],
 	"find":
 	{
-		"height": 28.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -800,6 +868,22 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"cover",
+			"social-li",
+			"(data-stellar-ratio=\"1.8\")",
+			"scrol",
+			"social",
+			"0.9",
+			"0.3",
+			"triang",
+			".social-list",
+			"index-page",
+			"index-",
+			"/1.2",
+			"shadow",
+			"XMLID_3_",
+			"XMLID_9_",
+			"footer",
 			">>",
 			"small",
 			"logo",
@@ -911,23 +995,7 @@
 			";",
 			"    ",
 			"   ",
-			"  ",
-			"  }",
-			" {",
-			"\"main\": [\n      ]",
-			".intro",
-			".currentPath",
-			"currentPath",
-			".currentPath",
-			"7re",
-			"ease-out",
-			"ease-out-sine",
-			"0.5s",
-			"ease-out-circ",
-			"0.3s",
-			"ease-out",
-			"linear",
-			"height"
+			"  "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -961,16 +1029,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/jade/cognizant-sites.jade",
+					"file": "src/jade/cognizant-design.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6231,
+						"buffer_size": 6858,
 						"regions":
 						{
 						},
@@ -986,46 +1054,6 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1036,22 +1064,771 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
-								"bh_tag_content"
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
 							],
-							"hasHeader": false,
 							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1337.0,
+						"translation.y": 1227.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/jade/home.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2578,
+								1617
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 472.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/jade/index.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 12914,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2160.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/jade/cognizant-IxD.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1592,
+								1576
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 560.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/jade/about.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 27397,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/styl/style.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 49095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 49771.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24694,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								24268,
+								24268
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 16115.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/jade/includes/nav.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 366.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/styl/typography.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3031,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content"
+							],
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 521.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -1106,8 +1883,72 @@
 		"selected_items":
 		[
 			[
-				"site",
-				"src/jade/cognizant-sites.jade"
+				"cogni",
+				"src/jade/cognizant-IxD.jade"
+			],
+			[
+				"nav",
+				"src/jade/includes/nav.jade"
+			],
+			[
+				"scr",
+				"src/js/script.js"
+			],
+			[
+				"ind",
+				"src/jade/index.jade"
+			],
+			[
+				"desi",
+				"src/jade/cognizant-design.jade"
+			],
+			[
+				"scrp",
+				"src/js/script.js"
+			],
+			[
+				"ty",
+				"src/styl/typography.styl"
+			],
+			[
+				"sty",
+				"src/styl/style.styl"
+			],
+			[
+				"ab",
+				"src/jade/about.jade"
+			],
+			[
+				"typ",
+				"src/styl/typography.styl"
+			],
+			[
+				"bas",
+				"src/styl/base.styl"
+			],
+			[
+				"typo",
+				"src/styl/typography.styl"
+			],
+			[
+				"set",
+				"src/styl/settings.styl"
+			],
+			[
+				"styl",
+				"src/styl/style.styl"
+			],
+			[
+				"wo",
+				"src/styl/modules/wolf.styl"
+			],
+			[
+				"la",
+				"src/jade/layouts/layout.jade"
+			],
+			[
+				"co",
+				"src/jade/cognizant-design.jade"
 			],
 			[
 				"st",
@@ -1130,22 +1971,6 @@
 				"src/jade/includes/header-dark.jade"
 			],
 			[
-				"ab",
-				"src/jade/about.jade"
-			],
-			[
-				"ty",
-				"src/styl/typography.styl"
-			],
-			[
-				"wo",
-				"src/styl/modules/wolf.styl"
-			],
-			[
-				"sty",
-				"src/styl/style.styl"
-			],
-			[
 				"abo",
 				"src/jade/about.jade"
 			],
@@ -1154,23 +1979,7 @@
 				"build/tasks/assets.coffee"
 			],
 			[
-				"la",
-				"src/jade/layouts/layout.jade"
-			],
-			[
-				"set",
-				"src/styl/settings.styl"
-			],
-			[
-				"typ",
-				"src/styl/typography.styl"
-			],
-			[
 				"in",
-				"src/jade/index.jade"
-			],
-			[
-				"ind",
 				"src/jade/index.jade"
 			],
 			[
@@ -1458,10 +2267,6 @@
 				"src/jade/artnet.jade"
 			],
 			[
-				"co",
-				"src/jade/cognizant.jade"
-			],
-			[
 				"scri",
 				"src/js/script.js"
 			],
@@ -1480,10 +2285,6 @@
 			[
 				"logo.j",
 				"src/jade/includes/logo.jade"
-			],
-			[
-				"scr",
-				"src/js/script.js"
 			],
 			[
 				"weather",
@@ -1514,10 +2315,6 @@
 				"src/jade/clear.jade"
 			],
 			[
-				"styl",
-				"src/styl/style.styl"
-			],
-			[
 				"pr",
 				"src/styl/modules/project.styl"
 			],
@@ -1540,10 +2337,6 @@
 			[
 				"ap",
 				"src/jade/views/application.jade"
-			],
-			[
-				"nav",
-				"src/styl/modules/nav.styl"
 			],
 			[
 				"all",
@@ -1600,22 +2393,6 @@
 			[
 				"flow",
 				"src/styl/modules/flow-box.styl"
-			],
-			[
-				"gra",
-				"src/styl/gradients.styl"
-			],
-			[
-				"flo",
-				"src/styl/modules/flow-box.styl"
-			],
-			[
-				"button",
-				"src/styl/buttons.styl"
-			],
-			[
-				"slider",
-				"src/jade/modules/flowbox-slider.jade"
 			]
 		],
 		"width": 0.0

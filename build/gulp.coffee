@@ -64,11 +64,11 @@ gulp.task 'browser-sync', ->
 		logConnections: true
 		injectChanges: true
 		ghostMode: false
-		# snippetOptions:
-		# 	rule:
-		# 		match: /<browsersync>/i,
-		# 		fn: (snippet, match) ->
-		# 			return snippet + match;
+		snippetOptions:
+			rule:
+				match: /<browsersync>/i,
+				fn: (snippet, match) ->
+					return snippet + match;
 		files: [ 
 			'app/**/*'
 			# 'docs/styleguide/**/*'
