@@ -302,14 +302,14 @@ $(window).load(function() {
 			preCache();
 		// }
 	// }
-	if (head.desktop) {
-		$('#index-page .hero-full, #home-page .hero-full').mousemove(function(e) {
-		    $('.big-logo svg').offset({
-		        left: (e.pageX-300),
-		        top: (e.pageY-300)
-		    });
-		});
-	}
+	// if (head.desktop) {
+	// 	$('#index-page .hero-full, #home-page .hero-full').mousemove(function(e) {
+	// 	    $('.big-logo svg').offset({
+	// 	        left: (e.pageX-300),
+	// 	        top: (e.pageY-300)
+	// 	    });
+	// 	});
+	// }
 	
 	// if ($('.video-cover').length >  0) { 
 	// 	$('.video-cover').get(0).play();

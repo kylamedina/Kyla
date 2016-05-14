@@ -536,7 +536,7 @@ header
     left 0
     width 100%
     height 150px
-    transition top 0.3s ease
+    transition top 0.3s ease, transform 0.5s $ease-out-quart
     z-index 9
     top -150px
     height 150px
@@ -715,7 +715,7 @@ header
         .text
           color #ffffff
 .modal-is-active #header nav#main-nav ul li > a
-  color #d0d0d0
+  color #ffffff
 .header-transparent
   #logo
     #dark-logo
@@ -1252,7 +1252,8 @@ header.hero-invisible #menu .open-nav .hamburger:after
 #header-filter.filter-is-open, #header-share.share-is-open
   top 0px
 
-#header-filter:after, #header-share:after
+#header-filter:after, 
+#header-share:after
   content ""
   background #f2f2f2
   position absolute
@@ -1333,7 +1334,10 @@ header #menu .open-share:hover
   // filter alpha(opacity=100)
   // -ms-filter "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
 
-#header-filter .close-filter:before, #header-filter .close-filter:after, #header-share .close-share:before, #header-share .close-share:after
+#header-filter .close-filter:before, 
+#header-filter .close-filter:after, 
+#header-share .close-share:before, 
+#header-share .close-share:after
   width 16px
   height 2px
   content ''
@@ -2184,7 +2188,9 @@ div .column-section:first-child,
     list-style none
     fs(1.6rem)
     upcase()
-    font-family Lightfont
+    font-family Regularfont
+    -webkit-font-smoothing: antialiased
+    font-smoothing antialiased
     // font-weight 400
     letter-spacing px(5)
     +below(420px)
@@ -2413,6 +2419,8 @@ div .column-section:first-child,
   //   mix-blend-mode: screen
 
 #index-page
+  #hero
+    transform-style flat !important
   #hero.hero-full .page-title
     // top 34%
     h1
@@ -2428,13 +2436,13 @@ div .column-section:first-child,
   +below(768px)
     display none
     
-#index-page
-  #hero:hover
-    cursor none
-    #header .header-inner:hover
-      cursor auto;
-  #header .header-inner:hover
-    cursor auto;
+// #index-page
+//   #hero:hover
+//     cursor none
+//     #header .header-inner:hover
+//       cursor auto;
+//   #header .header-inner:hover
+//     cursor auto;
 
 #about-page #page-body
   background-color white
@@ -2450,4 +2458,4 @@ div .column-section:first-child,
 h6.email-link a
   color purple
   &:hover
-    color pink
+    color primary
