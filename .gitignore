@@ -100,7 +100,7 @@ tmp
 app
 .tmp
 dev
-design
+./design
 node_modules
 build/components/**/*
 docs
