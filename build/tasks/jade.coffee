@@ -9,7 +9,7 @@ onError = (error) ->
 	$.util.log error
 
 gulp.task 'jade-watch', ->
-	return gulp.src(['src/jade/**/*.jade','!src/jade/views/**/*.jade','!src/jade/includes/**/*.jade','!src/jade/modules/**/*.jade'])
+	return gulp.src(['src/jade/**/*.jade','!src/jade/views/**/*.jade','!src/jade/includes/**/*.jade','!src/jade/modules/**/*.jade','!src/jade/layouts/**/*.jade'])
 		.pipe $.plumber(errorHandler: onError)
 		.pipe $.accord 'jade',
 			pretty: false

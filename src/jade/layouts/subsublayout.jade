@@ -1,5 +1,5 @@
 doctype html
-html.layout
+html
   head
 
     meta(charset='utf-8')
@@ -16,9 +16,9 @@ html.layout
     //- link(href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,700', rel='stylesheet', type='text/css')
     link(href='favicons/favIcon_48x48.ico' rel='shortcut icon' type='image/x-icon')
 
-    link#font-style-css(rel='stylesheet', href='./css/font.css', type='text/css', media='all')
-    link#default-style-css(rel='stylesheet', href='./css/style.css', type='text/css', media='all')
-    link#vendor-css(rel='stylesheet', href='./css/vendor.css', type='text/css', media='all')
+    link#font-style-css(rel='stylesheet', href='../../css/font.css', type='text/css', media='all')
+    link#default-style-css(rel='stylesheet', href='../../css/style.css', type='text/css', media='all')
+    link#vendor-css(rel='stylesheet', href='../../css/vendor.css', type='text/css', media='all')
     script(src='https://cdnjs.cloudflare.com/ajax/libs/headjs/1.0.3/head.min.js' type="text/javascript")
     block head
   body#top
@@ -30,7 +30,7 @@ html.layout
       .page-loader-inner.no-mobile-video
         //- img.loader(src='loading.gif')
         video.loader(preload="auto" autoplay loop poster='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7')
-          source(src='./static/loading_gradient.mp4')
+          source(src='../../static/loading_gradient.mp4')
         //- .loader
         //-   strong Loading
     #main
@@ -50,47 +50,48 @@ html.layout
           a(href="https://dribbble.com/kylamedina" target='_blank') Dribbble
         li
           a(href="mailto:hi@ky.la" target='_blank') Email
-    .modal          
+    .modal
       ul.modal-menu
         li.artnet
-          h5: a(href='artnet/')
+          h5: a.animsition-link(href='../../artnet/')
             | Artnet Worldwide
         li.akc
-          h5: a(href='akc/')
+          h5: a.animsition-link(href='../../akc/')
             | American Kennel Club
         li.cognizant-design
-          h5: a(href='cognizant/design/')
+          h5: a.animsition-link(href='../../cognizant/design/')
             | Cognizant Design
         li.cognizant-ixd
-          h5: a(href='cognizant/ixd/')
+          h5: a.animsition-link(href='../../cognizant/ixd/')
             | Cognizant IxD
+        
         //- li.ct
-        //-   h5: a(href='creative-time/')
+        //-   h5: a.animsition-link(href='../../creative-time/')
         //-     | Creative Time
         li.esquire
-          h5: a(href='esquire/')
+          h5: a.animsition-link(href='../../esquire/')
             | Esquire
         li.fa
-          h5: a(href='free-association/')
+          h5: a.animsition-link(href='../../free-association/')
             | Free Association
         li.hwc
-          h5: a(href='hwc/')
+          h5: a.animsition-link(href='../../hwc/')
             | Hard Workers Club
         li.mkbl
-          h5: a(href='makeable/')
+          h5: a.animsition-link(href='../../makeable/')
             | Makeable
         li.pid
-          h5: a(href='branding/')
+          h5: a.animsition-link(href='../../branding/')
             | Personal Branding
         li.sa
-          h5: a(href='success-academy/')
+          h5: a.animsition-link(href='../../success-academy/')
             | Success Academy
         li.twc
-          h5: a(href='the-weather-channel/')
+          h5: a.animsition-link(href='../../the-weather-channel/')
             | The Weather Channel
     //- script(type='text/javascript', src='./js/vendor.js')
     script.
-      head.load({ app: "./js/app.js" }, function() {
+      head.load({ app: "../../../js/app.js" }, function() {
           window.onload = function () {
             aload();
           };

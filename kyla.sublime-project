@@ -5,12 +5,14 @@
 			"file_exclude_patterns":
 			[
 				"*.zip",
-				"*.otf"
+				"*.otf",
+				"*.plist"
 			],
 			"folder_exclude_patterns":
 			[
 				"node_modules",
-				"design",
+				// "design",
+				"static",
 				"tmp",
 				"app",
 				"fonts"

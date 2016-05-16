@@ -4,55 +4,65 @@ a.open-nav(href='#')
 nav#main-nav
   ul
     li.home.current-menu-item
-      a(href='/') Home
+      if layout == 2
+        a(href='../../') Home
+      else if layout == 0
+        a(href='/') Home
+      else
+        a(href='../') Home
     li.projects
       a(href='#') 
         span +
         | Projects
-      //- ul.submenu
-      //-   li.artnet
-      //-     a(href='artnet.html')
-      //-       | Artnet Worldwide
-      //-   li.akc
-      //-     a(href='akc.html')
-      //-       | American Kennel Club
-      //-   li.cognizant-ixd
-      //-     a(href='cognizant-IxD.html')
-      //-       | Cognizant IxD
-      //-   li.cognizant-design
-      //-     a(href='cognizant-design.html')
-      //-       | Cognizant Design
-      //-   //- li.ct
-      //-   //-   a(href='creative-time.html')
-      //-   //-     | Creative Time
-      //-   li.esquire
-      //-     a(href='esquire.html')
-      //-       | Esquire
-      //-   li.fa
-      //-     a(href='free-association.html')
-      //-       | Free Association
-      //-   li.hwc
-      //-     a(href='hard-workers-club.html')
-      //-       | Hard Workers Club
-      //-   li.mkbl
-      //-     a(href='mkbl.html')
-      //-       | Makeable
-      //-   li.pid
-      //-     a(href='personal-identity.html')
-      //-       | Personal Identity
-      //-   li.sa
-      //-     a(href='success-academy.html')
-      //-       | Success Academy
-      //-   li.twc
-      //-     a(href='weather-channel.html')
-      //-       | The Weather Channel
+        ul.submenu
+          li.artnet
+            a(href='../artnet/')
+              | Artnet Worldwide
+          li.akc
+            a(href='../akc/')
+              | American Kennel Club
+          li.cognizant-ixd
+            a(href='../cognizant/ixd/')
+              | Cognizant IxD
+          li.cognizant-design
+            a(href='../cognizant/design/')
+              | Cognizant Design
+          //- li.ct
+          //-   a(href='../creative-time/')
+          //-     | Creative Time
+          li.esquire
+            a(href='../esquire/')
+              | Esquire
+          li.fa
+            a(href='../free-association/')
+              | Free Association
+          li.hwc
+            a(href='../hwc/')
+              | Hard Workers Club
+          li.mkbl
+            a(href='../makeable/')
+              | Makeable
+          li.pid
+            a(href='../branding/')
+              | Personal Identity
+          li.sa
+            a(href='../success-academy/')
+              | Success Academy
+          li.twc
+            a(href='../the-weather-channel/')
+              | The Weather Channel
 
 
-      //-   //- li.clear-li
-      //-   //-   a(href='clear.html')
-      //-   //-     | Clear
+          //- li.clear-li
+          //-   a(href='../clear/')
+          //-     | Clear
     li.about
-      a(href='about.html') About
+      if layout = 2
+        a(href='../../about/') About
+      else if layout == 0
+        a(href='/about') About
+      else
+        a(href='../about') About
     //- li
     //-   a(href='blog.html') Blog
 

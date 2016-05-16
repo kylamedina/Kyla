@@ -1,15 +1,21 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
-  include includes/header-light.jade
-  img.video-cover(data-aload='bg3.gif')
+  - var layout = 0
+  - var headerLight = true
+  include includes/header.jade
+  //- img.video-cover(data-aload='bg3.gif')
   #page-content.page-about
-    img.video-cover(data-aload='bg3.gif')
-    section#hero.hero-full.multiply.text-light 
+    img.video-cover(data-aload='../static/bg3.gif')
+    section#hero.hero-full.multiply.text-light
+
+      |  <svg class='outline-logo about-logo' data-stellar-ratio="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 164.88 142.85"><defs><style>.cls-1{fill:none;stroke:#fff;stroke-miterlimit:10}</style></defs><title>triangle-outline</title><path class="cls-1" d="M.87 142.35L82.44 1l81.58 141.35H.87z"/></svg>
       .page-title.homepage-title
         //- div.
         //-   <svg class='outline-logo about-logo' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 81.2"><style>.st0{fill:none;stroke:#FFFFFF;stroke-width:3;stroke-miterlimit:10;} .st1{fill:#FFFFFF;}</style><title>logo-outline</title><path id="_Path_" class="st0" d="M1.8 80.2L46.7 2.3l44.9 77.8H1.8z"/><path id="_Path_2" class="st1" d="M45.9 46.7L72 1.4l26.2 45.3H45.9z"/></svg>
-        h1
+        
+        
+        h1(data-stellar-ratio="1.8" style='top:-25vh')
           strong
             | Mostly made
             br
@@ -27,7 +33,7 @@ block content
         //- img.golden-triangle(src='svg/golden_triangle.svg' data-stellar-ratio="1.2")
         //- img.golden-triangle2(src='svg/golden_triangle2.svg' data-stellar-ratio="1.6")
         .wrapper
-          img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
+          img.profile-pic(src="../img/profile-medium.jpg" srcset="../img/profile-small.jpg 640w, ../img/profile-medium.jpg 700w, ../img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
           
           //- .spacer.spacer-big
           //- //- div.gap-divider

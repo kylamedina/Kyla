@@ -1,4 +1,4 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
   section#hero.hero-full.parallax-section(data-parallax-image='files/uploads/1680x1100-light.jpg')
@@ -50,7 +50,7 @@ block content
             img(src='./uploads/600x400-light.jpg', alt='prev')
             span Previous Project
         li.backtoworks
-          a(href='/') Back To Works
+          a(href='../') All Projects
         li.next
           a(href='portfolio-single-4.html')
             img(src='./uploads/600x400-light.jpg', alt='next')

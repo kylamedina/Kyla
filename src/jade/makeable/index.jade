@@ -1,10 +1,11 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
   //- include includes/triangles.jade
-  include includes/header-light.jade
+  - var headerLight = true
+  include includes/header.jade
   #page-content.page-mkbl
-    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='img/mkbl/mkbl_14-large.jpg')
+    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='../img/mkbl/mkbl_14-large.jpg')
       //- .hero-overlay
       .page-title
         h5.alttitle Design, Development, and Photography
@@ -23,7 +24,7 @@ block content
       //-     .wolf-item
       //-       .wolf-item-inner
       //-         .wolf-media.portfolio-media
-      //-           img(src='img/mkbl/mkbl_05.png', alt='SEO NAME')
+      //-           img(src='../img/mkbl/mkbl_05.png', alt='SEO NAME')
       //-         .figcaption: p Dr. Sara S. Thompson at work.
       //-     .wolf-item
       //-       .wolf-item-inner
@@ -33,18 +34,16 @@ block content
       .wrapper-xtrawide(style='overflow:hidden;')
         .waypoint-parent
           .browser-chrome.is-large
-            img.browser-shadow(src='img/mkbl/mkbl_01-large.jpg' srcset="img/mkbl/mkbl_01-small.jpg 640w, img/mkbl/mkbl_01-large.jpg 789w" alt='Makeable Homepage Design')
+            img.browser-shadow(src='../img/mkbl/mkbl_01-large.jpg' srcset="../img/mkbl/mkbl_01-small.jpg 640w, ../img/mkbl/mkbl_01-large.jpg 789w" alt='Makeable Homepage Design')
             .waypoint-bottom
           .wolf-item.wright.waypoint-child(style='z-index:0;')
             .wolf-item-inner
               .figcaption
                 p Makeable has a fun personality and much of the design created by the company is vibrant and colorful. I wanted to reflect that while achieving the business goals provided by the partners.
                 p In this iteration, I emphasized Makeable's process&mdash;Imagine, Make, and Grow&mdash;in a grid system that breaks up the long descriptions written for each project. In the current site, the Imagine phase is not represented at all. I changed that by creating a hashtag that Makeable can use to pull in photos through Instagram's API.
-                p During the Imagination phase, Makeable creates story maps that are creative exercise intended to discover a design direction for the project. I wanted to mimic story maps for screens since they are such an important part of Makeable's process. 
-                //- The site UI in this mockup is placeholder, borrowed from 
-                //-   a(href='https://www.enginethemes.com/') here
-                //-   | .
-              I worked on several directions
+                p During the Imagination phase, Makeable creates story maps that are creative exercise intended to discover a design direction for the project. I wanted to mimic story maps for screens since they are such an important part of Makeable's process. The site UI in this mockup is placeholder from 
+                  a(href='https://www.enginethemes.com/') Engine Themes
+                  | .
       .wrapper(style='background-color:white;position: relative; z-index:1;')
         .spacer.spacer-big
         .spacer.spacer-big  
@@ -52,14 +51,14 @@ block content
         //-   .wolf-item
         //-     .wolf-item-inner
         //-       .wolf-media.portfolio-media.img-shadow
-        //-         a.img-hover(href='img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')
-        //-           img(src='img/mkbl/mkbl_07-medium.jpg' srcset="img/mkbl/mkbl_07-small.jpg 640w, img/mkbl/mkbl_07-medium.jpg 800w, img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
+        //-         a.img-hover(href='../img/mkbl/mkbl_07-large.jpg', data-rel='lightcase:mkbl')
+        //-           img(src='../img/mkbl/mkbl_07-medium.jpg' srcset="../img/mkbl/mkbl_07-small.jpg 640w, ../img/mkbl/mkbl_07-medium.jpg 800w, ../img/mkbl/mkbl_07-large.jpg 1600w" alt='Makeable Thinkmaps')
         //-       .wolf-caption.portfolio-caption This is an example of the story maps Makeable creates during the Imagine phase.
         //-   .wolf-item
         //-     .wolf-item-inner
         //-       .wolf-media.portfolio-media.img-shadow
-        //-         a.img-hover(href='img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')
-        //-           img(src='iimg/mkbl/mkbl_06-medium.jpg' srcset="img/mkbl/mkbl_06-small.jpg 640w, img/mkbl/mkbl_06-medium.jpg 800w, img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
+        //-         a.img-hover(href='../img/mkbl/mkbl_06-large.jpg', data-rel='lightcase:mkbl')
+        //-           img(src='i../img/mkbl/mkbl_06-medium.jpg' srcset="../img/mkbl/mkbl_06-small.jpg 640w, ../img/mkbl/mkbl_06-medium.jpg 800w, ../img/mkbl/mkbl_06-large.jpg 1600w" alt='People looking at thinkmaps')
         //-       .wolf-caption.portfolio-caption Here are some of my friends looking at some story maps.    
                 
       div.mkbl-caption-1
@@ -71,20 +70,20 @@ block content
           .wolf-item
             .wolf-item-inner
               .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='img/mkbl/mkbl_03-large.jpg', data-rel='lightcase:mkbl')
-                  img(src='img/mkbl/mkbl_03-medium.jpg' srcset="img/mkbl/mkbl_03-small.jpg 640w, img/mkbl/mkbl_03-medium.jpg 800w, img/mkbl/mkbl_03-large.jpg 1600w" alt='About page design')
+                a.img-hover.browser-shadow(href='../img/mkbl/mkbl_03-large.jpg', data-rel='lightcase:mkbl')
+                  img(src='../img/mkbl/mkbl_03-medium.jpg' srcset="../img/mkbl/mkbl_03-small.jpg 640w, ../img/mkbl/mkbl_03-medium.jpg 800w, ../img/mkbl/mkbl_03-large.jpg 1600w" alt='About page design')
               .figcaption.special(style='margin-top: 30px;')
                 p These examples of team profile pages show how different themes would work. The second image shows the quick switch menu allowing users to switch between related pages in a visual way consistent with the main navigation dropdown.
           .wolf-item
             .wolf-item-inner
              .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='img/mkbl/mkbl_04-large.jpg', data-rel='lightcase:mkbl')
-                 img(src='img/mkbl/mkbl_04-medium.jpg' srcset="img/mkbl/mkbl_04-small.jpg 640w, img/mkbl/mkbl_04-medium.jpg 800w, img/mkbl/mkbl_04-large.jpg 1600w"  alt='About page design with quick nav')
+                a.img-hover.browser-shadow(href='../img/mkbl/mkbl_04-large.jpg', data-rel='lightcase:mkbl')
+                 img(src='../img/mkbl/mkbl_04-medium.jpg' srcset="../img/mkbl/mkbl_04-small.jpg 640w, ../img/mkbl/mkbl_04-medium.jpg 800w, ../img/mkbl/mkbl_04-large.jpg 1600w"  alt='About page design with quick nav')
           .wolf-item
             .wolf-item-inner
              .wolf-media.portfolio-media.browser-chrome
-                a.img-hover.browser-shadow(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
-                 img(src='img/mkbl/mkbl_16-large.jpg' srcset="img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1600w"  alt='About page design with quick nav')
+                a.img-hover.browser-shadow(href='../img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
+                 img(src='../img/mkbl/mkbl_16-large.jpg' srcset="../img/mkbl/mkbl_16-small.jpg 640w, ../img/mkbl/mkbl_16-medium.jpg 800w, ../img/mkbl/mkbl_16-large.jpg 1600w"  alt='About page design with quick nav')
           .wolf-item.is-caption(data-speed="-2")
               .wolf-item-inner
                 .wolf-media.portfolio-media
@@ -93,25 +92,25 @@ block content
           //- .wolf-item
           //-   .wolf-item-inner
           //-    .wolf-media.portfolio-media.browser-chrome
-          //-       a.img-hover.browser-shadow(href='img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
-          //-        img(src='img/mkbl/mkbl_17-large.jpg' srcset="img/mkbl/mkbl_17-small.jpg 640w, img/mkbl/mkbl_17-medium.jpg 800w, img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
+          //-       a.img-hover.browser-shadow(href='../img/mkbl/mkbl_17-large.jpg', data-rel='lightcase:mkbl')
+          //-        img(src='../img/mkbl/mkbl_17-large.jpg' srcset="../img/mkbl/mkbl_17-small.jpg 640w, ../img/mkbl/mkbl_17-medium.jpg 800w, ../img/mkbl/mkbl_17-large.jpg 1785w"  alt='About page design with quick nav')
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media.img-shadow
-          //-       a.img-hover(href='img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
-          //-         img(src='img/mkbl/mkbl_16-medium.jpg' srcset="img/mkbl/mkbl_16-small.jpg 640w, img/mkbl/mkbl_16-medium.jpg 800w, img/mkbl/mkbl_16-large.jpg 1330w"  alt='Sara Thompson')
+          //-       a.img-hover(href='../img/mkbl/mkbl_16-large.jpg', data-rel='lightcase:mkbl')
+          //-         img(src='../img/mkbl/mkbl_16-medium.jpg' srcset="../img/mkbl/mkbl_16-small.jpg 640w, ../img/mkbl/mkbl_16-medium.jpg 800w, ../img/mkbl/mkbl_16-large.jpg 1330w"  alt='Sara Thompson')
           //-     .figcaption: p Dr. Sara S. Thompson at work.
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media.img-shadow
-          //-       a.img-hover(href='img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')
-          //-         img(src='img/mkbl/mkbl_13-medium.jpg' srcset="img/mkbl/mkbl_13-small.jpg 640w, img/mkbl/mkbl_13-medium.jpg 800w, img/mkbl/mkbl_13-large.jpg 1480w"  alt='Sara Thompson')
+          //-       a.img-hover(href='../img/mkbl/mkbl_13-large.jpg', data-rel='lightcase:mkbl')
+          //-         img(src='../img/mkbl/mkbl_13-medium.jpg' srcset="../img/mkbl/mkbl_13-small.jpg 640w, ../img/mkbl/mkbl_13-medium.jpg 800w, ../img/mkbl/mkbl_13-large.jpg 1480w"  alt='Sara Thompson')
           //-     .figcaption: p Dr. Sara S. Thompson at work.
           //- .wolf-item
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media.img-shadow
-          //-       a.img-hover(href='img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')
-          //-         img(src='img/mkbl/mkbl_10-medium.jpg' srcset="img/mkbl/mkbl_10-small.jpg 640w, img/mkbl/mkbl_10-medium.jpg 800w, img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
+          //-       a.img-hover(href='../img/mkbl/mkbl_10-large.jpg', data-rel='lightcase:mkbl')
+          //-         img(src='../img/mkbl/mkbl_10-medium.jpg' srcset="../img/mkbl/mkbl_10-small.jpg 640w, ../img/mkbl/mkbl_10-medium.jpg 800w, ../img/mkbl/mkbl_10-large.jpg 1600w"  alt='Jonathan Delefortrie')
           //-     .figcaption
           //-       p Makeable's slogan
       
@@ -126,9 +125,9 @@ block content
           .wolf-item(data-speed="0")
             .wolf-item-inner
               .wolf-media.portfolio-media
-                a.img-hover.img-shadow(href='img/mkbl/mkbl_18-large.jpg', data-rel='lightcase:mkbl' )
+                a.img-hover.img-shadow(href='../img/mkbl/mkbl_18-large.jpg', data-rel='lightcase:mkbl' )
                   .loader
-                  img(data-aload='img/mkbl/mkbl_18-large.jpg' srcset="img/mkbl/mkbl_18-small.jpg 640w, img/mkbl/mkbl_18-medium.jpg 800w, img/mkbl/mkbl_18-large.jpg 1280w" alt='Makeable Wireframes')
+                  img(data-aload='../img/mkbl/mkbl_18-large.jpg' srcset="../img/mkbl/mkbl_18-small.jpg 640w, ../img/mkbl/mkbl_18-medium.jpg 800w, ../img/mkbl/mkbl_18-large.jpg 1280w" alt='Makeable Wireframes')
           .wolf-item.is-caption(data-speed="-2")
               .wolf-item-inner
                 .wolf-media.portfolio-media
@@ -139,9 +138,9 @@ block content
         ul.gallery.gallery-col1
           li.has-animation
             .browser-chrome.is-large
-              a.img-hover.browser-shadow(href='mkbl1.mp4' data-rel='lightcase:mkbl')
-                img.img-for-small(src='img/mkbl/mkbl_14-small.jpg' alt='Makeable love page design')
-                video(data-aload='mkbl1.mp4' preload="auto" loop)
+              a.img-hover.browser-shadow(href='../static/mkbl1.mp4' data-rel='lightcase:mkbl')
+                img.img-for-small(src='../img/mkbl/mkbl_14-small.jpg' alt='Makeable love page design')
+                video(data-aload='../static/mkbl1.mp4' preload="auto" loop)
                   //- source(src='cognizant.ogg', type='video/ogg')
                   //- source(src='mkbl1.mp4', type='video/mp4')
                   p Your browser does not support the 
@@ -151,7 +150,7 @@ block content
         .spacer.spacer-big   
         .waypoint-parent
           .browser-chrome.is-large
-            img.browser-shadow(src='img/mkbl/mkbl_12-medium.jpg' srcset="img/mkbl/mkbl_12-small.jpg 640w, img/mkbl/mkbl_12-medium.jpg 800w, img/mkbl/mkbl_12-large.jpg 1284w"  alt='Makeable love page design')
+            img.browser-shadow(src='../img/mkbl/mkbl_12-medium.jpg' srcset="../img/mkbl/mkbl_12-small.jpg 640w, ../img/mkbl/mkbl_12-medium.jpg 800w, ../img/mkbl/mkbl_12-large.jpg 1284w"  alt='Makeable love page design')
             .waypoint-bottom
           .wolf-item.wright.waypoint-child
             .wolf-item-inner
@@ -168,17 +167,18 @@ block content
       //-     .wolf-item.wright
       //-       .wolf-item-inner
       //-         .wolf-media.portfolio-media.browser-chrome
-      //-           img.browser-shadow(src='img/mkbl/mkbl_12.png', alt='SEO NAME')
+      //-           img.browser-shadow(src='../img/mkbl/mkbl_12.png', alt='SEO NAME')
 
       .wrapper
         ul.single-pagination
           li.prev
-            a(href='personal-identity.html')
-              img(src='img/kyla/kyla_05-small.jpg', alt='prev')
+            a(href='../branding/')
+              img(src='../img/kyla/kyla_05-small.jpg', alt='prev')
               span Previous Project
           li.backtoworks
-            a(href='/') Back To Works
+            a(href='../') All Projects
           li.next
-            a(href='esquire.html')
-              img(src='img/projects/esquire-small.jpg', alt='next')
+            a(href='../cognizant/ixd')
+              img(src='../img/projects/cognizant-small.jpg', alt='next')
               span Next Project
+          

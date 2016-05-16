@@ -298,9 +298,10 @@ function smoothShow() {
 
 $(window).load(function() {
 	// if (head.desktop) {
-		// if ($('html#index-page').length) {
-			preCache();
-		// }
+	if ($('html#index-page.layout').length) {
+		preCache();
+		var myLoader = html5Preloader('./static/cognizant9.mp4', './static/mkbl1.mp4', './static/twc1.mp4', './static/FA-strobe.mp4', './static/cognizant-sites1.mp4');
+	}
 	// }
 	// if (head.desktop) {
 	// 	$('#index-page .hero-full, #home-page .hero-full').mousemove(function(e) {
@@ -314,7 +315,7 @@ $(window).load(function() {
 	// if ($('.video-cover').length >  0) { 
 	// 	$('.video-cover').get(0).play();
 	// }
-	var myLoader = html5Preloader('cognizant9.mp4', 'mkbl1.mp4', 'twc1.mp4', 'FA-strobe.mp4', 'cognizant-sites1.mp4');
+	
 	/*---------------------------------------------- 
 			H I D E   P A G E   L O A D E R  + S M O O T H   S H O W
 	------------------------------------------------*/
@@ -774,60 +775,110 @@ $(window).load(function() {
 	})
 		
 });
+$(window).load(function(){ $("html,body").animate({scrollTop: 0}, 1); });
 $(document).on('ready', function() {
 	if ($('#hero').length && $('#hero').hasClass('text-light')) {
 		$('#logo').addClass('show-light-logo');
 		$('.menu').addClass('menu-light');
 	}
-	if (!$('html#index-page').length && !$('html#about-page').length) {
-		$('#main-nav ul > li').removeClass('current-menu-item')
-		$('#main-nav .submenu li').removeClass('current-menu-item')
-		$('#main-nav ul > li.projects').addClass('current-menu-item')
-		var elmentID = $('html').attr('id')
-		switch (elmentID) {
-		  case 'artnet-page':
-			$('#main-nav .submenu li.artnet').addClass('current-menu-item')
-			break;
-		  case 'akc-page':
-			$('#main-nav .submenu li.akc').addClass('current-menu-item')
-			break;
-		  case 'weather-channel-page':
-			$('#main-nav .submenu li.twc').addClass('current-menu-item')
-			break;
-		  case 'cognizant-IxD-page':
-			$('#main-nav .submenu li.cognizant-ixd').addClass('current-menu-item')
-			break;
-		  case 'cognizant-design-page':
-			$('#main-nav .submenu li.cognizant-design').addClass('current-menu-item')
-			break;
-		  case 'hard-workers-club-page':
-			$('#main-nav .submenu li.hwc').addClass('current-menu-item')
-			break;
-		  case 'personal-identity-page':
-			$('#main-nav .submenu li.pid').addClass('current-menu-item')
-			break;
-		  case 'mkbl-page':
-			$('#main-nav .submenu li.mkbl').addClass('current-menu-item')
-			break;
-		  case 'esquire-page':
-			$('#main-nav .submenu li.esquire').addClass('current-menu-item')
-			break;
-		  case 'creative-time-page':
-			$('#main-nav .submenu li.ct').addClass('current-menu-item')
-			break;
-		  case 'free-association-page':
-			$('#main-nav .submenu li.fa').addClass('current-menu-item')
-			break;
-		 //  case 'clear-page':
-			// $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
-			// break;
-		  case 'success-academy-page':
-			$('#main-nav .submenu li.sa').addClass('current-menu-item')
-			break;
-		  default:
-			break;
+
+	// $("#page-content").animsition({
+	// 	inClass: 'fade-in',
+	// 	outClass: 'fade-out',
+	// 	inDuration: 100,
+	// 	outDuration: 600,
+	// 	// linkElement: '.animsition-link',
+	// 	linkElement: 'a:not([target="_blank"]):not([href^="#"])',
+	// 	// e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+	// 	loading: true,
+	// 	loadingParentElement: 'body', //animsition wrapper element
+	// 	loadingClass: 'page-loader',
+	// 	loadingInner: '', // e.g '<img src="loading.svg" />'
+	// 	timeout: false,
+	// 	timeoutCountdown: 5000,
+	// 	onLoadEvent: true,
+	// 	browser: [ 'animation-duration', '-webkit-animation-duration'],
+	// 	// "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+	// 	// The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+	// 	overlay : false,
+	// 	overlayClass : 'animsition-overlay-slide',
+	// 	overlayParentElement : 'body',
+	// 	transition: function(url){ 
+	// 		window.location.href = url;
+	// 		window.scrollTo(0,0);
+	// 	}
+	//   });
+
+
+	if (!$('html.root-section').length && !$('html.about-section').length) {
+		$('#main-nav ul > li').removeClass('current-menu-item');
+		$('.modal-menu li').removeClass('current-menu-item');
+		$('#main-nav ul > li.projects').addClass('current-menu-item');
+		
+		var classes = ["artnet-section", "akc-section", "the-weather-channel-section","ixd-section", "design-section", "hwc-section", "branding-section", "makeable-section", "esquire-section", "free-association-section", "success-academy-section"];
+		var self = $("html");
+		for(var i =0, ii = classes.length;i<ii;i++) {
+			var className = classes[i];
+			if(self.hasClass(className)) {
+				switch(className) {
+				  case 'artnet-section':
+					$('#main-nav .submenu li.artnet').addClass('current-menu-item');
+					$('.modal-menu li.artnet').addClass('current-menu-item');
+					break;
+				  case 'akc-section':
+					$('#main-nav .submenu li.akc').addClass('current-menu-item');
+					$('.modal-menu li.akc').addClass('current-menu-item');
+					break;
+				  case 'the-weather-channel-section':
+					$('#main-nav .submenu li.twc').addClass('current-menu-item');
+					$('.modal-menu li.twc').addClass('current-menu-item');
+					break;
+				  case 'ixd-section':
+					$('#main-nav .submenu li.cognizant-ixd').addClass('current-menu-item');
+					$('.modal-menu li.cognizant-ixd').addClass('current-menu-item');
+					break;
+				  case 'design-section':
+					$('#main-nav .submenu li.cognizant-design').addClass('current-menu-item');
+					$('.modal-menu li.cognizant-design').addClass('current-menu-item');
+					break;
+				  case 'hwc-section':
+					$('#main-nav .submenu li.hwc').addClass('current-menu-item');
+					$('.modal-menu li.hwc').addClass('current-menu-item');
+					break;
+				  case 'branding-section':
+					$('#main-nav .submenu li.pid').addClass('current-menu-item');
+					$('.modal-menu li.pid').addClass('current-menu-item');
+					break;
+				  case 'makeable-section':
+					$('#main-nav .submenu li.mkbl').addClass('current-menu-item');
+					$('.modal-menu li.mkbl').addClass('current-menu-item');
+					break;
+				  case 'esquire-section':
+					$('#main-nav .submenu li.esquire').addClass('current-menu-item');
+					$('.modal-menu li.esquire').addClass('current-menu-item');
+					break;
+				 //  case 'creative-time-section':
+					// $('#main-nav .submenu li.ct').addClass('current-menu-item')
+					// break;
+				  case 'free-association-section':
+					$('#main-nav .submenu li.fa').addClass('current-menu-item')
+					$('.modal-menu li.fa').addClass('current-menu-item')
+					break;
+				 //  case 'clear-section':
+					// $('#main-nav .submenu li.clear-li').addClass('current-menu-item')
+					// break;
+				  case 'success-academy-section':
+					$('#main-nav .submenu li.sa').addClass('current-menu-item')
+					$('.modal-menu li.sa').addClass('current-menu-item')
+					break;
+				  default:
+					break;
+				break;
+				}
+			}
 		}
-	} else if (!$('html#index-page').length) {
+	} 
+	else if (!$('html.root-section').length) {
 		$('#main-nav ul > li').removeClass('current-menu-item')
 		$('#main-nav ul > li.about').addClass('current-menu-item')
 	}

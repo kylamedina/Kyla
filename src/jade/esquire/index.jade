@@ -1,4 +1,4 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
   //- include includes/triangles.jade
@@ -10,7 +10,7 @@ block content
           .wolf-item.wfull.wright.wolf-text(data-speed='2')
             .wolf-item-inner
               .wolf-media
-                img(src='img/esquire/esquire_01-medium.jpg' srcset="img/esquire/esquire_01-small.jpg 640w, img/esquire/esquire_01-medium.jpg 800w, img/esquire/esquire_01-large.jpg 1600w" alt='Esquire We Build Men Project Header Image')
+                img(src='../img/esquire/esquire_01-medium.jpg' srcset="../img/esquire/esquire_01-small.jpg 640w, ../img/esquire/esquire_01-medium.jpg 800w, ../img/esquire/esquire_01-large.jpg 1600w" alt='Esquire We Build Men Project Header Image')
               .wolf-caption.ctop(style='width:60%;')
                 h5.alttitle Design and Development
                 h1
@@ -33,11 +33,11 @@ block content
         ul.gallery.gallery-col2.spaced
           li.has-animation.browser-chrome
 
-              a.img-hover.browser-shadow(href='./img/esquire/esquire_02-large.jpg', data-rel='lightcase:akc')
-                img(data-aload='./img/esquire/esquire_02-medium.jpg' srcset="img/esquire/esquire_02-small.jpg 640w, img/esquire/esquire_02-medium.jpg 800w, img/esquire/esquire_02-large.jpg 1480w" alt='Esquire We Build Men Post Page')
+              a.img-hover.browser-shadow(href='./../img/esquire/esquire_02-large.jpg', data-rel='lightcase:akc')
+                img(data-aload='./../img/esquire/esquire_02-medium.jpg' srcset="../img/esquire/esquire_02-small.jpg 640w, ../img/esquire/esquire_02-medium.jpg 800w, ../img/esquire/esquire_02-large.jpg 1480w" alt='Esquire We Build Men Post Page')
           li.has-animation.browser-chrome
-             a.img-hover.browser-shadow(href='./img/esquire/esquire_03-large.jpg', data-rel='lightcase:akc')
-               img(data-aload='./img/esquire/esquire_03-medium.jpg' srcset="img/esquire/esquire_03-small.jpg 640w, img/esquire/esquire_03-medium.jpg 800w, img/esquire/esquire_03-large.jpg 1480w" alt='Esquire We Build Men All Posts Page')
+             a.img-hover.browser-shadow(href='./../img/esquire/esquire_03-large.jpg', data-rel='lightcase:akc')
+               img(data-aload='./../img/esquire/esquire_03-medium.jpg' srcset="../img/esquire/esquire_03-small.jpg 640w, ../img/esquire/esquire_03-medium.jpg 800w, ../img/esquire/esquire_03-large.jpg 1480w" alt='Esquire We Build Men All Posts Page')
       //-   ul.gallery.spaced
       //-     li.has-animation
       //-       img(src='./uploads/1100x600-light.jpg', alt='SEO NAME')
@@ -49,12 +49,12 @@ block content
       .wrapper
         ul.single-pagination
           li.prev
-            a(href='cognizant-IxD.html')
-              img(src='img/projects/cognizant-small.jpg', alt='prev')
+            a(href='../the-weather-channel/' style='background:url("../img/twc/rain.gif");background-size:cover;background-position: 50% 100%;')
+              img(src='../img/projects/twc2.png', alt='prev')
               span Previous Project
           li.backtoworks
-            a(href='/') Back To Works
+            a(href='../') All Projects
           li.next
-            a(href='creative-time.html')
-              img(src='img/projects/ct-small.png', alt='next')
+            a(href='../success-academy/')
+              img(src='../img/sa/sa_02-small.jpg', alt='next')
               span Next Project

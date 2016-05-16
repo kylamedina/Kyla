@@ -84,6 +84,6 @@ gulp.task 'clear', (done) ->
   $.cache.clearAll done
 
 gulp.task 'static', ->
-	gulp.src(['src/static/*'], { base: 'src/static/'})
+	gulp.src(['src/static/**/*'], { base: 'src/static/'})
 		.pipe $.plumber(errorHandler: onError)
-		.pipe gulp.dest('app/')
+		.pipe gulp.dest('app/static/')

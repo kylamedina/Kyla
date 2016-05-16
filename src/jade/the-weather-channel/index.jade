@@ -1,15 +1,16 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
   //- include includes/triangles.jade
-  include includes/header-light.jade
+  - var headerLight = true
+  include includes/header.jade
   #page-content.page-twc
     section#hero.hero-big.text-light
-      //- .parallax-section.text-light(data-parallax-image='img/twc/twc_03-large.gif')
+      //- .parallax-section.text-light(data-parallax-image='../img/twc/twc_03-large.gif')
   
       //- .hero-video
-      img.img-for-small.hero-video(src='img/twc/twc_04-small.jpg')
-      video.hero-video(autoplay data-aload='twc1.mp4' loop)
+      img.img-for-small.hero-video(src='../img/twc/twc_04-small.jpg')
+      video.hero-video(autoplay data-aload='../static/twc1.mp4' loop)
         //- source(src='cognizant.ogg', type='video/ogg')
         //- source(src='twc1.mp4', type='video/mp4')
         p Your browser does not support the 
@@ -24,15 +25,15 @@ block content
     section#page-body
       .wrapper.xtra-wide
         ul.gallery.gallery-col1
-          li.has-animation(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-            img(data-aload='img/twc/twc_01-medium.png', srcset="img/twc/twc_01-small.png 640w, img/twc/twc_01-medium.png 1480w, img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
+          li.has-animation(style='background:url(../img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+            img(data-aload='../img/twc/twc_01-medium.png', srcset="../img/twc/twc_01-small.png 640w, ../img/twc/twc_01-medium.png 1480w, ../img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
         
       //- .wrapper-medium
       //-   .wolf-grid.clearfix(data-mouseparallax='true' style='margin-bottom:0;')
       //-     .wolf-item.wfull
       //-       .wolf-item-inner
-      //-         .wolf-media.portfolio-media(style='background:url(img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-      //-           img(data-aload='img/twc/twc_01-medium.png', srcset="img/twc/twc_01-small.png 640w, img/twc/twc_01-medium.png 1480w, img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
+      //-         .wolf-media.portfolio-media(style='background:url(../img/twc/rain.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+      //-           img(data-aload='../img/twc/twc_01-medium.png', srcset="../img/twc/twc_01-small.png 640w, ../img/twc/twc_01-medium.png 1480w, ../img/twc/twc_01-large.png 2224w" alt='Weather Channel App Screens')
       .wrapper-small
         h4.align-center
           strong A Full-Scale Prototype
@@ -47,26 +48,23 @@ block content
               p When severe weather strikes, the background illustration and dominant color would change. There also are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
           .wolf-item
             .wolf-item-inner
-              .wolf-media.portfolio-media(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-                  img(data-aload='img/twc/twc_02-medium.png' srcset="img/twc/twc_02-small.png 640w, img/twc/twc_02-medium.png 1480w, img/twc/twc_02-large.png 1600w" alt='Weather Channel Severe Weather Screen')
+              .wolf-media.portfolio-media(style='background:url(../img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+                  img(data-aload='../img/twc/twc_02-medium.png' srcset="../img/twc/twc_02-small.png 640w, ../img/twc/twc_02-medium.png 1480w, ../img/twc/twc_02-large.png 1600w" alt='Weather Channel Severe Weather Screen')
         //- ul.gallery.gallery-col1
-        //-   li.has-animation(style='background:url(img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
-        //-     img(src="img/twc/twc_02.png", alt="")
+        //-   li.has-animation(style='background:url(../img/twc/hurricane.gif) repeat-x; background-size: auto 100%; background-position: 50% 50%;background-position:fixed;')
+        //-     img(src="../img/twc/twc_02.png", alt="")
         //-   li.has-animation
         //-     .figcaption: p  When severe weather strikes, the background illustration and color would change, there are no ads, and the app pulls in relevant social updates from Instagram and Twitter.
 
       .wrapper
         ul.single-pagination
           li.prev
-            a(href='akc.html')
-              img(src='img/projects/akc-small.jpg', alt='prev')
+            a(href='../../free-association/').rolling-gradient
+              img(src='../../svg/FA-logo.svg' alt='prev')
               span Previous Project
           li.backtoworks
-            a(href='/') Back To Works
+            a(href='../') All Projects
           li.next
-            a(href='cognizant-IxD.html')
-              img(src='img/projects/cognizant-small.jpg', alt='next')
+            a(href='../esquire/')
+              img(src='../img/projects/esquire-small.jpg', alt='next')
               span Next Project
-
-
-

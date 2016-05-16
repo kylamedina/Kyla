@@ -1,6 +1,8 @@
-.modal
-	+below(1024px)
++below(1024px)
+	.modal
 		display none
+	.modal-is-active #header nav#main-nav ul li > a
+		color black
 		
 +above(1025px)		
 	.modal
@@ -40,10 +42,10 @@
 			transition top 0.3s ease, transform 0.6s $ease-out-quart
 		.main-footer
 			transform translateX(-200px)
-			transition all 0.6s $ease-out-quad
+			transition all 0.6s $ease-out-quart
 		#page-content
 			left -200px !important
-			transition all 0.6s $ease-out-quad
+			transition all 0.6s $ease-out-quart
 		header.hero-invisible #menu .open-nav .hamburger:before, 
 		header.hero-invisible #menu .open-nav .hamburger:after,
 		header #menu .open-nav .hamburger:before, 
@@ -69,6 +71,8 @@
 			letter-spacing 2px
 			font-family Mediumfont
 			line-height 1.4
+		.current-menu-item a
+			color white !important
 		a
 			color #D0D0D0
 			display inline-block
@@ -79,12 +83,12 @@
 				display inline-block
 				height 100%
 				width 1px
-				background-color primary
+				background-color purple
 				position absolute
 				right -20px
 				opacity 0
 			&:hover 
-				color primary
+				color purple
 				transform translateX(-15px)
 				transition all 0.3s $ease-out-quad !important
 				&:after

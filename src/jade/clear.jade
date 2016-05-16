@@ -1,4 +1,4 @@
-extends layouts/layout
+extends layouts/sublayout
 
 block content
   //- include includes/triangles.jade
@@ -42,7 +42,7 @@ block content
               img(src='img/projects/sa-small.jpg', alt='prev')
               span Previous Project
           li.backtoworks
-            a(href='/') Back To Works
+            a(href='../') All Projects
           li.next
             a(href='artnet.html')
               img(src='img/projects/artnet-small.jpg', alt='next')
