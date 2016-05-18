@@ -33,63 +33,10 @@ html
           source(src='../../static/loading_gradient.mp4')
         //- .loader
         //-   strong Loading
-    #main
-      block content
-    footer.main-footer
-      ul.social-list
-        //- THINK ABOUT ELLO OR VSCO IN THE FUTURE
-        li
-          a(href="http://love.ky.la/" target='_blank') Dropmark
-        li
-          a(href="https://github.com/kylamedina" target='_blank') Github
-        li
-          a(href="https://twitter.com/thebestkylaever" target='_blank') Twitter
-        li
-          a(href="https://www.behance.net/kylamedina" target='_blank') Behance
-        li
-          a(href="https://dribbble.com/kylamedina" target='_blank') Dribbble
-        li
-          a(href="mailto:hi@ky.la" target='_blank') Email
-    .modal
-      ul.modal-menu
-        li.artnet
-          h5: a.animsition-link(href='../../artnet/')
-            | Artnet Worldwide
-        li.akc
-          h5: a.animsition-link(href='../../akc/')
-            | American Kennel Club
-        li.cognizant-design
-          h5: a.animsition-link(href='../../cognizant/design/')
-            | Cognizant Design
-        li.cognizant-ixd
-          h5: a.animsition-link(href='../../cognizant/ixd/')
-            | Cognizant IxD
-        
-        //- li.ct
-        //-   h5: a.animsition-link(href='../../creative-time/')
-        //-     | Creative Time
-        li.esquire
-          h5: a.animsition-link(href='../../esquire/')
-            | Esquire
-        li.fa
-          h5: a.animsition-link(href='../../free-association/')
-            | Free Association
-        li.hwc
-          h5: a.animsition-link(href='../../hwc/')
-            | Hard Workers Club
-        li.mkbl
-          h5: a.animsition-link(href='../../makeable/')
-            | Makeable
-        li.pid
-          h5: a.animsition-link(href='../../branding/')
-            | Personal Branding
-        li.sa
-          h5: a.animsition-link(href='../../success-academy/')
-            | Success Academy
-        li.twc
-          h5: a.animsition-link(href='../../the-weather-channel/')
-            | The Weather Channel
-    //- script(type='text/javascript', src='./js/vendor.js')
+    
+    block content
+    include ../includes/modal.jade
+    include ../includes/footer.jade
     script.
       head.load({ app: "../../../js/app.js" }, function() {
           window.onload = function () {
