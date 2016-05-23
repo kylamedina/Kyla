@@ -35,6 +35,11 @@ gulp.task 'watch', ['browser-sync'], ->
 	# 	'./README.md',
 	# 	'./app/css/**/*.css' 
 	# ], ['styleguide']
+	, {
+			interval: 1000, # default 100
+			debounceDelay: 1000, # default 500
+			mode: 'poll'
+		}
 	
 
 gulp.task 'default', (cb) ->
@@ -58,6 +63,7 @@ gulp.task 'browser-sync', ->
 	browserSync 
 		# proxy: 'localhost:3000'
 		port: 8088
+		# server: false
 		open: false
 		tunnel: false
 		online: true

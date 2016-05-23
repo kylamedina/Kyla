@@ -75,16 +75,16 @@ block content
                   h6.alttitle.portfolio-category Design
                   h4.portfolio-name
                     strong Artnet Worldwide
-          .wolf-item.portfolio-wolf-item.design.project-me
-            .wolf-item-inner.no-mobile-video
-              .wolf-media.portfolio-media
-                a.wolf-media-link(alt='personal identity' href='branding/')
-                  video(data-aload='../static/branding01-small.mp4' alt='Personal Branding' loop)
-              .wolf-caption.portfolio-caption(style='margin-top: 10%;')
-                a.wolf-caption-link(alt='personal identity' href='branding/')
-                  h6.alttitle.portfolio-category Design
-                  h4.portfolio-name
-                    strong Personal Branding
+          //- .wolf-item.portfolio-wolf-item.design.project-me
+          //-   .wolf-item-inner.no-mobile-video
+          //-     .wolf-media.portfolio-media
+          //-       a.wolf-media-link(alt='personal identity' href='branding/')
+          //-         video(data-aload='static/branding01-small.mp4' alt='Personal Branding' loop)
+          //-     .wolf-caption.portfolio-caption(style='margin-top: 10%;')
+          //-       a.wolf-caption-link(alt='personal identity' href='branding/')
+          //-         h6.alttitle.portfolio-category Design
+          //-         h4.portfolio-name
+          //-           strong Personal Branding
           
           
           .wolf-item.portfolio-wolf-item.frontend.design.photo.project-mkbl
@@ -195,6 +195,6 @@ block content
           
 block footer
   script.
-    head.load([{ parallax: "../static/jquery.parallax.min.js" }], function() {
+    head.load([{ parallax: "static/jquery.parallax.min.js" }], function() {
       $('#hero').parallax();
     });   
