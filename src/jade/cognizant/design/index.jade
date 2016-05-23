@@ -68,7 +68,9 @@ block content
         p Your browser does not support the 
           code video
           |  element.
-      img(src="../../img/cognizant/cogs_01-large.jpg" srcset="../../img/cognizant/cogs_01-small.jpg 640w, ../../img/cognizant/cogs_01-medium.jpg 800w, ../../img/cognizant/cogs_01-large.jpg 2250w" alt="")
+      .horizontal-section.parallax-section(data-parallax-image='../../img/cognizant/cogs_01-large.jpg', style='height: 800px;')
+
+      //- img(src="../../img/cognizant/cogs_01-large.jpg" srcset="../../img/cognizant/cogs_01-small.jpg 640w, ../../img/cognizant/cogs_01-medium.jpg 800w, ../../img/cognizant/cogs_01-large.jpg 2250w" alt="")
       .spacer.spacer-big
       .spacer.spacer-big
       .wrapper
@@ -108,7 +110,7 @@ block content
       a.hidden(href='../../img/cognizant/cogs_09-large.jpg'  data-rel='lightcase:cognizant')
       a.hidden(href='../../img/cognizant/cogs_10-large.jpg'  data-rel='lightcase:cognizant')
       .wrapper
-        .spacer.spacer-big
+        .spacer.spacer-small
         ul.single-pagination
           li.prev
             a(href='../../akc/')
