@@ -9,7 +9,7 @@ onError = (error) ->
 	$.util.log error
 
 # Stylus Plugins
-nib = require('nib')
+# nib = require('nib')
 del = require('del')
 axis = require('axis')
 rupture = require('rupture')
@@ -32,7 +32,7 @@ gulp.task 'styl-watch', ->
 				axis()
 				jeet()
 				rupture()
-				nib()
+				# nib()
 				autoprefixer()
 			]
 			include: ['src/styl']
