@@ -9,7 +9,7 @@ onError = (error) ->
 	$.util.log error
 
 # Stylus Plugins
-# nib = require('nib')
+# nib = require('nib')	
 del = require('del')
 axis = require('axis')
 rupture = require('rupture')
@@ -42,7 +42,7 @@ gulp.task 'styl-watch', ->
 		})
 		.pipe $.rename('style.css')
 		.pipe $.csscomb()
-		.pipe $.bless()
+		# .pipe $.bless()
 		.pipe gulp.dest('app/css')
 		# .pipe browserSync.reload({stream:true})
 
