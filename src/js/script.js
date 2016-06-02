@@ -300,7 +300,7 @@ function smoothShow() {
 function doAllTheLoadThings() {
 	$("html,body").animate({scrollTop: 0}, 1);
 	// if (head.desktop) {
-	if ($('html#index-page').length || $('html.root-section').length) {
+	if ($('html#index-page').length && $('html.root-section').length) {
 		preCache();
 		var myLoader = html5Preloader('./static/cognizant9.mp4', './static/mkbl1.mp4', './static/twc1.mp4', './static/FA-strobe.mp4', './static/cognizant-sites1.mp4');
 	}
@@ -506,11 +506,11 @@ function doAllTheLoadThings() {
 	/*---------------------------------------------- 
 					 V I D E O   B G
 	------------------------------------------------*/
-	// if($().bgVideo) { 
-	// 	setTimeout(function() {
-	// 		$('.videobg-section').bgVideo();
-	// 	}, 1000);
-	// }
+	if($().bgVideo && $('.videobg-section').length > 0) { 
+			setTimeout(function() {
+				$('.videobg-section').bgVideo();
+			}, 1000);
+	}
 	
 	
 	
