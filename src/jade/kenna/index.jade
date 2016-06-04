@@ -1,0 +1,92 @@
+extends layouts/sublayout
+
+block content
+  //- include includes/triangles.jade
+  - var headerLight = true
+  include includes/header.jade
+  #page-content.page-kenna
+    section#hero.hero-big.parallax-section(data-parallax-image='../img/kenna/kenna_05-large.jpg')
+      //- .hero-overlay      
+      .page-title.hleft
+        h5.alttitle Photography
+        h1
+          strong Kenna
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.body-kenna
+      .wrapper-mini
+        //- h4.align-center
+        //-   strong Ecommerce
+        //- h6.alttitle.align-center for the largest dog community in the world
+        .column-section.clearfix
+            p.align-center Kenna is a concept for a social, fashion inpiration app. I shot all the photos for the concept. 
+        .spacer.spacer-big
+
+      .wrapper
+        
+        //- .wolf-grid.clearfix(data-mouseparallax='true')
+        //-   .wolf-item.is-caption
+        //-     .wolf-item-inner
+        //-       .wolf-media.portfolio-media
+        //-         .figcaption
+        //-           p Kenna is a concept for a social, fashion inpiration app. I shot all the photos for the concept.
+        //-   .wolf-item(data-speed="-1" )
+        //-     .wolf-item-inner
+        //-       .wolf-media.portfolio-media
+        //-         a.img-hover(href='../img/kenna/kenna_03-large.png', data-rel='lightcase:kenna')
+        //-           .loader
+        //-           img(data-aload='../img/kenna/kenna_03-large.png' srcset="../img/kenna/kenna_03-large.png 640w, ../img/kenna/kenna_03-large.png 800w, ../img/kenna/kenna_03-large.png 1280w" alt='Kenna Screen')
+      .horizontalsection(style='max-width:1100px;margin-left: auto; margin-right:auto')
+        img(data-aload='../img/kenna/kenna_01-large.jpg' style='display:block;margin:0 auto')
+        .spacer.spacer-big
+        //- .wolf-grid.clearfix(data-mouseparallax='false')
+        //-   .wolf-item-inner.wfull
+        //-     .wolf-media.portfolio-media
+        //-       a(href='../img/kenna/kenna_01-large.jpg', data-rel='lightcase:kenna')
+        //-         .loader
+        //-         img(src='../img/kenna/kenna_01-large.jpg' srcset="../img/kenna/kenna_01-large.jpg 640w, ../img/kenna/kenna_01-large.jpg 1000w, ../img/kenna/kenna_01-large.jpg 1400w" alt='Kenna Screens')
+      .wrapper
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='../img/kenna/kenna_04-large.png', data-rel='lightcase:kenna')
+                  .loader
+                  img(data-aload='../img/kenna/kenna_04-large.png' srcset="../img/kenna/kenna_04-large.png 640w, ../img/kenna/kenna_04-large.png 800w, ../img/kenna/kenna_04-large.png 1280w" alt='Kenna Screen')
+          .wolf-item.is-caption.is-caption--right(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p Users can snap, tag, and post to a feed that is searchable by tag. Users have profiles where they can save looks that are liked from the feed.
+      .horizontalsection(style='max-width:1100px;margin:0 auto;')
+        img(data-aload='../img/kenna/kenna_02-large.jpg' style='display:block;margin:0 auto')
+      //- .wolf-grid.clearfix(data-mouseparallax='false')
+      //-   .wolf-item.wfull
+      //-     .wolf-item-inner
+      //-       .wolf-media.portfolio-media
+      //-         img.has-animation(src='../img/kenna/kenna_02-large.jpg' srcset="../img/kenna/kenna_02-large.jpg 640w, ../img/kenna/kenna_02-large.jpg 800w, ../img/kenna/kenna_02-large.jpg 1440w, ../img/kenna/kenna_02-large.jpg 1960w" alt='Kenna Screens')
+      .wrapper
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item.is-caption.is-caption--right(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p The concept is monetized by embedabble stores that allow users to buy clothes directly from looks in the feed without leaving the app.
+          .wolf-item(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='../img/kenna/kenna_06-large.png', data-rel='lightcase:kenna')
+                  .loader
+                  img(data-aload='../img/kenna/kenna_06-large.png' srcset="../img/kenna/kenna_06-large.png 640w, ../img/kenna/kenna_06-large.png 800w, ../img/kenna/kenna_06-large.png 1280w" alt='AKC Marketplace Website Search Page')
+
+        ul.single-pagination
+          li.prev
+            a(href='../hwc/#top')
+              img(src='../img/projects/hwc-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='../') All Projects
+          li.next
+            a(href='../cognizant/design/#top')
+              img(src='../img/projects/cognizant2-small.jpg', alt='next')
+              span Next Project
