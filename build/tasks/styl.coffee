@@ -22,6 +22,10 @@ gulp.task 'css', ->
 	return gulp.src('src/css/*.css')
 		.pipe $.plumber(errorHandler: onError)
 		.pipe $.concat 'vendor.css'
+		.pipe($.cleanCss({debug: true}, (details) ->
+			console.log(details.name + ': ' + (100 - (details.stats.minifiedSize/details.stats.originalSize)*100) + '% Saved');
+			# console.log(details.name + ': ' + details.stats.minifiedSize);
+		))
 		.pipe gulp.dest 'app/css'
 
 gulp.task 'styl-watch', ->
@@ -38,10 +42,10 @@ gulp.task 'styl-watch', ->
 			include: ['src/styl']
 			compress: true
 			url:
-    			name: 'embedurl'
+				name: 'embedurl'
 		})
 		.pipe $.rename('style.css')
-		.pipe $.csscomb()
+		# .pipe $.csscomb()
 		# .pipe $.bless()
 		.pipe gulp.dest('app/css')
 		# .pipe browserSync.reload({stream:true})
