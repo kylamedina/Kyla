@@ -581,7 +581,10 @@ function doAllTheLoadThings() {
 		$('html,body').animate({ scrollTop: $("#"+$(this).data('related-grid')).offset().top-parseInt($("#header-filter").height(), 10)-100}, 1000, 'easeInOutQuart');
 		return false;
 	});
-	$('header').on("click", ".close-filter", function() {  $('#header-filter').removeClass('filter-is-open'); return false; });
+	$('header').on("click", ".close-filter", function() {  
+		$('#header-filter').removeClass('filter-is-open'); 
+		return false; 
+	});
 	
 	// /* share */
 	// $('header').on("click", ".open-share", function() { $('#header-share').addClass('share-is-open'); return false; });
