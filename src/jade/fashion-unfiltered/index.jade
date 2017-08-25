@@ -1,0 +1,52 @@
+extends layouts/sublayout
+block head
+  
+block content
+  //- include includes/triangles.jade
+  - var headerLight = true
+  include includes/header.jade
+  #page-content.page-heed
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='../img/fu/fu-hero-large.jpg')
+      .hero-overlay      
+      .page-title.hcenter
+        h5.alttitle Strategy, UX, Design, Animation
+        h1
+          strong Fashion Unfiltered
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.body-heed
+      .wrapper-small
+        h4.align-center
+          strong Coming Soon
+        h6.alttitle.align-center No Fluff. Just Fashion
+        .column-section.clearfix
+            p.align-center Fashion Unfiltered is the premier online destination for fashion news, commentary and criticism, in-depth style coverage, cultural reportage, and the best of beauty. With a credo of No Fluff, Just Fashion, we explore every facet of our complex industry through a bouquet of informed visual and editorial perspectives. The antidote to ordinary, Fashion Unfiltered prioritizes content over clicks, and promises to educate, entertain, and explain better than any other site on the Web. Below is the Media Kit for the upcoming site.
+
+      .wrapper
+        .spacer.spacer-medium
+        //- - for (var i=1; i<29; i++)
+        //-     .wolf-item.wfull
+        //-         .wolf-item-inner
+        //-             .wolf-media.portfolio-media
+        //-                 img.has-animation(src='../img/fu/FashionUnfiltered_MediaKit.#{i}.jpg' alt='Fashion Unfiltered Media Kit Slide')
+        style.
+            figure img { border: 1px solid #f0f0f0 }
+        .owl-slider
+            - for (var i=1; i<29; i++)
+                figure
+                    img(src='../img/fu/FashionUnfiltered_MediaKit.#{i}.jpg' alt='FashionUnfiltered_MediaKit')
+       
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='../../free-association/').rolling-gradient
+              img(src='../../svg/FA-logo.svg' alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='../') All Projects
+          li.next
+            a(href='../esquire/')
+              img(src='../img/projects/esquire-small.jpg', alt='next')
+              span Next Project
+
+block footer

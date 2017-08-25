@@ -1,0 +1,48 @@
+extends layouts/sublayout
+block head
+  
+block content
+  //- include includes/triangles.jade
+  - var headerLight = true
+  include includes/header.jade
+  #page-content.page-heed
+    section#hero.hero-big.parallax-section.text-light(data-parallax-image='../img/projects/heed-large.jpg')
+      //- .hero-overlay      
+      .page-title.hleft
+        h5.alttitle Design, Animation
+        h1
+          strong HEED
+      //- a#scroll-down(href='#') Scroll Down
+
+    section#page-body.body-heed
+      .wrapper-small
+        h4.align-center
+          strong Offical App
+        h6.alttitle.align-center New York Fashion Week
+        .column-section.clearfix
+            p.align-center Fashion goes mobile. Designing the official app for NYFW highlighting live/exclusive content and commerce opportunities from the shows, designers and experts.
+            p.align-center Accessible fashion was the core focus of the HEED app.  Bringing the runway, experts and commerce opportunities to mobile through live, continuous content and unique interaction design.
+
+      .wrapper
+        .wolf-item.wfull
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img.has-animation(src='../img/nyfw/heed_01_large.jpg' alt='NYFW App')
+        .wolf-item.wfull
+          .wolf-item-inner
+            .wolf-media.portfolio-media
+              img.has-animation(src='../img/nyfw/heed_02_large.jpg' alt='NYFW App')
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='../../free-association/').rolling-gradient
+              img(src='../../svg/FA-logo.svg' alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='../') All Projects
+          li.next
+            a(href='../esquire/')
+              img(src='../img/projects/esquire-small.jpg', alt='next')
+              span Next Project
+
+block footer
