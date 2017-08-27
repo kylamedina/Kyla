@@ -1,0 +1,74 @@
+extends ../layouts/sublayout
+
+block content
+  //- include includes/triangles.pug
+  - var headerLight = true
+  include ../includes/header.pug
+  #page-content.page-artnet
+    section#hero.hero-big.parallax-section.text-light.hero--intrepid(data-parallax-image='../img/intrepid/intrepid_01-large.jpg')
+      .hero-overlay
+      .page-title
+        h5.alttitle Photography
+        h1
+          strong Intrepid Enterprise
+      //- a#scroll-down(href='#') Scroll Down
+    section#page-body.body--artnet
+
+      .horizontal-section
+        .wrapper.xtra-wide
+          ul.gallery.gallery-col4.spaced
+            li.has-animation(data-delay='200')
+              a.img-hover(href="../img/intrepid/intrepid_02-large.jpg" data-rel="lightcase:intrepid" )
+                img(data-aload='../img/intrepid/intrepid_02-large.jpg', srcset="../img/intrepid/intrepid_02-small.jpg 640w, ../img/intrepid/intrepid_02-medium.jpg 850w" alt='Intrepid App Screen')
+            li.has-animation(data-delay='200')
+              a.img-hover(href="../img/intrepid/intrepid_03-large.jpg" data-rel="lightcase:intrepid" )
+                img(data-aload='../img/intrepid/intrepid_03-large.jpg', srcset="../img/intrepid/intrepid_03-small.jpg 640w, ../img/intrepid/intrepid_03-medium.jpg 850w" alt='Intrepid App Screen')
+            li.has-animation(data-delay='400')
+              a.img-hover(href="../img/intrepid/intrepid_04-large.jpg" data-rel="lightcase:intrepid" )
+                img(data-aload='../img/intrepid/intrepid_04-large.jpg', srcset="../img/intrepid/intrepid_04-small.jpg 640w, ../img/intrepid/intrepid_04-medium.jpg 850w" alt='Intrepid App Screen')
+            li.has-animation(data-delay='400')
+              a.img-hover(href="../img/intrepid/intrepid_05-large.jpg" data-rel="lightcase:intrepid" )
+                img(data-aload='../img/intrepid/intrepid_05-large.jpg', srcset="../img/intrepid/intrepid_05-small.jpg 640w, ../img/intrepid/intrepid_05-medium.jpg 850w" alt='Intrepid App Screen')
+        .horizontal-inner.wrapper-small
+          h3.align-center
+            strong Photographing
+          h6.alttitle.align-center the space shuttle Enterprise
+
+          .column-section.clearfix
+              p When the Intrepid Sea, Air, and Space Museum acquired the space shuttle Enterprise, they asked Makeable to create an app to make visiting the shuttle an interactive experience. When view at certain objects in the space shuttle pavilion on their iPhone, vistors could launch interactive experiences to learn more about the targeted object. I shot photos for the app.
+              p 
+                a(href='https://itunes.apple.com/us/app/mission-intrepid-explore-enterprise/id891318456?mt=8' alt='Mission Intrepid: Explore Enterprise in the App Store') Mission Intrepid: Explore Enterprise iOS app
+                | .
+      //- .wrapper
+      //-   .spacer.spacer-medium
+      //-   .wolf-grid.clearfix(data-mouseparallax='false')
+      //-     .wolf-item(data-speed="0")
+      //-       .wolf-item-inner
+      //-         .wolf-media.portfolio-media
+      //-           a.img-hover.img-shadow(href="../img/intrepid/artnet_01-large.jpg" data-rel="lightcase:artnet" )
+      //-             img(data-aload='../img/artnet/artnet_01-medium.jpg', srcset="../img/artnet/artnet_01-small.jpg 640w, ../img/artnet/artnet_01-large.jpg 850w" alt='Artnet Newsletter')
+      //-     .wolf-item(data-speed="1")
+      //-       .wolf-item-inner
+      //-         .wolf-media.portfolio-media
+      //-           a.img-hover.img-shadow(href="../img/artnet/artnet_03-large.jpg" data-rel="lightcase:artnet" )
+      //-             img(data-aload='../img/artnet/artnet_03-medium.jpg', srcset="../img/artnet/artnet_03-small.jpg 640w, ../img/artnet/artnet_03-large.jpg 850w" alt='Artnet Marketing Photograph')
+      //-     .wolf-item(data-speed="1.2")
+      //-       .wolf-item-inner
+      //-         .wolf-media.portfolio-media
+      //-           a.img-hover.img-shadow(href="../img/artnet/artnet_02-large.jpg" data-rel="lightcase:artnet" )
+      //-             img(data-aload='../img/artnet/artnet_02-medium.jpg', srcset="../img/artnet/artnet_02-small.jpg 640w, ../img/artnet/artnet_02-large.jpg 850w" alt='Artnet Auction Landing Page')
+
+
+
+      .wrapper
+        ul.single-pagination
+          li.prev
+            a(href='../cognizant/design')
+              img(src='../img/projects/cognizant2-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='../') All Projects
+          li.next
+            a(href='../branding/')
+              img(src='../img/kyla/kyla_05-small.jpg', alt='next')
+              span Next Project

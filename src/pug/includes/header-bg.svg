@@ -1,0 +1,11 @@
+<svg id='header-svg-bg' class="header-gradient" height="100%" version="1.1" width="100%" xmlns="http://www.w3.org/2000/svg" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="linearGradient-bg1" x1="45.217448%" x2="48.6964434%" y1="-9.02994404%" y2="117.99274%">
+      <stop class="stop-1" offset="15%" stop-color="#409CF9"></stop>
+      <stop class="stop-2" offset="85%" stop-color="#37F6E1"></stop>
+    </linearGradient>
+
+  </defs>
+      <rect class='default-bg' fill="url(#linearGradient-bg1)" height="100%" id="gradient-bg-copy" sketch:type="MSShapeGroup" width="100%" x="0" y="0"></rect>
+
+</svg>

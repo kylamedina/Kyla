@@ -1,0 +1,479 @@
+extends ../layouts/sublayout
+
+block head
+	style.
+		.svg-shape {
+			will-change: transform;
+		}
+	style#animations-styles
+
+block content
+	//- include includes/triangles.pug
+	//- include includes/header-light.pug
+	- var headerLight = true
+	include ../includes/header.pug
+	#page-content.page-FA
+		section#hero.hero-full.parallax-section.text-light.theme-blue
+			#fa_hype_container(style='margin:auto;position:relative;width:100%;height:740px;overflow:hidden;', aria-live='polite')
+				script(type='text/javascript', charset='utf-8', src='../static/FA.hyperesources/fa_hype_generated_script.js?32365')
+
+
+			//- //- .hero-overlay
+			//- include includes/header-bg.svg
+			//- include includes/shape-triangle.svg
+			//- include includes/shape-line.svg
+			//- include includes/shape-line2.svg
+			//- include includes/shape-circle.svg
+			.page-title
+				h5.alttitle Interaction Design and Photography
+				h1
+					strong Free Association
+
+		section#page-body.FA-body
+			
+			.wrapper-small
+				h4.align-center
+					strong Animation and Photography
+				h6.alttitle.align-center for a design agency redesign.
+				.column-section.clearfix
+						p 
+							a(href='http://freeassociation.is' target='_blank') Free Association
+							|  is a user experience design studio that helps ambitious companies create next generation products and services. I was brought in during their site redesign for my skills in both photography and interaction design / development.
+						p The header animation above is very similar to the animation I did for the Free Association website except it's used to indicate page transitions. The shapes are symbolic for the shapes used to create the FA logo which can be seen below.
+
+			.wrapper
+				.spacer.spacer-big
+				.wolf-grid.clearfix(data-mouseparallax='true' data-randomhorizontaloffset='true')
+					.wolf-item
+						.wolf-item-inner
+							.wolf-media.portfolio-media.browser-shadow
+								a.img-hover(href='../static/FA-strobe.mp4', data-rel='lightcase:FA')
+									.loader
+									img.img-for-small(data-aload='../img/FA/FA_01-large.jpg' alt='Photo Shoot')
+									video(data-aload='../static/FA-strobe.mp4' preload="auto" loop poster='../img/FA/FA_01-large.jpg')
+										//- source(src='FA.ogg', type='video/ogg')
+										//- source(src='FA9.mp4', type='video/mp4')
+										p Your browser does not support the 
+											code video
+											|  element.
+							p.figcaption 
+								| Free Association also consulted me on creating an in-house photography studio. I made purchase recommendations and created the lighting set up for the first shoot&mdash;portraits for their new site. The gif above shows me testing the strobes.
+
+					.wolf-item(data-speed="-1")
+						.wolf-item-inner
+							.wolf-media.portfolio-media.browser-shadow
+								a.img-hover(href='../static/FA-strobe2.mp4', data-rel='lightcase:FA')
+									.loader
+									img.img-for-small(data-aload='../img/FA/FA_02-large.jpg' alt='Photo Shoot')
+									video(data-aload='../static/FA-strobe2.mp4' preload="auto" loop poster='../img/FA/FA_02-large.jpg')
+										//- source(src='FA.ogg', type='video/ogg')
+										//- source(src='FA9.mp4', type='video/mp4')
+										p Your browser does not support the 
+											code video
+											|  element.
+
+					.wolf-item
+						.wolf-item-inner
+							.wolf-media.portfolio-media
+								a(href='../img/FA/FA_05-large.jpg', data-rel='lightcase:FA')
+									img.img-shadow(data-aload='../img/FA/FA_05-large.jpg' alt='Photography Work')
+								.figcaption(style='position:relative;top:30px;')
+									p I set up the lighting for their first shoot to accomplish fashion-esque dramatic lighting. 
+
+					.wolf-item.is-caption(data-speed="-2")
+						.wolf-item-inner
+							
+							.wolf-media.portfolio-media(style='margin-top:20px; position:relative; left: -10px')
+								.loader
+								img.img-for-small(data-aload='../img/FA/FA_03-small.jpg' alt='Logo Animation')
+								video(data-aload='../static/FA-Logo-animation.mp4' preload="auto" loop poster='data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7' style='width:300px;height:auto')
+									//- source(src='FA.ogg', type='video/ogg')
+									//- source(src='FA9.mp4', type='video/mp4')
+									p Your browser does not support the 
+										code video
+										|  element.
+
+			//- .wrapper.wrapper-mini
+			//- 	.spacer.spacer-medium
+			//- 	.column-section.clearfix
+			//- 		//- p My work for Free Association is currently on-going. The header animation will be added to the site soon and future photo shoots are in the works. 
+			//- 		h6
+			//- 			strong Links
+			//- 		p
+			//- 			a(href='http://freeassociation.is' target='_blank') Free Association
+			//- 			br
+			//- 			a(href='https://www.instagram.com/sar_mar/' target='_blank') Dr. Sara S. Thompson's Instagram Profile
+
+			.wrapper
+				.spacer.spacer-big
+				ul.single-pagination
+					li.prev
+						a(href='../cognizant/ixd')
+							img(src='../img/projects/cognizant-small.jpg', alt='prev')
+							span Previous Project
+					li.backtoworks
+						a(href='../') All Projects
+					li.next
+						a(href='../the-weather-channel/' style='background:url("../img/twc/rain.gif");background-size:cover;background-position: 50% 100%;')
+							img(src='../img/projects/twc2.png', alt='next')
+							span Next Project
+						
+
+block footer
+	//- script
+	//- 	:coffee-script
+	//- 		head.load { velocity: '//cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js' }, ->
+	//- 			$shape = $('.svg-shape')
+	//- 			$circle = $('#circle')
+	//- 			$triangle = $('#triangle')
+	//- 			$line = $('#line')
+	//- 			$line2 = $('#line2')
+	//- 			$bg_s1 = $('#linearGradient-bg1 .stop-1')
+	//- 			$bg_s2 = $('#linearGradient-bg1 .stop-2')
+	//- 			#lineHeight = ($('.hero-big').width())
+
+	//- 			resizeTimer = undefined
+				
+	//- 			window.theme1FirstTime = true
+
+	//- 			bgColorGradient = (color1,color2) ->
+	//- 				$bg_s1.attr('stop-color', color1)
+	//- 				$bg_s2.attr('stop-color', color2)
+
+	//- 			theme1 = () ->
+	//- 				ww = $(window).width()/1.2
+	//- 				ww2 = $(window).width()/2
+	//- 				n = $(window).width() - ($circle.height()/2)
+	//- 				m = $(window).width()/3
+	//- 				o = $(window).width()/4
+	//- 				if $(window).width() > $(window).height()
+	//- 					lineHeight = $(window).width()
+	//- 				else
+	//- 					lineHeight = $(window).height()
+	//- 				if window.theme1FirstTime
+	//- 					$triangle.velocity {				
+	//- 						height: 462
+	//- 						width: 462
+	//- 					},
+	//- 						duration: 3000
+	//- 						easing: 'ease'
+	//- 					$line.velocity {
+	//- 						height: lineHeight*1.1
+	//- 						left: ww*1.3
+	//- 					},
+	//- 						duration: 3000
+	//- 						easing: 'ease'
+	//- 					$line.find('rect').velocity {
+	//- 						height: lineHeight*1.1
+	//- 					},
+	//- 						duration: 3000
+	//- 						easing: 'ease'
+	//- 					$line2.velocity {
+	//- 						opacity: 0
+	//- 					},
+	//- 						duration: 1000
+	//- 						easing: 'ease'
+	//- 				$circle.velocity {
+	//- 					left: n
+	//- 					top: '173px'
+	//- 					rotateZ: '0deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$line.velocity {
+	//- 					top: '-10px'
+	//- 					left: o
+	//- 					rotateZ: '35deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.velocity {
+	//- 					left: -o
+	//- 					bottom: '-30px'
+	//- 					rotateZ: '-45deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.find('g').attr('stroke-width','5')
+	//- 				bgColorGradient('#409CF9','#37F6E1')
+	//- 				$('.hero-big').removeClass('theme-green theme-purple').addClass('theme-blue')
+	//- 				window.theme1FirstTime = false
+	//- 			theme2 = () ->
+	//- 				ww = $(window).width()
+	//- 				n = $circle.height()*2
+	//- 				m = $(window).width()/2
+	//- 				if $(window).width() > 1600
+	//- 					m = $(window).width()/1.6
+	//- 				o = $(window).width()-$triangle.width()
+					
+	//- 				$circle.velocity {
+	//- 					left: ww - $circle.width()
+	//- 					top: '100px'
+	//- 					rotateZ: '-10deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$line.velocity {
+	//- 					left: m/1.5
+	//- 					rotateZ: '-35deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.velocity {
+	//- 					left: m/2
+	//- 					bottom: '-10px'
+	//- 					rotateZ: '50deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				bgColorGradient('#BC68FF','#4B88FA')
+	//- 				$('.hero-big').removeClass('theme-blue theme-green').addClass('theme-purple')
+
+	//- 			theme3 = () ->
+	//- 				ww = $(window).width()
+	//- 				n = $(window).width() - ($circle.height())
+	//- 				m = $('.hero-big').height()/2
+	//- 				o = $(window).width()*0.9
+	//- 				p = $('.hero-big').height() - ($triangle.width()/2.2)
+	//- 				if $(window).height() > 800
+	//- 					p = $('.hero-big').height()/3
+	//- 				q = (-$(window).width()/3)
+					
+	//- 				$circle.velocity {
+	//- 					left: 0
+	//- 					top: m
+	//- 					rotateZ: '240deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$line.velocity {
+	//- 					left: o
+	//- 					rotateZ: '35deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.velocity {
+	//- 					left: q
+	//- 					bottom: p
+	//- 					rotateZ: '43deg'
+	//- 				},
+	//- 					duration: 3000
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				bgColorGradient('#00F0C7','#ADFFA5')
+	//- 				$('.hero-big').removeClass('theme-blue theme-purple').addClass('theme-green')
+
+	//- 			logoPosition = () ->
+	//- 				shapeStyles = ''
+	//- 				# $line.clone().attr('id', 'line2').appendTo('header.header')
+	//- 				ww = $(window).width()
+	//- 				ww2 = $(window).width()/2
+	//- 				wh = $('.hero-big').height() 
+	//- 				wh2 = $('.hero-big').height()/2
+	//- 				tw = $triangle.width()
+	//- 				th = $triangle.height()
+	//- 				cw = $circle.height()*1.6
+	//- 				circleHorizontalCenter = -ww2 + 226
+	//- 				circleVerticalCenter = wh2 - 226
+	//- 				triangleHorizontalCenter = ww2 - (tw/2)
+	//- 				triangleVerticalCenter = wh2 - 130
+	//- 				lineTop1 = wh2 - 62
+	//- 				lineTop2 = wh2 + 50
+	//- 				lineLeft1 = ww2 + 65
+	//- 				lineLeft2 = ww2 + 210
+
+	//- 				$circle.velocity {
+	//- 					left: -circleHorizontalCenter
+	//- 					top: (circleVerticalCenter+25)
+	//- 					height: 452
+	//- 					width: 452
+	//- 					rotateZ: '0deg'
+	//- 				},
+	//- 					duration: 2900
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$line.velocity {
+	//- 					left: lineLeft1
+	//- 					top: lineTop1
+	//- 					height: 262
+	//- 					rotateZ: '90deg'
+	//- 				},
+	//- 					duration: 2900
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$line2.velocity {
+	//- 					left: lineLeft2
+	//- 					top: lineTop2
+	//- 					height: 345
+	//- 					rotateZ: '90deg'
+	//- 				},
+	//- 					duration: 2900
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.velocity {
+	//- 					height: $triangle.height()/1.5
+	//- 					width: $triangle.width()/1.5
+	//- 					left: triangleHorizontalCenter
+	//- 					bottom: triangleVerticalCenter
+	//- 					rotateZ: '0deg'
+	//- 				},
+	//- 					duration: 2900
+	//- 					easing: 'ease'
+	//- 					queue: ''
+	//- 					begin: undefined
+	//- 					progress: undefined
+	//- 					complete: undefined
+	//- 					display: undefined
+	//- 					visibility: undefined
+	//- 					loop: false
+	//- 					delay: false
+	//- 					mobileHA: true
+	//- 				$triangle.find('g').attr('stroke-width','7')
+	//- 				$('.svg-shape').css('opacity','1')
+
+
+	//- 			showLogo = () ->
+	//- 				$('.page-title').on 'mouseover', ->
+	//- 					if !head.touch
+	//- 						clearInterval(window.themeInteraval)
+	//- 						logoPosition()
+	//- 						$('.page-title').css 'opacity', '0.2'
+	//- 						$('#line2').css 'opacity', '1'
+	//- 				$('.page-title').on 'mouseout', ->
+	//- 					if !head.touch
+	//- 						# $('.page-title').css 'opacity', '1'
+	//- 						$('.svg-shape').not('#line2').css('opacity','1')
+	//- 						$('#line2').css 'opacity', '0'
+	//- 						switchHeader()
+	//- 						window.themeInteraval
+
+	//- 			#$(window).on 'resize', (e) ->
+	//- 			#	clearTimeout resizeTimer
+	//- 			#	resizeTimer = setTimeout((->
+	//- 			#		#lineHeight = ($('.hero-big').width())
+	//- 			#		#findLineHeight()
+	//- 			#		return
+	//- 			#	), 250)
+	//- 			#	return
+
+	//- 			$(document).on 'ready', (event) ->
+	//- 				$('.svg-shape').not('#line2').css('opacity','1')
+	//- 				#theme3()
+	//- 				if !head.mobile
+	//- 					logoPosition()
+	//- 					window.i = 0
+	//- 					window.themeInteraval = setInterval (->
+	//- 						switch window.i
+	//- 							when 0 then theme1() 
+	//- 							when 1 then theme2() 
+	//- 							when 2 then theme3() 
+	//- 						window.i++
+	//- 						if window.i > 2
+	//- 							window.i = 0
+	//- 						), 3000
+	//- 				else
+	//- 					theme1()

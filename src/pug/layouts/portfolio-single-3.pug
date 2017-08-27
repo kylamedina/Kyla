@@ -1,0 +1,57 @@
+extends layouts/sublayout
+
+block content
+  section#hero.hero-full.parallax-section(data-parallax-image='files/uploads/1680x1100-light.jpg')
+    .page-title
+      h5.alttitle Branding
+      h1
+        strong Wood Chair
+    a#scroll-down(href='#') Scroll Down
+  section#page-body
+    .wrapper
+      .column-section.clearfix
+        .column.one-third
+          h6.colored
+            strong Client
+          h6.alttitle Wooden chair company
+        .column.one-third
+          h6.colored
+            strong Project Details
+          h6.alttitle Branding & Marketing
+        .column.one-third.last-col
+          h6.colored
+            strong Role
+          h6.alttitle Art Director for marketing
+    .spacer.spacer-big
+    .horizontal-section(style='background:#f7f7f7;')
+      .horizontal-inner.wrapper
+        h3
+          strong Case Study Project Page
+        .column-section.clearfix
+          .column.one-half
+            p
+              | Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+          .column.one-half.last-col
+            p
+              | Vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+    .spacer.spacer-big
+    .wrapper
+      ul.gallery.gallery-col3.spaced
+        li.has-animation
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='200')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+        li.has-animation(data-delay='400')
+          img(src='./uploads/600x400-light.jpg', alt='SEO NAME')
+    .wrapper
+      ul.single-pagination
+        li.prev
+          a(href='portfolio-single-2.html')
+            img(src='./uploads/600x400-light.jpg', alt='prev')
+            span Previous Project
+        li.backtoworks
+          a(href='../') All Projects
+        li.next
+          a(href='portfolio-single-4.html')
+            img(src='./uploads/600x400-light.jpg', alt='next')
+            span Next Project

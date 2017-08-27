@@ -1,0 +1,20 @@
+header#header
+  .header-inner.clearfix
+    #logo.left-float.show-light-logo
+      include logo.pug
+    #menu.right-float.clearfix.menu-light
+      include nav.pug
+    #header-filter
+      .filter-inner.align-center
+        a.close-filter(href='') Close
+        h5.title-filter
+          strong Filter
+        ul#portfolio-filter.filter.wolf-filter.clearfix(data-related-grid='portfolio-grid')
+          li
+            a.active(href='#', data-filter-value='*') All
+          li
+            a(data-filter-value='.design', href='#', title='Branding') Design
+          li
+            a(data-filter-value='.frontend', href='#', title='Print') Development
+          li
+            a(data-filter-value='.photo', href='#', title='Print') Photography

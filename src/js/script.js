@@ -331,7 +331,7 @@ function playVideo() {
 
 // STICKY FOTTER OPTION
 function stickyfooter() {
-	var footerHeight = $("footer").height();
+	var footerHeight = $("footer").height()
 	$("#page-content").css({'minHeight': $(window).height()+'px'});
 	$("footer").css({'position':'absolute','bottom':'0','left':'0'});
 	$("#page-content").append('<div id="footer-pseudo"></div>');

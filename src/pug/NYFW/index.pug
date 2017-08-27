@@ -1,13 +1,20 @@
-extends layouts/sublayout
-block head
-  
+extends ../layouts/sublayout
 block content
   //- include includes/triangles.jade
-  - var headerLight = true
-  include includes/header.jade
-  #page-content.page-heed
-    section#hero.hero-big.parallax-section.text-light(data-parallax-image='../img/projects/heed-large.jpg')
-      //- .hero-overlay      
+  include ../includes/header-light.pug
+  #page-content.page-nyfw
+    section#hero.hero-big.text-light
+      //- .parallax-section.text-light(data-parallax-image='../img/twc/twc_03-large.gif')
+  
+      //- .hero-video
+      //- img.img-for-small.hero-video(src='../img/twc/twc_04-small.png')
+      video.hero-video(autoplay data-aload='../static/nyfw-pink.mp4' loop)
+        //- source(src='cognizant.ogg', type='video/ogg')
+        //- source(src='twc1.mp4', type='video/mp4')
+        p Your browser does not support the 
+          code video
+          |  element.
+      .hero-overlay.is-darker(style='background-color: RGBA(44, 132, 165, 0.8); mix-blend-mode: multiply;')
       .page-title.hleft
         h5.alttitle Design, Animation
         h1
@@ -18,12 +25,13 @@ block content
       .wrapper-small
         h4.align-center
           strong Offical App
-        h6.alttitle.align-center New York Fashion Week
+        h6.alttitle.align-center of New York Fashion Week
         .column-section.clearfix
             p.align-center Fashion goes mobile. Designing the official app for NYFW highlighting live/exclusive content and commerce opportunities from the shows, designers and experts.
             p.align-center Accessible fashion was the core focus of the HEED app.  Bringing the runway, experts and commerce opportunities to mobile through live, continuous content and unique interaction design.
 
       .wrapper
+        .spacer.spacer-medium
         .wolf-item.wfull
           .wolf-item-inner
             .wolf-media.portfolio-media
@@ -35,14 +43,12 @@ block content
       .wrapper
         ul.single-pagination
           li.prev
-            a(href='../../free-association/').rolling-gradient
-              img(src='../../svg/FA-logo.svg' alt='prev')
-              span Previous Project
+            a(href='../../akc/')
+              img(src='../../img/projects/akc-small.png', alt='prev')
+              span Previous Projects
           li.backtoworks
             a(href='../') All Projects
           li.next
-            a(href='../esquire/')
-              img(src='../img/projects/esquire-small.jpg', alt='next')
+            a(href='../cognizant/design/')
+              img(src='../img/projects/cognizant2-small.jpg', alt='next')
               span Next Project
-
-block footer

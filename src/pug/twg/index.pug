@@ -1,0 +1,195 @@
+extends ../layouts/sublayout
+block head
+block content
+  //- include includes/triangles.pug
+  - var headerLight = true
+  include ../includes/header.pug
+  #page-content.page-twg
+    section#hero.hero-big.text-light.parallax-section.text-light(data-parallax-image='../img/twg/twg_02-large.jpg')
+      //- .hero-overlay
+      .page-title
+        h5.alttitle Strategy, UX/UI Design
+        h1
+          strong The Wall Group
+      //- a#scroll-down(href='#') Scroll Down
+    
+    section#page-body.body-kenna
+      .wrapper-mini
+        //- h4.align-center
+        //-   strong Ecommerce
+        //- h6.alttitle.align-center for the largest dog community in the world
+        .column-section.clearfix
+            p.align-center Kenna is a concept for a social, fashion inpiration app. I shot all the photos for the concept. 
+        .spacer.spacer-big
+
+      
+
+      .wrapper
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item(style='margin-bottom:-105px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='../img/kenna/kenna_09-large.jpg', data-rel='lightcase:kenna')
+                  .loader
+                  img(data-aload='../img/kenna/kenna_04-large.png' srcset="../img/kenna/kenna_04-large.png 640w, ../img/kenna/kenna_04-large.png 800w, ../img/kenna/kenna_04-large.png 1280w" alt='Kenna Screen')
+          .wolf-item.is-caption.is-caption--right(style='margin-bottom:-105px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p Users can snap, tag, and post to a feed that is searchable by tag. Users have profiles where they can save looks that are liked from the feed.
+
+      .horizontalsection(style='max-width:1100px;margin:0 auto;')
+        img(data-aload='../img/kenna/kenna_02-large.jpg' srcset="../img/kenna/kenna_02-large.jpg 640w, ../img/kenna/kenna_02-large.jpg 800w, ../img/kenna/kenna_02-large.jpg 1280w" style='display:block;margin:0 auto' )
+
+      .wrapper
+        .wolf-grid.clearfix(data-mouseparallax='true')
+          .wolf-item.is-caption.is-caption--right(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                .figcaption
+                  p The concept is monetized by embedabble stores that allow users to buy clothes directly from looks in the feed without leaving the app.
+          .wolf-item(style='margin-bottom:-160px')
+            .wolf-item-inner
+              .wolf-media.portfolio-media
+                a.img-hover(href='../img/kenna/kenna_10-large.jpg', data-rel='lightcase:kenna')
+                  .loader
+                  img(data-aload='../img/kenna/kenna_06-large.png' srcset="../img/kenna/kenna_06-large.png 640w, ../img/kenna/kenna_06-large.png 800w, ../img/kenna/kenna_06-large.png 1280w" alt='Kenna Screens')
+        a(href='../img/kenna/kenna_08-large.jpg', data-rel='lightcase:kenna')
+        a(href='../img/kenna/kenna_11-large.jpg', data-rel='lightcase:kenna')
+        a(href='../img/kenna/kenna_12-large.jpg', data-rel='lightcase:kenna')
+        a(href='../img/kenna/kenna_13-large.jpg', data-rel='lightcase:kenna')
+        a(href='../img/kenna/kenna_14-large.jpg', data-rel='lightcase:kenna')
+        a(href='../img/kenna/kenna_15-large.jpg', data-rel='lightcase:kenna')
+        ul.single-pagination
+          li.prev
+            a(href='../cognizant/design/')
+              img(src='../img/projects/cognizant2-small.jpg', alt='prev')
+              span Previous Project
+          li.backtoworks
+            a(href='../') All Projects
+          li.next
+            a(href='../../artnet/')
+              img(src='../../img/projects/artnet-small.jpg', alt='next')
+              span Next Project
+
+block footer
+  script.
+    head.ready(function() {
+        jQuery(document).ready(function($){
+            var dragging = false,
+                scrolling = false,
+                resizing = false;
+            //cache jQuery objects
+            var imageComparisonContainers = $('.cd-image-container');
+            //check if the .cd-image-container is in the viewport 
+            //if yes, animate it
+            checkPosition(imageComparisonContainers);
+            $(window).on('scroll', function(){
+                if( !scrolling) {
+                    scrolling =  true;
+                    ( !window.requestAnimationFrame )
+                        ? setTimeout(function(){checkPosition(imageComparisonContainers);}, 100)
+                        : requestAnimationFrame(function(){checkPosition(imageComparisonContainers);});
+                }
+            });
+            
+            //make the .cd-handle element draggable and modify .cd-resize-img width according to its position
+            imageComparisonContainers.each(function(){
+                var actual = $(this);
+                drags(actual.find('.cd-handle'), actual.find('.cd-resize-img'), actual, actual.find('.cd-image-label[data-type="original"]'), actual.find('.cd-image-label[data-type="modified"]'));
+            });
+
+            //upadate images label visibility
+            //- $(window).on('resize', function(){
+            //-     if( !resizing) {
+            //-         resizing =  true;
+            //-         ( !window.requestAnimationFrame )
+            //-             ? setTimeout(function(){checkLabel(imageComparisonContainers);}, 100)
+            //-             : requestAnimationFrame(function(){checkLabel(imageComparisonContainers);});
+            //-     }
+            //- });
+
+            function checkPosition(container) {
+                container.each(function(){
+                    var actualContainer = $(this);
+                    if( $(window).scrollTop() + $(window).height()*0.5 > actualContainer.offset().top) {
+                        actualContainer.addClass('is-visible');
+                    }
+                });
+
+                scrolling = false;
+            }
+
+            //- function checkLabel(container) {
+            //-     container.each(function(){
+            //-         var actual = $(this);
+            //-         //- updateLabel(actual.find('.cd-image-label[data-type="modified"]'), actual.find('.cd-resize-img'), 'left');
+            //-         //- updateLabel(actual.find('.cd-image-label[data-type="original"]'), actual.find('.cd-resize-img'), 'right');
+            //-     });
+
+            //-     resizing = false;
+            //- }
+
+            //draggable funtionality - credits to http://css-tricks.com/snippets/jquery/draggable-without-jquery-ui/
+            function drags(dragElement, resizeElement, container, labelContainer, labelResizeElement) {
+                dragElement.on("mousedown vmousedown", function(e) {
+                    dragElement.addClass('draggable');
+                    resizeElement.addClass('resizable');
+
+                    var dragWidth = dragElement.outerWidth(),
+                        xPosition = dragElement.offset().left + dragWidth - e.pageX,
+                        containerOffset = container.offset().left,
+                        containerWidth = container.outerWidth(),
+                        minLeft = containerOffset + 10,
+                        maxLeft = containerOffset + containerWidth - dragWidth - 10;
+                    
+                    dragElement.parents().on("mousemove vmousemove", function(e) {
+                        if( !dragging) {
+                            dragging =  true;
+                            ( !window.requestAnimationFrame )
+                                ? setTimeout(function(){animateDraggedHandle(e, xPosition, dragWidth, minLeft, maxLeft, containerOffset, containerWidth, resizeElement, labelContainer, labelResizeElement);}, 100)
+                                : requestAnimationFrame(function(){animateDraggedHandle(e, xPosition, dragWidth, minLeft, maxLeft, containerOffset, containerWidth, resizeElement, labelContainer, labelResizeElement);});
+                        }
+                    }).on("mouseup vmouseup", function(e){
+                        dragElement.removeClass('draggable');
+                        resizeElement.removeClass('resizable');
+                    });
+                    e.preventDefault();
+                }).on("mouseup vmouseup", function(e) {
+                    dragElement.removeClass('draggable');
+                    resizeElement.removeClass('resizable');
+                });
+            }
+
+            function animateDraggedHandle(e, xPosition, dragWidth, minLeft, maxLeft, containerOffset, containerWidth, resizeElement, labelContainer, labelResizeElement) {
+                var leftValue = e.pageX + xPosition - dragWidth;   
+                //constrain the draggable element to move inside his container
+                if(leftValue < minLeft ) {
+                    leftValue = minLeft;
+                } else if ( leftValue > maxLeft) {
+                    leftValue = maxLeft;
+                }
+
+                var widthValue = (leftValue + dragWidth/2 - containerOffset)*100/containerWidth+'%';
+                
+                $('.draggable').css('left', widthValue).on("mouseup vmouseup", function() {
+                    $(this).removeClass('draggable');
+                    resizeElement.removeClass('resizable');
+                });
+
+                $('.resizable').css('width', widthValue); 
+
+                //- updateLabel(labelResizeElement, resizeElement, 'left');
+                //- updateLabel(labelContainer, resizeElement, 'right');
+                dragging =  false;
+            }
+
+            //- function updateLabel(label, resizeElement, position) {
+            //-     if(position == 'left') {
+            //-         ( label.offset().left + label.outerWidth() < resizeElement.offset().left + resizeElement.outerWidth() ) ? label.removeClass('is-hidden') : label.addClass('is-hidden') ;
+            //-     } else {
+            //-         ( label.offset().left > resizeElement.offset().left + resizeElement.outerWidth() ) ? label.removeClass('is-hidden') : label.addClass('is-hidden') ;
+            //-     }
+            //- }
+        });
+    });

@@ -9,7 +9,7 @@
 			],
 			[
 				"trans",
-				"translate	(index.jade)"
+				"translate\t(index.jade)"
 			],
 			[
 				"in",
@@ -17,7 +17,7 @@
 			],
 			[
 				"mod",
-				"modal-is-active	(script.js)"
+				"modal-is-active\t(script.js)"
 			],
 			[
 				"text-",
@@ -33,15 +33,15 @@
 			],
 			[
 				"tran",
-				"transform	(style.styl)"
+				"transform\t(style.styl)"
 			],
 			[
 				"multi",
-				"multiply	(style.styl)"
+				"multiply\t(style.styl)"
 			],
 			[
 				"z",
-				"z-index	(style.styl)"
+				"z-index\t(style.styl)"
 			],
 			[
 				"margin",
@@ -93,11 +93,11 @@
 			],
 			[
 				"di",
-				"display	(settings.styl)"
+				"display\t(settings.styl)"
 			],
 			[
 				"ov",
-				"overflow	(application.jade)"
+				"overflow\t(application.jade)"
 			],
 			[
 				"nth",
@@ -197,7 +197,7 @@
 			],
 			[
 				"cur",
-				"cur:p	cursor:pointer"
+				"cur:p\tcursor:pointer"
 			],
 			[
 				"eas",
@@ -425,7 +425,7 @@
 			],
 			[
 				"b",
-				"bd	border"
+				"bd\tborder"
 			],
 			[
 				"ro",
@@ -519,6 +519,23 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "src/pug/index.pug",
+			"settings":
+			{
+				"buffer_size": 13836,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/pug/layouts/layout.pug",
+			"settings":
+			{
+				"buffer_size": 2531,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -597,24 +614,37 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/Kyla/Sites/Kyla",
-		"/Users/Kyla/Sites/Kyla/build"
+		"/Users/kylamedina/Sites/Kyla",
+		"/Users/kylamedina/Sites/Kyla/src",
+		"/Users/kylamedina/Sites/Kyla/src/js"
 	],
 	"file_history":
 	[
-		"/Users/Kyla/Sites/Kyla/src/jade/index.jade",
-		"/Users/Kyla/Sites/Kyla/src/jade/about.jade",
-		"/Users/Kyla/Sites/Kyla/src/styl/style.styl",
-		"/Users/Kyla/Sites/Kyla/src/jade/cognizant/design/index.jade",
-		"/Users/Kyla/Sites/Kyla/src/jade/layouts/subsublayout.jade",
-		"/Users/Kyla/Sites/Kyla/src/jade/layouts/sublayout.jade",
-		"/Users/Kyla/Sites/Kyla/src/jade/layouts/layout.jade",
-		"/Users/Kyla/Sites/Kyla/build/gulp.coffee",
-		"/Users/Kyla/Sites/Kyla/build/bower.json",
+		"/Users/kylamedina/Sites/Kyla/src/pug/includes/header.pug",
+		"/Users/kylamedina/Sites/Kyla/src/pug/includes/head.min.pug",
+		"/Users/kylamedina/Sites/Kyla/src/styl/typography.styl",
+		"/Users/kylamedina/Sites/Kyla/src/styl/settings.styl",
+		"/Users/kylamedina/Sites/Kyla/src/pug/includes/footer.pug",
+		"/Users/kylamedina/Sites/Kyla/src/pug/NYFW/index.pug",
+		"/Users/kylamedina/Sites/Kyla/src/styl/base.styl",
+		"/Users/kylamedina/Sites/Kyla/src/js/script.js",
+		"/Users/kylamedina/Sites/Kyla/src/styl/style.styl",
+		"/Users/kylamedina/Sites/Kyla/src/pug/layouts/layout.pug",
+		"/Users/kylamedina/Sites/Kyla/src/jade/about.jade",
+		"/Users/kylamedina/Sites/Kyla/build/gulp.coffee",
+		"/Users/kylamedina/Sites/Kyla/build/bower.json",
+		"/Users/kylamedina/Sites/Kyla/src/jade/cognizant/design/index.jade",
+		"/Users/kylamedina/Sites/Kyla/src/jade/layouts/subsublayout.jade",
+		"/Users/kylamedina/Sites/Kyla/src/jade/layouts/sublayout.jade",
+		"/Users/kylamedina/Sites/Kyla/src/jade/layouts/layout.jade",
+		"/Users/kylamedina/Sites/Kyla/src/jade/index.jade",
 		"/Users/Kyla/Sites/Avoc-1.0-HTML/html/about.html",
+		"/Users/Kyla/Sites/Kyla/src/styl/style.styl",
 		"/Users/Kyla/Sites/Kyla/src/jade/includes/nav.jade",
 		"/Users/Kyla/Sites/Kyla/src/styl/settings.styl",
+		"/Users/Kyla/Sites/Kyla/src/jade/layouts/layout.jade",
 		"/Users/Kyla/Sites/Kyla/src/js/script.js",
+		"/Users/Kyla/Sites/Kyla/src/jade/index.jade",
 		"/Users/Kyla/Sites/Kyla/src/styl/modules/modal.styl",
 		"/Users/Kyla/Sites/Kyla/src/static/.htaccess",
 		"/Users/Kyla/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
@@ -626,6 +656,8 @@
 		"/Users/Kyla/Sites/Kyla/build/tasks/jade.coffee",
 		"/Users/Kyla/Sites/Kyla/src/styl/typography.styl",
 		"/Users/Kyla/Sites/Kyla/src/jade/cognizant-design.jade",
+		"/Users/Kyla/Sites/Kyla/build/gulp.coffee",
+		"/Users/Kyla/Sites/Kyla/src/jade/about.jade",
 		"/Users/Kyla/Sites/Kyla/src/jade/cognizant-IxD.jade",
 		"/Users/Kyla/Sites/Kyla/src/jade/home.jade",
 		"/Users/Kyla/Sites/Kyla/src/styl/base.styl",
@@ -715,31 +747,19 @@
 		"/Users/Kyla/Sites/kyla/src/jade/weather-channel.jade",
 		"/Users/Kyla/Sites/kyla/src/jade/cognizant.jade",
 		"/Users/Kyla/Sites/kyla/src/jade/esquire.jade",
-		"/Users/Kyla/Sites/kyla/src/styl/modules/project.styl",
-		"/Users/Kyla/Sites/kyla/src/jade/mkbl.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/creative-time.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/clear.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/success-academy.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/includes/nav.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/layouts/portfolio-single-1.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/layouts/portfolio-single-2.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/layouts/portfolio-single-3.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/layouts/portfolio-single-4.jade",
-		"/Users/Kyla/Sites/kyla/src/jade/layouts/layout.jade",
-		"/Users/Kyla/Sites/kyla/build/tasks/bower.coffee",
-		"/Users/Kyla/Sites/kyla/src/styl/base.styl",
-		"/Users/Kyla/Sites/kyla/src/styl/style.styl",
-		"/Users/Kyla/Sites/kyla/kyla.sublime-project"
+		"/Users/Kyla/Sites/kyla/src/styl/modules/project.styl"
 	],
 	"find":
 	{
-		"height": 70.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
 		"height": 158.0,
 		"where_history":
 		[
+			"*",
+			"*.styl",
 			"*styl",
 			"",
 			"*.styl",
@@ -800,6 +820,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"footer-pseudo",
+			"footer",
+			"page-b",
+			"body",
 			"video",
 			"-100",
 			">",
@@ -923,11 +947,7 @@
 			"li.backtoworks\n  a(href='index.html')",
 			"backtoworks",
 			"social",
-			"akc",
-			" p(style='position:relative;top:-6rem;')",
-			"triangle",
-			"chrom",
-			"ch"
+			"akc"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -942,10 +962,10 @@
 			"align()",
 			"<b>WOOF</b>tale",
 			"WOOFtale",
-			"	",
+			"\t",
 			".icon__default-dog",
 			"trans-center",
-			"	defs\noverlay",
+			"\tdefs\noverlay",
 			"darkbeige",
 			"darkeggplant",
 			" cyan",
@@ -961,13 +981,75 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/pug/index.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								12640,
+								12640
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 24.0,
+						"translation.y": 6135.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 1,
+					"file": "src/pug/layouts/layout.pug",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2531,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2071,
+								2071
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Pug/Syntaxes/Pug.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 775.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -999,7 +1081,7 @@
 		"cols":
 		[
 			0.0,
-			0.381099334939,
+			0.270720859299,
 			1.0
 		],
 		"rows":
@@ -1027,6 +1109,46 @@
 		"selected_items":
 		[
 			[
+				"head",
+				"src/pug/includes/header.pug"
+			],
+			[
+				"foo",
+				"src/pug/includes/footer.pug"
+			],
+			[
+				"la",
+				"src/pug/layouts/layout.pug"
+			],
+			[
+				"foot",
+				"src/pug/includes/footer.pug"
+			],
+			[
+				"typ",
+				"src/styl/typography.styl"
+			],
+			[
+				"scr",
+				"src/js/script.js"
+			],
+			[
+				"footer",
+				"src/pug/includes/footer.pug"
+			],
+			[
+				"ind",
+				"src/pug/index.pug"
+			],
+			[
+				"styl",
+				"src/styl/style.styl"
+			],
+			[
+				"index",
+				"src/pug/index.pug"
+			],
+			[
 				"gu",
 				"build/gulp.coffee"
 			],
@@ -1035,24 +1157,12 @@
 				"src/jade/cognizant/design/index.jade"
 			],
 			[
-				"ind",
-				"src/jade/index.jade"
-			],
-			[
 				"subs",
 				"src/jade/layouts/subsublayout.jade"
 			],
 			[
 				"lay",
 				"src/jade/layouts/sublayout.jade"
-			],
-			[
-				"la",
-				"src/jade/layouts/layout.jade"
-			],
-			[
-				"scr",
-				"src/js/script.js"
 			],
 			[
 				"ab",
@@ -1073,10 +1183,6 @@
 			[
 				"nav",
 				"src/jade/includes/nav.jade"
-			],
-			[
-				"head",
-				"src/jade/includes/header-light.jade"
 			],
 			[
 				"hea",
@@ -1151,20 +1257,12 @@
 				"src/styl/typography.styl"
 			],
 			[
-				"typ",
-				"src/styl/typography.styl"
-			],
-			[
 				"bas",
 				"src/styl/base.styl"
 			],
 			[
 				"typo",
 				"src/styl/typography.styl"
-			],
-			[
-				"styl",
-				"src/styl/style.styl"
 			],
 			[
 				"wo",
@@ -1249,10 +1347,6 @@
 			[
 				"ins",
 				"src/styl/modules/instructions.styl"
-			],
-			[
-				"foot",
-				"src/styl/modules/footer.styl"
 			],
 			[
 				"inst",
@@ -1525,18 +1619,6 @@
 			[
 				"ro",
 				"src/coffee/routes.coffee"
-			],
-			[
-				"sl",
-				"src/styl/modules/slides.styl"
-			],
-			[
-				"ap",
-				"src/jade/views/application.jade"
-			],
-			[
-				"all",
-				"src/jade/views/all.jade"
 			]
 		],
 		"width": 0.0

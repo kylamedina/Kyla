@@ -1,11 +1,9 @@
-extends layouts/sublayout
-block head
+extends ../layouts/sublayout
   
 block content
   //- include includes/triangles.jade
-  - var headerLight = true
-  include includes/header.jade
-  #page-content.page-heed
+  include ../includes/header-light.pug
+  #page-content.page-fu
     section#hero.hero-big.parallax-section.text-light(data-parallax-image='../img/fu/fu-hero-large.jpg')
       .hero-overlay      
       .page-title.hcenter
@@ -14,14 +12,13 @@ block content
           strong Fashion Unfiltered
       //- a#scroll-down(href='#') Scroll Down
 
-    section#page-body.body-heed
+    section#page-body.body-fu
       .wrapper-small
         h4.align-center
           strong Coming Soon
         h6.alttitle.align-center No Fluff. Just Fashion
         .column-section.clearfix
-            p.align-center Fashion Unfiltered is the premier online destination for fashion news, commentary and criticism, in-depth style coverage, cultural reportage, and the best of beauty. With a credo of No Fluff, Just Fashion, we explore every facet of our complex industry through a bouquet of informed visual and editorial perspectives. The antidote to ordinary, Fashion Unfiltered prioritizes content over clicks, and promises to educate, entertain, and explain better than any other site on the Web. Below is the Media Kit for the upcoming site.
-
+            p.align-center Fashion Unfiltered is the premier online destination for fashion news, commentary and criticism, in-depth style coverage, cultural reportage, and the best of beauty. With a credo of No Fluff, Just Fashion, they explore every facet of our complex industry through a bouquet of informed visual and editorial perspectives. 
       .wrapper
         .spacer.spacer-medium
         //- - for (var i=1; i<29; i++)
@@ -49,4 +46,3 @@ block content
               img(src='../img/projects/esquire-small.jpg', alt='next')
               span Next Project
 
-block footer

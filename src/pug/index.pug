@@ -1,9 +1,9 @@
 extends layouts/layout
 
 block content
-  //- include includes/triangles.jade
+  //- include includes/triangles.pug
   - var layout = 0
-  include includes/header.jade
+  include includes/header.pug
   img.video-cover(data-aload='static/bg3.gif')
   #page-content.page-home
     //- img.profile-pic(src="img/profile-medium.jpg" srcset="img/profile-small.jpg 640w, img/profile-medium.jpg 700w, img/profile-large.jpg 1880w" alt="Profile Photo" data-stellar-ratio="1.8")
@@ -64,7 +64,7 @@ block content
                      | American
                      br
                      | Kennel Club
-          .wolf-item.portfolio-wolf-item.frontend.project-twc
+          .wolf-item.portfolio-wolf-item.frontend.project-heed
             .wolf-item-inner
              .wolf-media.portfolio-media
                a.wolf-media-link(alt='HEED New York Fashion Week' href='nyfw/')
@@ -203,16 +203,16 @@ block content
                   h6.alttitle.portfolio-category Photography
                   h4.portfolio-name
                     strong Creative Time
-          .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc.hide-item-portfolio(style='opacity:0')
-            .wolf-item-inner
-              .wolf-media.portfolio-media
-                a.wolf-media-link(alt='hard workers club' href='hwc/')
-                  img(src='img/projects/hwc-medium.jpg' alt='Hard Workers Club')
-              .wolf-caption.portfolio-caption(style='margin-top:10%;')
-                a.wolf-caption-link(alt='hard workers club' href='hwc/')
-                  h6.alttitle.portfolio-category Design and Photography
-                  h4.portfolio-name
-                    strong Hard Workers Club
+          //- .wolf-item.portfolio-wolf-item.frontend.design.photo.project-hwc.hide-item-portfolio(style='opacity:0')
+          //-   .wolf-item-inner
+          //-     .wolf-media.portfolio-media
+          //-       a.wolf-media-link(alt='hard workers club' href='hwc/')
+          //-         img(src='img/projects/hwc-medium.jpg' alt='Hard Workers Club')
+          //-     .wolf-caption.portfolio-caption(style='margin-top:10%;')
+          //-       a.wolf-caption-link(alt='hard workers club' href='hwc/')
+          //-         h6.alttitle.portfolio-category Design and Photography
+          //-         h4.portfolio-name
+          //-           strong Hard Workers Club
           //- .wolf-item.portfolio-wolf-item.design.project-sa
           //-   .wolf-item-inner
           //-     .wolf-media.portfolio-media
