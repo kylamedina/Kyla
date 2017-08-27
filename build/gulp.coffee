@@ -29,7 +29,6 @@ gulp.task 'watch', ['browser-sync'], ->
 	gulp.watch [ 'src/font/**/*' ], ['font']
 	gulp.watch [ 'src/coffee/**/**/*.coffee' ], ['coffee']
 	# gulp.watch [ 'src/pug/views/**/*.pug' ], ['templates']
-	# gulp.watch [ 'build/components/**/*' ], ['bower']
 	# gulp.watch [ 
 	# 	'./build/styleguide/**/*', 
 	# 	'./README.md',
@@ -46,7 +45,6 @@ gulp.task 'default', (cb) ->
 	runSequence 'install',
 		'coffee',
 		'styl',
-		'bower',
 		'pug',
 		'css',
 		'js',
@@ -93,3 +91,26 @@ gulp.task 'static', ->
 	gulp.src(['src/static/**/*'], { base: 'src/static/'})
 		.pipe $.plumber(errorHandler: onError)
 		.pipe gulp.dest('app/static/')
+
+gulp.task 'install', ->
+	return gulp.src(['./package.json'])
+		.pipe $.install()
+
+
+gulp.task 'js', ->
+	return gulp.src(['./src/js/*.js'])
+		.pipe($.order([
+			'**/jquery-2.1.4.min.js'
+			'**/jquery.pace.js'
+			'**/jquery.easing.1.3.js'
+			'**/jquery.easing.compatibility.js'
+			'**/tweenMax.js'
+			'**/jquery.owl.carousel.js'
+			'**/jquery.wolf.min.js'
+		]))
+		.pipe($.accord('uglify-js', {
+			beautify: false
+			mangle: false
+		}))
+		.pipe $.concat 'app.js'
+		.pipe gulp.dest 'app/js'
